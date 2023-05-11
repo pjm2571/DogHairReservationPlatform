@@ -1,0 +1,125 @@
+{% extends 'reviewboard/review_base.html' %}
+
+{% block content %}
+<style>
+/* 표 css */
+body {
+  color: #666;
+  font: 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light"
+  , "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+}
+th,
+td {
+  padding: 6px 15px;
+}
+th {
+  background: #976B5B;
+  color: #fff;
+  text-align: left;
+}
+tr:first-child th:first-child {
+  border-top-left-radius: 6px;
+}
+tr:first-child th:last-child {
+  border-top-right-radius: 6px;
+}
+td {
+  border-right: 1px solid #c6c9cc;
+  border-bottom: 1px solid #c6c9cc;
+}
+td:first-child {
+  border-left: 1px solid #c6c9cc;
+}
+tr:nth-child(even) td {
+  background: #fdf7f3;
+}
+tr:last-child td:first-child {
+  border-bottom-left-radius: 6px;
+}
+tr:last-child td:last-child {
+  border-bottom-right-radius: 6px;
+}
+
+/* 버튼 css */
+.btn-two.green.rounded {
+  background-color: #976B5B;
+  border: none;
+  color: white;
+  padding: 1px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 10px;
+}
+.btn-two.green.rounded:hover {
+  background-color: #65483d;
+  cursor: pointer;
+}
+
+
+</style>
+
+<script>
+  function create() {
+      window.location.href = "{% url 'review_post_create' %}";}
+</script>
+
+    <!--게시글 검색창-->
+    <!--action속성엔 검색 결과를 보여줄 URL을 설정, method 속성을 get으로 설정하여 검색어를 URL 쿼리 문자열에 포함-->
+    <p><form action="{% url 'review_post_list' %}" method="get">
+      <!--name 속성에는 검색어를 식별할 수 있는 이름을 지정-->
+      <input type="text" name="search" placeholder="제목을 검색하세요">
+      <button type="submit">Search</button>
+    </form></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 40px">번호</th>
+                <th>제목</th>
+                <th style="width:200px">작성자</th>
+                <th style="width:140px">작성일</th>
+                <th style="width:40px">추천수</th>
+            </tr>
+        </thead>
+        <tbody>
+          {% if searchPosts %}
+              {% for post in searchPosts|dictsortreversed:"id" %}
+                <tr>
+                  <td>{{ post.id }}</td>
+                  <td><a href="{% url 'review_post_detail' post.pk %}">{{ post.title }}</a></td>
+                  <td>User</td>
+                  <td>{{ post.created_at|date:"Y년 m월 d일" }}</td>
+                  <td>2</td>
+                </tr>
+              {% empty %}
+                <tr>
+                  <td colspan="5">검색 결과가 없습니다.</td>
+                </tr>
+              {% endfor %}
+            {% else %}
+              {% for post in posts|dictsortreversed:"id" %}
+                <tr>
+                  <td>{{ post.id }}</td>
+                  <td><a href="{% url 'review_post_detail' post.pk %}">{{ post.title }}</a></td>
+                  <td>User</td>
+                  <td>{{ post.created_at|date:"Y년 m월 d일" }}</td>
+                  <td>2</td>
+                </tr>
+              {% empty %}
+                <tr>
+                  <td colspan="5">게시물이 없습니다.</td>
+                </tr>
+              {% endfor %}
+          {% endif %}
+        </tbody>
+    </table>
+    
+    <p><a href="{% url 'review_post_create' %}" class="btn-two green rounded">글쓰기</a></p>
+    {% endblock %}

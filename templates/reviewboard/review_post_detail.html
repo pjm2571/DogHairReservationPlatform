@@ -1,0 +1,14 @@
+{% extends 'reviewboard/review_base.html' %}
+{% block content %}
+
+<h1>{{ post.title }}</h1>
+<p>생성일: {{ post.created_at|date:"Y년 m월 d일" }}</p>
+<p>마지막 수정일: {{ post.updated_at|date:"Y년 m월 d일" }}</p>
+{% if post.image %}
+    <img src="{{ post.image.url }}" alt="{{ post.title }}">
+{% endif %}
+<p>{{ post.content }}</p>
+<a href="{% url 'review_post_edit' post.pk %}">수정</a>
+<a href="{% url 'review_post_delete' post.pk %}">삭제</a>
+{% endblock %}
+

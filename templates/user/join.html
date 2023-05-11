@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 페이지</title>
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+</head>
+<body>
+    
+    <h1>회원가입 페이지</h1>
+
+    <input type="text" id="email" name="email" placeholder="Email[ID]">
+    <input type="text" id="nickname" name="nickname" placeholder="Nickname">
+    <input type="text" id="name" name="name" placeholder="Name">
+    <input type="password" id="password" name="password" placeholder="Password">
+    <button id="join_button">Join</button>
+
+    <script>
+        $('#join_button').click(function (){
+            let email = $('#email').val();
+            let nickname = $('#nickname').val();
+            let name = $('#name').val();
+            let password = $('#password').val();
+
+
+            $.ajax({
+                url: '/user/join/',
+                data: {
+                    email: email,
+                    nickname: nickname,
+                    name: name,
+                    password: password
+                },
+                method: 'POST',
+                dataType: 'json',
+
+                success: function(data){
+                    alert(data.message);
+                    location.replace('/user/login');
+                    
+                },
+                error:function (request, status, error){
+                    let data = JSON.parse(request.responseText);
+                    console.log(data.message);
+                    alert(data.message);
+            }
+            });
+
+        });
+    </script>
+
+</body>
+</html>

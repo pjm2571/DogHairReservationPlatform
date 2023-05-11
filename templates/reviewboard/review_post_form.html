@@ -1,0 +1,10 @@
+{% extends 'reviewboard/reviewboard/review_base.html' %}
+
+{% block content %}
+<h1>글쓰기</h1>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">게시</button>
+</form>
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends 'freeboard/freeboard_base.html' %}
+
+{% block content %}
+<h1>{{ post.title }}</h1>
+{% if post.image %}
+    <img src="{{ post.image.url }}" alt="{{ post.title }}">
+{% endif %}
+<p>{{ post.content }}</p>
+<p>Created: {{ post.created_at }}</p>
+<p>Last updated: {{ post.updated_at }}</p>
+
+
+
+{% if user.is_authenticated %}
+    <form method="post">
+        {% csrf_token %}
+        {% if recommended %}
+            <button type="submit" disabled>Recommended</button>
+        {% else %}
+            <button type="submit" name="recommend">Recommend</button>
+        {% endif %}
+    </form>
+{% endif %}
+
+
+<a href="{% url 'freeboard_post_edit' post.pk %}">Edit</a>
+<a href="{% url 'freeboard_post_delete' post.pk %}">Delete</a>
+{% endblock %}
+
+

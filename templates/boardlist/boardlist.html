@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>똥강아지 게시판목록</title>
+        <style>
+            .btn {
+            padding: 1rem 2rem;
+            background-color: #976B5B;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 1.5rem;
+            cursor: pointer;
+            }
+
+            .btn:hover {
+            background-color: #65483d;
+            }
+
+            .btn:active {
+            background-color: #65483d;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) inset;
+            }
+
+            .btn:focus {
+            outline: none;
+            box-shadow: 0 0 0 2px #fff, 0 0 0 4px #976B5B, 0 0 0 5px rgba(255, 193, 7, 0.5);
+            }
+
+            .btn-jelly:hover {
+            animation: jelly 0.5s;
+            }
+
+            @keyframes jelly {
+            0%,
+            100% {
+                transform: scale(1);
+            }
+            25% {
+                transform: scale(0.9, 1.1);
+            }
+            50% {
+                transform: scale(1.1, 0.9);
+            }
+            75% {
+                transform: scale(0.95, 1.05);
+            }
+            
+            }
+        body { /*글자색, 폰트*/
+            color: #666;
+            font: 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+        }
+        
+        </style>
+
+        <script>
+            function goToFreeBoard() {
+                window.location.href = "freeboard/";}
+                function goToBoastBoard() {
+                window.location.href = "boastboard/";}
+            function goToMarketBoard() {
+                window.location.href = "marketboard/";}
+            function goToReviewBoard() {
+                window.location.href = "reviewboard/";}
+        </script>
+    </head>
+    <body>
+        <h1>게시판목록</h1>
+        <p><button class="btn btn-primary btn-jelly" onclick="goToFreeBoard()">자유게시판</button></p>
+        <p><button class="btn btn-primary btn-jelly" onclick="goToBoastBoard()">자랑게시판</button></p>
+        <p><button class="btn btn-primary btn-jelly" onclick="goToMarketBoard()">장터게시판</button></p>
+        <p><button class="btn btn-primary btn-jelly" onclick="goToReviewBoard()">후기게시판</button></p>
+    </body>
+    </html>

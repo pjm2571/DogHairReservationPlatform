@@ -1,0 +1,89 @@
+{% extends 'freeboard/freeboard_base.html' %}
+
+{% block content %}
+<style>
+body {
+  color: #666;
+  font: 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+}
+th,
+td {
+  padding: 6px 15px;
+}
+th {
+  background: #976B5B;
+  /* 원래 : background: #42444e;-->*/
+  color: #fff;
+  text-align: left;
+}
+tr:first-child th:first-child {
+  border-top-left-radius: 6px;
+}
+tr:first-child th:last-child {
+  border-top-right-radius: 6px;
+}
+td {
+  border-right: 1px solid #c6c9cc;
+  border-bottom: 1px solid #c6c9cc;
+}
+td:first-child {
+  border-left: 1px solid #c6c9cc;
+}
+tr:nth-child(even) td {
+  background: #eaeaed;
+}
+tr:last-child td:first-child {
+  border-bottom-left-radius: 6px;
+}
+tr:last-child td:last-child {
+  border-bottom-right-radius: 6px;
+}
+
+/* 버튼 css */
+.btn-two.green.rounded {
+  background-color: #976B5B;
+  border: none;
+  color: white;
+  padding: 1px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 10px;
+}
+.btn-two.green.rounded:hover {
+  background-color: #65483d;
+  cursor: pointer;
+}
+</style>
+    <table>
+        <thead>
+            <tr>
+                <th>번호</th>
+                <th>제목</th>
+                <th>작성자</th>
+                <th>작성일</th>
+                <th>추천수</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for post in posts|dictsortreversed:"id" %}
+            <tr>
+                <td>{{ post.id }}</td>
+                <td><a href="{% url 'freeboard_post_detail' post.pk %}">{{ post.title }}</a></td>
+                <td> User</td>
+                <td>{{ post.created_at|date:"Y년 m월 d일" }}</td>
+                <td>2</td>
+            </tr>
+        {% empty %}
+            <li>No posts yet.</li>
+        {% endfor %}
+        </tbody>
+    </table>
+    <p><a href="{% url 'freeboard_post_create' %}" class="btn-two green rounded">글쓰기</a></p>
+    {% endblock %}
