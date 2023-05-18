@@ -6,12 +6,12 @@ from user.models import User
 class Main(APIView):
     def get(self, request):
 
-        email = request.session['email']
-
         # 로그인을 안한 상태로 사이트에 접속했을 경우
-        if email is None:
+        if 'email' not in request.session:
+            print('here')
             return render(request, 'user/login.html')
 
+        email = request.session['email']
         # email 세션 정보를 통해 user 인식
         user = User.objects.filter(email=email).first()
 

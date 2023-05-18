@@ -5,54 +5,137 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>회원가입 페이지</title>
-
-    <!--JQuery-->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/user/joinStyle.css' %}">
+    <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-
 </head>
 <body>
-    
-    <h1>회원가입 페이지</h1>
+    <div id="header">
+        <button class="menu_btn">메뉴바</button>
+        <button class="action_btn"> My page</button>
+        <button class="action_btn"> Login</button>
+    </div>
 
-    <input type="text" id="email" name="email" placeholder="Email[ID]">
-    <input type="text" id="nickname" name="nickname" placeholder="Nickname">
-    <input type="text" id="name" name="name" placeholder="Name">
-    <input type="password" id="password" name="password" placeholder="Password">
-    <button id="join_button">Join</button>
+    <div class="container">
+        <h1 class="signup">회원가입</h1>
+
+        <h3 class="tag">아이디</h3>
+        <br><br>
+        <div class="idContainer">
+            <input type="text" id="email" name="email" placeholder="  이메일 형태로 입력">
+            <button id="verifyEmail_btn">중복 확인</button>
+        </div>
+        <br><br><br>
+
+        <h3 class="tag">닉네임</h3>
+        <br><br>
+        <div class="idContainer">
+            <input type="text" id="nickname" name="nickname" placeholder="  닉네임 입력">
+            <button id="verifyNickname_btn">중복 확인</button>
+        </div>
+        <br><br><br>
+
+        <h3 class="tag">이름</h3>
+        <input type="text" id="name" name="name" placeholder="  이름 입력">
+        <h3 class="tag">비밀번호</h3>
+        <input type="text" id="raw_password" name="password" placeholder="  비밀번호 입력">
+        <h3 class="tag">비밀번호 확인</h3>
+        <input type="text" id="password" name="password" placeholder="  비밀번호 재입력">
+        <br><br><br>
+        <button id="join_button">회원가입</button>
+    </div>
 
     <script>
-        $('#join_button').click(function (){
-            let email = $('#email').val();
-            let nickname = $('#nickname').val();
-            let name = $('#name').val();
-            let password = $('#password').val();
+        $('#verifyEmail_btn').click(function () {
+                let email = $('#email').val();
 
+                $.ajax({
+                    url: '/user/join/verifyEmail',
+                    data: {
+                        email: email
+                    },
+                    method: 'POST',
+                    dataType: 'json',
 
-            $.ajax({
-                url: '/user/join/',
-                data: {
-                    email: email,
-                    nickname: nickname,
-                    name: name,
-                    password: password
-                },
-                method: 'POST',
-                dataType: 'json',
+                    success: function (data) {
+                        alert(data.message);
+                    },
+                    error: function (request, status, error) {
+                        let data = JSON.parse(request.responseText);
+                        console.log(data.message);
+                        alert(data.message);
+                    }
+                });
 
-                success: function(data){
-                    alert(data.message);
-                    location.replace('/user/login');
-                    
-                },
-                error:function (request, status, error){
-                    let data = JSON.parse(request.responseText);
-                    console.log(data.message);
-                    alert(data.message);
-            }
             });
-
-        });
     </script>
 
+        <script>
+        $('#verifyNickname_btn').click(function () {
+                let nickname = $('#nickname').val();
+
+                $.ajax({
+                    url: '/user/join/verifyNickname',
+                    data: {
+                        nickname: nickname
+                    },
+                    method: 'POST',
+                    dataType: 'json',
+
+                    success: function (data) {
+                        alert(data.message);
+                    },
+                    error: function (request, status, error) {
+                        let data = JSON.parse(request.responseText);
+                        console.log(data.message);
+                        alert(data.message);
+                    }
+                });
+
+            });
+    </script>
+
+
+    <script>
+        $('#join_button').click(function () {
+                let email = $('#email').val();
+                let nickname = $('#nickname').val();
+                let name = $('#name').val();
+                let raw_password = $('#raw_password').val();
+                let password = $('#password').val();
+
+                $.ajax({
+                    url: '/user/join/',
+                    data: {
+                        email: email,
+                        nickname: nickname,
+                        name: name,
+                        raw_password: raw_password,
+                        password: password
+                    },
+                    method: 'POST',
+                    dataType: 'json',
+
+                    success: function (data) {
+                        alert(data.message);
+                        location.replace('/user/login');
+
+                    },
+                    error: function (request, status, error) {
+                        let data = JSON.parse(request.responseText);
+                        console.log(data.message);
+                        alert(data.message);
+                    }
+                });
+
+            });
+        document.getElementsByClassName('menu_btn')[0].addEventListener('click',function(){
+            window.location.href = 'main.html';
+        });
+        document.getElementsByClassName('action_btn')[1].addEventListener('click',function(){
+            window.location.href = 'login.html';
+        });
+    </script>
 </body>
 </html>

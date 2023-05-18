@@ -46,6 +46,7 @@ class Join(APIView):
         email = request.data.get('email')
         name = request.data.get('name')
         nickname = request.data.get('nickname')
+        raw_password = request.data.get('raw_password')
         password = request.data.get('password')
 
         # 공백 check
@@ -55,8 +56,10 @@ class Join(APIView):
             return Response(status=500, data=dict(message='닉네임을 입력해주세요.'))
         if name == "":
             return Response(status=500, data=dict(message='이름을 입력해주세요.'))
-        if password == "":
+        if raw_password == "":
             return Response(status=500, data=dict(message='비밀번호를 입력해주세요.'))
+        if password == "":
+            return Response(status=500, data=dict(message='비밀번호를 한 번 더 입력해주세요.'))
 
         # 이메일의 형식에 맞게 적용하는지 확인
         if not re.search(r'^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w+[.]?\w{2,3}$', email):
@@ -70,8 +73,44 @@ class Join(APIView):
         elif User.objects.filter(nickname=nickname).exists():
             return Response(status=500, data=dict(message='사용자 이름 "' + nickname + '"이(가) 존재합니다.'))
 
+        # 회원가입 시, password 확인
+        if raw_password != password:
+                return Response(status=500, data=dict(message='비밀번호가 일치하지 않습니다. 비밀번호를 확인해주세요.'))
+
         User.objects.create(password=make_password(password),
                             email=email,
                             name=name,
                             nickname=nickname)
         return Response(status=200, data=dict(message="회원가입 성공했습니다. 로그인해주세요."))
+
+class verifyEmail(APIView):
+    def post(self, request):
+        email = request.data.get('email')
+        
+        # 이메일이 공백일 경우
+        if email == "":
+            return Response(status=500, data=dict(message='이메일은 공백이 될 수 없습니다.'))
+
+        # 이메일의 형식에 맞게 적용하는지 확인
+        if not re.search(r'^[a-z0-9]+[\._]?[a-z0-9]+[@]\w+[.]\w+[.]?\w{2,3}$', email):
+            return Response(status=500, data=dict(message='올바른 이메일 양식을 입력해주세요.'))
+
+        # 회원가입 시, email 중복 여부 database 접속 없이 파악
+        if User.objects.filter(email=email).exists():
+            return Response(status=500, data=dict(message='해당 이메일 주소가 존재합니다.'))
+
+        return Response(status=200, data=dict(message="사용할 수 있는 이메일입니다."))
+
+class verifyNickname(APIView):
+    def post(self, request):
+        nickname = request.data.get('nickname')
+
+        # 닉네임이 공백인 경우
+        if nickname == "":
+            return Response(status=500, data=dict(message='닉네임은 공백이 될 수 없습니다.'))
+
+        # 회원가입 시, nickname 중복 여부 databse 접속 없이 파악
+        if User.objects.filter(nickname=nickname).exists():
+            return Response(status=500, data=dict(message='사용자 이름 "' + nickname + '"이(가) 존재합니다.'))
+
+        return Response(status=200, data=dict(message="사용할 수 있는 닉네임입니다."))

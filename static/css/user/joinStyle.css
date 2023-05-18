@@ -1,0 +1,125 @@
+#header {
+    position: fixed;
+    height: 60px;
+    left: 0;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    border-bottom: 2px solid #976B5B;
+}
+#email {
+    position: relative;
+    float: left;
+    width: 270px;
+    height: 45px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid #D5D5D5;
+}
+#verifyEmail_btn {
+    position: relative;
+    float: left;
+    width: 80px;
+    height: 45px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid #976B5B;
+    color: white;
+    background-color: #976B5B;
+}
+#nickname {
+    position: relative;
+    float: left;
+    width: 270px;
+    height: 45px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid #D5D5D5;
+}
+#verifyNickname_btn {
+    position: relative;
+    float: left;
+    width: 80px;
+    height: 45px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid #976B5B;
+    color: white;
+    background-color: #976B5B;
+}
+#name {
+    width: 350px;
+    height: 45px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid #D5D5D5;
+}
+
+#raw_password {
+    width: 350px;
+    height: 45px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid #D5D5D5;
+}
+
+#password {
+    width: 350px;
+    height: 45px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid #D5D5D5;
+}
+#join_button {
+    width: 350px;
+    height: 60px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid #976B5B;
+    color: white;
+    background-color: #976B5B;
+    font-weight: bold;
+    font-size: 17px;
+}
+.menu_btn {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: white;
+    float: left;
+}
+.action_btn {
+    position: relative;
+    height: 50px;
+    width: 70px;
+    margin-right: 10px;
+    margin-top: 5px;
+    float: right;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+.container {
+    position: fixed;
+    width: 358px;
+    margin-top: 45px;
+    top: 30px;
+    left: 530px;
+    text-align: center;
+}
+.signup {
+    font-size: 45px;
+    color: #976B5B;
+}
+.tag {
+    float: left;
+    color: #976B5B;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.idContainer {
+    position: fixed;
+    width: 358px;
+    height: 45px;
+}
+
+
+

@@ -46,6 +46,8 @@ INSTALLED_APPS = [
     'reviewboard',  # Board App 3   -> 리뷰 게시판  
     'freeboard',    # Board App 4   -> 자유 게시판
 
+    'storemap',     # 반려동물 미용실 맵
+
 ]
 
 MIDDLEWARE = [
@@ -125,7 +127,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
+# static 처리 [css, javascript, image]
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [BASE_DIR / 'static']
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field

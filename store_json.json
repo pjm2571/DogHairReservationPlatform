@@ -1,0 +1,3002 @@
+[
+  {
+    "name": "두이펫",
+    "location": "대구 남구 효성중앙길 69 1층 두이펫",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:30 - 19:00', '화': '10:30 - 19:00', '수': '10:30 - 19:00', '목': '10:30 - 19:00', '금': '10:30 - 19:00', '토': '10:30 - 19:00'}",
+    "phone_number": "0507-1309-9339",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 4,
+    "website": "https://www.instagram.com/dooepet"
+  },
+  {
+    "name": "야옹아놀자",
+    "location": "대구 남구 봉덕로9길 97",
+    "open_hours": "{'매일': '09:30 - 18:00'}",
+    "phone_number": "0507-1412-0677",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 13,
+    "blog_review": 188,
+    "website": "https://blog.naver.com/ilovehar22"
+  },
+  {
+    "name": "꿍이네 애견",
+    "location": "대구 달서구 달구벌대로 1617 1층 꿍이네",
+    "open_hours": {},
+    "phone_number": "010-9003-0614",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 12,
+    "blog_review": 3,
+    "website": "https://www.instagram.com/kkung_2_ne"
+  },
+  {
+    "name": "댕이 데이",
+    "location": "대구 동구 동화천로72길 20 101호(지묘동)",
+    "open_hours": "{'일': '10:00 - 20:00', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "010-3812-6617",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 25,
+    "blog_review": 1,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "개운하개",
+    "location": "대구 북구 동암로37길 26 1층 상가 개운하개",
+    "open_hours": "{'일': '10:00 - 21:00', '월': '10:00 - 21:00', '화': '10:00 - 21:00', '수': '정기휴무 (매주 수요일)', '목': '10:00 - 21:00', '금': '10:00 - 21:00', '토': '10:00 - 21:00'}",
+    "phone_number": "010-7705-3885",
+    "rating": 4,
+    "visitor_review": 14,
+    "blog_review": 22,
+    "website": "https://gaeunhagae.modoo.at"
+  },
+  {
+    "name": "무르무르",
+    "location": "대구 동구 경안로 850 중흥빌딩 1층 106호",
+    "open_hours": "{'매일': '10:00 - 20:00'}",
+    "phone_number": "0507-1385-8177",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 77,
+    "blog_review": 11,
+    "website": "https://blog.naver.com/rude471"
+  },
+  {
+    "name": "댕발머리",
+    "location": "대구 달서구 상화로57길 40 1층 댕발머리 (상인동, 화이트빌)",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "010-8675-2533",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 5,
+    "blog_review": 1,
+    "website": "https://www.instagram.com/daengbal"
+  },
+  {
+    "name": "츄츄펫",
+    "location": "대구 달서구 와룡로 169 월드마크웨스트엔드 102동 1층",
+    "open_hours": "{'일': '09:00 - 19:00', '월': '정기휴무 (매주 월요일)', '화': '09:00 - 19:00', '수': '09:00 - 19:00', '목': '09:00 - 19:00', '금': '09:00 - 19:00', '토': '09:00 - 19:00'}",
+    "phone_number": "0507-1362-1871",
+    "rating": 5,
+    "visitor_review": 29,
+    "blog_review": 342,
+    "website": "https://blog.naver.com/mong1871"
+  },
+  {
+    "name": "라운드베이비",
+    "location": "대구 수성구 들안로9길 84 1층 코너",
+    "open_hours": "{'일': '10:30 - 20:30', '월': '10:30 - 20:30', '화(5/16)': '휴무', '수': '정기휴무 (매주 수요일)', '목': '10:30 - 20:30', '금': '10:30 - 20:30', '토': '10:30 - 20:30'}",
+    "phone_number": "010-2011-2202",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 7,
+    "blog_review": 26,
+    "website": "https://www.instagram.com/petstylist_minzzi"
+  },
+  {
+    "name": "내개로와",
+    "location": "대구 수성구 시지로 84",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화': '10:00 - 18:00', '수': '10:00 - 18:00', '목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 18:00'}",
+    "phone_number": "053-792-5505",
+    "rating": 4.75,
+    "visitor_review": 61,
+    "blog_review": 353,
+    "website": "https://www.instagram.com/nae_gae_ro_wa"
+  },
+  {
+    "name": "더예쁘개미용실&플레이독유치원",
+    "location": "대구 수성구 월드컵로6안길 10 플레이독유치원&더예쁘개미용실",
+    "open_hours": "{'일': '09:00 - 17:30', '월': '08:00 - 19:00', '화': '08:00 - 19:00', '수': '08:00 - 19:00', '목': '08:00 - 19:00', '금': '08:00 - 19:00', '토': '09:00 - 17:30'}",
+    "phone_number": "053-792-1060",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": "1,755",
+    "website": "http://instagram.com/yebbeugae"
+  },
+  {
+    "name": "다소니펫살롱",
+    "location": "대구 달성군 화원읍 비슬로539길 17 1층 상가 103호",
+    "open_hours": "{'일': '09:30 - 12:00', '월': '09:30 - 18:00', '화': '09:30 - 18:00', '수': '09:30 - 18:00', '목': '09:30 - 18:00', '금': '09:30 - 18:00', '토': '09:30 - 18:00'}",
+    "phone_number": "0507-1459-0260",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 18,
+    "blog_review": 35,
+    "website": "https://blog.naver.com/dl0301"
+  },
+  {
+    "name": "젠틀그루밍",
+    "location": "대구 달서구 갈밭로4길 22 1층",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1375-3246",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 76,
+    "blog_review": 67,
+    "website": "https://www.instagram.com/gentle_grooming__"
+  },
+  {
+    "name": "엔젤라독",
+    "location": "대구 수성구 무학로23길 91 , 2층 두산동",
+    "open_hours": "{'매일': '10:00 - 20:00'}",
+    "phone_number": "0507-1486-2004",
+    "rating": 4.25,
+    "visitor_review": 69,
+    "blog_review": 375,
+    "website": "https://blog.naver.com/jueundol1027"
+  },
+  {
+    "name": "미니복이애견호텔.미용",
+    "location": "대구 남구 대명로 231",
+    "open_hours": "{'일': '10:30 - 17:00', '월': '10:30 - 19:00', '화': '10:30 - 19:00', '수': '10:30 - 19:00', '목': '10:30 - 19:00', '금': '10:30 - 19:00', '토': '10:30 - 17:00'}",
+    "phone_number": "053-623-1216",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 18,
+    "blog_review": 0,
+    "website": "https://www.instagram.com/ktfktfktf1216"
+  },
+  {
+    "name": "바르다펫 대구범어점",
+    "location": "대구 수성구 청솔로22길 15 바르다펫대구범어점",
+    "open_hours": "{'일': '11:00 - 19:00', '월': '정기휴무 (매주 월요일)', '화': '11:00 - 19:00', '수': '11:00 - 19:00', '목': '11:00 - 19:00', '금': '11:00 - 19:00', '토': '11:00 - 19:00'}",
+    "phone_number": "0507-1493-0732",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 31,
+    "blog_review": 10,
+    "website": "https://www.instagram.com/bardapet_beomeo"
+  },
+  {
+    "name": "짱짱이네",
+    "location": "대구 달서구 장기로36길 23 1층",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:30 - 19:00', '화': '10:30 - 19:00', '수': '10:30 - 19:00', '목': '10:30 - 19:00', '금': '10:30 - 19:00', '토': '10:30 - 17:00'}",
+    "phone_number": "010-7721-5625",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 8,
+    "blog_review": 0,
+    "website": "https://www.instagram.com/"
+  },
+  {
+    "name": "댕댕이의 품격",
+    "location": "대구 달서구 조암로 105 그루조암타워 2층 댕댕이의품격",
+    "open_hours": "{'매일': '08:00 - 19:00'}",
+    "phone_number": "010-4466-6310",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 116,
+    "blog_review": 30,
+    "website": "https://www.instagram.com/dang.poom"
+  },
+  {
+    "name": "이츠펫 동호점",
+    "location": "대구 동구 안심로 356",
+    "open_hours": "{'매일': '10:00 - 22:00'}",
+    "phone_number": "053-961-0900",
+    "rating": 4.51,
+    "visitor_review": 398,
+    "blog_review": 86,
+    "website": "http://instagram.com/itspet_daegu_gb"
+  },
+  {
+    "name": "르시앙",
+    "location": "대구 수성구 청솔로14길 15 상가동 B116호(범어동, 범어에일린의뜰)",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "053-766-0055",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 37,
+    "blog_review": 1,
+    "website": "https://blog.naver.com/jayagogo"
+  },
+  {
+    "name": "벤이네",
+    "location": "대구 북구 성북로 8 101동 19호(침산동, 침산2지구아파트)",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1427-7111",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 5,
+    "blog_review": 1,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "THINKER MONDE",
+    "location": "대구 달서구 조암로 51 1층",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1468-1270",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 4,
+    "blog_review": 0,
+    "website": "https://www.instagram.com/thinker_monde"
+  },
+  {
+    "name": "퍼슨",
+    "location": "대구 중구 국채보상로 743 1층",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '정기휴무 (매주 목요일)', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1382-0601",
+    "rating": 4.42,
+    "visitor_review": 21,
+    "blog_review": 0,
+    "website": "http://instagram.com/sso_uju"
+  },
+  {
+    "name": "포포스페이스",
+    "location": "대구 수성구 수성로12길 22-12 1층(상동)",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1485-9985",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 29,
+    "website": "https://www.instagram.com/pawx2space/"
+  },
+  {
+    "name": "핑크강아지",
+    "location": "대구 남구 안지랑로17길 17-2",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "010-9040-8125",
+    "rating": 4.88,
+    "visitor_review": 22,
+    "blog_review": 11,
+    "website": "http://instagram.com/pinkdog_jang"
+  },
+  {
+    "name": "올리스24 두류공원점",
+    "location": "대구 남구 두류공원로17길 64-3 1층",
+    "open_hours": "{'매일': '00:00 - 24:00'}",
+    "phone_number": "0507-1383-5700",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 3,
+    "website": "https://www.instagram.com/olies24duryupark"
+  },
+  {
+    "name": "뚜뚜네미용실",
+    "location": "대구 동구 동호로9길 25 1층",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '13:00 - 22:00', '화': '13:00 - 22:00', '수': '13:00 - 22:00', '목': '13:00 - 22:00', '금': '13:00 - 22:00', '토': '13:00 - 22:00'}",
+    "phone_number": "0507-1346-7314",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 5,
+    "blog_review": 14,
+    "website": "https://blog.naver.com/akakalal123"
+  },
+  {
+    "name": "댕댕이 이발소",
+    "location": "대구 달서구 선원남로 88 1층(이곡동)",
+    "open_hours": "{'매일': '09:00 - 19:00'}",
+    "phone_number": "0507-1471-9305",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 15,
+    "blog_review": 0,
+    "website": "https://blog.naver.com/deng_grooming"
+  },
+  {
+    "name": "핸독",
+    "location": "대구 서구 서대구로4길 28",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '정기휴무 (매주 수요일)', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "053-565-0306",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 15,
+    "blog_review": 0,
+    "website": "https://blog.naver.com/handogshop"
+  },
+  {
+    "name": "멍살롱",
+    "location": "대구 달성군 다사읍 서재로30길 17 상가동 101호 멍살롱",
+    "open_hours": "{'일': '정보없음', '월': '10:00 - 17:00', '화': '10:00 - 17:00', '수': '10:00 - 17:00', '목': '10:00 - 17:00', '금': '10:00 - 17:00', '토': '정보없음'}",
+    "phone_number": "0507-1395-7895",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 9,
+    "blog_review": 1,
+    "website": "http://instagram.com/mung__salon"
+  },
+  {
+    "name": "우쭈",
+    "location": "대구 수성구 들안로28길 24 101호",
+    "open_hours": "{'매일': '11:00 - 20:00'}",
+    "phone_number": "0507-1342-5419",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 167,
+    "website": "https://www.instagram.com/u.zzu_/"
+  },
+  {
+    "name": "비 마이 독",
+    "location": "대구 북구 성북로5길 20-27 비마이독",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화': '10:00 - 18:00', '수': '10:00 - 18:00', '목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 18:00'}",
+    "phone_number": "010-3395-6277",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 31,
+    "blog_review": 79,
+    "website": "http://www.instagram.com/be.my.dog"
+  },
+  {
+    "name": "버들강아지",
+    "location": "대구 수성구 무학로21안길 18 1층",
+    "open_hours": "{'매일': '10:00 - 20:00'}",
+    "phone_number": "0507-1336-1001",
+    "rating": 4.79,
+    "visitor_review": 184,
+    "blog_review": 248,
+    "website": "https://blog.naver.com/younglan210"
+  },
+  {
+    "name": "냥이이발소",
+    "location": "대구 북구 팔거천서로 245 1층",
+    "open_hours": "{'일': '11:00 - 20:00', '월': '정기휴무 (매주 월요일)', '화': '11:00 - 20:00', '수': '11:00 - 20:00', '목': '11:00 - 20:00', '금': '11:00 - 20:00', '토': '11:00 - 20:00'}",
+    "phone_number": "0507-1441-3651",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 17,
+    "blog_review": 5,
+    "website": "https://www.instagram.com/nyaang_2/"
+  },
+  {
+    "name": "똥강아지 반려견 미용실.호텔",
+    "location": "대구 북구 연경중앙로4길 19 1층",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '10:00 - 19:00', '화': '정기휴무 (매주 화요일)', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1314-1893",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "도꾸야",
+    "location": "대구 북구 칠곡중앙대로 317 (태전동 409-1)1층 도꾸야",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "053-202-0059",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 7,
+    "blog_review": 88,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "보들보들",
+    "location": "대구 달성군 구지면 국가산단대로64길 63 줌파크상가 106호",
+    "open_hours": {},
+    "phone_number": "0507-1438-2774",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 10,
+    "blog_review": 3,
+    "website": "https://www.instagram.com/Young_grooming"
+  },
+  {
+    "name": "인물나개",
+    "location": "대구 동구 안심로7길 7 율하역엘크루아파트 상가 105동105호( 용계동, 율하역엘크루아파트)",
+    "open_hours": "{'일': '10:00 - 20:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "053-716-2112",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 36,
+    "blog_review": 5,
+    "website": "https://www.instagram.com/in_water_me_dog"
+  },
+  {
+    "name": "다듬",
+    "location": "대구 수성구 달구벌대로649길 14 아이프라임신매아파트 보행자전용출입구쪽 상가 1층 다듬",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "0507-1392-9020",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 3,
+    "blog_review": 0,
+    "website": "https://www.instagram.com/da_deum_"
+  },
+  {
+    "name": "몽그라미펫",
+    "location": "대구 달성군 다사읍 달구벌대로 848 1층 대로변 몽그라미펫",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 17:00', '화': '10:00 - 17:00', '수': '10:00 - 17:00', '목': '10:00 - 17:00', '금': '10:00 - 17:00', '토': '10:00 - 15:00'}",
+    "phone_number": "0507-1347-7717",
+    "rating": 4.73,
+    "visitor_review": 55,
+    "blog_review": 32,
+    "website": "http://instagram.com/mongrami.pet"
+  },
+  {
+    "name": "강아지 미용실",
+    "location": "대구 서구 북비산로 329",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '정기휴무 (매주 수요일)', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "010-3566-7989",
+    "rating": 4.32,
+    "visitor_review": 31,
+    "blog_review": 2,
+    "website": "https://blog.naver.com/dubu0514"
+  },
+  {
+    "name": "멍무",
+    "location": "대구 수성구 청호로95길 23 1층 멍무 (MUNG MOO)",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1342-2191",
+    "rating": 4.58,
+    "visitor_review": 46,
+    "blog_review": 223,
+    "website": "https://blog.naver.com/mung_moo_"
+  },
+  {
+    "name": "미인개애견샵",
+    "location": "대구 북구 매전로 78",
+    "open_hours": "{'매일': '09:30 - 21:30'}",
+    "phone_number": "053-314-5253",
+    "rating": 4.56,
+    "visitor_review": 95,
+    "blog_review": 22,
+    "website": "http://meingae.alltheway.kr"
+  },
+  {
+    "name": "더펫샵 고성점미용실",
+    "location": "대구 북구 원대로 50",
+    "open_hours": "{'매일': '10:30 - 20:00'}",
+    "phone_number": "0507-1441-7377",
+    "rating": 5,
+    "visitor_review": 26,
+    "blog_review": 78,
+    "website": "https://blog.naver.com/kre0604"
+  },
+  {
+    "name": "간지나개",
+    "location": "대구 동구 장등로 19",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "010-5007-2020",
+    "rating": 4.55,
+    "visitor_review": 21,
+    "blog_review": 0,
+    "website": "http://instagram.com/ganjinagae_daegu/"
+  },
+  {
+    "name": "Tobe pet salon",
+    "location": "대구 달서구 월곡로47길 72 1층 토비네살롱",
+    "open_hours": "{'매일': '10:00 - 18:00'}",
+    "phone_number": "0507-1391-7122",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 34,
+    "blog_review": 49,
+    "website": "https://www.instagram.com/tobe_pet_salon"
+  },
+  {
+    "name": "송현동강아지",
+    "location": "대구 달서구 송현로 18 1층 송현동 강아지",
+    "open_hours": "{'일': '10:00 - 20:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "053-710-7907",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 9,
+    "blog_review": 0,
+    "website": "https://www.instagram.com/"
+  },
+  {
+    "name": "샤방샤방",
+    "location": "대구 달성군 현풍읍 테크노상업로 20 테크노타워1 1층 104호",
+    "open_hours": "{'매일': '09:00 - 20:00'}",
+    "phone_number": "0507-1340-7980",
+    "rating": 4.69,
+    "visitor_review": 65,
+    "blog_review": 9,
+    "website": "http://instagram.com/053.285.7979/"
+  },
+  {
+    "name": "멍라이프 본점",
+    "location": "대구 동구 팔공로51길 15-11 2층 멍라이프",
+    "open_hours": "{'매일': '10:00 - 20:00'}",
+    "phone_number": "0507-1468-3014",
+    "rating": 4.33,
+    "visitor_review": 28,
+    "blog_review": 166,
+    "website": "https://www.makeus.net/45112"
+  },
+  {
+    "name": "퍼피쌀롱",
+    "location": "대구 서구 평리로50길 32 퍼피쌀롱",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '10:00 - 19:00', '화': '정기휴무 (매주 화요일)', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1347-6040",
+    "rating": 4.54,
+    "visitor_review": 39,
+    "blog_review": 169,
+    "website": "https://blog.naver.com/pay111"
+  },
+  {
+    "name": "개린이살롱 애견미용실",
+    "location": "대구 남구 중앙대로48길 43 개린이살롱",
+    "open_hours": "{'매일': '11:00 - 19:00'}",
+    "phone_number": "010-7771-3394",
+    "rating": 5,
+    "visitor_review": 14,
+    "blog_review": 492,
+    "website": "https://blog.naver.com/kye2626"
+  },
+  {
+    "name": "도기바스",
+    "location": "대구 달성군 현풍읍 테크노상업로 26 1층 (건물 뒷편)",
+    "open_hours": "{'매일': '09:30 - 23:00'}",
+    "phone_number": "0507-1333-5735",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 256,
+    "blog_review": 0,
+    "website": "https://www.instagram.com/doggy__bath/"
+  },
+  {
+    "name": "펫제제",
+    "location": "대구 북구 침산남로37길 5 1층 103호",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1339-5285",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 6,
+    "website": "http://펫제제.com"
+  },
+  {
+    "name": "도그라운드",
+    "location": "대구 수성구 수성로14길 43 1층 도그라운드",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1427-0055",
+    "rating": 5,
+    "visitor_review": 14,
+    "blog_review": 5,
+    "website": "https://blog.naver.com/doground4770055"
+  },
+  {
+    "name": "입댕로랑",
+    "location": "대구 북구 대천로17길 26-15 1층",
+    "open_hours": "{'일': '정보없음', '월': '정보없음', '화': '정보없음', '수': '정기휴무 (매주 수요일)', '목': '정보없음', '금': '정보없음', '토': '정보없음'}",
+    "phone_number": "0507-1380-2344",
+    "rating": 5,
+    "visitor_review": 19,
+    "blog_review": 40,
+    "website": "http://instagram.com/ydl_salon"
+  },
+  {
+    "name": "퍼피타임",
+    "location": "대구 수성구 청수로9길 46",
+    "open_hours": "{'매일': '10:00 - 20:00'}",
+    "phone_number": "0507-1353-7008",
+    "rating": 4.81,
+    "visitor_review": 38,
+    "blog_review": 470,
+    "website": "https://blog.naver.com/rainhmy"
+  },
+  {
+    "name": "살롱드베베",
+    "location": "대구 수성구 국채보상로 1040 1층(만촌동)",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1461-3702",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 7,
+    "blog_review": 4,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "체인지펫샵",
+    "location": "대구 북구 태암로18길 23 빛찬온빌 1층",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '매일': '매일 11:00 - 20:00 변동휴무입니다'}",
+    "phone_number": "010-3938-3262",
+    "rating": 4.75,
+    "visitor_review": 23,
+    "blog_review": 7,
+    "website": "https://blog.naver.com/prologue"
+  },
+  {
+    "name": "콩찌네미용실",
+    "location": "대구 북구 태암로 74 콩찌네 미용실",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1347-2856",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 24,
+    "blog_review": 8,
+    "website": "https://www.instagram.com/bbang_daeng_salon/"
+  },
+  {
+    "name": "문그루밍",
+    "location": "대구 동구 송라로28길 14 이안아파트상가 302동 110호",
+    "open_hours": "{'일': '10:00 - 21:00', '월': '10:00 - 21:00', '화': '10:00 - 21:00', '수': '정기휴무 (매주 수요일)', '목': '10:00 - 21:00', '금': '10:00 - 21:00', '토': '10:00 - 21:00'}",
+    "phone_number": "0507-1404-8857",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 5,
+    "blog_review": 24,
+    "website": "http://pf.kakao.com/_xgxfxkuxj"
+  },
+  {
+    "name": "마스코타 펫",
+    "location": "대구 북구 복현로 130 상가동 1층 103호",
+    "open_hours": "{'일': '10:00 - 20:00', '월(5/15)': '휴무', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "010-8291-6963",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 29,
+    "blog_review": 1,
+    "website": "https://www.instagram.com/mascota_grooming"
+  },
+  {
+    "name": "러블리펫",
+    "location": "대구 동구 금강로 107",
+    "open_hours": "{'매일': '10:00 - 19:00'}",
+    "phone_number": "0507-1338-4883",
+    "rating": 4.81,
+    "visitor_review": 20,
+    "blog_review": 2,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "개이뻐",
+    "location": "대구 달성군 현풍읍 테크노상업로 26 7층 703호",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '11:00 - 20:00', '화': '11:00 - 20:00', '수': '11:00 - 20:00', '목': '11:00 - 20:00', '금': '11:00 - 20:00', '토': '11:00 - 20:00'}",
+    "phone_number": "053-611-3974",
+    "rating": 4.77,
+    "visitor_review": 26,
+    "blog_review": 57,
+    "website": "https://www.instagram.com/dog_pretty_bichon"
+  },
+  {
+    "name": "헬로우그루밍",
+    "location": "대구 북구 복현로20길 8 유한하이츠 1층",
+    "open_hours": "{'매일': '10:00 - 22:00'}",
+    "phone_number": "010-5965-3064",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 3,
+    "blog_review": 28,
+    "website": "http://pf.kakao.com/_xbVhQb"
+  },
+  {
+    "name": "디어 캣",
+    "location": "대구 수성구 청호로 318-3 2층",
+    "open_hours": "{'일': '11:00 - 18:00', '월': '11:00 - 18:00', '화': '정기휴무 (매주 화요일)', '수': '11:00 - 18:00', '목': '11:00 - 18:00', '금': '11:00 - 18:00', '토': '11:00 - 18:00'}",
+    "phone_number": "0507-1339-9027",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 17,
+    "blog_review": 25,
+    "website": "https://www.instagram.com/dear.cat_salon"
+  },
+  {
+    "name": "오몽오몽",
+    "location": "대구 달서구 용산서로 54 오몽오몽",
+    "open_hours": "{'매일': '09:00 - 19:00'}",
+    "phone_number": "0507-1372-1664",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 21,
+    "blog_review": 33,
+    "website": "http://pf.kakao.com/_EaPIs"
+  },
+  {
+    "name": "이상훈애견미용학원",
+    "location": "대구 중구 명덕로 195 3층 301호",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 22:00', '화': '10:00 - 22:00', '수': '10:00 - 22:00', '목': '10:00 - 22:00', '금': '10:00 - 22:00', '토': '정기휴무 (매주 토요일)'}",
+    "phone_number": "0507-1337-3028",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 9,
+    "blog_review": 82,
+    "website": "https://blog.naver.com/jeusiasalon"
+  },
+  {
+    "name": "모모애견미용실",
+    "location": "대구 동구 동부로 63",
+    "open_hours": "{'일': '10:00 - 20:00', '월': '10:00 - 20:00', '화': '정기휴무 (매주 화요일)', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "053-951-1013",
+    "rating": 4.45,
+    "visitor_review": 20,
+    "blog_review": 62,
+    "website": "http://instagram.com/momo_pet_salon"
+  },
+  {
+    "name": "애견부티크",
+    "location": "대구 수성구 국채보상로164길 17 3층",
+    "open_hours": "{'매일': '11:00 - 20:00'}",
+    "phone_number": "010-3248-4887",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 6,
+    "blog_review": 2,
+    "website": "https://www.instagram.com/pet_boutique_deagu"
+  },
+  {
+    "name": "애견의 품격",
+    "location": "대구 수성구 국채보상로164길 25",
+    "open_hours": "{'매일': '09:00 - 22:00'}",
+    "phone_number": "053-742-5761",
+    "rating": 4.41,
+    "visitor_review": 85,
+    "blog_review": 2,
+    "website": "http://dignity.modoo.at/"
+  },
+  {
+    "name": "댕이쌀롱",
+    "location": "대구 달서구 상화북로 96-1 댕이쌀롱",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '10:00 - 19:00', '화': '정기휴무 (매주 화요일)', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1407-7667",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 15,
+    "blog_review": 0,
+    "website": "https://www.instagram.com/daeng2_salon"
+  },
+  {
+    "name": "살롱드데꼬레",
+    "location": "대구 달서구 월배로38길 22 1층 (단독건물)",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "010-8076-1415",
+    "rating": 4.67,
+    "visitor_review": 27,
+    "blog_review": 16,
+    "website": "http://www.instagram.com/pobi_bichon"
+  },
+  {
+    "name": "뿌이숑",
+    "location": "대구 북구 학남로 99 A동 1층 1호",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:30 - 19:00'}",
+    "phone_number": "010-9979-7030",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 36,
+    "blog_review": 14,
+    "website": "https://blog.naver.com/vv2chon"
+  },
+  {
+    "name": "멍이살롱",
+    "location": "대구 동구 동호로5길 5",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '11:00 - 18:30\\n17:00 - 18:00 휴게시간', '화': '11:00 - 18:30\\n17:00 - 18:00 휴게시간', '수': '11:00 - 18:30\\n17:00 - 18:00 휴게시간', '목': '11:00 - 18:30\\n17:00 - 18:00 휴게시간', '금': '11:00 - 18:30\\n17:00 - 18:00 휴게시간', '토': '11:00 - 18:30\\n17:00 - 18:00 휴게시간'}",
+    "phone_number": "0507-1331-1026",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 17,
+    "blog_review": 2,
+    "website": "https://www.instagram.com/dog_salon__"
+  },
+  {
+    "name": "그루펫",
+    "location": "대구 북구 동천로 6 칠곡화성타운상가 1층 그루펫",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "010-4466-0176",
+    "rating": 4.57,
+    "visitor_review": 76,
+    "blog_review": 281,
+    "website": "https://blog.naver.com/ssoj0176"
+  },
+  {
+    "name": "뽀독뽀독",
+    "location": "대구 북구 복현로2길 12 1층",
+    "open_hours": "{'일': '10:00 - 21:00', '월': '10:00 - 21:00', '화': '정기휴무 (매주 화요일)', '수': '10:00 - 21:00', '목': '10:00 - 21:00', '금': '10:00 - 21:00', '토': '10:00 - 21:00'}",
+    "phone_number": "053-214-4082",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 25,
+    "blog_review": 5,
+    "website": "https://www.instagram.com/bbodogx2/"
+  },
+  {
+    "name": "몽언니애견미용실",
+    "location": "대구 남구 중앙대로31길 128 몽언니애견미용실",
+    "open_hours": "{'매일': '10:00 - 19:00'}",
+    "phone_number": "010-5499-9549",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 4,
+    "website": "http://www.instagram.com/mongsister_petsalon"
+  },
+  {
+    "name": "grooming shop",
+    "location": "대구 서구 통학로 157-2 1층",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '11:00 - 18:00', '화': '11:00 - 18:00', '수': '11:00 - 18:00', '목': '11:00 - 18:00', '금': '11:00 - 18:00', '토': '11:00 - 18:00'}",
+    "phone_number": "0507-1348-4444",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 4,
+    "blog_review": "2,745",
+    "website": "http://www.instagram.com/grooming__shop"
+  },
+  {
+    "name": "즐겨찾개",
+    "location": "대구 달서구 야외음악당로 169",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '10:00 - 19:00', '화': '정기휴무 (매주 화요일)', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "010-9750-0212",
+    "rating": 4.57,
+    "visitor_review": 44,
+    "blog_review": 4,
+    "website": "https://blog.naver.com/kadas65"
+  },
+  {
+    "name": "보앤벨",
+    "location": "대구 중구 남산로3길 8 1층 보앤벨",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1346-8961",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 0,
+    "website": "https://www.instagram.com/beau_and_belle3"
+  },
+  {
+    "name": "찌동찌동",
+    "location": "대구 달성군 화원읍 비슬로 2635 상가 1층",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "010-4022-0998",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 15,
+    "blog_review": 2,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "뭉크",
+    "location": "대구 동구 송라로16길 76 1층",
+    "open_hours": "{'일': '10:00 - 19:30\\n13:00 - 14:00 휴게시간', '월': '10:00 - 19:30\\n13:00 - 14:00 휴게시간', '화': '정기휴무 (매주 화요일)', '수': '10:00 - 19:30\\n13:00 - 14:00 휴게시간', '목': '10:00 - 19:30\\n13:00 - 14:00 휴게시간', '금': '10:00 - 19:30\\n13:00 - 14:00 휴게시간', '토': '10:00 - 19:30\\n13:00 - 14:00 휴게시간'}",
+    "phone_number": "0507-1338-7660",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 32,
+    "blog_review": 15,
+    "website": "http://www.instagram.com/moongk_grooming"
+  },
+  {
+    "name": "펫파민트",
+    "location": "대구 수성구 신매로 5 1층",
+    "open_hours": "{'매일': '10:00 - 20:00'}",
+    "phone_number": "0507-1418-5486",
+    "rating": 4.85,
+    "visitor_review": 27,
+    "blog_review": 14,
+    "website": "https://blog.naver.com/babydoll1104"
+  },
+  {
+    "name": "그루밍준",
+    "location": "대구 서구 평리로 214 내당광명아파트상가 6동 114호",
+    "open_hours": "{'일': '10:00 - 20:00', '월': '10:00 - 20:00', '화': '정기휴무 (매주 화요일)', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "0507-1387-5228",
+    "rating": 4.94,
+    "visitor_review": 28,
+    "blog_review": 2,
+    "website": "https://blog.naver.com/hellojjung18"
+  },
+  {
+    "name": "망고네펫살롱",
+    "location": "대구 수성구 달구벌대로 3124-10 1층 망고네펫살롱",
+    "open_hours": "{'일': '11:00 - 19:00', '월': '11:00 - 19:00', '화': '11:00 - 19:00', '수': '11:00 - 19:00', '목': '11:00 - 19:00', '금': '11:00 - 19:00', '토': '11:00 - 19:00'}",
+    "phone_number": "010-5018-1311",
+    "rating": 4.5,
+    "visitor_review": 27,
+    "blog_review": 17,
+    "website": "http://www.instagram.com/mango_petsalon"
+  },
+  {
+    "name": "모코모코",
+    "location": "대구 달성군 다사읍 대실역남로4길 4-6 1층",
+    "open_hours": "{'일': '10:00 - 18:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "010-6722-7077",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 13,
+    "blog_review": 4,
+    "website": "https://blog.naver.com/gtd147"
+  },
+  {
+    "name": "라라펫",
+    "location": "대구 달서구 야외음악당로7길 70 1층 라라펫그루밍",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "010-9915-0921",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 4,
+    "blog_review": 1,
+    "website": "https://www.instagram.com/heeeeeju_cho"
+  },
+  {
+    "name": "이쁘개 애견샵",
+    "location": "대구 달서구 화암로73길 24 수목원래미안 상가107호",
+    "open_hours": "{'매일': '10:00 - 19:00'}",
+    "phone_number": "010-9546-6400",
+    "rating": 5,
+    "visitor_review": 52,
+    "blog_review": 122,
+    "website": "https://www.instagram.com/groomer_eun"
+  },
+  {
+    "name": "오구오구독",
+    "location": "대구 수성구 지범로 55-2 1층",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1309-9316",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 41,
+    "blog_review": 7,
+    "website": "http://instagram.com/oguogudog"
+  },
+  {
+    "name": "오늘DOG예쁨",
+    "location": "대구 중구 동덕로 55 111동 1층 110호",
+    "open_hours": "{'매일': '10:00 - 20:00'}",
+    "phone_number": "010-5588-0531",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 24,
+    "blog_review": 5,
+    "website": "https://instagram.com/today_dog_lovely?utm_medium=copy_link"
+  },
+  {
+    "name": "디어퍼피",
+    "location": "대구 달성군 다사읍 세천로 187 한라비발디아파트 후문상가",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1313-4356",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 0,
+    "website": "https://www.instagram.com/dear_puppy__/"
+  },
+  {
+    "name": "분홍강아지",
+    "location": "대구 달성군 다사읍 서재로14길 2",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '14:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "0507-1304-8760",
+    "rating": 4.66,
+    "visitor_review": 48,
+    "blog_review": 1,
+    "website": "http://www.instagram.com/pinkpuppy_ok"
+  },
+  {
+    "name": "캣츠앤 대구용산점",
+    "location": "대구 달서구 장산로 63-43 클래스 1층 캣츠앤",
+    "open_hours": "{'일': '10:00 - 20:00', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "0507-1350-6890",
+    "rating": 4.97,
+    "visitor_review": 22,
+    "blog_review": 21,
+    "website": "http://www.instagram.com/catsn.salon"
+  },
+  {
+    "name": "디어독펫살롱",
+    "location": "대구 달서구 상인로 74-9 1층 디어독",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화': '10:00 - 18:00', '수': '10:00 - 18:00', '목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 18:00'}",
+    "phone_number": "0507-1360-4366",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 3,
+    "website": "https://www.instagram.com/deardog4366"
+  },
+  {
+    "name": "꾸미시개",
+    "location": "대구 북구 내곡로 90 서희스타힐스테이상가 2-5호 꾸미시개",
+    "open_hours": "{'매일': '10:00 - 20:00'}",
+    "phone_number": "0507-1428-0175",
+    "rating": 5,
+    "visitor_review": 25,
+    "blog_review": 9,
+    "website": "https://blog.naver.com/ckehdgks13"
+  },
+  {
+    "name": "도그온리",
+    "location": "대구 남구 봉덕로 134 강변코오롱하늘채 101동 101-2호",
+    "open_hours": "{'일': '10:00 - 20:00', '월': '10:00 - 20:00', '화': '정기휴무 (매주 화요일)', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "010-4466-5952",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 28,
+    "blog_review": 1,
+    "website": "https://www.instagram.com/do5g9on5ly2"
+  },
+  {
+    "name": "체리쉬독",
+    "location": "대구 수성구 수성로 96 1층 체리쉬독",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "010-9459-5566",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 3,
+    "blog_review": 2,
+    "website": "http://instagram.com/cherish_dog_shop"
+  },
+  {
+    "name": "영블리 펫 살롱",
+    "location": "대구 달서구 상원로 64 영블리펫살롱",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:30 - 19:00', '화': '10:30 - 19:00', '수': '10:30 - 19:00', '목': '10:30 - 19:00', '금': '10:30 - 19:00', '토': '10:30 - 19:00'}",
+    "phone_number": "010-4744-9333",
+    "rating": 5,
+    "visitor_review": 57,
+    "blog_review": 78,
+    "website": "https://blog.naver.com/dmsdud0518"
+  },
+  {
+    "name": "꽃개",
+    "location": "대구 북구 팔거천서로 167 1층상가",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:30 - 19:00', '화': '10:30 - 19:00', '수': '10:30 - 19:00', '목': '10:30 - 19:00', '금': '10:30 - 19:00', '토': '10:30 - 19:00', '요일정보': '없음'}",
+    "phone_number": "010-7378-7122",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 15,
+    "blog_review": 58,
+    "website": "https://www.instagram.com/flowerdog7378"
+  },
+  {
+    "name": "도그도그",
+    "location": "대구 수성구 달구벌대로522길 15-13 1층 도그도그",
+    "open_hours": "{'일': '11:00 - 22:00', '월': '정기휴무 (매주 월요일)', '화': '11:00 - 22:00', '수': '11:00 - 22:00', '목': '11:00 - 22:00', '금': '11:00 - 22:00', '토': '11:00 - 22:00'}",
+    "phone_number": "053-742-1800",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 8,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "댕댕이살롱",
+    "location": "대구 서구 달서로 100",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1324-1505",
+    "rating": 4.78,
+    "visitor_review": 35,
+    "blog_review": 73,
+    "website": "https://blog.naver.com/dd_salon"
+  },
+  {
+    "name": "워시독",
+    "location": "대구 남구 현충로5길 104 지하1층",
+    "open_hours": "{'매일': '00:00 - 24:00'}",
+    "phone_number": "0507-1379-1398",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 7,
+    "blog_review": 0,
+    "website": "http://instagram.com/washdog_0"
+  },
+  {
+    "name": "욜로오개",
+    "location": "대구 동구 팔공로51길 23 비동 18호",
+    "open_hours": {},
+    "phone_number": "010-6502-2825",
+    "rating": 4.77,
+    "visitor_review": 49,
+    "blog_review": 2,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "썸머버튼",
+    "location": "대구 달서구 한실로6길 136 1층썸머버튼",
+    "open_hours": "{'일': '10:00 - 19:00', '월(5/15)': '휴무', '화(5/16)': '휴무', '수(5/17)': '휴무', '목(5/18)': '휴무', '금(5/19)': '휴무', '토': '10:00 - 19:00'}",
+    "phone_number": "010-6847-8026",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 8,
+    "blog_review": 1,
+    "website": "https://www.instagram.com/summerbutt0n"
+  },
+  {
+    "name": "포동이펫살롱",
+    "location": "대구 달서구 성지로 11 성서영남우방1차상가",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "0507-1302-7786",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 3,
+    "blog_review": 0,
+    "website": "https://blog.naver.com/virus80w"
+  },
+  {
+    "name": "행복한강아지",
+    "location": "대구 동구 팔공로 178",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '09:30 - 18:00', '화': '09:30 - 18:00', '수': '09:30 - 18:00', '목': '09:30 - 18:00', '금': '09:30 - 18:00', '토': '09:30 - 17:00'}",
+    "phone_number": "053-985-7778",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 19,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "도그윤",
+    "location": "대구 중구 태평로28길 20 2F",
+    "open_hours": "{'매일': '11:00 - 20:00'}",
+    "phone_number": "0507-1309-0448",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 10,
+    "blog_review": 2,
+    "website": "http://www.instagram.com/dog.yoon"
+  },
+  {
+    "name": "샴푸하는강아지",
+    "location": "대구 수성구 세진로 50-1",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1424-3701",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 14,
+    "blog_review": 610,
+    "website": "http://instagram.com/"
+  },
+  {
+    "name": "웃게해줄개",
+    "location": "대구 달성군 화원읍 비슬로543길 18 웃게해줄개",
+    "open_hours": "{'일': '10:30 - 20:00', '월': '10:30 - 20:00', '화': '정기휴무 (매주 화요일)', '수': '10:30 - 20:00', '목': '10:30 - 20:00', '금': '10:30 - 20:00', '토': '10:30 - 20:00'}",
+    "phone_number": "0507-1397-8202",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 17,
+    "blog_review": 1,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "늘 예쁘개",
+    "location": "대구 서구 국채보상로34길 15-1 늘,예쁘개",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1311-5083",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 10,
+    "blog_review": 26,
+    "website": "https://blog.naver.com/doggy8859"
+  },
+  {
+    "name": "설그루밍",
+    "location": "대구 달서구 구마로52안길 87 1층",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화': '10:00 - 18:00', '수': '10:00 - 18:00', '목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 18:00'}",
+    "phone_number": "010-3394-0777",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 10,
+    "blog_review": 272,
+    "website": "https://www.instagram.com/seol_grooming/?utm_medium=copy_link"
+  },
+  {
+    "name": "살롱드퍼피",
+    "location": "대구 달성군 유가읍 테크노중앙대로 254 3층 318호",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화': '10:00 - 18:00', '수': '10:00 - 18:00', '목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 18:00', '매일': '평일 10:00 - 08:00'}",
+    "phone_number": "010-9376-9871",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 3,
+    "blog_review": 50,
+    "website": "http://blog.naver.com/shaq26"
+  },
+  {
+    "name": "마이 메리스트 모먼트",
+    "location": "대구 남구 대명남로 90-1 My Merriest Moment",
+    "open_hours": "{'매일': '09:00 - 19:00'}",
+    "phone_number": "0507-1336-9216",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 22,
+    "blog_review": 31,
+    "website": "https://www.instagram.com/meeerriest"
+  },
+  {
+    "name": "프롬유니",
+    "location": "대구 동구 메디밸리로10길 2 1층 프롬유니",
+    "open_hours": "{'일': '10:00 - 20:00', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '정기휴무 (매주 목요일)', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "0507-1489-1566",
+    "rating": 4.44,
+    "visitor_review": 26,
+    "blog_review": 14,
+    "website": "http://instagram.com/from__yuni"
+  },
+  {
+    "name": "그루밍501",
+    "location": "대구 남구 대명로 129-1",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '10:00 - 19:00', '화': '정기휴무 (매주 화요일)', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "010-9938-3366",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 13,
+    "blog_review": 13,
+    "website": "http://instagram.com/grooming501"
+  },
+  {
+    "name": "아르볼385",
+    "location": "대구 동구 동화천로70길 34-1 파크뷰 1층 102호",
+    "open_hours": "{'일': '11:00 - 20:00', '월': '정기휴무 (매주 월요일)', '화': '11:00 - 20:00', '수': '11:00 - 20:00', '목': '11:00 - 20:00', '금': '11:00 - 20:00', '토': '11:00 - 20:00'}",
+    "phone_number": "010-8334-8723",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 0,
+    "website": "https://www.instagram.com/arbol385_groomer"
+  },
+  {
+    "name": "뽀드미엘",
+    "location": "대구 달서구 용산로14길 14 뽀드미엘",
+    "open_hours": "{'일': '10:00 - 19:00\\n12:00 - 13:00 휴게시간', '월': '10:00 - 19:00\\n12:00 - 13:00 휴게시간', '화': '10:00 - 19:00\\n12:00 - 13:00 휴게시간', '수': '10:00 - 19:00\\n12:00 - 13:00 휴게시간', '목': '10:00 - 19:00\\n12:00 - 13:00 휴게시간', '금': '10:00 - 19:00\\n12:00 - 13:00 휴게시간', '토': '10:00 - 19:00\\n12:00 - 13:00 휴게시간'}",
+    "phone_number": "0507-1358-1540",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 7,
+    "blog_review": 3,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "멍멍이랑사랑하기",
+    "location": "대구 남구 봉덕로9길 76",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화': '10:00 - 18:00', '수': '10:00 - 18:00', '목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 18:00'}",
+    "phone_number": "0507-1448-9909",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 8,
+    "blog_review": 15,
+    "website": "https://www.instagram.com/mung_nyang2"
+  },
+  {
+    "name": "강아지뷰티",
+    "location": "대구 북구 칠곡중앙대로91길 32-1 1층102호",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "0507-1476-3841",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 19,
+    "blog_review": 1,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "복슬강아지",
+    "location": "대구 달서구 진천로 41 진천청구타운 107동상가 복슬강아지",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00', '매일': '일요일 휴무 평일 10:00 ~ 20:00'}",
+    "phone_number": "0507-1365-3393",
+    "rating": 4.6,
+    "visitor_review": 57,
+    "blog_review": 11,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "달링하이 애견미용",
+    "location": "대구 수성구 청수로9길 40-34 1층",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00', '매일': '매일 10:00 - 08:00'}",
+    "phone_number": "0507-1441-3037",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 9,
+    "website": "https://www.instagram.com/dh.grooming/"
+  },
+  {
+    "name": "해피하개 애견샵",
+    "location": "대구 달성군 다사읍 대실역남로 50 상가 105호 해피하개애견샵",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '09:30 - 18:00', '화': '09:30 - 18:00', '수': '09:30 - 18:00', '목': '09:30 - 18:00', '금': '09:30 - 18:00', '토': '10:00 - 17:00'}",
+    "phone_number": "010-2350-2877",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 0,
+    "website": "https://www.instagram.com/happydog_2877"
+  },
+  {
+    "name": "포실하개",
+    "location": "대구 북구 연경중앙로 55 연경숲상가 102",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1375-6887",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 23,
+    "blog_review": 0,
+    "website": "http://instagram.com/posilhagae"
+  },
+  {
+    "name": "펫티 살롱",
+    "location": "대구 동구 송라로10길 33 302동 2층 2204호",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '요일정보': '없음'}",
+    "phone_number": "0507-1360-2031",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 0,
+    "website": "http://pf.kakao.com/_ZSSkxj"
+  },
+  {
+    "name": "다듬다 펫 미용",
+    "location": "대구 북구 검단로 3 1층 101-2호 (복현정형외과의원 주차장 앞)",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '11:00 - 19:00', '화': '11:00 - 19:00', '수': '11:00 - 19:00', '목': '11:00 - 19:00', '금': '11:00 - 19:00', '토': '11:00 - 19:00'}",
+    "phone_number": "0507-1376-6302",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 0,
+    "website": "https://www.instagram.com/da_deumda"
+  },
+  {
+    "name": "멍분의멍",
+    "location": "대구 수성구 신천동로 99-1",
+    "open_hours": "{'일': '11:00 - 21:00', '월': '정기휴무 (매주 월요일)', '화': '11:00 - 21:00', '수': '11:00 - 21:00', '목': '11:00 - 21:00', '금': '11:00 - 21:00', '토': '11:00 - 21:00'}",
+    "phone_number": "010-8605-2503",
+    "rating": 4.82,
+    "visitor_review": 16,
+    "blog_review": 122,
+    "website": "https://blog.naver.com/petpack12"
+  },
+  {
+    "name": "눈이부시개",
+    "location": "대구 달성군 옥포읍 돌미로2서길 8 1층108호 눈이부시개 애견샵",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "010-8706-5722",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 16,
+    "blog_review": 2,
+    "website": "http://instagram.com/sunshine_dog_okpo"
+  },
+  {
+    "name": "알토",
+    "location": "대구 수성구 수성로32길 127-19 1층 alto",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1341-1390",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 6,
+    "blog_review": 11,
+    "website": "https://www.instagram.com/alto_insta"
+  },
+  {
+    "name": "하이구름",
+    "location": "대구 남구 중앙대로32길 88 (봉덕동)",
+    "open_hours": "{'일': '11:00 - 18:00', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '11:00 - 18:00'}",
+    "phone_number": "010-2322-3961",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 23,
+    "blog_review": 3,
+    "website": "https://www.instagram.com/hi___gureum"
+  },
+  {
+    "name": "도그미용실",
+    "location": "대구 수성구 고산로4길 16 입구왼쪽상가(신매동)",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '09:30 - 19:00', '화': '09:30 - 19:00', '수': '09:30 - 19:00', '목': '09:30 - 19:00', '금': '09:30 - 19:00', '토': '09:30 - 19:00'}",
+    "phone_number": "0507-1368-8709",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 23,
+    "blog_review": 3,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "딱이네미용실",
+    "location": "대구 북구 구암로65길 8",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "010-2433-0517",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 12,
+    "blog_review": 47,
+    "website": "https://www.instagram.com/ttak_i_ne"
+  },
+  {
+    "name": "어도러블",
+    "location": "대구 달서구 두류남길 43",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1402-3138",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 6,
+    "blog_review": 9,
+    "website": "http://www.instagram.com/adorable_y9"
+  },
+  {
+    "name": "똥강아지",
+    "location": "대구 달성군 옥포읍 돌미로 42 106호 똥강아지",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:30', '화': '10:00 - 19:30', '수': '10:00 - 19:30', '목': '10:00 - 19:30', '금': '10:00 - 19:30', '토': '10:00 - 19:30'}",
+    "phone_number": "010-5500-5956",
+    "rating": 3.88,
+    "visitor_review": 14,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "525그루밍",
+    "location": "대구 중구 남산로17길 147 1층(남산동)",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '12:00 - 17:00'}",
+    "phone_number": "0507-1475-0526",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 0,
+    "website": "https://www.instagram.com/525_grooming"
+  },
+  {
+    "name": "도도리",
+    "location": "대구 달성군 다사읍 대실역북로 66 1층",
+    "open_hours": "{'매일': '09:30 - 19:00'}",
+    "phone_number": "0507-1427-4113",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 36,
+    "website": "https://blog.naver.com/dodori-siyeon"
+  },
+  {
+    "name": "토토애견",
+    "location": "대구 달서구 와룡로28길 113",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:30 - 18:00', '화': '10:30 - 18:00', '수': '10:30 - 18:00', '목': '10:30 - 18:00', '금': '10:30 - 18:00', '토': '10:30 - 18:00'}",
+    "phone_number": "053-561-9090",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 10,
+    "blog_review": 4,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "꼬망망",
+    "location": "대구 동구 신암북로 26-9 2층(건물 안으로 들어오셔서 올라오시면 돼요)",
+    "open_hours": "{'매일': '10:00 - 20:00'}",
+    "phone_number": "0507-1352-5320",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 7,
+    "website": "https://www.instagram.com/ccomangmang"
+  },
+  {
+    "name": "퍼피랜드",
+    "location": "대구 달서구 당산로 124",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "010-3800-3833",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 18,
+    "blog_review": 9,
+    "website": "http://puppyland.7x7.kr"
+  },
+  {
+    "name": "몽베이",
+    "location": "대구 달성군 화원읍 비슬로502길 2 1층",
+    "open_hours": "{'일': '11:00 - 21:00', '월': '11:00 - 21:00', '화': '11:00 - 21:00', '수': '11:00 - 21:00', '목': '11:00 - 21:00', '금': '11:00 - 21:00', '토': '11:00 - 21:00'}",
+    "phone_number": "0507-1306-4135",
+    "rating": 4.4,
+    "visitor_review": 21,
+    "blog_review": 2,
+    "website": "https://www.instagram.com/mong_bay"
+  },
+  {
+    "name": "플러스애견미용실",
+    "location": "대구 북구 중앙대로 544",
+    "open_hours": "{'일': '11:00 - 21:00', '월': '11:00 - 21:00', '화': '11:00 - 21:00', '수': '11:00 - 21:00', '목': '11:00 - 21:00', '금': '11:00 - 21:00', '토': '11:00 - 21:00', '요일정보': '없음'}",
+    "phone_number": "전화번호 없음",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 5,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "숲속애견샵",
+    "location": "대구 서구 달서로26길 28 1층 숲속애견샵",
+    "open_hours": "{'일': '10:00 - 22:00', '월': '10:00 - 22:00', '화': '10:00 - 22:00', '수': '10:00 - 22:00', '목': '10:00 - 22:00', '금': '10:00 - 22:00', '토': '10:00 - 22:00'}",
+    "phone_number": "0507-1325-7386",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 62,
+    "blog_review": 74,
+    "website": "https://cafe.naver.com/purple4tu29"
+  },
+  {
+    "name": "댕발란스",
+    "location": "대구 달서구 월배로24길 98-3 1층 댕발란스",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '11:00 - 20:00', '화': '13:00 - 20:00', '수': '11:00 - 20:00', '목': '13:00 - 20:00', '금': '11:00 - 20:00', '토': '11:00 - 20:00'}",
+    "phone_number": "0507-1382-2820",
+    "rating": 5,
+    "visitor_review": 15,
+    "blog_review": 80,
+    "website": "https://www.instagram.com/deng._.balance/"
+  },
+  {
+    "name": "도그몽드",
+    "location": "대구 남구 현충로 243 1층 도그몽드",
+    "open_hours": "{'매일': '10:00 - 24:00'}",
+    "phone_number": "0507-1449-9951",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 9,
+    "blog_review": 2,
+    "website": "https://www.instagram.com/dog_monde_shop?utm_medium=copy_link"
+  },
+  {
+    "name": "그루밍 아뜰리에",
+    "location": "대구 수성구 국채보상로 936 그루밍 아뜰리에",
+    "open_hours": "{'일': '09:00 - 18:30', '월': '정기휴무 (매주 월요일)', '화': '09:00 - 18:30', '수': '09:00 - 18:30', '목': '09:00 - 18:30', '금': '09:00 - 18:30', '토': '09:00 - 18:30'}",
+    "phone_number": "0507-1354-5477",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 42,
+    "website": "https://www.instagram.com/grooming_atelier"
+  },
+  {
+    "name": "몽쥬르펫뷰티샵",
+    "location": "대구 달서구 도원로서길 3-8 1층",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '정기휴무 (매주 월요일)', '화': '10:30 - 17:30', '수': '10:30 - 17:30', '목': '10:30 - 17:30', '금': '10:30 - 17:30', '토': '10:30 - 17:30'}",
+    "phone_number": "0507-1369-4665",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 0,
+    "website": "https://blog.naver.com/yjsweet93"
+  },
+  {
+    "name": "폼나개반려견미용샵",
+    "location": "대구 달서구 미리샘길 33 폼나개",
+    "open_hours": "{'일(5/14)': '정기휴무 (격주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금(5/19)': '정기휴무 (격주 금요일)', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1347-7914",
+    "rating": 4.63,
+    "visitor_review": 15,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "우리그루밍",
+    "location": "대구 남구 대경1길 56 1층(대명동)",
+    "open_hours": "{'일': '10:00 - 20:00', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "0507-1422-3399",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 3,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "로얄 펫살롱",
+    "location": "대구 달서구 월서로3길 21-9 가로수길B",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '09:30 - 18:00', '화': '09:30 - 18:00', '수': '09:30 - 18:00', '목': '09:30 - 18:00', '금': '09:30 - 18:00', '토': '09:30 - 18:00'}",
+    "phone_number": "0507-1347-7567",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 13,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "블리멍",
+    "location": "대구 달서구 송현동길 25 . 1층(송현동)",
+    "open_hours": "{'일': '11:00 - 20:00', '월': '11:00 - 20:00', '화': '11:00 - 20:00', '수': '11:00 - 20:00', '목': '11:00 - 20:00', '금': '11:00 - 20:00', '토': '11:00 - 20:00'}",
+    "phone_number": "010-8744-8823",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 22,
+    "blog_review": 0,
+    "website": "https://www.instagram.com/vely_mung_s2/"
+  },
+  {
+    "name": "Mr사랑짱애견미용샵",
+    "location": "대구 동구 율하동로8길 16 율하휴먼시아10단지 상가동 203호",
+    "open_hours": "{'매일': '10:00 - 19:00'}",
+    "phone_number": "0507-1335-3190",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 9,
+    "blog_review": 11,
+    "website": "http://instagram.com/Mrlovekzzang01"
+  },
+  {
+    "name": "뽀얌",
+    "location": "대구 북구 대현남로2길 38 1층(대현동)",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '11:00 - 19:00', '화': '11:00 - 19:00', '수': '11:00 - 19:00', '목': '11:00 - 19:00', '금': '11:00 - 19:00', '토': '11:00 - 17:00'}",
+    "phone_number": "010-2613-6963",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 6,
+    "blog_review": 2,
+    "website": "https://blog.naver.com/foryam_"
+  },
+  {
+    "name": "꽃보다강아지",
+    "location": "대구 남구 대봉로 69 꽃보다강아지",
+    "open_hours": "{'매일': '10:00 - 20:00'}",
+    "phone_number": "053-471-3515",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 10,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "어서왈왈",
+    "location": "대구 북구 동북로 131 상가 106동 1층 103호",
+    "open_hours": "{'일': '12:00 - 19:00', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '정기휴무 (매주 목요일)', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1388-6556",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 16,
+    "blog_review": 108,
+    "website": "https://www.instagram.com/welcome.walwal"
+  },
+  {
+    "name": "펫밀리쌀롱",
+    "location": "대구 수성구 무학로33길 23 1층",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1487-1680",
+    "rating": 5,
+    "visitor_review": 43,
+    "blog_review": 20,
+    "website": "https://blog.naver.com/rnjswps"
+  },
+  {
+    "name": "이쁘개",
+    "location": "대구 달서구 성서로72길 141 101호",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화': '10:00 - 18:00', '수': '10:00 - 18:00', '목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 18:00'}",
+    "phone_number": "010-6229-4532",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 9,
+    "blog_review": 6,
+    "website": "http://instagram.com/_ippeugae_4532"
+  },
+  {
+    "name": "도그몽",
+    "location": "대구 동구 동호로 153 1층",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1497-7114",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 7,
+    "blog_review": 2,
+    "website": "http://instagram.com/dog_.mong"
+  },
+  {
+    "name": "끌리개",
+    "location": "대구 달서구 두류공원로49길 75 1층 끌리개",
+    "open_hours": "{'매일': '10:30 - 24:00'}",
+    "phone_number": "010-8220-8813",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 35,
+    "blog_review": 3,
+    "website": "https://blog.naver.com/lioneeee"
+  },
+  {
+    "name": "스위티독",
+    "location": "대구 북구 복현로 7",
+    "open_hours": "{'매일': '10:00 - 22:00'}",
+    "phone_number": "0507-1303-7815",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 6,
+    "blog_review": 8,
+    "website": "https://www.instagram.com/my_sweety_dog_/"
+  },
+  {
+    "name": "꽃이되자",
+    "location": "대구 수성구 달구벌대로621길 6 1층",
+    "open_hours": "{'매일': '매일 10:30 - 18:30 일요일ㆍ월요일휴무'}",
+    "phone_number": "053-767-2669",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 4,
+    "blog_review": 27,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "또리네펫살롱",
+    "location": "대구 수성구 무학로21길 51 1층 1층",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1392-2325",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 15,
+    "website": "https://blog.naver.com/alswl9489"
+  },
+  {
+    "name": "스누피",
+    "location": "대구 달성군 구지면 국가산단북로 191 스누피 애견샵",
+    "open_hours": "{'일': '10:00 - 18:00', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 18:00'}",
+    "phone_number": "053-614-3724",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 11,
+    "blog_review": 2,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "안녕강아지야",
+    "location": "대구 남구 명덕로 238-2",
+    "open_hours": "{'매일': '10:30 - 20:00'}",
+    "phone_number": "0507-1406-7543",
+    "rating": 4.25,
+    "visitor_review": 24,
+    "blog_review": 0,
+    "website": "http://blog.naver.com/b20867"
+  },
+  {
+    "name": "슬로독",
+    "location": "대구 북구 호국로 219 서변동 대성골든프라자 상가 105호 슬로독",
+    "open_hours": "{'일': '10:00 - 20:00', '월': '10:00 - 20:00', '화': '정기휴무 (매주 화요일)', '수': '10:00 - 20:00', '목': '정기휴무 (매주 목요일)', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "0507-1321-2703",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 46,
+    "blog_review": 1,
+    "website": "https://blog.naver.com/pyo2703"
+  },
+  {
+    "name": "큐티하개_함",
+    "location": "대구 북구 관음동로 159 1층상가 큐티하개_함",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1470-1051",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 43,
+    "blog_review": 25,
+    "website": "https://www.instagram.com/cutehagea_ham"
+  },
+  {
+    "name": "독특",
+    "location": "대구 수성구 수성로32길 113-12 1층",
+    "open_hours": "{'일': '09:00 - 19:00', '월': '09:00 - 19:00', '화': '09:00 - 19:00', '수': '09:00 - 19:00', '목': '09:00 - 19:00', '금': '09:00 - 19:00', '토': '09:00 - 19:00'}",
+    "phone_number": "0507-1350-6455",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 1,
+    "website": "https://www.instagram.com/dogteuk_kinder"
+  },
+  {
+    "name": "어나더도그",
+    "location": "대구 수성구 들안로16길 34-30 어나더도그",
+    "open_hours": "{'일': '10:00 - 20:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "010-6626-9767",
+    "rating": 4.91,
+    "visitor_review": 40,
+    "blog_review": 3,
+    "website": "https://blog.naver.com/namil7490"
+  },
+  {
+    "name": "퍼피독",
+    "location": "대구 달서구 당산로 178 1층, 퍼피독",
+    "open_hours": "{'매일': '10:00 - 19:00'}",
+    "phone_number": "010-8822-5766",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 13,
+    "blog_review": 3,
+    "website": "https://www.instagram.com/puppydog_hong"
+  },
+  {
+    "name": "마리오펫 두산점",
+    "location": "대구 수성구 무학로21길 41",
+    "open_hours": "{'매일': '10:00 - 21:00'}",
+    "phone_number": "053-248-2858",
+    "rating": 4.4,
+    "visitor_review": 26,
+    "blog_review": 2,
+    "website": "https://blog.naver.com/yahjkh"
+  },
+  {
+    "name": "그루밍",
+    "location": "대구 동구 화랑로88길 78",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '정기휴무 (매주 토요일)'}",
+    "phone_number": "0507-1332-9883",
+    "rating": 4.54,
+    "visitor_review": 33,
+    "blog_review": 2,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "조이풀그루밍",
+    "location": "대구 수성구 동원로28길 63",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '정기휴무 (매주 토요일)', '요일정보': '없음'}",
+    "phone_number": "053-754-6668",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 10,
+    "blog_review": 2,
+    "website": "https://blog.naver.com/joyful-grooming"
+  },
+  {
+    "name": "부티뽀샤",
+    "location": "대구 북구 동천로 47",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "0507-1381-3622",
+    "rating": 4.7,
+    "visitor_review": 18,
+    "blog_review": 188,
+    "website": "https://instagram.com/beauty_posha?igshid=yb2yz2c9t55r"
+  },
+  {
+    "name": "베스띠몽",
+    "location": "대구 북구 주좌길 14-1 1층 베스띠몽",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1449-3022",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 13,
+    "blog_review": 81,
+    "website": "https://blog.naver.com/bestimong"
+  },
+  {
+    "name": "흰둥이검둥이꾸미는날",
+    "location": "대구 달성군 유가읍 현풍로 201-10 1층 102호",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '정기휴무 (매주 월요일)', '화': '정기휴무 (매주 화요일)', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1489-1993",
+    "rating": 5,
+    "visitor_review": 23,
+    "blog_review": 1,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "때빼고 광나개",
+    "location": "대구 북구 한강로 64 (사수동) 1층",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "전화번호 없음",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 14,
+    "blog_review": 1,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "우아하개",
+    "location": "대구 북구 학남로3길 6",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화': '10:00 - 18:00', '수': '10:00 - 18:00', '목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 17:00'}",
+    "phone_number": "0507-1477-1034",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 6,
+    "blog_review": 16,
+    "website": "https://blog.naver.com/elegancedog2015"
+  },
+  {
+    "name": "펫플러스",
+    "location": "대구 수성구 범안로 25 펫플러스",
+    "open_hours": "{'매일': '10:00 - 20:00'}",
+    "phone_number": "053-249-1600",
+    "rating": 4.26,
+    "visitor_review": 34,
+    "blog_review": 1,
+    "website": "https://blog.naver.com/petplus1"
+  },
+  {
+    "name": "플라잉독",
+    "location": "대구 북구 태암로5길 16-5 1층",
+    "open_hours": "{'매일': '10:30 - 18:00'}",
+    "phone_number": "053-323-6016",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 10,
+    "blog_review": 1,
+    "website": "http://instagram.com/flying dog daegu"
+  },
+  {
+    "name": "우리동네펫샵",
+    "location": "대구 달서구 도원로동길 8",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화': '10:00 - 18:00', '수': '10:00 - 18:00', '목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 18:00'}",
+    "phone_number": "0507-1322-6917",
+    "rating": 4.5,
+    "visitor_review": 19,
+    "blog_review": 2,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "조이독",
+    "location": "대구 달성군 다사읍 왕선로 48",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화': '10:00 - 18:00', '수': '10:00 - 18:00', '목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 18:00', '매일': '매일 10:00 - 19:00 break time 13:00~14:00'}",
+    "phone_number": "010-4433-6667",
+    "rating": 4.5,
+    "visitor_review": 19,
+    "blog_review": 1,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "쁘리에숑",
+    "location": "대구 수성구 들안로48길 18 쁘리에숑",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1431-0809",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 8,
+    "blog_review": 5,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "바이몽",
+    "location": "대구 수성구 들안로14길 21 1층",
+    "open_hours": "{'일': '11:00 - 20:00', '월': '11:00 - 20:00', '화': '정기휴무 (매주 화요일)', '수': '11:00 - 20:00', '목': '11:00 - 20:00', '금': '11:00 - 20:00', '토': '11:00 - 20:00'}",
+    "phone_number": "0507-1366-2544",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 8,
+    "blog_review": 31,
+    "website": "https://www.instagram.com/by.mong_"
+  },
+  {
+    "name": "멍멍이미용실",
+    "location": "대구 달서구 파도고개로 147 멍멍이미용실",
+    "open_hours": "{'매일': '10:00 - 19:00'}",
+    "phone_number": "010-2707-0029",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "애견샾",
+    "location": "대구 북구 칠곡중앙대로46길 31-2",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '정보없음', '화': '정보없음', '수': '정보없음', '목': '정보없음', '금': '정보없음', '토': '정보없음'}",
+    "phone_number": "010-2445-2726",
+    "rating": 4.67,
+    "visitor_review": 14,
+    "blog_review": 8,
+    "website": "https://blog.naver.com/pipi0220"
+  },
+  {
+    "name": "디어몽",
+    "location": "대구 달서구 장기로 184",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 21:00', '화': '10:00 - 21:00', '수': '10:00 - 21:00', '목': '10:00 - 21:00', '금': '10:00 - 21:00', '토': '정보없음'}",
+    "phone_number": "010-2803-9832",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 9,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "도기도기애견샵",
+    "location": "대구 달서구 상화북로 213",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "053-636-8858",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 6,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "러블리독",
+    "location": "대구 달서구 장기로 70 2층 러블리독",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00', '매일': '매일 10:00 - 20:00 일요일'}",
+    "phone_number": "053-202-0222",
+    "rating": 4.69,
+    "visitor_review": 20,
+    "blog_review": 12,
+    "website": "https://blog.naver.com/lovelydog0222"
+  },
+  {
+    "name": "예쁘개",
+    "location": "대구 달서구 용산로 194",
+    "open_hours": "{'매일': '10:00 - 20:00'}",
+    "phone_number": "053-522-2258",
+    "rating": 4.22,
+    "visitor_review": 52,
+    "blog_review": 1,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "슈슈봉봉애견미용",
+    "location": "대구 중구 국채보상로 690-1",
+    "open_hours": "{'일': '11:30 - 19:00', '월': '11:30 - 19:00', '화': '11:30 - 19:00', '수': '11:30 - 19:00', '목': '11:30 - 19:00', '금': '11:30 - 19:00', '토': '11:30 - 19:00'}",
+    "phone_number": "0507-1326-1366",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 9,
+    "blog_review": 90,
+    "website": "https://blog.naver.com/diapink70"
+  },
+  {
+    "name": "애견왕국",
+    "location": "대구 달성군 다사읍 달구벌대로 852",
+    "open_hours": "{'매일': '09:30 - 21:00'}",
+    "phone_number": "053-588-1310",
+    "rating": 4.93,
+    "visitor_review": 34,
+    "blog_review": 5,
+    "website": "https://blog.naver.com/sinker1310"
+  },
+  {
+    "name": "하트애견",
+    "location": "대구 수성구 들안로32길 47",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '11:00 - 19:00', '화': '11:00 - 19:00', '수': '11:00 - 19:00', '목': '11:00 - 19:00', '금': '11:00 - 19:00', '토': '11:00 - 19:00'}",
+    "phone_number": "0507-1461-1268",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 34,
+    "blog_review": 5,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "멍클린",
+    "location": "대구 동구 화랑로80길 7-3",
+    "open_hours": "{'매일': '10:00 - 20:00'}",
+    "phone_number": "0507-1314-8314",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 7,
+    "blog_review": 6,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "마이비숑프리제",
+    "location": "대구 수성구 상화로 76-1",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '11:00 - 14:00', '화': '11:00 - 14:00', '수': '11:00 - 14:00', '목': '11:00 - 14:00', '금': '11:00 - 14:00', '토': '11:00 - 14:00'}",
+    "phone_number": "010-2888-1114",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 3,
+    "website": "https://www.instagram.com/my_bichon_frise"
+  },
+  {
+    "name": "앙앙펫살롱",
+    "location": "대구 동구 공항로 275 1층",
+    "open_hours": "{'일': '10:00 - 20:00', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '정기휴무 (매주 토요일)'}",
+    "phone_number": "0507-1480-1412",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 8,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "초원애견샵",
+    "location": "대구 남구 대경길 52 1층",
+    "open_hours": {},
+    "phone_number": "0507-1343-9069",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 8,
+    "blog_review": 200,
+    "website": "http://blog.naver.com/tnswk1100"
+  },
+  {
+    "name": "뚜드림",
+    "location": "대구 남구 앞산순환로 723 1,2층",
+    "open_hours": "{'매일': '10:00 - 21:00'}",
+    "phone_number": "0507-1483-1153",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 8,
+    "blog_review": 200,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "맡겨보개",
+    "location": "대구 달성군 화원읍 비슬로 2693 스카이모터샵 안",
+    "open_hours": "{'매일': '평일 11:00 - 19:00 야간미용가능'}",
+    "phone_number": "0507-1322-0650",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 5,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "꽃달아줄개",
+    "location": "대구 달서구 와룡로53길 15",
+    "open_hours": {},
+    "phone_number": "010-2280-2176",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 8,
+    "blog_review": 93,
+    "website": "http://instagram.com/flower_daneee315"
+  },
+  {
+    "name": "슈슈스토리",
+    "location": "대구 동구 율하동로 36",
+    "open_hours": "{'요일정보': '없음'}",
+    "phone_number": "053-961-1638",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 5,
+    "blog_review": 123,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "강아지멋내기",
+    "location": "대구 달서구 용산큰못2길 22",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "010-8786-2911",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 8,
+    "blog_review": 2,
+    "website": "https://blog.naver.com/jiouybmio"
+  },
+  {
+    "name": "멍멍아 놀자",
+    "location": "대구 수성구 시지로3길 66-10 1층",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1342-1272",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 3,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "사랑스럽개",
+    "location": "대구 동구 안심로73길 12-10",
+    "open_hours": "{'일': '정보없음', '월': '정보없음', '화': '정보없음', '수': '정보없음', '목': '정보없음', '금': '정보없음', '토': '정보없음'}",
+    "phone_number": "053-984-4064",
+    "rating": 4.79,
+    "visitor_review": 26,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "엄지애견",
+    "location": "대구 동구 안심로41길 60 엄지애견",
+    "open_hours": "{'일': '10:00 - 20:00', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '정기휴무 (매주 목요일)', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "053-963-5653",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 14,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "아리아펫",
+    "location": "대구 달서구 진천로10길 98 1층101호",
+    "open_hours": "{'일': '10:30 - 19:00', '월': '정기휴무 (매주 월요일)', '화': '10:30 - 19:00', '수': '10:30 - 19:00', '목': '10:30 - 19:00', '금': '10:30 - 19:00', '토': '10:30 - 19:00'}",
+    "phone_number": "0507-1353-0386",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 42,
+    "website": "https://www.instagram.com/"
+  },
+  {
+    "name": "프리펫살롱",
+    "location": "대구 달서구 장산로 63-21 1층 프리펫살롱",
+    "open_hours": "{'일': '10:00 - 20:00', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "0507-1328-4393",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 3,
+    "blog_review": 2,
+    "website": "https://www.instagram.com/free_pet_salon"
+  },
+  {
+    "name": "뽀시래기",
+    "location": "대구 달서구 월배로84길 27 1층",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화': '10:00 - 18:00', '수': '10:00 - 18:00', '목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 15:00'}",
+    "phone_number": "0507-1331-8165",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 5,
+    "blog_review": 5,
+    "website": "http://instagram.com/bbo_si_"
+  },
+  {
+    "name": "딜라잇독",
+    "location": "대구 동구 신암북로11길 78-30",
+    "open_hours": "{'매일': '11:00 - 21:00'}",
+    "phone_number": "010-7941-8260",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 5,
+    "blog_review": 46,
+    "website": "https://blog.naver.com/delight_dog"
+  },
+  {
+    "name": "일랑일랑펫샵",
+    "location": "대구 수성구 들안로16길 9 1층",
+    "open_hours": {},
+    "phone_number": "010-7559-9392",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 3,
+    "website": "https://blog.naver.com/y02205v"
+  },
+  {
+    "name": "똥싼강아지",
+    "location": "대구 달성군 화원읍 화원로1길 67-7",
+    "open_hours": "{'요일정보': '없음'}",
+    "phone_number": "053-639-2230",
+    "rating": 4.68,
+    "visitor_review": 38,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "이뻐질개애견미용실",
+    "location": "대구 수성구 세진로 36",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "053-754-8077",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 8,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "아지발바닥",
+    "location": "대구 수성구 지범로 97",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '요일정보': '없음'}",
+    "phone_number": "0507-1427-2667",
+    "rating": 4.64,
+    "visitor_review": 25,
+    "blog_review": 1,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "킹스독",
+    "location": "대구 달서구 갈밭남로 12 수목원제일풍경채 상가4동 123호",
+    "open_hours": "{'일': '10:00 - 20:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "010-9278-4046",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 10,
+    "blog_review": 1,
+    "website": "https://blog.naver.com/harok18"
+  },
+  {
+    "name": "예쁘개해줄개",
+    "location": "대구 서구 서대구로 356",
+    "open_hours": "{'일': '10:00 - 20:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00', '매일': '매일 10:00 - 21:00 매주 월요일 정기휴일, 임시휴업시 사전공지'}",
+    "phone_number": "053-358-7979",
+    "rating": 4.38,
+    "visitor_review": 26,
+    "blog_review": 2,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "오늘도 예쁘개",
+    "location": "대구 동구 국채보상로 773",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1332-0960",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 3,
+    "blog_review": 3,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "뜨란멍&냥",
+    "location": "대구 수성구 상화로 53",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '매일': '매일 10:00 - 08:00'}",
+    "phone_number": "053-766-7222",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 6,
+    "blog_review": 0,
+    "website": "https://blog.naver.com/dog4073"
+  },
+  {
+    "name": "예쁘니 애견",
+    "location": "대구 수성구 수성로 210 예쁘니애견",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "053-764-5593",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 6,
+    "blog_review": 0,
+    "website": "https://www.instagram.com/pretiy_petshop"
+  },
+  {
+    "name": "캄그루밍",
+    "location": "대구 동구 파계로 559",
+    "open_hours": {},
+    "phone_number": "010-3654-0121",
+    "rating": 4.46,
+    "visitor_review": 162,
+    "blog_review": 17,
+    "website": "https://blog.naver.com/healthypup"
+  },
+  {
+    "name": "포숑포숑 애견미용실",
+    "location": "대구 수성구 용학로25안길 5 1층 102호(두산동)",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '11:00 - 18:00', '화': '11:00 - 18:00', '수': '11:00 - 18:00', '목': '11:00 - 18:00', '금': '11:00 - 18:00', '토': '11:00 - 18:00'}",
+    "phone_number": "0507-1418-5665",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 4,
+    "blog_review": 0,
+    "website": "http://www.instargram.com/posyong.pet"
+  },
+  {
+    "name": "토토미용실",
+    "location": "대구 수성구 노변공원로 34 상가112동 1층 4호",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화': '10:00 - 18:00', '수': '10:00 - 18:00', '목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 18:00'}",
+    "phone_number": "0507-1384-0724",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 5,
+    "blog_review": 2,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "개님은털빨",
+    "location": "대구 수성구 수성로32길 10",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화': '10:00 - 18:00', '수': '10:00 - 18:00', '목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 18:00', '요일정보': '없음'}",
+    "phone_number": "전화번호 없음",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 12,
+    "blog_review": 3,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "태풍이네 애견미용샵",
+    "location": "대구 북구 호국로51길 30",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화': '10:00 - 18:00', '수': '10:00 - 18:00', '목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 18:00', '요일정보': '없음', '매일': '평일 10:00 - 19:00 2,4주일요일휴무 / 1,3월요일휴무'}",
+    "phone_number": "0507-1407-6194",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 15,
+    "blog_review": 903,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "마론애견 두산점",
+    "location": "대구 수성구 무학로21길 110",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화': '10:00 - 18:00', '수': '10:00 - 18:00', '목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 18:00', '요일정보': '없음', '매일': '평일 10:00 - 19:00 2,4주일요일휴무 / 1,3월요일휴무'}",
+    "phone_number": "053-766-4041",
+    "rating": 4.45,
+    "visitor_review": 93,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "더이뻐지개샵",
+    "location": "대구 서구 달구벌대로361길 21 1층 이뻐지개샵",
+    "open_hours": "{'일': '09:00 - 19:00', '월': '정기휴무 (매주 월요일)', '화': '09:00 - 19:00', '수': '09:00 - 19:00', '목': '09:00 - 19:00', '금': '09:00 - 19:00', '토': '09:00 - 19:00'}",
+    "phone_number": "0507-1317-0387",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 3,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "몽개구름",
+    "location": "대구 달성군 구지면 국가산단대로70길 17 상가 105호 몽개구름",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '정기휴무 (매주 토요일)'}",
+    "phone_number": "0507-1421-9117",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 3,
+    "blog_review": 0,
+    "website": "https://www.instagram.com/mongdog_cloud"
+  },
+  {
+    "name": "다사솜결애견",
+    "location": "대구 달성군 다사읍 매곡로14길 13",
+    "open_hours": "{'매일': '10:00 - 20:00'}",
+    "phone_number": "053-585-3863",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 6,
+    "blog_review": 3,
+    "website": "https://blog.naver.com/geunah5056"
+  },
+  {
+    "name": "리리펫살롱",
+    "location": "대구 북구 관음중앙로 94",
+    "open_hours": "{'매일': '11:00 - 20:00'}",
+    "phone_number": "0507-1334-8665",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 11,
+    "blog_review": 284,
+    "website": "https://blog.naver.com/kool2364"
+  },
+  {
+    "name": "멍이가 웃통벗는날",
+    "location": "대구 남구 신촌길 22 1층 멍이가 웃통벗는날",
+    "open_hours": "{'일': '10:00 - 18:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 18:00', '수': '10:00 - 18:00', '목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 18:00'}",
+    "phone_number": "053-475-3570",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 4,
+    "blog_review": 14,
+    "website": "https://blog.naver.com/20ppi"
+  },
+  {
+    "name": "더예쁘개",
+    "location": "대구 북구 한강로6길 13",
+    "open_hours": "{'매일': '10:00 - 22:00'}",
+    "phone_number": "053-321-0770",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 4,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "강아지미용목욕",
+    "location": "대구 달성군 다사읍 대실역북로 70-1",
+    "open_hours": "{'매일': '10:00 - 22:00', '요일정보': '없음'}",
+    "phone_number": "전화번호 없음",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 4,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "멍멍아 놀자",
+    "location": "대구 달성군 다사읍 대실역북로 94 멍멍아놀자",
+    "open_hours": "{'매일': '매일 10:00 - 18:00 일요일은 우리 호두랑 놀아줘야해서 쉬어요', '요일정보': '없음'}",
+    "phone_number": "053-587-5320",
+    "rating": 4.86,
+    "visitor_review": 19,
+    "blog_review": 1,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "도그앤캣",
+    "location": "대구 북구 태암로 7-1",
+    "open_hours": "{'매일': '매일 10:00 - 18:00 일요일은 우리 호두랑 놀아줘야해서 쉬어요', '요일정보': '없음'}",
+    "phone_number": "053-325-0028",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 4,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "순돌뭐하니애견샵",
+    "location": "대구 북구 매전로 70 태전동1117번지 103호",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '09:00 - 20:00\\n12:00 - 13:00 휴게시간', '화': '09:00 - 20:00\\n12:00 - 13:00 휴게시간', '수': '09:00 - 20:00\\n12:00 - 13:00 휴게시간', '목': '09:00 - 20:00\\n12:00 - 13:00 휴게시간', '금': '09:00 - 20:00\\n12:00 - 13:00 휴게시간', '토': '09:00 - 20:00\\n12:00 - 13:00 휴게시간'}",
+    "phone_number": "0507-1353-0053",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 6,
+    "blog_review": 3,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "미소짓개",
+    "location": "대구 서구 통학로15길 1",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '09:00 - 20:00\\n12:00 - 13:00 휴게시간', '화': '09:00 - 20:00\\n12:00 - 13:00 휴게시간', '수': '09:00 - 20:00\\n12:00 - 13:00 휴게시간', '목': '09:00 - 20:00\\n12:00 - 13:00 휴게시간', '금': '09:00 - 20:00\\n12:00 - 13:00 휴게시간', '토': '09:00 - 20:00\\n12:00 - 13:00 휴게시간', '요일정보': '없음'}",
+    "phone_number": "전화번호 없음",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 16,
+    "blog_review": 3,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "아름답개",
+    "location": "대구 달서구 월배로14길 58-1",
+    "open_hours": "{'매일': '10:00 - 20:00'}",
+    "phone_number": "0507-1341-5709",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 0,
+    "website": "https://blog.naver.com/sujin5709"
+  },
+  {
+    "name": "말숑말숑",
+    "location": "대구 남구 현충동길 113 1층 말숑말숑",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1404-8047",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 16,
+    "blog_review": 1,
+    "website": "https://www.instagram.com/malchon_2"
+  },
+  {
+    "name": "개미애견농장",
+    "location": "대구 동구 아양로50길 37",
+    "open_hours": "{'매일': '09:00 - 21:00'}",
+    "phone_number": "010-4288-1355",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "개릿뷰티애견샵",
+    "location": "대구 동구 효목로 57-1",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '정보없음'}",
+    "phone_number": "0507-1406-7967",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 8,
+    "blog_review": 0,
+    "website": "https://blog.naver.com/ghdfks30731"
+  },
+  {
+    "name": "사랑하개",
+    "location": "대구 수성구 지범로 248-10 1층",
+    "open_hours": "{'일': '정보없음', '월': '10:30 - 16:30', '화': '10:30 - 16:30', '수': '10:30 - 16:30', '목': '10:30 - 16:30', '금': '10:30 - 16:30', '토': '10:30 - 16:30'}",
+    "phone_number": "053-784-7794",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 13,
+    "blog_review": 2,
+    "website": "http://instagram.com/love_ha_dog"
+  },
+  {
+    "name": "옐로우애견샵",
+    "location": "대구 수성구 무학로27길 56 1층 옐로우애견",
+    "open_hours": "{'일': '정보없음', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1341-4426",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 3,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "강아지엄마",
+    "location": "대구 수성구 지범로39길 21-7",
+    "open_hours": "{'일': '정보없음', '월': '11:00 - 19:00', '화': '11:00 - 19:00', '수': '11:00 - 19:00', '목': '11:00 - 19:00', '금': '11:00 - 19:00', '토': '11:00 - 19:00'}",
+    "phone_number": "0507-1415-2894",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 6,
+    "website": "http://www.instagram.com/dugu120"
+  },
+  {
+    "name": "순지 애견미용샵",
+    "location": "대구 달서구 비슬로 2724 1층상가 순지애견미용",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화': '10:00 - 18:00', '수': '10:00 - 18:00', '목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 18:00'}",
+    "phone_number": "0507-1388-5458",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 5,
+    "blog_review": 0,
+    "website": "https://www.instagram.com/soonji_salon"
+  },
+  {
+    "name": "벨라펫살롱",
+    "location": "대구 남구 대덕로 146 스카이파크 102호",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '정기휴무 (매주 월요일)', '화': '13:00 - 23:00', '수': '13:00 - 23:00', '목': '13:00 - 23:00', '금': '13:00 - 23:00', '토': '13:00 - 23:00'}",
+    "phone_number": "0507-1391-6686",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 5,
+    "blog_review": 0,
+    "website": "https://www.instagram.com/bella_petsalon"
+  },
+  {
+    "name": "펫더스타일",
+    "location": "대구 남구 큰골길 54",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '정기휴무 (매주 월요일)', '화': '13:00 - 23:00', '수': '13:00 - 23:00', '목': '13:00 - 23:00', '금': '13:00 - 23:00', '토': '13:00 - 23:00', '요일정보': '없음'}",
+    "phone_number": "053-625-5052",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 9,
+    "blog_review": 6,
+    "website": "https://blog.naver.com/jin30820"
+  },
+  {
+    "name": "뽐내시개",
+    "location": "대구 북구 한강로 17 . 1층 103호",
+    "open_hours": "{'매일': '10:00 - 19:00'}",
+    "phone_number": "0507-1339-7351",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 9,
+    "blog_review": 6,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "누베",
+    "location": "대구 수성구 천을로 35 미래하이츠APT 103동 101호상가",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "0507-1358-8825",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 35,
+    "website": "https://www.instagram.com/nube_petsalon"
+  },
+  {
+    "name": "개편한세상",
+    "location": "대구 수성구 지범로31길 27",
+    "open_hours": "{'일': '정보없음', '월': '10:00 - 21:00', '화': '10:00 - 21:00', '수': '10:00 - 21:00', '목': '10:00 - 21:00', '금': '10:00 - 21:00', '토': '정보없음'}",
+    "phone_number": "053-782-5008",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 5,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "초코퍼피애견미용실",
+    "location": "대구 남구 중앙대로22길 70",
+    "open_hours": "{'일': '정보없음', '월': '10:00 - 21:00', '화': '10:00 - 21:00', '수': '10:00 - 21:00', '목': '10:00 - 21:00', '금': '10:00 - 21:00', '토': '정보없음', '요일정보': '없음'}",
+    "phone_number": "053-475-0935",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 8,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "작은동물원",
+    "location": "대구 수성구 화랑로 90-1",
+    "open_hours": "{'일': '정보없음', '월': '10:00 - 21:00', '화': '10:00 - 21:00', '수': '10:00 - 21:00', '목': '10:00 - 21:00', '금': '10:00 - 21:00', '토': '정보없음', '요일정보': '없음'}",
+    "phone_number": "전화번호 없음",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 9,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "멍멍아야옹해",
+    "location": "대구 수성구 범어로20길 6",
+    "open_hours": {},
+    "phone_number": "053-746-0998",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 5,
+    "blog_review": 1,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "미미펫그루밍샵",
+    "location": "대구 수성구 파동로40길 22",
+    "open_hours": "{'매일': '10:00 - 22:00'}",
+    "phone_number": "010-2368-2725",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 4,
+    "blog_review": 4,
+    "website": "http://instagram.com/mimi_petgrooming"
+  },
+  {
+    "name": "또오개",
+    "location": "대구 달서구 새동네로 77-9",
+    "open_hours": "{'매일': '매일 10:00 - 19:00 탄력적휴무'}",
+    "phone_number": "010-5195-5456",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 5,
+    "blog_review": 1,
+    "website": "https://blog.naver.com/smth0110"
+  },
+  {
+    "name": "펫마트 애견미용",
+    "location": "대구 수성구 청수로 284 황금빌딩 펫마트내 애견미용",
+    "open_hours": "{'일': '10:00 - 22:00', '월': '09:00 - 22:00', '화': '09:00 - 22:00', '수': '09:00 - 22:00', '목': '09:00 - 22:00', '금': '09:00 - 22:00', '토': '09:00 - 22:00'}",
+    "phone_number": "053-767-3034",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 19,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "서재흰둥이네",
+    "location": "대구 달성군 다사읍 서재로30길 6-3",
+    "open_hours": "{'일': '10:00 - 22:00', '월': '09:00 - 22:00', '화': '09:00 - 22:00', '수': '09:00 - 22:00', '목': '09:00 - 22:00', '금': '09:00 - 22:00', '토': '09:00 - 22:00', '요일정보': '없음'}",
+    "phone_number": "070-8778-5405",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 4,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "사랑해애견샵",
+    "location": "대구 서구 당산로 263",
+    "open_hours": "{'매일': '10:00 - 20:00'}",
+    "phone_number": "053-565-1609",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 3,
+    "blog_review": 2,
+    "website": "http://ilovedog.modoo.at"
+  },
+  {
+    "name": "당당하개",
+    "location": "대구 남구 봉덕로 108-2 1층 당당하개",
+    "open_hours": {},
+    "phone_number": "0507-1334-1717",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 3,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "동일애견샵",
+    "location": "대구 수성구 수성로 71 상가A동 103호",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "010-5757-0466",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 11,
+    "blog_review": 108,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "더스마일독",
+    "location": "대구 수성구 수성로 35-1 1층",
+    "open_hours": "{'일': '정보없음', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1360-9012",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 0,
+    "website": "https://www.instagram.com/thesmiledog03"
+  },
+  {
+    "name": "몽블리펫샵",
+    "location": "대구 달서구 야외음악당로9길 66 몽블리펫샵",
+    "open_hours": "{'일': '정보없음', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '정보없음'}",
+    "phone_number": "0507-1328-1230",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "퍼피애견샵",
+    "location": "대구 수성구 지범로 79 1층 퍼피애견샵",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화': '10:00 - 18:00', '수': '10:00 - 18:00', '목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 18:00'}",
+    "phone_number": "053-782-7940",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 8,
+    "blog_review": 2,
+    "website": "https://blog.naver.com/kko_0225"
+  },
+  {
+    "name": "앞산강아지",
+    "location": "대구 남구 큰골5길 6 1층",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화': '10:00 - 18:00', '수': '10:00 - 18:00', '목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '정보없음'}",
+    "phone_number": "0507-1306-8135",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 10,
+    "blog_review": 13,
+    "website": "http://instagram.com/apsan_dog"
+  },
+  {
+    "name": "미지펫살롱",
+    "location": "대구 달성군 다사읍 대실역북로 70-1",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화': '10:00 - 18:00', '수': '10:00 - 18:00', '목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '정보없음', '요일정보': '없음'}",
+    "phone_number": "053-586-2531",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 7,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "베베시앙 애견미용",
+    "location": "대구 남구 봉덕로 93 1층 베베시앙",
+    "open_hours": {},
+    "phone_number": "010-2369-2135",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 5,
+    "blog_review": 9,
+    "website": "https://www.instagram.com/be_be_chien/"
+  },
+  {
+    "name": "애견시대",
+    "location": "대구 수성구 수성로 309",
+    "open_hours": "{'요일정보': '없음'}",
+    "phone_number": "053-764-2138",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 7,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "월드애견미용실",
+    "location": "대구 남구 삼정길 17 102호",
+    "open_hours": "{'매일': '09:00 - 19:00'}",
+    "phone_number": "0507-1488-1089",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 7,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "대명동강아지",
+    "location": "대구 남구 대명로22길 87 1층",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "070-7886-3757",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 2,
+    "website": "http://instagram.com/dm.puppy"
+  },
+  {
+    "name": "포펫츠",
+    "location": "대구 달서구 월배로93길 115 포펫츠",
+    "open_hours": "{'매일': '10:00 - 19:00'}",
+    "phone_number": "010-9352-8254",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 1,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "멍멍아놀자",
+    "location": "대구 남구 봉덕로9길 99",
+    "open_hours": "{'매일': '10:00 - 19:00', '요일정보': '없음'}",
+    "phone_number": "053-471-5061",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "빵댕이",
+    "location": "대구 달성군 논공읍 논공로15길 28 2호 빵댕이",
+    "open_hours": "{'일': '11:00 - 19:00', '월': '정기휴무 (매주 월요일)', '화': '11:00 - 19:00', '수': '11:00 - 19:00', '목': '11:00 - 19:00', '금': '11:00 - 19:00', '토': '11:00 - 19:00'}",
+    "phone_number": "0507-1406-7905",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 4,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "퍼블펫",
+    "location": "대구 달성군 화원읍 화암로 65 1층 103호",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '정보없음'}",
+    "phone_number": "010-3915-6228",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 4,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "레이,스타일",
+    "location": "대구 서구 평리로 350-1 그린빌 1층 레이스타일",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '정보없음', '요일정보': '없음'}",
+    "phone_number": "0507-1359-5254",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "안젤라화이트말티즈",
+    "location": "대구 남구 이천로 15",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '정보없음', '요일정보': '없음'}",
+    "phone_number": "053-472-3311",
+    "rating": 4.54,
+    "visitor_review": 13,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "멍멍아 야옹해봐",
+    "location": "대구 남구 대경길 202",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '정보없음', '요일정보': '없음'}",
+    "phone_number": "053-473-3974",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 13,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "똥강지",
+    "location": "대구 동구 동부로 13-1 구두수선대10",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '정보없음', '요일정보': '없음'}",
+    "phone_number": "전화번호 없음",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 9,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "복이네애견미용",
+    "location": "대구 달서구 월배로32안길 35 동백맨션상가동 110호",
+    "open_hours": "{'매일': '10:00 - 19:00'}",
+    "phone_number": "0507-1474-9880",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 9,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "홀리몰리펫살롱",
+    "location": "대구 남구 현충로6길 9-10 Holy Moly Cafe & Pet Salon",
+    "open_hours": "{'일': '12:00 - 21:00', '월': '정기휴무 (매주 월요일)', '화': '12:00 - 21:00', '수': '12:00 - 21:00', '목': '12:00 - 21:00', '금': '12:00 - 21:00', '토': '12:00 - 21:00'}",
+    "phone_number": "0507-1347-3621",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 7,
+    "blog_review": 0,
+    "website": "http://instagram.com/holy_moly_daegu"
+  },
+  {
+    "name": "ILOVEDOGS",
+    "location": "대구 서구 서대구로15길 35 신세계아파트",
+    "open_hours": "{'일': '12:00 - 21:00', '월': '정기휴무 (매주 월요일)', '화': '12:00 - 21:00', '수': '12:00 - 21:00', '목': '12:00 - 21:00', '금': '12:00 - 21:00', '토': '12:00 - 21:00', '요일정보': '없음'}",
+    "phone_number": "전화번호 없음",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "오피스스토리환희",
+    "location": "대구 동구 메디밸리로 5-6",
+    "open_hours": "{'일': '12:00 - 21:00', '월': '정기휴무 (매주 월요일)', '화': '12:00 - 21:00', '수': '12:00 - 21:00', '목': '12:00 - 21:00', '금': '12:00 - 21:00', '토': '12:00 - 21:00', '요일정보': '없음'}",
+    "phone_number": "053-965-5668",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "다올이네도담이네",
+    "location": "대구 서구 큰장로15길 9",
+    "open_hours": "{'일': '정보없음', '월': '00:00 - 24:00', '화': '00:00 - 24:00', '수': '00:00 - 24:00', '목': '00:00 - 24:00', '금': '00:00 - 24:00', '토': '정보없음'}",
+    "phone_number": "0507-1321-4507",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "애견 왕국",
+    "location": "대구 달서구 감삼북길 161",
+    "open_hours": "{'일': '정보없음', '월': '00:00 - 24:00', '화': '00:00 - 24:00', '수': '00:00 - 24:00', '목': '00:00 - 24:00', '금': '00:00 - 24:00', '토': '정보없음', '요일정보': '없음'}",
+    "phone_number": "053-523-1232",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "구피애견",
+    "location": "대구 서구 서대구로8길 49 내당보성홍실아파트",
+    "open_hours": "{'일': '정보없음', '월': '00:00 - 24:00', '화': '00:00 - 24:00', '수': '00:00 - 24:00', '목': '00:00 - 24:00', '금': '00:00 - 24:00', '토': '정보없음', '요일정보': '없음'}",
+    "phone_number": "053-522-1013",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 0,
+    "website": "https://blog.naver.com/clover0219"
+  },
+  {
+    "name": "와프펫살롱",
+    "location": "대구 달서구 선원로 93 . 와프펫살롱 1층 가운데",
+    "open_hours": "{'일': '정보없음', '월': '00:00 - 24:00', '화': '00:00 - 24:00', '수': '00:00 - 24:00', '목': '00:00 - 24:00', '금': '00:00 - 24:00', '토': '정보없음', '요일정보': '없음'}",
+    "phone_number": "0507-1327-8346",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 1,
+    "blog_review": 0,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "라온캣독 고양이 강아지 대구점",
+    "location": "대구 수성구 달구벌대로 2561",
+    "open_hours": "{'매일': '00:00 - 24:00'}",
+    "phone_number": "010-7389-3028",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 54,
+    "blog_review": 59,
+    "website": "https://blog.naver.com/raon_daegu"
+  },
+  {
+    "name": "디케어텔",
+    "location": "대구 수성구 들안로32길 86",
+    "open_hours": "{'매일': '10:00 - 19:00'}",
+    "phone_number": "010-3055-7070",
+    "rating": 4.87,
+    "visitor_review": 84,
+    "blog_review": 17,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "캣앤독버블&개미용실",
+    "location": "대구 북구 산격로11길 24",
+    "open_hours": "{'일': '11:00 - 21:00', '월': '11:00 - 21:00', '화': '11:00 - 21:00', '수': '정기휴무 (매주 수요일)', '목': '11:00 - 21:00', '금': '11:00 - 21:00', '토': '11:00 - 21:00'}",
+    "phone_number": "010-7549-3369",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 10,
+    "blog_review": 23,
+    "website": "http://pf.kakao.com/_qxaTxeb"
+  },
+  {
+    "name": "포멀독 반려견센터",
+    "location": "대구 달성군 다사읍 죽곡1길 13-3 301호",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '08:00 - 19:00', '화': '08:00 - 19:00', '수': '08:00 - 19:00', '목': '08:00 - 19:00', '금': '08:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1356-7725",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 4,
+    "website": "https://formaldog.modoo.at"
+  },
+  {
+    "name": "마이핫독",
+    "location": "대구 남구 대명로57길 5 2층",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '08:30 - 19:00', '화': '08:30 - 19:00', '수': '08:30 - 19:00', '목': '08:30 - 19:00', '금': '08:30 - 19:00', '토': '11:00 - 18:00'}",
+    "phone_number": "0507-1444-8867",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 93,
+    "website": "http://smartstore.naver.com/myhotdog"
+  },
+  {
+    "name": "욜로펫",
+    "location": "대구 동구 반야월북로 140 201호",
+    "open_hours": "{'매일': '07:00 - 22:00'}",
+    "phone_number": "0507-1337-7692",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 2,
+    "blog_review": 93,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "이모네애견호텔놀이방",
+    "location": "대구 수성구 청호로 435-4",
+    "open_hours": "{'매일': '08:00 - 19:00'}",
+    "phone_number": "0507-1374-4746",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 25,
+    "blog_review": 6,
+    "website": "https://www.instagram.com/e.mone_24"
+  },
+  {
+    "name": "피터펫 대구혁신도시점",
+    "location": "대구 동구 메디밸리로 5-6",
+    "open_hours": "{'매일': '09:00 - 21:00'}",
+    "phone_number": "053-965-5668",
+    "rating": 4.72,
+    "visitor_review": 18,
+    "blog_review": 78,
+    "website": "http://peterpetcafe.com"
+  },
+  {
+    "name": "알로몽",
+    "location": "대구 수성구 무학로21길 109 2층",
+    "open_hours": "{'일': '09:00 - 20:00', '월': '08:00 - 20:00', '화': '08:00 - 20:00', '수': '08:00 - 20:00', '목': '08:00 - 20:00', '금': '08:00 - 20:00', '토': '09:00 - 20:00'}",
+    "phone_number": "0507-1498-7556",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 14,
+    "blog_review": 10,
+    "website": "https://blog.naver.com/alomong"
+  },
+  {
+    "name": "밀크숑애견샵",
+    "location": "대구 달성군 다사읍 죽곡1길 9",
+    "open_hours": "{'일': '10:30 - 19:00', '월': '10:30 - 19:00', '화': '10:30 - 19:00', '수': '10:30 - 19:00', '목': '10:30 - 19:00', '금': '10:30 - 19:00', '토': '10:30 - 19:00'}",
+    "phone_number": "0507-1311-7875",
+    "rating": 4.91,
+    "visitor_review": 22,
+    "blog_review": 25,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "독스호텔리어",
+    "location": "대구 남구 중앙대로 174-1 1층 독스호텔리어",
+    "open_hours": "{'일': '10:30 - 19:00', '월': '10:30 - 19:00', '화': '10:30 - 19:00', '수': '10:30 - 19:00', '목': '10:30 - 19:00', '금': '10:30 - 19:00', '토': '10:30 - 19:00', '매일': '매일 10:00 - 20:00 연중무휴👍'}",
+    "phone_number": "0507-1440-8044",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 12,
+    "blog_review": 30,
+    "website": "https://blog.naver.com/vovae2011"
+  },
+  {
+    "name": "핸즈퍼피",
+    "location": "대구 수성구 알파시티2로12길 8-14 핸즈퍼피",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "0507-1387-5390",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 3,
+    "blog_review": 0,
+    "website": "https://www.instagram.com/HANDSPUPPY"
+  },
+  {
+    "name": "더펫샵 불로점",
+    "location": "대구 동구 팔공로 104",
+    "open_hours": "{'매일': '10:00 - 22:00'}",
+    "phone_number": "0507-1303-6793",
+    "rating": 4.29,
+    "visitor_review": 134,
+    "blog_review": 5,
+    "website": "http://www.mungdori.co.kr"
+  },
+  {
+    "name": "펫샵아리",
+    "location": "대구 서구 북비산로60길 8-1",
+    "open_hours": "{'매일': '11:00 - 22:00'}",
+    "phone_number": "010-2529-5135",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 134,
+    "blog_review": 5,
+    "website": "https://www.instagram.com/ari__house"
+  },
+  {
+    "name": "tete hair",
+    "location": "대구 동구 동부로30길 61-11 1층",
+    "open_hours": "{'일': '10:00 - 20:00', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '정기휴무 (매주 수요일)', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "0507-1428-2281",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 147,
+    "blog_review": 12,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "프릭",
+    "location": "대구 중구 동덕로30길 139-38 1층 freak hair",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "010-2924-6644",
+    "rating": "별점이 없습니다.",
+    "visitor_review": 76,
+    "blog_review": 4,
+    "website": "https://www.instagram.com/_freakhair"
+  },
+  {
+    "name": "쿨펫동물병원",
+    "location": "대구 동구 안심로 80 롯데쇼핑프라자",
+    "open_hours": "{'일': '10:00 - 19:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00'}",
+    "phone_number": "0507-1405-2754",
+    "rating": 4.74,
+    "visitor_review": 103,
+    "blog_review": 4,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  },
+  {
+    "name": "연경동물병원",
+    "location": "대구 북구 동화천로 241 연경그랜드타워 204호",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '09:00 - 19:00\\n13:00 - 14:00 휴게시간', '화': '09:00 - 19:00\\n13:00 - 14:00 휴게시간', '수': '09:00 - 19:00\\n13:00 - 14:00 휴게시간', '목': '09:00 - 19:00\\n13:00 - 14:00 휴게시간', '금': '09:00 - 19:00\\n13:00 - 14:00 휴게시간', '토': '09:00 - 18:00'}",
+    "phone_number": "053-985-7550",
+    "rating": 4.58,
+    "visitor_review": 89,
+    "blog_review": 12,
+    "website": "https://blog.naver.com/yeongamc"
+  },
+  {
+    "name": "살롱드미호",
+    "location": "대구 달서구 진천로 75-3 102호 살롱드미호",
+    "open_hours": "{'일': '10:00 - 20:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00'}",
+    "phone_number": "0507-1344-1544",
+    "rating": 4.99,
+    "visitor_review": 188,
+    "blog_review": 0,
+    "website": "https://www.instagram.com/yeeun.1544/"
+  },
+  {
+    "name": "25시종합동물병원",
+    "location": "대구 달서구 월배로 330-1",
+    "open_hours": "{'일': '정기휴무 (매주 일요일)', '월': '09:00 - 19:00\\n12:30 - 13:30 휴게시간', '화': '09:00 - 19:00\\n12:30 - 13:30 휴게시간', '수': '09:00 - 19:00\\n12:30 - 13:30 휴게시간', '목': '13:30 - 19:00', '금': '09:00 - 19:00\\n12:30 - 13:30 휴게시간', '토': '09:00 - 18:00\\n12:00 - 13:00 휴게시간'}",
+    "phone_number": "053-651-1101",
+    "rating": 4.47,
+    "visitor_review": 194,
+    "blog_review": 2,
+    "website": "블로그 / 인스타그램 준비중입니다."
+  }
+]

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+    <title>간단한 지도 표시하기</title>
+
+    <!-- Naver Map API [ Web Dinamic & Geocoding ]-->
+    <script type="text/javascript"
+            src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=zo6ogrtxyl"></script>
+
+</head>
+
+<body>
+<!-- 맵 표시 -->
+<div id="map" style="width:100%;height:400px;"></div>
+
+
+
+
+<script>
+    // 현재 위치를 중심으로 파악
+    var map = new naver.maps.Map('map', {
+        center: new naver.maps.LatLng(37.3595704, 127.105399),
+        zoom: 16
+    });
+
+    // 마커를 담을 배열 생성
+    var markers = [];
+
+    // 정보창을 담을 배열 생성
+    var infowindows = [];
+
+    // 데이터베이스의 모든 가게들의 마커를 찍음
+    {% for store in stores %}
+        var marker = new naver.maps.LatLng({{ store.longitude }}, {{ store.latitude }});
+        markers.push(new naver.maps.Marker({
+            map: map,
+            position: marker
+        }));
+
+        infowindows.push(new naver.maps.InfoWindow({
+            content: [
+                '<div class="iw_inner">',
+                '<h3>{{ store.name }}</h3>',
+                '</div>'
+            ].join('')
+        }));
+
+    {% endfor %}
+
+    // Click 시, Listner를 만듦.. 이것을 새로운 창을 띄우게 해보자!!
+    for(let i=0; i<markers.length; i++){
+        naver.maps.Event.addListener(markers[i], "click", function(e) {
+            if (infowindows[i].getMap()) {
+                infowindows[i].close();
+            } else {
+                infowindows[i].open(map, markers[i]);
+            }
+        });
+    }
+
+    infowindows[0].open(map, markers[0]);
+
+</script>
+
+
+
+</body>
+</html>
