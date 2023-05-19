@@ -1,73 +1,300 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>지도에 사용자 컨트롤 올리기</title>
+    {% load static %}
+    <script src="{% static 'javascript/storemap/storemap.js' %}"></script>
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
 
-    <title>간단한 지도 표시하기</title>
+        .map_wrap {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            height: 350px;
+        }
 
-    <!-- Naver Map API [ Web Dinamic & Geocoding ]-->
-    <script type="text/javascript"
-            src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=zo6ogrtxyl"></script>
+        .radius_border {
+            border: 1px solid #919191;
+            border-radius: 5px;
+        }
 
+        .custom_gpscontrol {
+            position: absolute;
+            bottom: 30px;
+            left: 10px;
+            overflow: hidden;
+            width: 50px;
+            height: 50px;
+            margin: 0;
+            padding: 0;
+            z-index: 1;
+            font-size: 12px;
+            font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .custom_gpscontrol .btn {
+            border: none;
+            width: 50px;
+            height: 50px;
+            background: #fff;
+            background: linear-gradient(#fff, #e6e6e6);
+        }
+
+        .custom_gpscontrol .btn:hover {
+            background: #f5f5f5;
+            background: linear-gradient(#f5f5f5, #e3e3e3);
+        }
+
+        .custom_gpscontrol .btn:active {
+            background: #e6e6e6;
+            background: linear-gradient(#e6e6e6, #fff);
+        }
+
+        .custom_typecontrol {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            overflow: hidden;
+            width: 130px;
+            height: 30px;
+            margin: 0;
+            padding: 0;
+            z-index: 1;
+            font-size: 12px;
+            font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+        }
+
+        .custom_typecontrol span {
+            display: block;
+            width: 65px;
+            height: 30px;
+            float: left;
+            text-align: center;
+            line-height: 30px;
+            cursor: pointer;
+        }
+
+        .custom_typecontrol .btn {
+            background: #fff;
+            background: linear-gradient(#fff, #e6e6e6);
+        }
+
+        .custom_typecontrol .btn:hover {
+            background: #f5f5f5;
+            background: linear-gradient(#f5f5f5, #e3e3e3);
+        }
+
+        .custom_typecontrol .btn:active {
+            background: #e6e6e6;
+            background: linear-gradient(#e6e6e6, #fff);
+        }
+
+        .custom_typecontrol .selected_btn {
+            color: #fff;
+            background: #425470;
+            background: linear-gradient(#425470, #5b6d8a);
+        }
+
+        .custom_typecontrol .selected_btn:hover {
+            color: #fff;
+        }
+
+        .custom_zoomcontrol {
+            position: absolute;
+            top: 60px;
+            right: 10px;
+            width: 36px;
+            height: 80px;
+            overflow: hidden;
+            z-index: 1;
+            background-color: #f5f5f5;
+        }
+
+        .custom_zoomcontrol span {
+            display: block;
+            width: 36px;
+            height: 40px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .custom_zoomcontrol span img {
+            width: 15px;
+            height: 15px;
+            padding: 12px 0;
+            border: none;
+        }
+
+        .custom_zoomcontrol span:first-child {
+            border-bottom: 1px solid #bfbfbf;
+        }
+
+        .customoverlay {
+            position: relative;
+            bottom: 20px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            border-bottom: 2px solid #ddd;
+            float: left;
+        }
+
+        .customoverlay:nth-of-type(n) {
+            border: 0;
+            box-shadow: 0px 1px 2px #888;
+        }
+
+        .customoverlay a {
+            display: block;
+            text-decoration: none;
+            color: #000;
+            text-align: center;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: bold;
+            overflow: hidden;
+            background: #976B5B url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/arrow_white.png) no-repeat right 14px center;
+        }
+
+        .customoverlay .title {
+            display: block;
+            text-align: center;
+            background: #FAEBD7;
+            margin-right: 35px;
+            padding: 10px 15px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .customoverlay:after {
+            content: '';
+            position: absolute;
+            margin-left: -12px;
+            left: 50%;
+            bottom: -12px;
+            width: 22px;
+            height: 12px;
+            background: url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')
+        }
+
+
+    </style>
 </head>
-
 <body>
-<!-- 맵 표시 -->
-<div id="map" style="width:100%;height:400px;"></div>
 
-
-
+<p>
+    <button onclick="goToMain()">메인화면</button>
+</p>
 
 <script>
-    // 현재 위치를 중심으로 파악
-    var map = new naver.maps.Map('map', {
-        center: new naver.maps.LatLng(37.3595704, 127.105399),
-        zoom: 16
-    });
-
-    // 마커를 담을 배열 생성
-    var markers = [];
-
-    // 정보창을 담을 배열 생성
-    var infowindows = [];
-
-    // 데이터베이스의 모든 가게들의 마커를 찍음
-    {% for store in stores %}
-        var marker = new naver.maps.LatLng({{ store.longitude }}, {{ store.latitude }});
-        markers.push(new naver.maps.Marker({
-            map: map,
-            position: marker
-        }));
-
-        infowindows.push(new naver.maps.InfoWindow({
-            content: [
-                '<div class="iw_inner">',
-                '<h3>{{ store.name }}</h3>',
-                '</div>'
-            ].join('')
-        }));
-
-    {% endfor %}
-
-    // Click 시, Listner를 만듦.. 이것을 새로운 창을 띄우게 해보자!!
-    for(let i=0; i<markers.length; i++){
-        naver.maps.Event.addListener(markers[i], "click", function(e) {
-            if (infowindows[i].getMap()) {
-                infowindows[i].close();
-            } else {
-                infowindows[i].open(map, markers[i]);
-            }
-        });
+    function goToMain() {
+        window.location.href = "/main";
     }
-
-    infowindows[0].open(map, markers[0]);
-
 </script>
 
+<div class="map_wrap">
+    <div id="map" style="width:100%;height:100%;position:relative;overflow:hidden;"></div>
+
+    <div class="custom_gpscontrol radius_border">
+        <button class="btn" onclick="getCurrentLocation()">현재위치</button>
+
+    </div>
+
+    <!-- 지도타입 컨트롤 div 입니다 -->
+    <div class="custom_typecontrol radius_border">
+        <span id="btnRoadmap" class="selected_btn" onclick="setMapType('roadmap')">지도</span>
+        <span id="btnSkyview" class="btn" onclick="setMapType('skyview')">스카이뷰</span>
+    </div>
+    <!-- 지도 확대, 축소 컨트롤 div 입니다 -->
+    <div class="custom_zoomcontrol radius_border">
+        <span onclick="zoomIn()"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_plus.png"
+                                      alt="확대"></span>
+        <span onclick="zoomOut()"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_minus.png"
+                                       alt="축소"></span>
+    </div>
+</div>
 
 
+<!-- KAKAO MAP API -->
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=3846fc8bc0b20dc19cf0e95eaf93840c"></script>
+
+<script>
+
+    getCurrentLocation()
+
+    var mapContainer = document.getElementById('map'), // 지도를 표시할 div
+        mapOption = {
+            center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
+            level: 5 // 지도의 확대 레벨
+        };
+
+    var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
+    var positions = []  // 미용실 위치 담는 배열
+
+    {% for store in stores %}
+        positions.push({
+            title: '{{ store.name }}',
+            location: '{{ store.location }}',
+            open_hours: '{{ store.open_hours }}',
+            phone: '{{ store.phone_number }}',
+            rating: '{{ store.rating }}',
+            visitor_review: '{{ store.visitor_review }}',
+            blog_review: '{{ store.blog_review }}',
+            website: '{{ store.website }}',
+            latlng: new kakao.maps.LatLng({{ store.longitude }}, {{ store.latitude }}),
+
+        });
+    {% endfor %}
+
+    var imageSrc = "https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png";
+
+    for (var i = 0; i < positions.length; i++) {
+
+        // 마커 이미지의 이미지 크기 입니다
+        var imageSize = new kakao.maps.Size(24, 35);
+
+        // 마커 이미지를 생성합니다
+        var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize);
+
+        // 마커를 생성합니다
+        var marker = new kakao.maps.Marker({
+            map: map, // 마커를 표시할 지도
+            position: positions[i].latlng, // 마커를 표시할 위치
+            title: positions[i].title, // 마커의 타이틀, 마커에 마우스를 올리면 타이틀이 표시됩니다
+            image: markerImage // 마커 이미지
+        });
+
+        var content = '<div class="customoverlay">' +
+            '  <a href="/storemap/details?title=' + encodeURIComponent(positions[i].title) +
+            '&location=' + encodeURIComponent(positions[i].location) +
+            '&open_hours=' + encodeURIComponent(positions[i].open_hours) +
+            '&phone=' + encodeURIComponent(positions[i].phone) +
+            '&rating=' + encodeURIComponent(positions[i].rating) +
+            '&visitor_review=' + encodeURIComponent(positions[i].visitor_review) +
+            '&blog_review=' + encodeURIComponent(positions[i].blog_review) +
+            '&website=' + encodeURIComponent(positions[i].website) +
+            '" target="_blank">' +
+            '    <span class="title">' + positions[i].title + '</span>' +
+            '  </a>' +
+            '</div>';
+
+        var customOverlay = new kakao.maps.CustomOverlay({
+            map: map,
+            position: positions[i].latlng,
+            content: content,
+            yAnchor: 1
+        });
+
+    }
+
+</script>
 </body>
 </html>

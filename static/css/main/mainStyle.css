@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    position: fixed;
+    height: 60px;
+    left: 0;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    border-bottom: 2px solid #FAEBD7;
+}
+#dog {
+    position: relative;
+    float: right;
+    width: 300px;
+    height: 380px;
+    margin-top: 10px;
+    margin-right: 20%;
+    object-fit: fill;
+}
+#scissor {
+    position: relative;
+    padding-left: 23%;
+    padding-top: 15%;
+    width: 120px;
+    height: 120px;
+}
+#shop {
+    position: relative;
+    padding-left: 33%;
+    padding-top: 15%;
+    width: 80px;
+    height: 120px;
+}
+#board {
+    position: relative;
+    padding-left: 15%;
+    padding-top: 15%;
+    width: 170px;
+    height: 120px;
+}
+#walk {
+    position: relative;
+    padding-left: 25%;
+    padding-top: 15%;
+    width: 120px;
+    height: 120px;
+}
+#chatbot {
+    position: relative;
+    float: right;
+    margin-top: 50%;
+    width: 130px;
+    height: 130px;
+}
+.menu_btn {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: white;
+    float: left;
+}
+
+
+.join_btn {
+    position: relative;
+    height: 50px;
+    width: 70px;
+    margin-right: 10px;
+    margin-top: 5px;
+    float: right;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+.login_btn {
+    position: relative;
+    height: 50px;
+    width: 70px;
+    margin-right: 10px;
+    margin-top: 5px;
+    float: right;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+.logout_btn {
+    position: relative;
+    height: 50px;
+    width: 70px;
+    margin-right: 10px;
+    margin-top: 5px;
+    float: right;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+.mp_btn {
+    position: relative;
+    height: 50px;
+    width: 70px;
+    margin-right: 10px;
+    margin-top: 5px;
+    float: right;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+
+.container {
+    position: fixed;
+    margin-top: 60px;
+    width: 100%;
+    height: 400px;
+    background-color: #FAEBD7;
+}
+.title {
+    position: relative;
+    float: left;
+    width: 30%;
+    margin-top: 7%;
+    margin-left: 20%;
+    color: #976B5B;
+    font-size: 60px;
+    font-weight: bold;
+}
+.container2 {
+    position: fixed;
+    height: 618px;
+    margin-top: 460px;
+    width: 100%;
+}
+.menu{
+    float: left;
+    height: 100%;
+    width: 80%;
+}
+.box{
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+.content1{
+    position: fixed;
+    background-color: #976B5B;
+    width: 230px;
+    height: 230px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 55px;
+    border-radius: 10%;
+}
+.content2{
+    background-color: #F4C1A9;
+    width: 230px;
+    height: 230px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 55px;
+    border-radius: 10%;
+}
+.content3{
+    background-color: #976B5B;
+    width: 230px;
+    height: 230px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 55px;
+    border-radius: 10%;
+}
+.content4{
+    background-color: #F1EBE7;
+    width: 230px;
+    height: 230px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 55px;
+    border-radius: 10%;
+}
+.tag1 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 21px;
+    color: white;
+}
+.tag2 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 21px;
+    color: #976B5B;
+}
+.chat{
+    float: left;
+    height: 100%;
+    width: 20%;
+}

@@ -1,0 +1,87 @@
+#header {
+    position: fixed;
+    height: 60px;
+    left: 0;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    border-bottom: 2px solid #976B5B;
+}
+#email {
+    width: 350px;
+    height: 50px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid #D5D5D5;
+}
+#password {
+    width: 350px;
+    height: 50px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid #D5D5D5;
+}
+#login_button {
+    width: 350px;
+    height: 60px;
+    border-radius: 30px 30px 30px 30px;
+    border: 2px solid #976B5B;
+    color: white;
+    background-color: #976B5B;
+    font-weight: bold;
+    font-size: 17px;
+}
+.container {
+    position: fixed;
+    width: 400px;
+    margin-top: 50px;
+    top: 80px;
+    left: 530px;
+    text-align: center;
+}
+.login {
+    font-size: 50px;
+    color: #976B5B;
+}
+.menu_btn {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: white;
+    float: left;
+}
+.action_btn {
+    position: relative;
+    height: 50px;
+    width: 70px;
+    margin-right: 10px;
+    margin-top: 5px;
+    float: right;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+.signUp_btn {
+    color: #976B5B;
+    background-color: white;
+    float: right;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.line {
+    color: #D5D5D5;
+    float: right;
+    border: none;
+}
+.findId_btn {
+    color: #D5D5D5;
+    background-color: white;
+    float: right;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+}

@@ -4,48 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>회원가입 페이지</title>
+    <title>로그인 페이지</title>
 
-    <!--JQuery-->
+    {% load static %}
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'css/user/loginStyle.css' %}">
+
+    <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-
 </head>
 <body>
-    
-    <h1>로그인 페이지</h1>
+    <div id="header">
+        <button class="menu_btn">메뉴바</button>
+        <button class="action_btn"> My page</button>
+        <button class="action_btn"> Login</button>
+    </div>
 
-    <input type="text" id="email" name="email" placeholder="Email[ID]">
-    <input type="password" id="password" name="password" placeholder="Password">
-    <button id="login_button">Login</button>
-
+    <div class="container">
+        <h1 class="login">Login</h1>
+        <br><br>
+        <input type="text" id="email" name="email" placeholder="  아이디">
+        <br><br>
+        <input type="password" id="password" name="password" placeholder="  비밀번호">
+        <br><br>
+        <button class="signUp_btn">회원가입</button>
+        <div class="line">l</div>
+        <button class="findId_btn">아이디찾기</button>
+        <br><br>
+        <button id="login_button">로그인</button>
+    </div>
     <script>
-        $('#login_button').click(function (){
-            let email = $('#email').val();
-            let password = $('#password').val();
+        $('#login_button').click(function () {
+                let email = $('#email').val();
+                let password = $('#password').val();
 
-            $.ajax({
-                url: '/user/login/',
-                data: {
-                    email: email,
-                    password: password
-                },
-                method: 'POST',
-                dataType: 'json',
+                $.ajax({
+                    url: '/user/login/',
+                    data: {
+                        email: email,
+                        password: password
+                    },
+                    method: 'POST',
+                    dataType: 'json',
 
-                success: function(data){
-                    alert(data.message);
-                    location.replace('/main');
-                    
-                },
-                error:function (request, status, error){
-                    let data = JSON.parse(request.responseText);
-                    console.log(data.message);
-                    alert(data.message);
-            }
+                    success: function (data) {
+                        alert(data.message);
+                        location.replace('/main');
+
+                    },
+                    error: function (request, status, error) {
+                        let data = JSON.parse(request.responseText);
+                        console.log(data.message);
+                        alert(data.message);
+                    }
+                });
+
             });
-
+    </script>
+    <script>
+        document.getElementsByClassName('menu_btn')[0].addEventListener('click',function(){
+            window.location.href = '/main';
+        });
+        document.getElementsByClassName('action_btn')[0].addEventListener('click',function(){
+            window.location.href = '/mypage';
+        });
+        document.getElementsByClassName('signUp_btn')[0].addEventListener('click',function(){
+            window.location.href = '/user/join';
         });
     </script>
-
 </body>
 </html>

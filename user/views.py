@@ -1,11 +1,14 @@
 from django.contrib.auth.hashers import make_password, check_password
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from user.models import User
 import re
 
+def Logout(request):
+    request.session.flush()
+    return redirect('/main')
 
 class Login(APIView):
     def get(self, request):

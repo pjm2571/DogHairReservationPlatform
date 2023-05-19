@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Details Page</title>
+</head>
+<body>
+    <h1 id="title"></h1>
+    <p id="store_location"></p>
+    <p id="open-hours"></p>
+    <p id="phone"></p>
+    <p id="rating"></p>
+    <p id="visitor-review"></p>
+    <p id="blog-review"></p>
+    <p id="website"></p>
+
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+
+        const title = urlParams.get('title');
+        const store_location = urlParams.get('location');
+        const openHours = urlParams.get('open_hours');
+        const phone = urlParams.get('phone');
+        const rating = urlParams.get('rating');
+        const visitorReview = urlParams.get('visitor_review');
+        const blogReview = urlParams.get('blog_review');
+         const website = urlParams.get('website');
+
+        document.getElementById('title').innerText = "가게명 : " + title;
+        document.getElementById('store_location').innerText = "가게위치 : " + store_location;
+        document.getElementById('open-hours').innerText = openHours;
+        document.getElementById('phone').innerText = "가게 전화 : " + phone;
+        document.getElementById('rating').innerText = "가게 별점 : " + rating;
+        document.getElementById('visitor-review').innerText = "가게 방문자 리뷰 수 : " + visitorReview;
+        document.getElementById('blog-review').innerText = "가게 블로그 리뷰 수 : " + blogReview;
+        document.getElementById('website').innerText = "가게 포털 주소 : " + website;
+    </script>
+</body>
+</html>

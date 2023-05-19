@@ -1,15 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>메인화면</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인 페이지</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/main/mainStyle.css' %}">
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
 </head>
 <body>
-    <div>
-        {{ user.email }}
-        {{ user.nickname }}
-        {{ user.name }}
+
+
+<div id="header">
+    <button class="menu_btn">메뉴바</button>
+
+    {% if loginCheck %}
+        <button class="mp_btn"> My page</button>
+        <button class="logout_btn"> Logout</button>
+        <script>
+            document.getElementsByClassName('mp_btn')[0].addEventListener('click', function () {
+                window.location.href = 'mypage.html';
+            });
+            document.getElementsByClassName('logout_btn')[0].addEventListener('click', function () {
+                window.location.href = '/user/logout';
+            });
+        </script>
+    {% else %}
+        <button class="login_btn"> Login</button>
+        <button class="join_btn"> Join</button>
+        <script>
+            document.getElementsByClassName('login_btn')[0].addEventListener('click', function () {
+                window.location.href = '/user/login';
+            });
+            document.getElementsByClassName('join_btn')[0].addEventListener('click', function () {
+                window.location.href = '/user/join';
+            });
+        </script>
+    {% endif %}
+
+</div>
+<div style="clear: both;"></div>
+<div class="container">
+    <div class="title">My<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;똥강아지</div>
+    <img id="dog" src="{% static 'image/main/강아지.png' %}" alt="강아지">
+</div>
+
+<div style="clear: both;"></div>
+<div class="container2">
+    <div class="menu">
+        <div class="one box">
+            <div class="content1">
+                <img id="scissor" src="{% static 'image/main/가위.png' %}" alt="가위">
+                <h3 class="tag1">#스타일 추천</h3>
+            </div>
+        </div>
+        <div class="two box">
+            <div class="content2">
+                <img id="shop" src="{% static 'image/main/미용실.png' %}" alt="미용실">
+                <h3 class="tag2">#가까운 미용실</h3>
+            </div>
+        </div>
+        <div class="three box">
+            <div class="content3">
+                <img id="board" src="{% static 'image/main/게시판.png' %}" alt="게시판">
+                <h3 class="tag1">#게시판</h3>
+            </div>
+        </div>
+        <div class="four box">
+            <div class="content4">
+                <img id="walk" src="{% static 'image/main/산책.png' %}" alt="산책">
+                <h3 class="tag2">#산책지 추천</h3>
+            </div>
+        </div>
     </div>
-    <h1>메인화면입니다.</h1>
+    <div class="chat">
+        <img id="chatbot" src="{% static 'image/main/챗봇.png' %}" alt="챗봇">
+    </div>
+</div>
+<script>
+    document.getElementsByClassName('content1')[0].addEventListener('click', function () {
+        alert('아직 준비중!');
+    });
+    document.getElementsByClassName('content2')[0].addEventListener('click', function () {
+        window.location.href = '/storemap';
+    });
+    document.getElementsByClassName('content3')[0].addEventListener('click', function () {
+        window.location.href = '/boardlist';
+    });
+    document.getElementsByClassName('content4')[0].addEventListener('click', function () {
+        alert('아직 준비중!');
+    });
+
+
+</script>
 </body>
 </html>
