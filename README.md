@@ -7,6 +7,8 @@
 
 2) 1번을 누르면 GIT을 통해서 설치.. 복잡음
    2번을 누르면 자동으로 Project가 .zip 형태로 받아짐 .. 이게 좀 쉬운 듯!
+   ![image](https://github.com/pjm2571/DjangoProject/assets/97939207/ecee6bbb-56ae-46ba-b84e-cfbe0602d4e8)
+
   
 3) 알집파일을 압축 풀면 위와 같이 나옴
 ![image](https://github.com/pjm2571/DjangoProject/assets/97939207/12760725-ef90-4f5e-acb2-273c6260fcd1)
