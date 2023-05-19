@@ -5,22 +5,32 @@
 1) CODE 버튼 클릭
 ![image](https://github.com/pjm2571/DjangoProject/assets/97939207/07b212d1-17e9-4340-8782-144d4931f7bc)
 
+
+
 2) 1번을 누르면 GIT을 통해서 설치.. 복잡음
    2번을 누르면 자동으로 Project가 .zip 형태로 받아짐 .. 이게 좀 쉬운 듯!
    ![image](https://github.com/pjm2571/DjangoProject/assets/97939207/ecee6bbb-56ae-46ba-b84e-cfbe0602d4e8)
 
   
+  
+  
 3) 알집파일을 압축 풀면 위와 같이 나옴
 ![image](https://github.com/pjm2571/DjangoProject/assets/97939207/12760725-ef90-4f5e-acb2-273c6260fcd1)
 
+
+
 4) 파이참으로 실행법 
 - File - Open Folder - ![image](https://github.com/pjm2571/DjangoProject/assets/97939207/e3566c31-7fe3-4297-81f4-d01cd34f1819)
+
+
 
 
 하면 됨
 
 5) VSCODE 실행법
 - File - Open Folder - ![image](https://github.com/pjm2571/DjangoProject/assets/97939207/5eb72d21-9433-4068-9b4f-a913230abebb)
+
+
 
 
 
