@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "Nom" # Security
+openai.api_key = "None" # Security
 
 def chat_with_gpt(prompt,type):
     if type == 0:
