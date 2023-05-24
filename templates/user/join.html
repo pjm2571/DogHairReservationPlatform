@@ -13,7 +13,6 @@
 <body>
     <div id="header">
         <button class="menu_btn">메뉴바</button>
-        <button class="action_btn"> My page</button>
         <button class="action_btn"> Login</button>
     </div>
 
@@ -131,8 +130,9 @@
 
             });
         document.getElementsByClassName('menu_btn')[0].addEventListener('click',function(){
-            window.location.href = '/main';
+            window.location.href = '/';
         });
+        
         document.getElementsByClassName('action_btn')[1].addEventListener('click',function(){
             window.location.href = '/user/login';
         });

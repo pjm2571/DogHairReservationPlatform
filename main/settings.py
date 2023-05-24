@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'freeboard',    # Board App 4   -> 자유 게시판
 
     'storemap',     # 반려동물 미용실 맵
+    'gptjango',     # GPT-3 챗봇
 
 ]
 

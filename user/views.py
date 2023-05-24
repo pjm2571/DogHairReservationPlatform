@@ -8,7 +8,7 @@ import re
 
 def Logout(request):
     request.session.flush()
-    return redirect('/main')
+    return redirect('/')
 
 class Login(APIView):
     def get(self, request):
