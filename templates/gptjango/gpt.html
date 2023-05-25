@@ -25,9 +25,9 @@
     <nav class="ani-navbar">
         <h4 id>Menu</h4>
         <p id="board_bar" class="nav_bar_btn">게시판</p>
-        <p id="map_bar" class="nav_bar_btn">가까운 미용실</p>
+        <p id="storemap_bar" class="nav_bar_btn">가까운 미용실</p>
         <p id="chatbot_bar" class="nav_bar_btn">왜 아플까?</p>
-        <p id="park_bar" class="nav_bar_btn">산책 경로 추천</p>
+        <p id="parkmap_bar" class="nav_bar_btn">산책 경로 추천</p>
         <p id="style_bar" class="nav_bar_btn">스타일 추천</p>
         <p style="margin-top:50px"><i class="fa-solid fa-dog fa-2xl"> </i></p>
     </nav>
@@ -81,12 +81,11 @@
         document.getElementById('board_bar').addEventListener('click', function () {
             window.location.href = '/boardlist';
         });
-        document.getElementById('map_bar').addEventListener('click', function () {
+        document.getElementById('storemap_bar').addEventListener('click', function () {
             window.location.href = '/storemap';
         });
-        document.getElementById('park_bar').addEventListener('click', function () {
-            //window.location.href = '/park';
-            alert('아직 준비중!')
+        document.getElementById('parkmap_bar').addEventListener('click', function () {
+            window.location.href = '/parkmap';
         });
         document.getElementById('chatbot_bar').addEventListener('click', function () {
             window.location.href = '/chatgpt';

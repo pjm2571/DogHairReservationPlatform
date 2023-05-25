@@ -2,10 +2,10 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>가까운 미용실 리스트</title>
+    <title>공원 맵 리스트</title>
     {% load static %}
-    <script src="{% static 'javascript/storemap/storemap.js' %}"></script>
-    <link rel="stylesheet" href="{% static 'css/storemap/storemap.css' %}">
+    <script src="{% static 'javascript/parkmap/parkmap.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/parkmap/parkmap.css' %}">
 </head>
 <body>
 
@@ -59,18 +59,11 @@
 
     var positions = []  // 미용실 위치 담는 배열
 
-    {% for store in stores %}
+    {% for park in parks %}
         positions.push({
-            title: '{{ store.name }}',
-            location: '{{ store.location }}',
-            open_hours: '{{ store.open_hours }}',
-            phone: '{{ store.phone_number }}',
-            rating: '{{ store.rating }}',
-            visitor_review: '{{ store.visitor_review }}',
-            blog_review: '{{ store.blog_review }}',
-            website: '{{ store.website }}',
-            latlng: new kakao.maps.LatLng({{ store.longitude }}, {{ store.latitude }}),
-
+            title: '{{ park.title }}',
+            location: '{{ park.location }}',
+            latlng: new kakao.maps.LatLng({{ park.longitude }}, {{ park.latitude }})
         });
     {% endfor %}
 
@@ -93,14 +86,8 @@
         });
 
         var content = '<div class="customoverlay">' +
-            '  <a href="/storemap/details?title=' + encodeURIComponent(positions[i].title) +
+            '  <a href="/parkmap/details?title=' + encodeURIComponent(positions[i].title) +
             '&location=' + encodeURIComponent(positions[i].location) +
-            '&open_hours=' + encodeURIComponent(positions[i].open_hours) +
-            '&phone=' + encodeURIComponent(positions[i].phone) +
-            '&rating=' + encodeURIComponent(positions[i].rating) +
-            '&visitor_review=' + encodeURIComponent(positions[i].visitor_review) +
-            '&blog_review=' + encodeURIComponent(positions[i].blog_review) +
-            '&website=' + encodeURIComponent(positions[i].website) +
             '" target="_blank">' +
             '    <span class="title">' + positions[i].title + '</span>' +
             '  </a>' +

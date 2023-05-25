@@ -1,0 +1,2162 @@
+[
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "이곡장미공원",
+      "location": "대구 달서구 이곡동 1306-6",
+      "latitude": "128.5147865",
+      "longitude": "35.8580821"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "옥연지 송해공원",
+      "location": "대구 달성군 옥포읍 기세리 306",
+      "latitude": "128.4802814",
+      "longitude": "35.7803313"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "이현공원",
+      "location": "대구 서구 이현동 산119",
+      "latitude": "128.5444456",
+      "longitude": "35.8732682"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "침산공원",
+      "location": "대구 북구 침산동 1344-1",
+      "latitude": "128.5858453",
+      "longitude": "35.8951936"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "수성못상화동산",
+      "location": "대구 수성구 무학로 112",
+      "latitude": "128.6206329",
+      "longitude": "35.8294651"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "달성노을공원",
+      "location": "대구 달성군 논공읍 하리 899",
+      "latitude": "128.4151389",
+      "longitude": "35.7368296"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "서구그린웨이장미원",
+      "location": "대구 서구 중리동",
+      "latitude": "128.5390125",
+      "longitude": "35.8629154"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "꽃보라동산",
+      "location": "대구 북구 산격동 1384-1",
+      "latitude": "128.6008175",
+      "longitude": "35.8893883"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "앞산빨래터공원",
+      "location": "대구 남구 대명동 1501-2",
+      "latitude": "128.5654998",
+      "longitude": "35.8321648"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "중앙공원",
+      "location": "대구 동구 동내로 117",
+      "latitude": "128.7341245",
+      "longitude": "35.8809521"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "함지근린공원",
+      "location": "대구 북구 동암로38길 12",
+      "latitude": "128.5694045",
+      "longitude": "35.9425355"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "화랑공원",
+      "location": "대구 수성구 만촌로 151",
+      "latitude": "128.6391377",
+      "longitude": "35.8720796"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "앞산공원",
+      "location": "대구 남구 앞산순환로 574-116",
+      "latitude": "128.5854831",
+      "longitude": "35.8224831"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "한샘청동공원",
+      "location": "대구 달서구 대천동 353-5",
+      "latitude": "128.5186661",
+      "longitude": "35.8195900"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "학산공원",
+      "location": "대구 달서구 월성동 산10-1",
+      "latitude": "128.5383158",
+      "longitude": "35.8281164"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "선원공원",
+      "location": "대구 달서구 선원로 203",
+      "latitude": "128.5150347",
+      "longitude": "35.8594920"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "불로동고분공원",
+      "location": "대구 동구 불로동 산5",
+      "latitude": "128.6476256",
+      "longitude": "35.9139593"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "선돌공원",
+      "location": "대구 달서구 월암동 431",
+      "latitude": "128.5165364",
+      "longitude": "35.8233366"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "호산공원",
+      "location": "대구 달서구 달서대로109길 70",
+      "latitude": "128.4839308",
+      "longitude": "35.8489839"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "야시골공원",
+      "location": "대구 수성구 범어동 산24-1",
+      "latitude": "128.6328905",
+      "longitude": "35.8643661"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "배실웨딩공원",
+      "location": "대구 달서구 선원로23길 68",
+      "latitude": "128.5048901",
+      "longitude": "35.8627894"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "와룡윗공원",
+      "location": "대구 달서구 선원남로 5",
+      "latitude": "128.5006982",
+      "longitude": "35.8582513"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "한강공원",
+      "location": "대구 북구 사수동 810",
+      "latitude": "128.5132337",
+      "longitude": "35.8992369"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "연암공원",
+      "location": "대구 북구 산격동 산80-2",
+      "latitude": "128.6003213",
+      "longitude": "35.9002426"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "대구어린이대공원",
+      "location": "대구 수성구 동대구로 176",
+      "latitude": "128.6277750",
+      "longitude": "35.8466821"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "신암공원",
+      "location": "대구 동구 신암동 664-18",
+      "latitude": "128.6236764",
+      "longitude": "35.8896573"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "각산비나리공원",
+      "location": "대구 동구 각산동 1064",
+      "latitude": "128.7153829",
+      "longitude": "35.8795556"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "상리공원",
+      "location": "대구 서구 중리동 산198-3",
+      "latitude": "128.5304834",
+      "longitude": "35.8631997"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "옻골동산",
+      "location": "대구 북구 구암동 산3-1",
+      "latitude": "128.5771597",
+      "longitude": "35.9433709"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "팔공산분수대광장",
+      "location": "대구 동구 용수동 27-5",
+      "latitude": "128.6970659",
+      "longitude": "35.9895272"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "범어공원",
+      "location": "대구 수성구 황금동 산15",
+      "latitude": "128.6326353",
+      "longitude": "35.8482484"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "그린웨이",
+      "location": "대구 서구 당산로 343",
+      "latitude": "128.5461141",
+      "longitude": "35.8669758"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "선사유적공원",
+      "location": "대구 달서구 진천동 470-38",
+      "latitude": "128.5218936",
+      "longitude": "35.8100003"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "월성공원",
+      "location": "대구 달서구 월성동 280-1",
+      "latitude": "128.5325919",
+      "longitude": "35.8305659"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "두류공원인물동산",
+      "location": "대구 달서구 두류동 585-12",
+      "latitude": "128.5594975",
+      "longitude": "35.8501054"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "장기공원",
+      "location": "대구 달서구 장기동 산13-1",
+      "latitude": "128.5196217",
+      "longitude": "35.8448217"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "들샘공원",
+      "location": "대구 북구 동북로 229",
+      "latitude": "128.6169086",
+      "longitude": "35.8965047"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "송현공원",
+      "location": "대구 달서구 송현동 산106-21",
+      "latitude": "128.5564982",
+      "longitude": "35.8327453"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "반계근린공원",
+      "location": "대구 동구 율하동 1416",
+      "latitude": "128.6953633",
+      "longitude": "35.8624851"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "노변공원",
+      "location": "대구 수성구 노변공원로7길 11-11",
+      "latitude": "128.6993761",
+      "longitude": "35.8387734"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "복현장미공원",
+      "location": "대구 북구 경진로남1길 40",
+      "latitude": "128.6173123",
+      "longitude": "35.8933676"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "대불공원",
+      "location": "대구 북구 산격동 산4",
+      "latitude": "128.6156260",
+      "longitude": "35.9039391"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "신매공원",
+      "location": "대구 수성구 달구벌대로650길 67",
+      "latitude": "128.7089321",
+      "longitude": "35.8327112"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "서원연경공원",
+      "location": "대구 동구 동화천로70길 40",
+      "latitude": "128.6300239",
+      "longitude": "35.9419265"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "월배공원",
+      "location": "대구 달서구 상원로 32",
+      "latitude": "128.5367577",
+      "longitude": "35.8128381"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "연경공원",
+      "location": "대구 북구 동화천로55길 25",
+      "latitude": "128.6235195",
+      "longitude": "35.9440104"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "구암공원",
+      "location": "대구 북구 구암로32길 35",
+      "latitude": "128.5570852",
+      "longitude": "35.9285562"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "장미공원",
+      "location": "대구 달서구 진천동 780-1",
+      "latitude": "128.5181428",
+      "longitude": "35.8109739"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "대곡공원",
+      "location": "대구 달서구 갈밭로 91",
+      "latitude": "128.5280556",
+      "longitude": "35.8069657"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "호림강나루공원",
+      "location": "대구 달서구 대천동 900",
+      "latitude": "128.4846323",
+      "longitude": "35.8340807"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "남산어린이공원",
+      "location": "대구 중구 남산로1길 32",
+      "latitude": "128.5813308",
+      "longitude": "35.8582391"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "안심근린공원",
+      "location": "대구 동구 신기동 580",
+      "latitude": "128.7026054",
+      "longitude": "35.8690185"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "마을마당공원",
+      "location": "대구 달서구 월성동 611-2",
+      "latitude": "128.5269023",
+      "longitude": "35.8238711"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "태전공원",
+      "location": "대구 북구 칠곡중앙대로 397-20",
+      "latitude": "128.5460782",
+      "longitude": "35.9316554"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "호림공원",
+      "location": "대구 달서구 호산동 714",
+      "latitude": "128.4889123",
+      "longitude": "35.8427139"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "화암공원",
+      "location": "대구 북구 연경동 1046",
+      "latitude": "128.6205192",
+      "longitude": "35.9435829"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "길우공원",
+      "location": "대구 달서구 장기동 825-5",
+      "latitude": "128.5283044",
+      "longitude": "35.8424268"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "세천늪근린공원",
+      "location": "대구 달성군 다사읍 세천리 289",
+      "latitude": "128.4712159",
+      "longitude": "35.8805362"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "호돌이공원",
+      "location": "대구 수성구 수성동4가 1009-2",
+      "latitude": "128.6200438",
+      "longitude": "35.8610340"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "다사근린공원",
+      "location": "대구 달성군 다사읍 매곡리 1515",
+      "latitude": "128.4612446",
+      "longitude": "35.8671426"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "대구대표도시숲",
+      "location": "대구 달서구 성당동 474",
+      "latitude": "128.5570048",
+      "longitude": "35.8424368"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "달배공원",
+      "location": "대구 달서구 상인동 1404",
+      "latitude": "128.5371255",
+      "longitude": "35.8168569"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "선돌마당근린공원",
+      "location": "대구 달서구 월암로 63",
+      "latitude": "128.5159998",
+      "longitude": "35.8224925"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "관음공원",
+      "location": "대구 북구 칠곡중앙대로91길 21",
+      "latitude": "128.5466986",
+      "longitude": "35.9362398"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "가르뱅이공원",
+      "location": "대구 서구 상리동 산264-5",
+      "latitude": "128.5242325",
+      "longitude": "35.8806159"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "제1수창공원",
+      "location": "대구 중구 수창동 174",
+      "latitude": "128.5848650",
+      "longitude": "35.8763130"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "도원근린공원",
+      "location": "대구 달서구 미리샘길 26",
+      "latitude": "128.5436055",
+      "longitude": "35.8062523"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "한실공원",
+      "location": "대구 달서구 대곡동 1088",
+      "latitude": "128.5316265",
+      "longitude": "35.8035266"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "수성공원",
+      "location": "대구 수성구 수성동4가 1090-15",
+      "latitude": "128.6148586",
+      "longitude": "35.8605786"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "꿈터공원",
+      "location": "대구 달서구 선원로37남길 7-16",
+      "latitude": "128.5132072",
+      "longitude": "35.8601418"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "성서아울렛공원",
+      "location": "대구 달서구 호림동 13-11",
+      "latitude": "128.4889304",
+      "longitude": "35.8365932"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "샛터근린공원",
+      "location": "대구 동구 율하동 1460",
+      "latitude": "128.7032443",
+      "longitude": "35.8645199"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "강창근린공원",
+      "location": "대구 달서구 호산동 349",
+      "latitude": "128.4795619",
+      "longitude": "35.8524161"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "과학관공원",
+      "location": "대구 달성군 유가읍 상리 916-1",
+      "latitude": "128.4593300",
+      "longitude": "35.6869431"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "매곡근린공원",
+      "location": "대구 달성군 다사읍 대실역북로2길 91",
+      "latitude": "128.4696783",
+      "longitude": "35.8620987"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "감삼공원",
+      "location": "대구 달서구 감삼동 165-2",
+      "latitude": "128.5398552",
+      "longitude": "35.8487458"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "동천근린공원",
+      "location": "대구 북구 동천동 950-1",
+      "latitude": "128.5592915",
+      "longitude": "35.9344586"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "신서공원",
+      "location": "대구 동구 동호로 98",
+      "latitude": "128.7276372",
+      "longitude": "35.8667045"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "곤충공원",
+      "location": "대구 달서구 감삼동 295-8",
+      "latitude": "128.5427925",
+      "longitude": "35.8452925"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "대명2공원",
+      "location": "대구 남구 명덕시장길 29",
+      "latitude": "128.5834307",
+      "longitude": "35.8454461"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "무지개공원",
+      "location": "대구 달서구 본리서4길 17",
+      "latitude": "128.5292780",
+      "longitude": "35.8407990"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "금호공원",
+      "location": "대구 북구 한강로 96",
+      "latitude": "128.5203294",
+      "longitude": "35.8958135"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "서구그린웨이암석원",
+      "location": "대구 서구 중리동",
+      "latitude": "128.5390125",
+      "longitude": "35.8629154"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "용산근린공원",
+      "location": "대구 달서구 용산로 205",
+      "latitude": "128.5285078",
+      "longitude": "35.8559866"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "매호공원",
+      "location": "대구 수성구 천을로23길 5",
+      "latitude": "128.7039689",
+      "longitude": "35.8446434"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "월천공원",
+      "location": "대구 달서구 대천동 1022",
+      "latitude": "128.5129717",
+      "longitude": "35.8236126"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "대구선동촌공원",
+      "location": "대구 동구 동촌역사로3길 35",
+      "latitude": "128.6498268",
+      "longitude": "35.8901576"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "시지근린공원",
+      "location": "대구 수성구 달구벌대로637길 5",
+      "latitude": "128.7060403",
+      "longitude": "35.8413617"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "천서공원",
+      "location": "대구 북구 동천동 926-1",
+      "latitude": "128.5583606",
+      "longitude": "35.9382189"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "정대숲",
+      "location": "대구 달성군 가창면 정대리 650",
+      "latitude": "128.5579482",
+      "longitude": "35.7512482"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "점터공원",
+      "location": "대구 달서구 신당동 1801",
+      "latitude": "128.4938777",
+      "longitude": "35.8546645"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "월촌공원",
+      "location": "대구 달서구 상인로 68-4",
+      "latitude": "128.5489512",
+      "longitude": "35.8127833"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "달서공원",
+      "location": "대구 달서구 두류동 636-3",
+      "latitude": "128.5524002",
+      "longitude": "35.8520585"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "대구선아양공원",
+      "location": "대구 동구 신암동 371-1",
+      "latitude": "128.6343810",
+      "longitude": "35.8829646"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "지산근린공원",
+      "location": "대구 수성구 용학로 267",
+      "latitude": "128.6376145",
+      "longitude": "35.8209331"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "단산유적공원",
+      "location": "대구 동구 봉무동 1567",
+      "latitude": "128.6401413",
+      "longitude": "35.9174847"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "백조해양공원",
+      "location": "대구 달서구 본리동 640-1",
+      "latitude": "128.5323965",
+      "longitude": "35.8396909"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "한실공원",
+      "location": "대구 달서구 대곡동 1088",
+      "latitude": "128.5316265",
+      "longitude": "35.8035266"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "옥녀공원",
+      "location": "대구 달성군 유가읍 금리 1158",
+      "latitude": "128.4642033",
+      "longitude": "35.6768111"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "화담공원",
+      "location": "대구 북구 동변동 51",
+      "latitude": "128.6168445",
+      "longitude": "35.9252966"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "공룡공원",
+      "location": "대구 남구 봉덕동",
+      "latitude": "128.5964368",
+      "longitude": "35.8452942"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "와룡아랫공원",
+      "location": "대구 달서구 이곡동 1191-2",
+      "latitude": "128.5006293",
+      "longitude": "35.8565080"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "포산공원",
+      "location": "대구 달성군 현풍읍 테크노대로 93",
+      "latitude": "128.4570958",
+      "longitude": "35.6895648"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "삼익공원",
+      "location": "대구 서구 내당동 308-1",
+      "latitude": "128.5501740",
+      "longitude": "35.8601481"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "범물공원",
+      "location": "대구 수성구 지범로 232",
+      "latitude": "128.6432879",
+      "longitude": "35.8183738"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "비슬공원",
+      "location": "대구 달성군 유가읍 봉리 597-1",
+      "latitude": "128.4593484",
+      "longitude": "35.6953054"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "조암구석기공원",
+      "location": "대구 달서구 월성동 739",
+      "latitude": "128.5247600",
+      "longitude": "35.8277695"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "서변근린공원",
+      "location": "대구 북구 서변로3길 64",
+      "latitude": "128.5951738",
+      "longitude": "35.9217043"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "평사공원",
+      "location": "대구 서구 평리동 1347",
+      "latitude": "128.5578359",
+      "longitude": "35.8676371"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "제2수창공원",
+      "location": "대구 중구 달성로26길 32",
+      "latitude": "128.5833572",
+      "longitude": "35.8758136"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "율하근린공원",
+      "location": "대구 동구 율하동 1105",
+      "latitude": "128.6901527",
+      "longitude": "35.8673865"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "월명공원",
+      "location": "대구 달서구 월곡로 410",
+      "latitude": "128.5288875",
+      "longitude": "35.8281228"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "날뫼공원",
+      "location": "대구 서구 평리동 656-1",
+      "latitude": "128.5657220",
+      "longitude": "35.8802462"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "파란공원",
+      "location": "대구 북구 태전동 1104",
+      "latitude": "128.5461952",
+      "longitude": "35.9129579"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "고래들공원",
+      "location": "대구 달성군 현풍읍 중리 483-3",
+      "latitude": "128.4535031",
+      "longitude": "35.6952368"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "용산미로공원",
+      "location": "대구 달서구 용산동 873",
+      "latitude": "128.5330239",
+      "longitude": "35.8564139"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "이서공원",
+      "location": "대구 수성구 신천동로 117",
+      "latitude": "128.6066253",
+      "longitude": "35.8356297"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "대구스타디움동편광장",
+      "location": "대구 수성구 노변동 650",
+      "latitude": "128.6921162",
+      "longitude": "35.8301127"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "비산공원",
+      "location": "대구 서구 비산동 1036",
+      "latitude": "128.5686317",
+      "longitude": "35.8876571"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "불미골공원",
+      "location": "대구 달서구 이곡동 1327",
+      "latitude": "128.5095879",
+      "longitude": "35.8612745"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "오정공원",
+      "location": "대구 달서구 신당동 1778",
+      "latitude": "128.4964687",
+      "longitude": "35.8564417"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "동아리공원",
+      "location": "대구 서구 비산동 1025-6",
+      "latitude": "128.5695732",
+      "longitude": "35.8856733"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "피터팬공원",
+      "location": "대구 달서구 본동 790",
+      "latitude": "128.5396404",
+      "longitude": "35.8358784"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "산업단지1호근린공원",
+      "location": "대구 달성군 구지면 달성2차로 105",
+      "latitude": "128.4184210",
+      "longitude": "35.6403781"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "비슬구천공원",
+      "location": "대구 달성군 유가읍 쌍계리 651",
+      "latitude": "128.4652562",
+      "longitude": "35.6985974"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "신평공원",
+      "location": "대구 서구 평리로73길 9",
+      "latitude": "128.5624886",
+      "longitude": "35.8663354"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "백합공원",
+      "location": "대구 남구 대명역6길 48",
+      "latitude": "128.5640628",
+      "longitude": "35.8327106"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "동변공원",
+      "location": "대구 북구 동변동 678",
+      "latitude": "128.6022513",
+      "longitude": "35.9192040"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "장동공원",
+      "location": "대구 달서구 장동 산28",
+      "latitude": "128.5138224",
+      "longitude": "35.8391726"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "개미산공원",
+      "location": "대구 서구 평리동 694-7",
+      "latitude": "128.5570044",
+      "longitude": "35.8772678"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "한마음공원",
+      "location": "대구 달서구 유천동 608",
+      "latitude": "128.5146745",
+      "longitude": "35.8171379"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "학공원",
+      "location": "대구 북구 학정동 977",
+      "latitude": "128.5663446",
+      "longitude": "35.9479751"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "햇님공원",
+      "location": "대구 달서구 이곡동 1192-1",
+      "latitude": "128.5047776",
+      "longitude": "35.8570021"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "돌산공원",
+      "location": "대구 달서구 서당로9길 40-28",
+      "latitude": "128.4935042",
+      "longitude": "35.8574127"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "사복노을공원",
+      "location": "대구 동구 사복동 837-5",
+      "latitude": "128.7512865",
+      "longitude": "35.8768459"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "샛별공원",
+      "location": "대구 달서구 이곡동 1189-3",
+      "latitude": "128.5043930",
+      "longitude": "35.8576846"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "나무놀이터",
+      "location": "대구 달성군 화원읍 화원로7길 50-21",
+      "latitude": "128.4958112",
+      "longitude": "35.8067914"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "내곡공원",
+      "location": "대구 북구 사수동 788",
+      "latitude": "128.5133114",
+      "longitude": "35.9030644"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "무학공원",
+      "location": "대구 수성구 지범로31안길 18",
+      "latitude": "128.6395649",
+      "longitude": "35.8249720"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "서구그린웨이백합원",
+      "location": "대구 서구 중리동",
+      "latitude": "128.5390125",
+      "longitude": "35.8629154"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "은하수공원",
+      "location": "대구 달서구 호산동 357",
+      "latitude": "128.4871154",
+      "longitude": "35.8513591"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "유림공원",
+      "location": "대구 달서구 상인동 1549",
+      "latitude": "128.5490912",
+      "longitude": "35.8142614"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "삼각지공원",
+      "location": "대구 달서구 감삼동 123",
+      "latitude": "128.5456870",
+      "longitude": "35.8497895"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "갈뫼공원",
+      "location": "대구 달서구 신당동 1834-5",
+      "latitude": "128.4942119",
+      "longitude": "35.8523583"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "경운공원",
+      "location": "대구 서구 내당동 252-4",
+      "latitude": "128.5551327",
+      "longitude": "35.8619289"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "100년달성뿌리광장",
+      "location": "대구 달성군 논공읍 금포리 1173-2",
+      "latitude": "128.4304718",
+      "longitude": "35.7766871"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "두성공원",
+      "location": "대구 수성구 신매동 595-2",
+      "latitude": "128.7051141",
+      "longitude": "35.8331692"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "미리내공원",
+      "location": "대구 달서구 호산동 368-1",
+      "latitude": "128.4835902",
+      "longitude": "35.8516057"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "이곡정자공원",
+      "location": "대구 달서구 이곡동 1304-6",
+      "latitude": "128.5147100",
+      "longitude": "35.8562260"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "갈산공원",
+      "location": "대구 달서구 갈산동 산51-4",
+      "latitude": "128.5036647",
+      "longitude": "35.8414847"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "유곡공원",
+      "location": "대구 달성군 유가읍 유곡리 1159-2",
+      "latitude": "128.4532347",
+      "longitude": "35.6736008"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "주거2공원",
+      "location": "대구 달성군 구지면 응암리 1191-5",
+      "latitude": "128.4166353",
+      "longitude": "35.6563436"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "송정공원",
+      "location": "대구 달서구 대곡동 1111",
+      "latitude": "128.5279610",
+      "longitude": "35.7955741"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "대구선동촌공원",
+      "location": "대구 동구 입석동 962-43",
+      "latitude": "128.6450836",
+      "longitude": "35.8930410"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "파랑새공원",
+      "location": "대구 달서구 장기동 814-2",
+      "latitude": "128.5274193",
+      "longitude": "35.8464573"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "태봉공원",
+      "location": "대구 북구 연경동 925",
+      "latitude": "128.6164683",
+      "longitude": "35.9463639"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "송지공원",
+      "location": "대구 달서구 송현동 1977",
+      "latitude": "128.5556037",
+      "longitude": "35.8262369"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "목련어린이놀이터",
+      "location": "대구 남구 봉덕로6길 35-22",
+      "latitude": "128.5927556",
+      "longitude": "35.8431431"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "서촌공원",
+      "location": "대구 달서구 용산동 582",
+      "latitude": "128.5225510",
+      "longitude": "35.8592577"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "현풍휴게소(마산방향)쉼터",
+      "location": "대구 달성군 현풍읍 성하길 48",
+      "latitude": "128.4349720",
+      "longitude": "35.7016311"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "거북공원",
+      "location": "대구 북구 학정동 960",
+      "latitude": "128.5688258",
+      "longitude": "35.9490289"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "매천근린공원",
+      "location": "대구 북구 매천동 671",
+      "latitude": "128.5447812",
+      "longitude": "35.9091490"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "송천공원",
+      "location": "대구 북구 매천동 727",
+      "latitude": "128.5428817",
+      "longitude": "35.9075657"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "칠성공원",
+      "location": "대구 북구 칠성동1가 280-7",
+      "latitude": "128.6056330",
+      "longitude": "35.8739344"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "목련공원",
+      "location": "대구 달서구 이곡공원로1길 7",
+      "latitude": "128.5082996",
+      "longitude": "35.8557300"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "불로공원",
+      "location": "대구 동구 불로동",
+      "latitude": "128.6334",
+      "longitude": "35.9056"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "대구스타디움전면광장",
+      "location": "대구 수성구 유니버시아드로 180",
+      "latitude": "128.6901563",
+      "longitude": "35.8299377"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "주거3공원",
+      "location": "대구 달성군 구지면 응암리 1198-4",
+      "latitude": "128.4188188",
+      "longitude": "35.6581360"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "이곡생수공원",
+      "location": "대구 달서구 이곡공원로 68",
+      "latitude": "128.5146740",
+      "longitude": "35.8544113"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "2호근린공원",
+      "location": "대구 달성군 구지면 예현리 768-8",
+      "latitude": "128.4279581",
+      "longitude": "35.6329674"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "중앙공원",
+      "location": "대구 남구 대명로20길 28",
+      "latitude": "128.5677140",
+      "longitude": "35.8378935"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "장산공원",
+      "location": "대구 달서구 용산동 940-7",
+      "latitude": "128.5250440",
+      "longitude": "35.8564035"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "위남공원",
+      "location": "대구 동구 봉무동 1525",
+      "latitude": "128.6377799",
+      "longitude": "35.9263755"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "동호근린공원",
+      "location": "대구 동구 동호동 360",
+      "latitude": "128.7190786",
+      "longitude": "35.8656043"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "들마을공원",
+      "location": "대구 서구 평리동 1057-3",
+      "latitude": "128.5638209",
+      "longitude": "35.8739431"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "샘골공원",
+      "location": "대구 달서구 용산동 952",
+      "latitude": "128.5315066",
+      "longitude": "35.8551740"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "해바라기공원",
+      "location": "대구 북구 오봉로1길 41",
+      "latitude": "128.5740076",
+      "longitude": "35.8889777"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "상호림공원",
+      "location": "대구 달서구 호림동 1-6",
+      "latitude": "128.4795343",
+      "longitude": "35.8379666"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "당산목공원",
+      "location": "대구 서구 통학로 189-21",
+      "latitude": "128.5624649",
+      "longitude": "35.8773908"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "달성산업단지근린공원",
+      "location": "대구 달성군 논공읍 본리리 산50",
+      "latitude": "128.4626716",
+      "longitude": "35.7372098"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "원대동제일공원",
+      "location": "대구 서구 원대로13길 37",
+      "latitude": "128.5770382",
+      "longitude": "35.8835242"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "반달공원",
+      "location": "대구 달서구 성당동 701-5",
+      "latitude": "128.5461850",
+      "longitude": "35.8459753"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "화성공원",
+      "location": "대구 수성구 용학로31길 82",
+      "latitude": "128.6291574",
+      "longitude": "35.8254220"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "용강공원",
+      "location": "대구 달서구 이곡동 1342-1",
+      "latitude": "128.5140367",
+      "longitude": "35.8619254"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "월곡근린공원",
+      "location": "대구 달서구 상인로 128",
+      "latitude": "128.5445965",
+      "longitude": "35.8179824"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "대구선반야월공원",
+      "location": "대구 동구 신서동",
+      "latitude": "128.7312",
+      "longitude": "35.8865"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "용하공원",
+      "location": "대구 달서구 용산동 423",
+      "latitude": "128.5217100",
+      "longitude": "35.8540821"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "대실근린공원",
+      "location": "대구 달성군 다사읍 죽곡리 821-1",
+      "latitude": "128.4689042",
+      "longitude": "35.8537871"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "솔밭공원",
+      "location": "대구 달서구 송현동 1982-1",
+      "latitude": "128.5535857",
+      "longitude": "35.8292232"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "진남공원",
+      "location": "대구 달서구 대곡동 1049",
+      "latitude": "128.5247567",
+      "longitude": "35.8068475"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "1호근린공원",
+      "location": "대구 달성군 옥포읍 강림리 1101",
+      "latitude": "128.4396616",
+      "longitude": "35.7813031"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "일신공원",
+      "location": "대구 서구 중리동 721-2",
+      "latitude": "128.5443589",
+      "longitude": "35.8564568"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "역후공원",
+      "location": "대구 북구 칠성동2가 302-139",
+      "latitude": "128.5920941",
+      "longitude": "35.8772765"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "황제공원",
+      "location": "대구 서구 내당동 11-14",
+      "latitude": "128.5657916",
+      "longitude": "35.8640347"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "새싹어린이공원",
+      "location": "대구 달서구 상인동 1534",
+      "latitude": "128.5472892",
+      "longitude": "35.8164534"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "산업단지4호근린공원",
+      "location": "대구 달성군 구지면 내리 838",
+      "latitude": "128.4092105",
+      "longitude": "35.6416028"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "구마공원",
+      "location": "대구 달서구 본리동 1212-1",
+      "latitude": "128.5292258",
+      "longitude": "35.8388422"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "한마음공원",
+      "location": "대구 달서구 용산동 419-2",
+      "latitude": "128.5179272",
+      "longitude": "35.8574571"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "서구그린웨이테라피원",
+      "location": "대구 서구 중리동",
+      "latitude": "128.5390125",
+      "longitude": "35.8629154"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "도담한공원",
+      "location": "대구 북구 태전동 1105",
+      "latitude": "128.5460553",
+      "longitude": "35.9099502"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "원덕공원",
+      "location": "대구 달서구 도원동 670",
+      "latitude": "128.5472670",
+      "longitude": "35.8056994"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "태전1공원",
+      "location": "대구 북구 태전동 1193",
+      "latitude": "128.5503379",
+      "longitude": "35.9219068"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "해오라기공원",
+      "location": "대구 북구 동변동 698",
+      "latitude": "128.6042006",
+      "longitude": "35.9164378"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "동네향수공원",
+      "location": "대구 동구 동내로 66-22",
+      "latitude": "128.7372855",
+      "longitude": "35.8777418"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "서구그린웨이단풍원",
+      "location": "대구 서구 이현동 63-15",
+      "latitude": "128.5465532",
+      "longitude": "35.8755361"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "대진공원",
+      "location": "대구 달서구 대곡동 1024",
+      "latitude": "128.5218251",
+      "longitude": "35.8072965"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "서구그린웨이상록수원",
+      "location": "대구 서구 중리동",
+      "latitude": "128.5390125",
+      "longitude": "35.8629154"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "제3수창공원",
+      "location": "대구 중구 수창동",
+      "latitude": "128.5847375",
+      "longitude": "35.8752654"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "태극단학생독립운동기념공원",
+      "location": "대구 달서구 월배로 241",
+      "latitude": "128.5380870",
+      "longitude": "35.8220500"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "주거4공원",
+      "location": "대구 달성군 구지면 응암리 1215-5",
+      "latitude": "128.4186961",
+      "longitude": "35.6541107"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "세모공원",
+      "location": "대구 달서구 유천동 598",
+      "latitude": "128.5160683",
+      "longitude": "35.8146127"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "채정공원",
+      "location": "대구 달서구 월곡로26안길 27",
+      "latitude": "128.5500552",
+      "longitude": "35.8096666"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "큰못공원",
+      "location": "대구 달서구 용산동 922-1",
+      "latitude": "128.5263124",
+      "longitude": "35.8598690"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "서산공원",
+      "location": "대구 달서구 대곡동 1016-1",
+      "latitude": "128.5199258",
+      "longitude": "35.8074208"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "대구선반야월공원",
+      "location": "대구 동구 괴전동",
+      "latitude": "128.737775",
+      "longitude": "35.8715571"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "서구그린웨이향기원",
+      "location": "대구 서구 중리동",
+      "latitude": "128.5390125",
+      "longitude": "35.8629154"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "산업단지3호근린공원",
+      "location": "대구 달성군 구지면 예현리 760-1",
+      "latitude": "128.4291730",
+      "longitude": "35.6380240"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "늘푸른공원",
+      "location": "대구 달서구 이곡동 1314-2",
+      "latitude": "128.5046833",
+      "longitude": "35.8600943"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "계골산공원",
+      "location": "대구 달서구 신당동 1683",
+      "latitude": "128.4992757",
+      "longitude": "35.8608550"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "성지공원",
+      "location": "대구 달서구 용산동 412-2",
+      "latitude": "128.5178220",
+      "longitude": "35.8534002"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "용산본공원",
+      "location": "대구 달서구 용산동 564-1",
+      "latitude": "128.5237307",
+      "longitude": "35.8605158"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "병풍바위공원",
+      "location": "대구 달서구 새방로 23-16",
+      "latitude": "128.5209813",
+      "longitude": "35.8614486"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "서구그린웨이배롱원",
+      "location": "대구 서구 이현동 51-4",
+      "latitude": "128.5467249",
+      "longitude": "35.8780612"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "앞돌어린이공원",
+      "location": "대구 달서구 신당동 1844-1",
+      "latitude": "128.4970880",
+      "longitude": "35.8532651"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "약령공원",
+      "location": "대구 중구 달구벌대로415길 49",
+      "latitude": "128.5899102",
+      "longitude": "35.8685204"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "동서공원",
+      "location": "대구 수성구 신매동 594-2",
+      "latitude": "128.7054592",
+      "longitude": "35.8338519"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "서구그린웨이야생화원",
+      "location": "대구 서구 중리동",
+      "latitude": "128.5390125",
+      "longitude": "35.8629154"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "대구선아양공원",
+      "location": "대구 동구 신암동 20-23",
+      "latitude": "128.6363519",
+      "longitude": "35.8866866"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "과학기술공원",
+      "location": "대구 달성군 현풍읍 상리 953-5",
+      "latitude": "128.4597282",
+      "longitude": "35.7033920"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "청록공원",
+      "location": "대구 달서구 신당동 1846-2",
+      "latitude": "128.4970967",
+      "longitude": "35.8539398"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "서구그린웨이문화원",
+      "location": "대구 서구 이현동",
+      "latitude": "128.539575",
+      "longitude": "35.87589"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "대명10동주민쉼터",
+      "location": "대구 남구 두류공원로15길 27-1",
+      "latitude": "128.5705880",
+      "longitude": "35.8424618"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "침산공원운동장",
+      "location": "대구 북구 침산동",
+      "latitude": "128.581175",
+      "longitude": "35.8903321"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "매천근린공원배드민턴장",
+      "location": "대구 북구 매천동",
+      "latitude": "128.5377",
+      "longitude": "35.9123"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "구지1호근린공원 파크골프장",
+      "location": "대구 달성군 구지면 달성2차로 105",
+      "latitude": "128.4184210",
+      "longitude": "35.6403781"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "샛터근린공원배드민턴장",
+      "location": "대구 동구 율하동 1460",
+      "latitude": "128.7032443",
+      "longitude": "35.8645199"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "팔달어린이공원",
+      "location": "대구 북구 노원동3가",
+      "latitude": "128.5674",
+      "longitude": "35.8964"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "샛터근린공원농구장",
+      "location": "대구 동구 율하동 1460",
+      "latitude": "128.7032443",
+      "longitude": "35.8645199"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "화성파크드림구수산공원아파트근린생활시설",
+      "location": "대구 북구 읍내동 1113-46",
+      "latitude": "128.5521985",
+      "longitude": "35.9363561"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "샛터근린공원민속놀이마당",
+      "location": "대구 동구 율하동 1460",
+      "latitude": "128.7032443",
+      "longitude": "35.8645199"
+    }
+  }
+]
