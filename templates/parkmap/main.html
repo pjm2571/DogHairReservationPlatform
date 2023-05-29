@@ -6,40 +6,132 @@
     {% load static %}
     <script src="{% static 'javascript/parkmap/parkmap.js' %}"></script>
     <link rel="stylesheet" href="{% static 'css/parkmap/parkmap.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
+<div>
+    <div id="menubar">
+        <button class="menu_btn">메뉴바</button>
+        <script>
+            document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
+                window.location.href = '/';
+            });
+        </script>
 
-<p>
-    <button onclick="goToMain()">메인화면</button>
-</p>
+        {% if loginCheck %}
+            <button class="mp_btn"> My page</button>
+            <button class="logout_btn"> Logout</button>
+            <script>
+                document.getElementsByClassName('mp_btn')[0].addEventListener('click', function () {
+                    window.location.href = 'mypage.html';
+                });
+                document.getElementsByClassName('logout_btn')[0].addEventListener('click', function () {
+                    window.location.href = '/user/logout';
+                });
+            </script>
+        {% else %}
+            <button class="login_btn"> Login</button>
+            <button class="join_btn"> Join</button>
+            <script>
+                document.getElementsByClassName('login_btn')[0].addEventListener('click', function () {
+                    window.location.href = '/user/login';
+                });
+                document.getElementsByClassName('join_btn')[0].addEventListener('click', function () {
+                    window.location.href = '/user/join';
+                });
+            </script>
+        {% endif %}
+
+    </div>
+    <div style="clear: both;"></div>
+
+
+    <div style="clear:both"></div>
+
+    <nav class="ani-navbar">
+        <h4 id>Menu</h4>
+        <p id="board_bar" class="nav_bar_btn">게시판</p>
+        <p id="storemap_bar" class="nav_bar_btn">가까운 미용실</p>
+        <p id="chatbot_bar" class="nav_bar_btn">왜 아플까?</p>
+        <p id="parkmap_bar" class="nav_bar_btn">산책 경로 추천</p>
+        <p id="style_bar" class="nav_bar_btn">스타일 추천</p>
+        <p style="margin-top:50px"><i class="fa-solid fa-dog fa-2xl"> </i></p>
+    </nav>
+
+    <script>
+        function goToMain() {
+            window.location.href = "/";
+        }
+    </script>
+
+    <div class="map_aside">
+        <hr class="bigline">
+        <br>
+        <h1 class="maintext">가까운</h1>
+        <h1 class="maintext">공원</h1>
+        <br>
+        <hr class="smallline">
+        <br>
+        <h2 class="maintext">지도 보기</h2>
+        <h2 class="othertext">목록 보기</h2>
+        <br>
+        <hr class="smallline">
+    </div>
+
+    <div class="map_wrap">
+        <div id="map" style="width:100%;height:100%;position:relative;overflow:hidden;"></div>
+
+        <div class="custom_gpscontrol radius_border">
+            <button class="btn" onclick="getCurrentLocation()">현재위치</button>
+
+        </div>
+
+        <!-- 지도타입 컨트롤 div 입니다 -->
+        <div class="custom_typecontrol radius_border">
+            <span id="btnRoadmap" class="selected_btn" onclick="setMapType('roadmap')">지도</span>
+            <span id="btnSkyview" class="btn" onclick="setMapType('skyview')">스카이뷰</span>
+        </div>
+        <!-- 지도 확대, 축소 컨트롤 div 입니다 -->
+        <div class="custom_zoomcontrol radius_border">
+                <span onclick="zoomIn()"><img
+                        src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_plus.png" alt="확대"></span>
+            <span onclick="zoomOut()"><img
+                    src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_minus.png" alt="축소"></span>
+        </div>
+    </div>
+
+</div>
 
 <script>
-    function goToMain() {
-        window.location.href = "/";
-    }
+    document.getElementsByClassName('othertext')[0].addEventListener('click', function () {
+        window.location.href = '/parkmap/maplist';
+    });
 </script>
 
-<div class="map_wrap">
-    <div id="map" style="width:100%;height:100%;position:relative;overflow:hidden;"></div>
 
-    <div class="custom_gpscontrol radius_border">
-        <button class="btn" onclick="getCurrentLocation()">현재위치</button>
-
-    </div>
-
-    <!-- 지도타입 컨트롤 div 입니다 -->
-    <div class="custom_typecontrol radius_border">
-        <span id="btnRoadmap" class="selected_btn" onclick="setMapType('roadmap')">지도</span>
-        <span id="btnSkyview" class="btn" onclick="setMapType('skyview')">스카이뷰</span>
-    </div>
-    <!-- 지도 확대, 축소 컨트롤 div 입니다 -->
-    <div class="custom_zoomcontrol radius_border">
-        <span onclick="zoomIn()"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_plus.png"
-                                      alt="확대"></span>
-        <span onclick="zoomOut()"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_minus.png"
-                                       alt="축소"></span>
-    </div>
-</div>
+<script>
+    document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
+        window.location.href = '/';
+    });
+    document.getElementById('board_bar').addEventListener('click', function () {
+        window.location.href = '/boardlist';
+    });
+    document.getElementById('storemap_bar').addEventListener('click', function () {
+        window.location.href = '/storemap';
+    });
+    document.getElementById('parkmap_bar').addEventListener('click', function () {
+        window.location.href = '/parkmap';
+    });
+    document.getElementById('chatbot_bar').addEventListener('click', function () {
+        window.location.href = '/chatgpt';
+    });
+    document.getElementById('style_bar').addEventListener('click', function () {
+        //window.location.href = '/style';
+        alert('아직 준비중!')
+    });
+</script>
 
 
 <!-- KAKAO MAP API -->
@@ -59,15 +151,49 @@
 
     var positions = []  // 미용실 위치 담는 배열
 
+    var park_coordinates = []
+
+    // ------------------------------------------Set Information-------------------------------------------------
+
     {% for park in parks %}
+        // Position Push
         positions.push({
             title: '{{ park.title }}',
             location: '{{ park.location }}',
             latlng: new kakao.maps.LatLng({{ park.longitude }}, {{ park.latitude }})
         });
+
+        // park_coordinates.push
+        park_coordinates.push({
+            title: '{{ park.title }}',
+            latitude: {{ park.latitude }},
+            longitude:{{ park.longitude }}
+        });
+
     {% endfor %}
 
-    var imageSrc = "/image/parkmap/blank.png";
+    // 반경 3km 안의 Place들을 가져와서 보여줌
+    get_currnet_coordinate(function (coords) {
+        if (coords) {
+            [current_lat, current_lon] = coords;
+            console.log(`현재 위치: 위도 ${current_lat}, 경도 ${current_lon}`);
+            for (var i = 0; i < park_coordinates.length; i++) {
+                var distance = calculateDistance(
+                    current_lat, current_lon,
+                    park_coordinates[i].longitude, park_coordinates[i].latitude
+                );
+                if (distance <= 3) {
+                    console.log(park_coordinates[i].title)
+                }
+            }
+        } else {
+            console.log('위치 정보를 가져오는 중 오류가 발생했습니다.');
+        }
+    });
+
+    // ---------------------------------------Set Click Event----------------------------------------------
+
+    var imageSrc = "";
 
     for (var i = 0; i < positions.length; i++) {
 
@@ -86,9 +212,8 @@
         });
 
         var content = '<div class="customoverlay">' +
-            '  <a href="/parkmap/details?title=' + encodeURIComponent(positions[i].title) +
-            '&location=' + encodeURIComponent(positions[i].location) +
-            '" target="_blank">' +
+            '  <a href="/parkmap/details?title=' + encodeURIComponent(positions[i].title)+
+            '">' +
             '    <span class="title">' + positions[i].title + '</span>' +
             '  </a>' +
             '</div>';
@@ -100,8 +225,11 @@
             yAnchor: 1
         });
 
+
     }
 
+
 </script>
+
 </body>
 </html>

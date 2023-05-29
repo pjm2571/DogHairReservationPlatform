@@ -4,19 +4,8 @@
     <title>Details Page</title>
 </head>
 <body>
-    <h1 id="title"></h1>
-    <p id="park_loaction"></p>
+    <h1 id="title">{{ park.title }}</h1>
+    <p id="park_loaction">{{ park.location }}</p>
 
-    <script>
-        const queryString = window.location.search;
-        const urlParams = new URLSearchParams(queryString);
-
-        const title = urlParams.get('title');
-        const store_location = urlParams.get('location');
-
-
-        document.getElementById('title').innerText = "공원 이름 : " + title;
-        document.getElementById('park_loaction').innerText = "공원 위치 : " + store_location;
-    </script>
 </body>
 </html>

@@ -6,18 +6,78 @@
     {% load static %}
     <script src="{% static 'javascript/storemap/storemap.js' %}"></script>
     <link rel="stylesheet" href="{% static 'css/storemap/storemap.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
+<div id="menubar">
+    <button class="menu_btn">메뉴바</button>
+    <script>
+        document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
+            window.location.href = '/';
+        });
+    </script>
 
-<p>
-    <button onclick="goToMain()">메인화면</button>
-</p>
+    {% if loginCheck %}
+        <button class="mp_btn"> My page</button>
+        <button class="logout_btn"> Logout</button>
+        <script>
+            document.getElementsByClassName('mp_btn')[0].addEventListener('click', function () {
+                window.location.href = 'mypage.html';
+            });
+            document.getElementsByClassName('logout_btn')[0].addEventListener('click', function () {
+                window.location.href = '/user/logout';
+            });
+        </script>
+    {% else %}
+        <button class="login_btn"> Login</button>
+        <button class="join_btn"> Join</button>
+        <script>
+            document.getElementsByClassName('login_btn')[0].addEventListener('click', function () {
+                window.location.href = '/user/login';
+            });
+            document.getElementsByClassName('join_btn')[0].addEventListener('click', function () {
+                window.location.href = '/user/join';
+            });
+        </script>
+    {% endif %}
+
+</div>
+<div style="clear: both;"></div>
+
+
+<div style="clear:both"></div>
+
+<nav class="ani-navbar">
+    <h4 id>Menu</h4>
+    <p id="board_bar" class="nav_bar_btn">게시판</p>
+    <p id="storemap_bar" class="nav_bar_btn">가까운 미용실</p>
+    <p id="chatbot_bar" class="nav_bar_btn">왜 아플까?</p>
+    <p id="parkmap_bar" class="nav_bar_btn">산책 경로 추천</p>
+    <p id="style_bar" class="nav_bar_btn">스타일 추천</p>
+    <p style="margin-top:50px"><i class="fa-solid fa-dog fa-2xl"> </i></p>
+</nav>
 
 <script>
     function goToMain() {
         window.location.href = "/";
     }
 </script>
+
+<div class="map_aside">
+    <hr class="bigline">
+    <br>
+    <h1 class="maintext">가까운</h1>
+    <h1 class="maintext">미용실</h1>
+    <br>
+    <hr class="smallline">
+    <br>
+    <h2 class="maintext">지도 보기</h2>
+    <h2 class="othertext">목록 보기</h2>
+    <br>
+    <hr class="smallline">
+</div>
 
 <div class="map_wrap">
     <div id="map" style="width:100%;height:100%;position:relative;overflow:hidden;"></div>
@@ -34,12 +94,42 @@
     </div>
     <!-- 지도 확대, 축소 컨트롤 div 입니다 -->
     <div class="custom_zoomcontrol radius_border">
-        <span onclick="zoomIn()"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_plus.png"
-                                      alt="확대"></span>
-        <span onclick="zoomOut()"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_minus.png"
-                                       alt="축소"></span>
+                <span onclick="zoomIn()"><img
+                        src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_plus.png" alt="확대"></span>
+        <span onclick="zoomOut()"><img
+                src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_minus.png" alt="축소"></span>
     </div>
 </div>
+
+</div>
+
+<script>
+    document.getElementsByClassName('othertext')[0].addEventListener('click', function () {
+        window.location.href = '/storemap/maplist';
+    });
+</script>
+
+<script>
+    document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
+        window.location.href = '/';
+    });
+    document.getElementById('board_bar').addEventListener('click', function () {
+        window.location.href = '/boardlist';
+    });
+    document.getElementById('storemap_bar').addEventListener('click', function () {
+        window.location.href = '/storemap';
+    });
+    document.getElementById('parkmap_bar').addEventListener('click', function () {
+        window.location.href = '/parkmap';
+    });
+    document.getElementById('chatbot_bar').addEventListener('click', function () {
+        window.location.href = '/chatgpt';
+    });
+    document.getElementById('style_bar').addEventListener('click', function () {
+        //window.location.href = '/style';
+        alert('아직 준비중!')
+    });
+</script>
 
 
 <!-- KAKAO MAP API -->
@@ -74,7 +164,7 @@
         });
     {% endfor %}
 
-    var imageSrc = "/image/parkmap/blank.png";
+    var imageSrc = "";
 
     for (var i = 0; i < positions.length; i++) {
 
@@ -89,19 +179,12 @@
             map: map, // 마커를 표시할 지도
             position: positions[i].latlng, // 마커를 표시할 위치
             title: positions[i].title, // 마커의 타이틀, 마커에 마우스를 올리면 타이틀이 표시됩니다
-            image: markerImage // 마커 이미지
+            image: markerImage // 마커 이미지,
         });
 
         var content = '<div class="customoverlay">' +
             '  <a href="/storemap/details?title=' + encodeURIComponent(positions[i].title) +
-            '&location=' + encodeURIComponent(positions[i].location) +
-            '&open_hours=' + encodeURIComponent(positions[i].open_hours) +
-            '&phone=' + encodeURIComponent(positions[i].phone) +
-            '&rating=' + encodeURIComponent(positions[i].rating) +
-            '&visitor_review=' + encodeURIComponent(positions[i].visitor_review) +
-            '&blog_review=' + encodeURIComponent(positions[i].blog_review) +
-            '&website=' + encodeURIComponent(positions[i].website) +
-            '" target="_blank">' +
+            '">' +
             '    <span class="title">' + positions[i].title + '</span>' +
             '  </a>' +
             '</div>';
@@ -116,5 +199,7 @@
     }
 
 </script>
+
+
 </body>
 </html>

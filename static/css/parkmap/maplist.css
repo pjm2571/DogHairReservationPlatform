@@ -173,7 +173,7 @@ h4 {
 
 }
 
-.map_wrap {
+.list_wrap {
     margin-top: 10%;
     position: absolute;
     overflow: hidden;
@@ -181,6 +181,7 @@ h4 {
     width: 70%;
     right: 10%;
     height: 70%;
+    border: 1px solid black;
 }
 
 
@@ -383,4 +384,58 @@ h4 {
 
 .nav_bar_btn:hover {
     color: white;
+}
+
+.vertical_bar{
+    width: 1px;
+    background-color: forestgreen;
+    color: forestgreen;
+}
+
+
+.list_wrap {
+    margin-top: 10%;
+    position: absolute;
+    overflow-y: scroll;
+    left: 20%;
+    width: 70%;
+    right: 10%;
+    height: 70%;
+    border: 1px solid #976B5B;
+    border-radius: 50px;
+}
+
+.list_wrap::-webkit-scrollbar {
+    display: none;
+}
+
+.li_style {
+    list-style-type: none;
+    position: relative;
+    background-color: white;
+    border: 3px solid #009966;
+    border-radius: 50px;
+    margin: 4% 4%;
+    user-select: none;
+}
+
+.li_style:hover{
+    background-color: lightgreen;
+}
+
+ul {
+    padding-left: 0;
+}
+
+
+.title_text {
+    margin-left: 30px;
+    color: #009966;
+}
+
+.location_text {
+    margin-left: 40px;
+    font-weight: bold;
+    color: #009966;
+    margin: 0px 50px;
 }

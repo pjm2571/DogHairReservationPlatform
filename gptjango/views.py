@@ -2,6 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.http import JsonResponse
 import json
+
+from user.models import User
 from .chatgpt import chat_with_gpt
 
 
@@ -36,7 +38,19 @@ def chat_view(request):
 
 def new_page(request):
     # 새로운 페이지의 동작 정의
-    return render(request, 'gptjango/gpt.html')
+    context = {}
+    loginCheck = request.session.get('loginCheck', '')
+
+    if loginCheck == '':
+        context['loginCheck'] = False
+        context['user'] = None
+    else:
+        context['loginCheck'] = True
+        email = request.session['email']
+        user = User.objects.filter(email=email).first()
+        context['user'] = user
+
+    return render(request, 'gptjango/gpt.html', context)
 
 def index(request):
     return HttpResponse("Hello, world. You're at the polls index.")

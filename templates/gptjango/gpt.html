@@ -9,44 +9,72 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/gptjango/gpt.css' %}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <title>Document</title>
 </head>
 
 <body>
-    <div id="menubar">
-        <button class="menu_btn">메뉴바</button>
-        <button class="action_btn"> My page</button>
-        <button class="action_btn"> Login</button>
+<div id="menubar">
+    <button class="menu_btn">메뉴바</button>
+    <script>
+        document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
+            window.location.href = '/';
+        });
+    </script>
+
+    {% if loginCheck %}
+        <button class="mp_btn"> My page</button>
+        <button class="logout_btn"> Logout</button>
+        <script>
+            document.getElementsByClassName('mp_btn')[0].addEventListener('click', function () {
+                window.location.href = 'mypage.html';
+            });
+            document.getElementsByClassName('logout_btn')[0].addEventListener('click', function () {
+                window.location.href = '/user/logout';
+            });
+        </script>
+    {% else %}
+        <button class="login_btn"> Login</button>
+        <button class="join_btn"> Join</button>
+        <script>
+            document.getElementsByClassName('login_btn')[0].addEventListener('click', function () {
+                window.location.href = '/user/login';
+            });
+            document.getElementsByClassName('join_btn')[0].addEventListener('click', function () {
+                window.location.href = '/user/join';
+            });
+        </script>
+    {% endif %}
+
+</div>
+<div style="clear:both"></div>
+
+<nav class="ani-navbar">
+    <h4 id>Menu</h4>
+    <p id="board_bar" class="nav_bar_btn">게시판</p>
+    <p id="storemap_bar" class="nav_bar_btn">가까운 미용실</p>
+    <p id="chatbot_bar" class="nav_bar_btn">왜 아플까?</p>
+    <p id="parkmap_bar" class="nav_bar_btn">산책 경로 추천</p>
+    <p id="style_bar" class="nav_bar_btn">스타일 추천</p>
+    <p style="margin-top:50px"><i class="fa-solid fa-dog fa-2xl"> </i></p>
+</nav>
+<div class="fullBody" style="width:92%; float:right;">
+    <div style="clear:both"></div>
+    <div class="mainbody">
+        <div style="height: 5%;"></div>
+        <form id="chatForm" action="{% url 'chatgpt' %}" method="POST">
+            {% csrf_token %}
+            <h4 class="bodytitle">AI에게 물어보세요</h4>
+            <input class="gpt_question" type="text" id="messageInput" name="message">
+            <label className="submit_icon" class="submit_icon" for="input-file"><i class="fa-solid fa-dog fa-2xl">
+            </i></label>
+            <button type="submit" id="input-file" style="display:none"></button>
+        </form>
     </div>
     <div style="clear:both"></div>
 
-    <nav class="ani-navbar">
-        <h4 id>Menu</h4>
-        <p id="board_bar" class="nav_bar_btn">게시판</p>
-        <p id="storemap_bar" class="nav_bar_btn">가까운 미용실</p>
-        <p id="chatbot_bar" class="nav_bar_btn">왜 아플까?</p>
-        <p id="parkmap_bar" class="nav_bar_btn">산책 경로 추천</p>
-        <p id="style_bar" class="nav_bar_btn">스타일 추천</p>
-        <p style="margin-top:50px"><i class="fa-solid fa-dog fa-2xl"> </i></p>
-    </nav>
-    <div class="fullBody" style="width:92%; float:right;">
-        <div style="clear:both"></div>
-        <div class="mainbody">
-            <div style="height: 5%;"></div>
-            <form id="chatForm" action="{% url 'chatgpt' %}" method="POST">
-                {% csrf_token %}
-                <h4 class="bodytitle">AI에게 물어보세요</h4>
-                <input class="gpt_question" type="text" id="messageInput" name="message">
-                <label className="submit_icon" class="submit_icon" for="input-file"><i class="fa-solid fa-dog fa-2xl">
-                    </i></label>
-                <button type="submit" id="input-file" style="display:none"></button>
-            </form>
-        </div>
-        <div style="clear:both"></div>
-
-        {% if result %}
+    {% if result %}
         <div class="answerBox">
             <div id="answer1" class="answer">{{ result.0 }}</div>
             <div id="answer2" class="answer">{{ result.1 }}</div>
@@ -54,102 +82,97 @@
             <div id="answer4" class="answer">{{ result.3 }}</div>
             <div id="answer5" class="answer">{{ result.4 }}</div>
         </div>
-        {% endif %}
-        <div style="clear:both"></div>
+    {% endif %}
+    <div style="clear:both"></div>
 
-        <div id="solution">
-            <div style="height:1px"></div>
-            <h2>해결방안</h2>
-            <div class="solutionBox">
+    <div id="solution">
+        <div style="height:1px"></div>
+        <h2>해결방안</h2>
+        <div class="solutionBox">
 
-            </div>
         </div>
-
-
     </div>
 
-    <script>
-        document.getElementsByClassName('action_btn')[0].addEventListener('click', function () {
-            window.location.href = '/user/mypage';
-        }); 
-        document.getElementsByClassName('action_btn')[1].addEventListener('click', function () {
-            window.location.href = '/user/login';
-        });
-        document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
-            window.location.href = '/';
-        });
-        document.getElementById('board_bar').addEventListener('click', function () {
-            window.location.href = '/boardlist';
-        });
-        document.getElementById('storemap_bar').addEventListener('click', function () {
-            window.location.href = '/storemap';
-        });
-        document.getElementById('parkmap_bar').addEventListener('click', function () {
-            window.location.href = '/parkmap';
-        });
-        document.getElementById('chatbot_bar').addEventListener('click', function () {
-            window.location.href = '/chatgpt';
-        });
-        document.getElementById('style_bar').addEventListener('click', function () {
-            //window.location.href = '/style';
-            alert('아직 준비중!')
-        });
-    </script>
+
+</div>
+
+<script>
+    document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
+        window.location.href = '/';
+    });
+    document.getElementById('board_bar').addEventListener('click', function () {
+        window.location.href = '/boardlist';
+    });
+    document.getElementById('storemap_bar').addEventListener('click', function () {
+        window.location.href = '/storemap';
+    });
+    document.getElementById('parkmap_bar').addEventListener('click', function () {
+        window.location.href = '/parkmap';
+    });
+    document.getElementById('chatbot_bar').addEventListener('click', function () {
+        window.location.href = '/chatgpt';
+    });
+    document.getElementById('style_bar').addEventListener('click', function () {
+        //window.location.href = '/style';
+        alert('아직 준비중!')
+    });
+</script>
 
 
-    <script>
-        document.getElementById('chatForm').addEventListener('submit', function (event) {
-            event.preventDefault(); // Prevent the form from submitting normally
 
-            var message = document.getElementById('messageInput').value;
-            var jsonData = JSON.stringify({ message: message });
+<script>
+    document.getElementById('chatForm').addEventListener('submit', function (event) {
+        event.preventDefault(); // Prevent the form from submitting normally
 
-            // Set the value of the hidden input field to the JSON data
+        var message = document.getElementById('messageInput').value;
+        var jsonData = JSON.stringify({message: message});
 
-            // Submit the form
-            this.submit();
-        });
+        // Set the value of the hidden input field to the JSON data
 
-        // Function to update the response container with the received JSON response
-        document.addEventListener('DOMContentLoaded', function () {
-            // Add event listeners to all answer elements
-            var answerElements = document.getElementsByClassName('answer');
-            for (var i = 0; i < answerElements.length; i++) {
-                answerElements[i].addEventListener('click', function (event) {
-                    event.preventDefault(); // Prevent the form from submitting normally
+        // Submit the form
+        this.submit();
+    });
 
-                    var selectedAnswer = this.innerText; // Get the selected answer text
+    // Function to update the response container with the received JSON response
+    document.addEventListener('DOMContentLoaded', function () {
+        // Add event listeners to all answer elements
+        var answerElements = document.getElementsByClassName('answer');
+        for (var i = 0; i < answerElements.length; i++) {
+            answerElements[i].addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent the form from submitting normally
 
-                    // Create a new FormData object and add the selected answer
-                    var formData = new FormData();
-                    formData.append('selected_answer', selectedAnswer);
+                var selectedAnswer = this.innerText; // Get the selected answer text
 
-                    // Send an AJAX request to the Django server
-                    var xhr = new XMLHttpRequest();
-                    xhr.open('POST', '{% url 'solution' %}'); // Replace 'solution' with your Django URL
-                    xhr.setRequestHeader('X-CSRFToken', '{{ csrf_token }}'); // Include CSRF token
-                    xhr.onload = function () {
-                        if (xhr.status === 200) {
-                            var response = JSON.parse(xhr.responseText); // Parse the response as JSON
-                            var solution = response.solution; // Get the solution from the JSON object
-                            console.log(typeof solution);
-                            showSolution(solution); // Call a function to display the solution
-                        } else {
-                            console.error('Request failed. Status:', xhr.status);
-                        }
-                    };
-                    xhr.send(formData);
+                // Create a new FormData object and add the selected answer
+                var formData = new FormData();
+                formData.append('selected_answer', selectedAnswer);
 
-                });
-            }
-        });
+                // Send an AJAX request to the Django server
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', '{% url 'solution' %}'); // Replace 'solution' with your Django URL
+                xhr.setRequestHeader('X-CSRFToken', '{{ csrf_token }}'); // Include CSRF token
+                xhr.onload = function () {
+                    if (xhr.status === 200) {
+                        var response = JSON.parse(xhr.responseText); // Parse the response as JSON
+                        var solution = response.solution; // Get the solution from the JSON object
+                        console.log(typeof solution);
+                        showSolution(solution); // Call a function to display the solution
+                    } else {
+                        console.error('Request failed. Status:', xhr.status);
+                    }
+                };
+                xhr.send(formData);
 
-        // Function to display the solution in the solution box
-        function showSolution(solution) {
-            console.log(solution);
+            });
+        }
+    });
 
-            var solutionBox = document.getElementById('solution');
-            solutionBox.innerHTML = `
+    // Function to display the solution in the solution box
+    function showSolution(solution) {
+        console.log(solution);
+
+        var solutionBox = document.getElementById('solution');
+        solutionBox.innerHTML = `
                 <div style="height: 1px;"></div>
                 <h2>해결방안</h2>
                 <p>${solution[0]}</p
@@ -159,9 +182,9 @@
                 <p>${solution[4]}</p
                     
             `;
-            solutionBox.style.display = 'block';
-        }
-    </script>
+        solutionBox.style.display = 'block';
+    }
+</script>
 </body>
 
 </html>

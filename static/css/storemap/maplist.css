@@ -109,8 +109,8 @@ body {
     border-radius: 60px 60px 60px 60px;
     margin-top: 100px;
     width: 200px;
-    background: #74B559;
-    color: black;
+    background: #FAEBD7;
+    color: #976B5B;
     height: 100%;
     padding: 25px;
     position: fixed;
@@ -131,7 +131,7 @@ h4 {
 
 }
 
-.ani-navbar:hover + .fullBody {
+.ani-navbar:hover+.fullBody {
     opacity: 0.5;
     transition: all 1s;
 }
@@ -172,17 +172,6 @@ h4 {
     background-color: white;
 
 }
-
-.map_wrap {
-    margin-top: 10%;
-    position: absolute;
-    overflow: hidden;
-    left: 20%;
-    width: 70%;
-    right: 10%;
-    height: 70%;
-}
-
 
 .radius_border {
     border: 1px solid #919191;
@@ -350,30 +339,30 @@ h4 {
 
 .bigline {
     height: 5px;
-    background-color: #009966;
+    background-color: #976B5B;
     border: none;
 }
 
 .smallline {
     height: 2px;
-    background-color: #74B559;
+    background-color: #F4C1A9;
     border: none;
 }
 
 .maintext {
     text-align: center;
-    color: #00af72;
+    color: #976B5B;
     user-select: none;
 }
 
 .othertext {
     text-align: center;
-    color: #74B559;
+    color: #F4C1A9;
     user-select: none;
 }
 
-.othertext:hover{
-    color:black;
+.othertext:hover {
+    color: #976B5B;
 }
 
 
@@ -382,5 +371,77 @@ h4 {
 }
 
 .nav_bar_btn:hover {
-    color: white;
+    color: black;
+}
+
+.list_wrap {
+    margin-top: 10%;
+    position: absolute;
+    overflow-y: scroll;
+    left: 20%;
+    width: 70%;
+    right: 10%;
+    height: 70%;
+    border: 1px solid #976B5B;
+    border-radius: 50px;
+}
+
+.list_wrap::-webkit-scrollbar {
+    display: none;
+}
+
+.li_style {
+    list-style-type: none;
+    position: relative;
+    background-color: white;
+    border: 3px solid #976B5B;
+    border-radius: 50px;
+    margin: 4% 4%;
+    user-select: none;
+}
+
+.li_style:hover{
+    background-color: #FAEBD7;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.title_text {
+    margin-left: 30px;
+    color: #976B5B;
+}
+
+.rate_text {
+    margin: 0px 50px;
+    font-style: oblique;
+    font-weight: bold;
+    color: #976B5B;
+}
+
+.openhour_text {
+    margin: 0px 50px;
+    font-style: oblique;
+    font-weight: bold;
+    color: #976B5B;
+}
+
+.phone_text {
+    margin: 0px 30px;
+    font-style: oblique;
+    font-weight: bold;
+    color: #976B5B;
+}
+
+.location_text {
+    margin-left: 40px;
+    font-weight: bold;
+    color: #976B5B;
+}
+
+.vertical_bar{
+    width: 1px;
+    background-color: gainsboro;
+    color: gainsboro;
 }

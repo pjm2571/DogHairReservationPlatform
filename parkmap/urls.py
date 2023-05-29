@@ -1,8 +1,10 @@
 from django.urls import path, include
 
-from .views import map, details
+from .views import map, details, maplist
 
 urlpatterns = [
     path('', map, name='map'),
-    path('details/', details, name='details')
+    path('maplist/', maplist, name='maplist'),
+    path('details/', details, name='details'),
+
 ]

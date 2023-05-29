@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>공원 맵 리스트</title>
+    {% load static %}
+    <script src="{% static 'javascript/parkmap/maplist.js' %}"></script>
+    <link rel="stylesheet" href="{% static 'css/parkmap/maplist.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+<div>
+    <div id="menubar">
+        <button class="menu_btn">메뉴바</button>
+        <script>
+            document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
+                window.location.href = '/';
+            });
+        </script>
+
+        {% if loginCheck %}
+            <button class="mp_btn"> My page</button>
+            <button class="logout_btn"> Logout</button>
+            <script>
+                document.getElementsByClassName('mp_btn')[0].addEventListener('click', function () {
+                    window.location.href = 'mypage.html';
+                });
+                document.getElementsByClassName('logout_btn')[0].addEventListener('click', function () {
+                    window.location.href = '/user/logout';
+                });
+            </script>
+        {% else %}
+            <button class="login_btn"> Login</button>
+            <button class="join_btn"> Join</button>
+            <script>
+                document.getElementsByClassName('login_btn')[0].addEventListener('click', function () {
+                    window.location.href = '/user/login';
+                });
+                document.getElementsByClassName('join_btn')[0].addEventListener('click', function () {
+                    window.location.href = '/user/join';
+                });
+            </script>
+        {% endif %}
+
+    </div>
+    <div style="clear: both;"></div>
+
+
+    <div style="clear:both"></div>
+
+    <nav class="ani-navbar">
+        <h4 id>Menu</h4>
+        <p id="board_bar" class="nav_bar_btn">게시판</p>
+        <p id="storemap_bar" class="nav_bar_btn">가까운 미용실</p>
+        <p id="chatbot_bar" class="nav_bar_btn">왜 아플까?</p>
+        <p id="parkmap_bar" class="nav_bar_btn">산책 경로 추천</p>
+        <p id="style_bar" class="nav_bar_btn">스타일 추천</p>
+        <p style="margin-top:50px"><i class="fa-solid fa-dog fa-2xl"> </i></p>
+    </nav>
+
+    <script>
+        function goToMain() {
+            window.location.href = "/";
+        }
+    </script>
+
+    <div class="map_aside">
+        <hr class="bigline">
+        <br>
+        <h1 class="maintext">가까운</h1>
+        <h1 class="maintext">공원</h1>
+        <br>
+        <hr class="smallline">
+        <br>
+        <h2 class="othertext">지도 보기</h2>
+        <h2 class="maintext">목록 보기</h2>
+        <br>
+        <hr class="smallline">
+    </div>
+
+    <div class="list_wrap">
+        <ul class="ul_list">
+
+        </ul>
+    </div>
+
+</div>
+
+<script>
+    document.getElementsByClassName('othertext')[0].addEventListener('click', function () {
+        window.location.href = '/parkmap';
+    });
+</script>
+
+<script>
+    document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
+        window.location.href = '/';
+    });
+    document.getElementById('board_bar').addEventListener('click', function () {
+        window.location.href = '/boardlist';
+    });
+    document.getElementById('storemap_bar').addEventListener('click', function () {
+        window.location.href = '/storemap';
+    });
+    document.getElementById('parkmap_bar').addEventListener('click', function () {
+        window.location.href = '/parkmap';
+    });
+    document.getElementById('chatbot_bar').addEventListener('click', function () {
+        window.location.href = '/chatgpt';
+    });
+    document.getElementById('style_bar').addEventListener('click', function () {
+        //window.location.href = '/style';
+        alert('아직 준비중!')
+    });
+</script>
+
+<script>
+    get_currnet_coordinate(function (coords) {
+        if (coords) {
+            const [current_lat, current_lon] = coords;
+
+            var ulElements = document.getElementsByClassName("ul_list");
+
+            for (let i = 0; i < ulElements.length; i++) {
+                var ulElement = ulElements[i];
+
+                {% for park in parks %}
+                    var liElement = document.createElement("li");
+                    liElement.className = "li_style"
+
+                    liElement.addEventListener('click', function () {
+                        var st_title = this.querySelector("h1").innerText;
+                        window.location.href = '/parkmap/details?title=' + encodeURIComponent('{{ store.name }}')
+                    })
+
+                    var distance = calculateDistance(
+                        current_lat, current_lon,
+                        {{ park.longitude }}, {{ park.latitude }}
+                    );
+
+
+                    if (distance <= 2) {
+
+                        distance = distance.toFixed(2);
+
+                        liElement.innerHTML = `
+                        <h1 class="title_text">{{ park.title }}</h1>
+                        <span class="location_text">{{ park.location }}</span>
+                        <span class="vertical_bar">|</span>
+                        <span class="location_text">${distance} km</span>
+                        <br><br>
+                    `;
+
+                        ulElement.appendChild(liElement);
+                    }
+                {% endfor %}
+            }
+        } else {
+            console.log('위치 정보를 가져오는 중 오류가 발생했습니다.');
+        }
+    });
+</script>
+
+</body>
+</html>
