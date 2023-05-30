@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/doglist/main.css' %}">
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+
+<button class="scrollToTopButton" onclick="scrollToTop()">맨 위로</button>
+
+<h1 class="main_title">견종을 선택해주세요</h1>
+
+<div class="input_div">
+    <span class="light_text">선택된 견종 : </span>
+    <span id="now_input" class="light_text">아직 없습니다</span>
+    <span><button class="ok_btn">확인</button>
+</div>
+
+<div class="search_div">
+    <input type="text" id="searchInput" placeholder="검색어 입력">
+    <button id="searchButton" class="light_text">검색</button>
+    <button id="refreshButton" class="light_text">새로고침</button>
+
+</div>
+
+<ul class="ul_wrap">
+    {% for dog in dogs %}
+        <li>
+            <img src="{{ dog.img_src }}">
+            <div class="info_text">{{ dog.kind_kor }}</div>
+            <div class="info_text">{{ dog.kind_eng }}</div>
+        </li>
+    {% endfor %}
+</ul>
+
+<script>
+    document.getElementsByClassName('ok_btn')[0].addEventListener("click", function () {
+        if (confirm("견종을 정확하게 입력하셨나요?")) {
+            var nowInput = document.querySelector("#now_input")
+            var breed = nowInput.textContent
+            var breed_kor = Array.from(breed).filter(function (c) {
+                return /\p{Script=Hangul}/u.test(c);
+            }).join('');
+            window.location.href = '/user/mypage/addmydog?breed=' + breed_kor;
+            ;
+        }
+    })
+</script>
+
+<script>
+    var list_item = document.getElementsByTagName("li")
+    var nowInput = document.querySelector("#now_input")
+    for (var i = 0; i < list_item.length; i++) {
+        list_item[i].addEventListener("click", function () {
+            var text = this.innerText;
+            nowInput.textContent = text;
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        })
+    }
+</script>
+
+<script>
+
+    document.getElementById('refreshButton').addEventListener("click", function () {
+        window.location.href = '/doglist';
+    })
+
+    function scrollToTop() {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+
+    window.onload = function () {
+
+        document.getElementById("searchButton").addEventListener("click", function () {
+            var searchKeyword = document.getElementById("searchInput").value;
+
+            var listItems = document.getElementsByTagName("li");
+
+            for (var i = 0; i < listItems.length; i++) {
+                listItems[i].style.borderStyle = "bold";
+                listItems[i].style.border = "4px solid #976B5B";
+            }
+
+            for (var i = 0; i < listItems.length; i++) {
+                var listItemText = listItems[i].innerText.toLowerCase();
+                if (listItemText.includes(searchKeyword)) {
+                    listItems[i].scrollIntoView();
+                    listItems[i].focus();
+
+
+                    listItems[i].style.borderStyle = "bold";
+                    listItems[i].style.border = "4px solid yellow";
+                }
+            }
+        });
+
+    }
+</script>
+
+</body>
+</html>

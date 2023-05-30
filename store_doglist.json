@@ -1,0 +1,970 @@
+[
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281928511_1.jpg",
+      "kind_kor": "아펜핀셔",
+      "kind_eng": "AFFENPINSCHER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281928536_1.jpg",
+      "kind_kor": "아프간하운드",
+      "kind_eng": "AFGHAN HOUND"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281928572_1.jpg",
+      "kind_kor": "에어데일 테리어",
+      "kind_eng": "AIREDALE TERRIER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281928601_1.jpg",
+      "kind_kor": "아키다",
+      "kind_eng": "AKITA"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1354607815_1.jpg",
+      "kind_kor": "알래스칸 맬러뮤트",
+      "kind_eng": "ALASKAN MALAMUTE"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281928680_1.jpg",
+      "kind_kor": "아메리칸 코카 스파니엘",
+      "kind_eng": "American Cocker Spaniel"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/images/main/none_img.jpg",
+      "kind_kor": "아메리칸 에스키모독",
+      "kind_eng": "American Eskimo Dog"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281928701_1.jpg",
+      "kind_kor": "오스트레일리안 테리어",
+      "kind_eng": "AUSTRALIAN TERRIER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281928717_1.jpg",
+      "kind_kor": "바센지",
+      "kind_eng": "BASENJI"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281928806_1.jpg",
+      "kind_kor": "바셋하운드",
+      "kind_eng": "BASSET HOUND"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281928821_1.jpg",
+      "kind_kor": "비글",
+      "kind_eng": "BEAGLE"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281928843_1.jpg",
+      "kind_kor": "비어디드 콜리",
+      "kind_eng": "BEARDED COLLIE"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281928857_1.jpg",
+      "kind_kor": "베드링턴 테리어",
+      "kind_eng": "BEDLINGTON TERRIER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281929003_1.jpg",
+      "kind_kor": "벨지안 쉽도그 그로넨달",
+      "kind_eng": "Belgian Sheepdog Groenendael"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/images/main/none_img.jpg",
+      "kind_kor": "벨지안 쉽도그 라케노이즈",
+      "kind_eng": "Belgian Sheepdog Laekenois"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092656_1.jpg",
+      "kind_kor": "벨지안 쉽도그 말리노이즈",
+      "kind_eng": "Belgian Sheepdog Malinois"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281928913_1.jpg",
+      "kind_kor": "벨지안 쉽도그 터뷰렌",
+      "kind_eng": "Belgian Sheepdog Tervuren"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1267187987_1.jpg",
+      "kind_kor": "버니즈 마운틴 독",
+      "kind_eng": "BERNESE MOUNTAIN DOG"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281156082_1.jpg",
+      "kind_kor": "비숑 프리제",
+      "kind_eng": "BICHON FRISE"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092753_1.jpg",
+      "kind_kor": "블랙 앤 탄 쿤하운드",
+      "kind_eng": "BLACK & TAN COONHOUND"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092771_1.jpg",
+      "kind_kor": "블러드 하운드",
+      "kind_eng": "BLOODHOUND"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281931115_1.jpg",
+      "kind_kor": "보더 콜리",
+      "kind_eng": "Border Collie"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1268050384_1.jpg",
+      "kind_kor": "보더 테리어",
+      "kind_eng": "BORDER TERRIER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092671_1.jpg",
+      "kind_kor": "보르조이",
+      "kind_eng": "BORZOI"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281929077_1.jpg",
+      "kind_kor": "보스턴테리어",
+      "kind_eng": "BOSTON TERRIER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092683_1.jpg",
+      "kind_kor": "복서",
+      "kind_eng": "Boxer"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092738_1.jpg",
+      "kind_kor": "브리타니",
+      "kind_eng": "BRITTANY"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281156030_1.jpg",
+      "kind_kor": "브뤼셀 그리펀",
+      "kind_eng": "Brussels Griffonr"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1266836216_1.jpg",
+      "kind_kor": "불 독",
+      "kind_eng": "BULL DOG"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092726_1.jpg",
+      "kind_kor": "불 테리어",
+      "kind_eng": "BULL TERRIER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092703_1.jpg",
+      "kind_kor": "불마스티프",
+      "kind_eng": "BULLMASTIFF"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281929127_1.jpg",
+      "kind_kor": "케언 테리어",
+      "kind_eng": "CAIRN TERRIER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/images/main/none_img.jpg",
+      "kind_kor": "코카시안 오프차카",
+      "kind_eng": "Caucasian avtcharka"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281929169_1.jpg",
+      "kind_kor": "체사피크베이 리트리버",
+      "kind_eng": "CHESAPEAKE BAY RETRIEVER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281929213_1.jpg",
+      "kind_kor": "치와와",
+      "kind_eng": "Chihuahua"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281929267_1.jpg",
+      "kind_kor": "차이니스 크레스티드",
+      "kind_eng": "Chinese Crested"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281929249_1.jpg",
+      "kind_kor": "차이니즈 샤페이",
+      "kind_eng": "Chinese Shar-pei"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281093021_1.jpg",
+      "kind_kor": "차우차우",
+      "kind_eng": "CHOWCHOW"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281093856_1.jpg",
+      "kind_kor": "크럼버 스파니엘",
+      "kind_eng": "CLUMBER SPANIEL"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281093785_1.jpg",
+      "kind_kor": "콜리",
+      "kind_eng": "Collie"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281929309_1.jpg",
+      "kind_kor": "컬리 코티드 리트리버",
+      "kind_eng": "CURLY COATED RETRIEVER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281931060_1.jpg",
+      "kind_kor": "닥스훈트",
+      "kind_eng": "DACHSHUNDS"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281929443_1.jpg",
+      "kind_kor": "달마시안",
+      "kind_eng": "DALMATIAN"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092500_1.jpg",
+      "kind_kor": "댄디 딘몬트 테리어",
+      "kind_eng": "DANDIE DINMONT TERRIER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281929484_1.jpg",
+      "kind_kor": "도베르만 핀셔",
+      "kind_eng": "DOBERMAN PINSCHER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092872_1.jpg",
+      "kind_kor": "잉글리쉬 코카 스파니엘",
+      "kind_eng": "ENGLISH COCKER SPANIEL"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092889_1.jpg",
+      "kind_kor": "잉글리쉬 세터",
+      "kind_eng": "ENGLISH SETTER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092847_1.jpg",
+      "kind_kor": "잉글리쉬 스프링거 스파니엘",
+      "kind_eng": "ENGLISH SPRINGER SPANIEL"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/images/main/none_img.jpg",
+      "kind_kor": "필드 스파니엘",
+      "kind_eng": "FIELD SPANIEL"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281093887_1.jpg",
+      "kind_kor": "플랫-코티드 리트리버",
+      "kind_eng": "FLAT-COATED RETRIEVER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281093874_1.jpg",
+      "kind_kor": "프렌치 불독",
+      "kind_eng": "FRENCH BULLDOG"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281093007_1.jpg",
+      "kind_kor": "져먼 셰퍼드 독",
+      "kind_eng": "GERMAN SHEPHERD DOG"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/images/main/none_img.jpg",
+      "kind_kor": "저먼 쇼트헤어드 포인터",
+      "kind_eng": "GERMAN SHORTHAIRED POINTER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092906_1.jpg",
+      "kind_kor": "자이언트 슈나우저",
+      "kind_eng": "Giant Schnauzer"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281929559_1.jpg",
+      "kind_kor": "골든 리트리버",
+      "kind_eng": "GOLDEN RETRIEVER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092434_1.jpg",
+      "kind_kor": "그레이트 데인",
+      "kind_eng": "GREAT DANE"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/images/main/none_img.jpg",
+      "kind_kor": "그레이트 피레이즈",
+      "kind_eng": "GREAT PYRENEES"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1362361174_1.jpg",
+      "kind_kor": "그레이 하운드",
+      "kind_eng": "GREY HOUND"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092787_1.jpg",
+      "kind_kor": "아이리쉬 세터",
+      "kind_eng": "IRISH SETTER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092808_1.jpg",
+      "kind_kor": "아이리쉬 테리어",
+      "kind_eng": "IRISH TERRIER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/images/main/none_img.jpg",
+      "kind_kor": "아이리쉬 워터 스파니엘",
+      "kind_eng": "IRISH WATER SPANIEL"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281156370_1.jpg",
+      "kind_kor": "아이리쉬 울프하운드",
+      "kind_eng": "IRISH WOLFHOUND"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1362361228_1.jpg",
+      "kind_kor": "이탈리안 그레이하운드",
+      "kind_eng": "Italian Greyhound"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092973_1.jpg",
+      "kind_kor": "잭 러셀 테리어",
+      "kind_eng": "JACK RUSSEL TERRIER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092954_1.jpg",
+      "kind_kor": "제페니스 친",
+      "kind_eng": "Japanese Chin"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281929600_1.jpg",
+      "kind_kor": "제패니즈 스피츠",
+      "kind_eng": "Japanese Spitz"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/images/main/none_img.jpg",
+      "kind_kor": "진돗개",
+      "kind_eng": "Jindo Dog"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281093752_1.jpg",
+      "kind_kor": "케리 블루 테리어",
+      "kind_eng": "KERRY BLUE TERRIER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281093771_1.jpg",
+      "kind_kor": "코몬돌",
+      "kind_eng": "KOMONDOR"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281093821_1.jpg",
+      "kind_kor": "쿠바츠",
+      "kind_eng": "KUVASZ"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092530_1.jpg",
+      "kind_kor": "래브라도 리트리버",
+      "kind_eng": "LABRADOR RETRIEVER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092553_1.jpg",
+      "kind_kor": "레이크랜드 테리어",
+      "kind_eng": "LAKELAND TERRIER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092512_1.jpg",
+      "kind_kor": "라사 압소",
+      "kind_eng": "Lhasa Apso"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092618_1.jpg",
+      "kind_kor": "몰티즈",
+      "kind_eng": "Maltese"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092592_1.jpg",
+      "kind_kor": "맨체스터 테리어",
+      "kind_eng": "MANCHESTER TERRIERS"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281094084_1.jpg",
+      "kind_kor": "마스티프",
+      "kind_eng": "MASTIFF"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/images/main/none_img.jpg",
+      "kind_kor": "미니어쳐 핀셔",
+      "kind_eng": "Miniature Pinscher"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092633_1.jpg",
+      "kind_kor": "미니어처 슈나우져",
+      "kind_eng": "MINIATURE SCHNAUZER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281929668_1.jpg",
+      "kind_kor": "뉴펀들랜드",
+      "kind_eng": "NEWFOUNDLAND"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092488_1.jpg",
+      "kind_kor": "노르포크 테리어",
+      "kind_eng": "NORFOLK TERRIER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281092448_1.jpg",
+      "kind_kor": "노르웨이언 엘크 하운드",
+      "kind_eng": "NORWEGIAN ELKHOUND"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281155990_1.jpg",
+      "kind_kor": "노르위치 테리어",
+      "kind_eng": "NORWICH TERRIER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281929689_1.jpg",
+      "kind_kor": "올드 잉글리쉬 쉽독",
+      "kind_eng": "OLD ENGLISH SHEEPDOG"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281929719_1.jpg",
+      "kind_kor": "파피용",
+      "kind_eng": "Papillon"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281929739_1.jpg",
+      "kind_kor": "페키니즈",
+      "kind_eng": "Pekingese"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/images/main/none_img.jpg",
+      "kind_kor": "포인터",
+      "kind_eng": "POINTER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281929816_1.jpg",
+      "kind_kor": "포메라니안",
+      "kind_eng": "Pomeranian"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281929866_1.jpg",
+      "kind_kor": "푸들",
+      "kind_eng": "POODLE"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/images/main/none_img.jpg",
+      "kind_kor": "풍산개",
+      "kind_eng": "Poongsan Dog"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/images/main/none_img.jpg",
+      "kind_kor": "퍼그",
+      "kind_eng": "PUG"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281929885_1.jpg",
+      "kind_kor": "풀리",
+      "kind_eng": "PULI"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281156007_1.jpg",
+      "kind_kor": "로디지안 리즈백",
+      "kind_eng": "RHODESIAN RIDGEBACK"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281929933_1.jpg",
+      "kind_kor": "롯트 와일러",
+      "kind_eng": "ROTTWEILER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281929958_1.jpg",
+      "kind_kor": "세인트 버나드",
+      "kind_eng": "SAINT BERNARD"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281156161_1.jpg",
+      "kind_kor": "살루키",
+      "kind_eng": "SALUKI"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281930003_1.jpg",
+      "kind_kor": "사모예드",
+      "kind_eng": "SAMOYED"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/images/main/none_img.jpg",
+      "kind_kor": "삽살개",
+      "kind_eng": "SAPSAREE"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281156274_1.jpg",
+      "kind_kor": "스코티쉬 테리어",
+      "kind_eng": "SCOTTISH TERRIER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281156346_1.jpg",
+      "kind_kor": "실리함 테리어",
+      "kind_eng": "SEALYHAM TERRIER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281930066_1.jpg",
+      "kind_kor": "셔틀랜드 쉽독",
+      "kind_eng": "SHETLAND SHEEPDOG"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281930095_1.jpg",
+      "kind_kor": "시바 이누",
+      "kind_eng": "SHIBA"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1267015897_1.jpg",
+      "kind_kor": "시츄",
+      "kind_eng": "Shih Tzu"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281930125_1.jpg",
+      "kind_kor": "시베리안 허스키",
+      "kind_eng": "SIBERIAN HUSKY"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/images/main/none_img.jpg",
+      "kind_kor": "실키테리어",
+      "kind_eng": "Silky Terrier"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281156249_1.jpg",
+      "kind_kor": "스카이 테리어",
+      "kind_eng": "SKYE TERRIER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281156206_1.jpg",
+      "kind_kor": "소프트 코티드 휘튼 테리어",
+      "kind_eng": "SOFT-COATED WHEATEN TERRIER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281156122_1.jpg",
+      "kind_kor": "사우스 러시안 오프차카",
+      "kind_eng": "South russian ovtcharka"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281156312_1.jpg",
+      "kind_kor": "스테포드셔 불 테리어",
+      "kind_eng": "STAFFORDSHIRE BULL TERRIER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281156184_1.jpg",
+      "kind_kor": "서섹스 스파니엘",
+      "kind_eng": "SUSSEX SPANIEL"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/images/main/none_img.jpg",
+      "kind_kor": "티벳탄 마스티프",
+      "kind_eng": "Tibetan Mastiff"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281930198_1.jpg",
+      "kind_kor": "티벳탄 스파니엘",
+      "kind_eng": "Tibetan Spaniel"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281930243_1.jpg",
+      "kind_kor": "티벳탄 테리어",
+      "kind_eng": "Tibetan Terrier"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/images/main/none_img.jpg",
+      "kind_kor": "토이 멘체스터 테리어",
+      "kind_eng": "Toy Manchester Terrier"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1266841889_1.jpg",
+      "kind_kor": "비즐라",
+      "kind_eng": "VIZSLA"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1266841232_1.jpg",
+      "kind_kor": "와이마라너",
+      "kind_eng": "WEIMARANER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281930312_1.jpg",
+      "kind_kor": "웰쉬코르기",
+      "kind_eng": "WELSH CORGI"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281930389_1.jpg",
+      "kind_kor": "웰쉬 테리어",
+      "kind_eng": "WELSH TERRIER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281930422_1.jpg",
+      "kind_kor": "웨스트 하이랜드 화이트 테리어",
+      "kind_eng": "WEST HIGHLAND WHITE TERRIER"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1362361115_1.jpg",
+      "kind_kor": "휘 펫",
+      "kind_eng": "WHIPPET"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281930344_1.jpg",
+      "kind_kor": "와이어헤어드 포인팅 그리폰",
+      "kind_eng": "Wirehaired Pointing Griffon"
+    }
+  },
+  {
+    "model": "doglist.Dog",
+    "fields": {
+      "img_src": "http://www.kkc.or.kr/upload/search_dog/dog_1281930359_1.jpg",
+      "kind_kor": "요크셔테리어",
+      "kind_eng": "Yorkshire Terrier"
+    }
+  }
+]

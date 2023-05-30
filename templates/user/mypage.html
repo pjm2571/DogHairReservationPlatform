@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마이페이지</title>
+    {% load static %}
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'css/user/mypageStyle.css' %}">
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://kit.fontawesome.com/d84ada5b7f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="header">
+    <button class="menu_btn">메뉴바</button>
+    <button class="action_btn"> My page</button>
+    <button class="action_btn"> Logout</button>
+</div>
+<nav class="ani-navbar">
+    <h3>Menu</h3>
+    <p id="board_bar" class="nav_bar_btn">게시판</p>
+    <p id="storemap_bar" class="nav_bar_btn">가까운 미용실</p>
+    <p id="chatbot_bar" class="nav_bar_btn">왜 아플까?</p>
+    <p id="parkmap_bar" class="nav_bar_btn">산책 경로 추천</p>
+    <p id="style_bar" class="nav_bar_btn">스타일 추천</p>
+    <p style="margin-top:50px"><i class="fa-solid fa-dog fa-2xl"> </i></p>
+</nav>
+
+<div class="container">
+    <h1 class="mypage">My Page</h1>
+    <br><br>
+    <div class="container2">
+        <button id="info"><b>내 정보</b></button>
+        <button id="info_dog"><b>애완견 정보</b></button>
+    </div>
+    <br><br><br>
+    <hr color="#976B5B">
+    <br><br>
+    <div class="info_block">
+        <i class="fa-solid fa-user fa-4x"></i>
+        <h3 id="nickname">{{ user.nickname }}</h3>
+        <br><br><br><br><br>
+        <h3 id="email">{{ user.email }}</h3>
+        <button id="quit"><b>회원탈퇴</b></button>
+    </div>
+
+    <div class="plus_block">
+        <i class="fa-solid fa-plus fa-2x" id="plus"></i>
+    </div>
+    <ul class="ul_wrap">
+
+    </ul>
+
+    <br>
+
+</div>
+<script>
+    document.getElementById('board_bar').addEventListener('click', function () {
+        window.location.href = '/boardlist';
+    });
+    document.getElementById('storemap_bar').addEventListener('click', function () {
+        window.location.href = '/storemap';
+    });
+    document.getElementById('parkmap_bar').addEventListener('click', function () {
+        window.location.href = '/parkmap';
+    });
+    document.getElementById('chatbot_bar').addEventListener('click', function () {
+        window.location.href = '/chatgpt';
+    });
+    document.getElementById('style_bar').addEventListener('click', function () {
+        //window.location.href = '/style';
+        alert('아직 준비중!')
+    });
+    document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
+        window.location.href = '/';
+    });
+    document.getElementsByClassName('action_btn')[0].addEventListener('click', function () {
+        window.location.href = '/user/mypage';
+    });
+    document.getElementsByClassName('action_btn')[1].addEventListener('click', function () {
+        window.location.href = '/user/logout';
+    });
+    document.getElementById('info').addEventListener('click', function () {
+        var info_btn = document.querySelector('#info');
+        var infoBlock = document.querySelector('.info_block');
+        var plusBlock = document.querySelector('.plus_block');
+        var ulwrap = document.querySelector('.ul_wrap')
+        ulwrap.style.display = 'none';
+        infoBlock.style.display = 'block';
+        plusBlock.style.display = 'none';
+
+    });
+    document.getElementById('info_dog').addEventListener('click', function () {
+        var infoBlock = document.querySelector('.info_block');
+        var plusBlock = document.querySelector('.plus_block');
+        var ulwrap = document.querySelector('.ul_wrap');
+        ulwrap.style.display = 'block';
+        infoBlock.style.display = 'none';
+        plusBlock.style.display = 'block';
+
+        var ulElements = document.getElementsByClassName("ul_wrap");
+
+        for (let i = 0; i < ulElements.length; i++) {
+            var ulElement = ulElements[i];
+
+            while (ulElement.firstChild) {
+                ulElement.removeChild(ulElement.firstChild);
+            }
+
+            {% for dog in dogs %}
+
+                var liElement = document.createElement("li");
+
+                liElement.className = "dog_block";
+
+                {% if dog.sex == "female" %}
+                    var itag = '<i class="fa-solid fa-venus fa-3x" style="color: #ffffff;"></i>';
+                {% elif dog.sex == "male" %}
+                    var itag = '<i class="fa-solid fa-mars fa-3x"></i>';
+                {% endif %}
+
+                liElement.innerHTML = `
+                <i class="fa-solid fa-shield-dog fa-5x"></i>
+                <h3 id="dogname">{{dog.name}}</h3>
+                ${itag}
+                <br><br><br>
+                <h3 id="dogtype">{{dog.breed}}</h3>
+                <h3 id="line">l</h3>
+                <h3 id="dogage">{{dog.birth}}</h3>
+            `;
+
+                ulElement.appendChild(liElement);
+                console.log('here')
+            {% endfor %}
+        }
+    });
+    document.getElementsByClassName('plus_block')[0].addEventListener('click', function () {
+        window.location.href = ('addmydog')
+    });
+</script>
+</body>
+
+</html>

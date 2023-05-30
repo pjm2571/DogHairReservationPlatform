@@ -51,6 +51,8 @@ INSTALLED_APPS = [
     'parkmap',      # 공원 맵
     
     'gptjango',     # GPT-3 챗봇
+    
+    'doglist',      # 견종을 종류별로 저장
 
 ]
 

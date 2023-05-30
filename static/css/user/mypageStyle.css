@@ -1,0 +1,309 @@
+#header {
+    position: fixed;
+    height: 60px;
+    left: 0;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    border-bottom: 2px solid #976B5B;
+}
+
+
+#info {
+    margin-left: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid #976B5B;
+    border-radius: 30px 30px 30px 30px;
+    color: #976B5B;
+    font-size: 20px;
+}
+
+#info:active {
+    background-color: #976B5B;
+    color: white;
+}
+
+#info_dog {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid #976B5B;
+    border-radius: 30px 30px 30px 30px;
+    color: #976B5B;
+    font-size: 20px;
+}
+
+#info_dog:active {
+    background-color: #976B5B;
+    color: white;
+}
+
+#nickname {
+    float: left;
+    height: 20px;
+    margin-top: 60px;
+    margin-bottom: 1px;
+    color: white;
+    font-size: 31px;
+    font-weight: bold;
+}
+
+#email {
+    float: left;
+    height: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+#quit {
+    float: right;
+    margin-top: 50px;
+    margin-right: 10px;
+    width: 80px;
+    height: 30px;
+    background-color: #976B5B;
+    border: 2px solid white;
+    border-radius: 30px 30px 30px 30px;
+    color: white;
+}
+
+#addDogButton {
+    float: right;
+    width: 50px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 30px 30px 30px 30px;
+    color: black;
+    font-weight: bold;
+    background-color: #F4C1A9;
+}
+
+#addDogButton:hover {
+    background-color: #976B5B;
+}
+
+.dog_block #dogname {
+    float: left;
+    height: 20px;
+    margin-top: 70px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.dog_block #dogage {
+    float: left;
+    height: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.dog_block:last-child{
+    margin-bottom: 150px;
+}
+
+#line {
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    height: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+.dog_block #dogtype {
+    float: left;
+    height: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu_btn {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: white;
+    float: left;
+}
+
+.action_btn {
+    position: relative;
+    height: 50px;
+    width: 70px;
+    margin-right: 10px;
+    margin-top: 5px;
+    float: right;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+.ani-navbar {
+    border-radius: 60px 60px 60px 60px;
+    width: 200px;
+    background: #FAEBD7;
+    color: #976B5B;
+    height: 80%;
+    top: 90px;
+    padding: 25px;
+    position: fixed;
+    z-index: 5;
+    text-align: right;
+    transition: all 1s;
+    transform: translateX(-180px);
+}
+
+.ani-navbar p, h4 {
+    font-family: 'main-font';
+}
+
+.ani-navbar:hover {
+    transform: translateX(0px);
+    text-align: center;
+}
+
+.ani-navbar:hover + .fullBody {
+    opacity: 0.5;
+    transition: all 1s;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-250px)
+    }
+    50% {
+        transform: translateX(50px) skewX(-30deg)
+    }
+    100% {
+        transform: translateX(0px)
+    }
+}
+
+.ani-navbar p {
+    text-align: center;
+    margin-top: 2px;
+}
+
+.ani-navbar:hover p {
+    animation-name: slide;
+    animation-duration: 1s;
+}
+
+.nav_bar_btn {
+    user-select: none;
+}
+
+.nav_bar_btn:hover {
+    color: black;
+}
+
+.container {
+    position: fixed;
+    width: 430px;
+    height: 100%;
+    margin-top: 45px;
+    top: 90px;
+    left: 520px;
+    text-align: left;
+    overflow-y: scroll;
+    overflow: auto;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.container2 {
+    overflow: auto;
+    position: absolute;
+    width: 430px;
+}
+
+.mypage {
+    font-size: 43px;
+    color: #976B5B;
+    width: 200px;
+    margin-left: 29%;
+}
+
+.info_block {
+    display: none;
+    background-color: #976B5B;
+    width: 430px;
+    height: 200px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.info_block i {
+    float: left;
+    margin: 11%;
+    color: #ffffff;
+}
+
+ul {
+    padding-left: 0;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+
+
+.dog_block {
+    background-color: #976B5B;
+    width: 430px;
+    height: 200px;
+    border-radius: 30px 30px 30px 30px;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.dog_block i {
+    float: left;
+    margin-top: 13%;
+    margin-left: 13%;
+    color: #ffffff;
+}
+
+.plus_block {
+    margin-bottom: 20px;
+    display: none;
+    width: 420px;
+    height: 50px;
+    border: 3px solid #976B5B;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+}
+
+.plus_block i {
+    margin-top: 8px;
+    color: #976B5B;
+}
+
+.dialog {
+    display: none;
+    position: fixed;
+    height: 255px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F4C1A9;
+    padding: 20px;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+i{
+    margin-right: 30px;
+}

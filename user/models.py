@@ -28,3 +28,10 @@ class User(AbstractBaseUser):
 
     class Meta:
         db_table = 'user'
+
+class Dog(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    name = models.CharField(max_length=255)
+    sex = models.CharField(max_length=10)
+    breed = models.CharField(max_length=255)
+    birth = models.DateField()

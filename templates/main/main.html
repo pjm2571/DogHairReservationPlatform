@@ -19,11 +19,18 @@
     <button class="menu_btn">메뉴바</button>
 
     {% if loginCheck %}
+        {% if not dogs %}
+            <script>
+                alert('현재 등록된 반려견이 없습니다. 반려견 등록 페이지로 이동합니다.')
+                window.location.href = '/user/mypage/addmydog'
+            </script>
+        {% endif %}
+
         <button class="mp_btn"> My page</button>
         <button class="logout_btn"> Logout</button>
         <script>
             document.getElementsByClassName('mp_btn')[0].addEventListener('click', function () {
-                window.location.href = 'mypage.html';
+                window.location.href = '/user/mypage';
             });
             document.getElementsByClassName('logout_btn')[0].addEventListener('click', function () {
                 window.location.href = '/user/logout';

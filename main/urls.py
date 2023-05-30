@@ -11,4 +11,5 @@ urlpatterns = [
     path('storemap/', include('storemap.urls')),    # 반려동물미용 맵
     path('chatgpt/',include('gptjango.urls')),      # chatgpt
     path('parkmap/', include('parkmap.urls')),      # 공원 맵
+    path('doglist/', include('doglist.urls')),      # 견종 리스트
 ]

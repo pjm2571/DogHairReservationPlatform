@@ -3,12 +3,81 @@ from django.shortcuts import render, redirect
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from user.models import User
+from user.models import User, Dog
 import re
+
 
 def Logout(request):
     request.session.flush()
     return redirect('/')
+
+
+class Mypage(APIView):
+    def get(self, request):
+        context = {}
+        # Session 이용하여 유저 정보 가져옴
+        email = request.session['email']
+        user = User.objects.filter(email=email).first()
+
+        # 강아지 정보 가져옴
+        dogs = Dog.objects.filter(user=user)
+
+        context['user'] = user
+        context['dogs'] = dogs
+
+        return render(request, 'user/mypage.html', context)
+    def post(self, request):
+        return render(request, 'user/mypage.html')
+
+class Addmydog(APIView):
+    def get(self, request):
+        context = {}
+
+        breed = request.GET.get('breed')
+
+        if breed == None:
+            return render(request, 'user/addmydog.html')
+
+        context['breed'] = breed
+
+        return render(request, 'user/addmydog.html', context)
+
+    def post(self, request):
+        name = request.data.get('name')
+        sex = request.data.get('sex')
+        breed = request.data.get('breed')
+        birth = request.data.get('birth')
+
+        # 공백 check
+        if name == "":
+            return Response(status=500, data=dict(message='반려견의 이름을 입력해주세요.'))
+        if sex == None:
+            return Response(status=500, data=dict(message='반려견의 성별을 선택해주세요.'))
+        if breed == "":
+            return Response(status=500, data=dict(message='견종을 입력해주세요.'))
+        if birth == "":
+            return Response(status=500, data=dict(message='반려견의 생일을 입력해주세요.'))
+
+        # Session 이용하여 유저 정보 가져옴
+        email = request.session['email']
+        user = User.objects.filter(email=email).first()
+
+        dogs = Dog.objects.filter(user=user)
+
+        for doggy in dogs:
+            if doggy.name == name:
+                return Response(status=500, data=dict(message='동일한 반려견이 존재합니다. 반려견 이름을 확인해주세요.'))
+
+        dog = Dog.objects.create(
+            user=user,
+            name=name,
+            sex=sex,
+            birth=birth,
+            breed=breed
+        )
+
+        return Response(status=200, data=dict(message='반려견 등록에 성공했습니다.'))
+
 
 class Login(APIView):
     def get(self, request):
@@ -78,7 +147,7 @@ class Join(APIView):
 
         # 회원가입 시, password 확인
         if raw_password != password:
-                return Response(status=500, data=dict(message='비밀번호가 일치하지 않습니다. 비밀번호를 확인해주세요.'))
+            return Response(status=500, data=dict(message='비밀번호가 일치하지 않습니다. 비밀번호를 확인해주세요.'))
 
         User.objects.create(password=make_password(password),
                             email=email,
@@ -86,10 +155,11 @@ class Join(APIView):
                             nickname=nickname)
         return Response(status=200, data=dict(message="회원가입 성공했습니다. 로그인해주세요."))
 
+
 class verifyEmail(APIView):
     def post(self, request):
         email = request.data.get('email')
-        
+
         # 이메일이 공백일 경우
         if email == "":
             return Response(status=500, data=dict(message='이메일은 공백이 될 수 없습니다.'))
@@ -103,6 +173,7 @@ class verifyEmail(APIView):
             return Response(status=500, data=dict(message='해당 이메일 주소가 존재합니다.'))
 
         return Response(status=200, data=dict(message="사용할 수 있는 이메일입니다."))
+
 
 class verifyNickname(APIView):
     def post(self, request):
