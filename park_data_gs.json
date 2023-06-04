@@ -1,0 +1,605 @@
+[
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "대구대학교비호동산",
+      "location": "경북 경산시 진량읍 대구대로 201",
+      "latitude": "128.8491000",
+      "longitude": "35.9010490"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "경산자연마당",
+      "location": "경북 경산시 중방동 683-1",
+      "latitude": "128.7407287",
+      "longitude": "35.8271802"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "중산 제1근린공원",
+      "location": "경북 경산시 펜타힐즈1로 38",
+      "latitude": "128.7132010",
+      "longitude": "35.8285511"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "임당근린공원",
+      "location": "경북 경산시 둥지로 50",
+      "latitude": "128.7524191",
+      "longitude": "35.8422040"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "하얀꽃공원",
+      "location": "경북 경산시 사동 185",
+      "latitude": "128.7610232",
+      "longitude": "35.8098718"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "말매못공원",
+      "location": "경북 경산시 사동 20",
+      "latitude": "128.7535367",
+      "longitude": "35.8129101"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "들기공원",
+      "location": "경북 경산시 남산면 평기리 375-1",
+      "latitude": "128.8486120",
+      "longitude": "35.7575229"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "솔숲구릉공원",
+      "location": "경북 경산시 백자로 46",
+      "latitude": "128.7536901",
+      "longitude": "35.8102508"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "진량근린공원",
+      "location": "경북 경산시 진량읍 신상리 429",
+      "latitude": "128.8184227",
+      "longitude": "35.8712653"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "중산공원",
+      "location": "경북 경산시 정평동 222-91",
+      "latitude": "128.7288205",
+      "longitude": "35.8302924"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "상방공원 (2024년예정)",
+      "location": "경북 경산시 상방동 65-3",
+      "latitude": "128.7434956",
+      "longitude": "35.8150353"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "은호공원",
+      "location": "경북 경산시 중방동 818-1",
+      "latitude": "128.7309515",
+      "longitude": "35.8270123"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "옥산근린공원",
+      "location": "경북 경산시 성암로21길 46",
+      "latitude": "128.7265953",
+      "longitude": "35.8286479"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "옥산공원",
+      "location": "경북 경산시 옥산로 83",
+      "latitude": "128.7243561",
+      "longitude": "35.8224630"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "와촌휴게소(포항방향)쉼터",
+      "location": "경북 경산시 와촌면 강학길 103",
+      "latitude": "128.7763221",
+      "longitude": "35.9517192"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "정평공원",
+      "location": "경북 경산시 정평동 260-13",
+      "latitude": "128.7275267",
+      "longitude": "35.8359492"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "근린공원",
+      "location": "경북 경산시 진량읍 대원리 486",
+      "latitude": "128.8219030",
+      "longitude": "35.8568277"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "백천공원",
+      "location": "경북 경산시 백천동 551-117",
+      "latitude": "128.7457039",
+      "longitude": "35.8024526"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "남매근린공원",
+      "location": "경북 경산시 계양동 254-3",
+      "latitude": "128.7443034",
+      "longitude": "35.8311066"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "바람개비동산",
+      "location": "경북 경산시 백양로33길 46",
+      "latitude": "128.7613847",
+      "longitude": "35.8149469"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "중방1공원",
+      "location": "경북 경산시 중앙초등길 48-1",
+      "latitude": "128.7334750",
+      "longitude": "35.8258670"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "남매근린공원",
+      "location": "경북 경산시 중방동 784-3",
+      "latitude": "128.7422028",
+      "longitude": "35.8214655"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "백천제2공원",
+      "location": "경북 경산시 백천동 591-1",
+      "latitude": "128.7398827",
+      "longitude": "35.8019109"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "부활공원",
+      "location": "경북 경산시 유곡동 산31-1",
+      "latitude": "128.7766524",
+      "longitude": "35.7922933"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "근린공원",
+      "location": "경북 경산시 사동 643-1",
+      "latitude": "128.7634709",
+      "longitude": "35.8160444"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "옥산5공원",
+      "location": "경북 경산시 중산동 35-2",
+      "latitude": "128.7250736",
+      "longitude": "35.8314513"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "옥산6공원",
+      "location": "경북 경산시 중산동 36-3",
+      "latitude": "128.7278519",
+      "longitude": "35.8301941"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "경산휴게소(서울방향)공원",
+      "location": "경북 경산시 진량읍 대학로 1089",
+      "latitude": "128.8074704",
+      "longitude": "35.8782089"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "옥산2공원",
+      "location": "경북 경산시 성암로8길 34",
+      "latitude": "128.7230846",
+      "longitude": "35.8197570"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "근린공원",
+      "location": "경북 경산시 진량읍 신제리 596",
+      "latitude": "128.8370869",
+      "longitude": "35.8577828"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "와촌휴게소(포항방향)공원",
+      "location": "경북 경산시 와촌면 강학길 103",
+      "latitude": "128.7763221",
+      "longitude": "35.9517192"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "금곡장미공원",
+      "location": "경북 경산시 남천면 금곡길 28-75",
+      "latitude": "128.7473808",
+      "longitude": "35.7535064"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "중산 제1근린공원야외공연장",
+      "location": "경북 경산시 펜타힐즈1로 38",
+      "latitude": "128.7132010",
+      "longitude": "35.8285511"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "경산시남매근린공원전동휠체어급속충전기",
+      "location": "경북 경산시 남매로 166",
+      "latitude": "128.7432919",
+      "longitude": "35.8255081"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "중앙공원",
+      "location": "대구 동구 동내로 117",
+      "latitude": "128.7341245",
+      "longitude": "35.8809521"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "팔공산분수대광장",
+      "location": "대구 동구 용수동 27-5",
+      "latitude": "128.6970659",
+      "longitude": "35.9895272"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "각산비나리공원",
+      "location": "대구 동구 각산동 1064",
+      "latitude": "128.7153829",
+      "longitude": "35.8795556"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "신매공원",
+      "location": "대구 수성구 달구벌대로650길 67",
+      "latitude": "128.7089321",
+      "longitude": "35.8327112"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "반계근린공원",
+      "location": "대구 동구 율하동 1416",
+      "latitude": "128.6953633",
+      "longitude": "35.8624851"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "노변공원",
+      "location": "대구 수성구 노변공원로7길 11-11",
+      "latitude": "128.6993761",
+      "longitude": "35.8387734"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "안심근린공원",
+      "location": "대구 동구 신기동 580",
+      "latitude": "128.7026054",
+      "longitude": "35.8690185"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "시지근린공원",
+      "location": "대구 수성구 달구벌대로637길 5",
+      "latitude": "128.7060403",
+      "longitude": "35.8413617"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "샛터근린공원",
+      "location": "대구 동구 율하동 1460",
+      "latitude": "128.7032443",
+      "longitude": "35.8645199"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "매호공원",
+      "location": "대구 수성구 천을로23길 5",
+      "latitude": "128.7039689",
+      "longitude": "35.8446434"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "신서공원",
+      "location": "대구 동구 동호로 98",
+      "latitude": "128.7276372",
+      "longitude": "35.8667045"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "대구스타디움동편광장",
+      "location": "대구 수성구 노변동 650",
+      "latitude": "128.6921162",
+      "longitude": "35.8301127"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "율하근린공원",
+      "location": "대구 동구 율하동 1105",
+      "latitude": "128.6901527",
+      "longitude": "35.8673865"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "방음동새마을동산",
+      "location": "경북 청도군 운문면 운문로 2007-7",
+      "latitude": "128.9518713",
+      "longitude": "35.7092220"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "사복노을공원",
+      "location": "대구 동구 사복동 837-5",
+      "latitude": "128.7512865",
+      "longitude": "35.8768459"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "마현산공원",
+      "location": "경북 영천시 교촌동 11-14",
+      "latitude": "128.9265054",
+      "longitude": "35.9706967"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "조양공원",
+      "location": "경북 영천시 천문로 332",
+      "latitude": "128.9312705",
+      "longitude": "35.9672468"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "대구스타디움전면광장",
+      "location": "대구 수성구 유니버시아드로 180",
+      "latitude": "128.6901563",
+      "longitude": "35.8299377"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "중앙공원",
+      "location": "경북 영천시 문외3길 8",
+      "latitude": "128.9353166",
+      "longitude": "35.9706341"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "대구선반야월공원",
+      "location": "대구 동구 신서동",
+      "latitude": "128.7312",
+      "longitude": "35.8865"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "동호근린공원",
+      "location": "대구 동구 동호동 360",
+      "latitude": "128.7190786",
+      "longitude": "35.8656043"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "완산근린공원",
+      "location": "경북 영천시 완산동 742-6",
+      "latitude": "128.9422388",
+      "longitude": "35.9626877"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "동네향수공원",
+      "location": "대구 동구 동내로 66-22",
+      "latitude": "128.7372855",
+      "longitude": "35.8777418"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "두성공원",
+      "location": "대구 수성구 신매동 595-2",
+      "latitude": "128.7051141",
+      "longitude": "35.8331692"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "마현산근린공원",
+      "location": "경북 영천시 교촌동 11-69",
+      "latitude": "128.9269816",
+      "longitude": "35.9717406"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "대구선반야월공원",
+      "location": "대구 동구 괴전동",
+      "latitude": "128.737775",
+      "longitude": "35.8715571"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "주남공원",
+      "location": "경북 영천시 금노동 604-17",
+      "latitude": "128.9317490",
+      "longitude": "35.9593856"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "동서공원",
+      "location": "대구 수성구 신매동 594-2",
+      "latitude": "128.7054592",
+      "longitude": "35.8338519"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "담안길공원",
+      "location": "경북 영천시 금노동 542-13",
+      "latitude": "128.9301989",
+      "longitude": "35.9610753"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "숭렬공원",
+      "location": "경북 영천시 성내동 42",
+      "latitude": "128.9290768",
+      "longitude": "35.9659910"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "샛터근린공원배드민턴장",
+      "location": "대구 동구 율하동 1460",
+      "latitude": "128.7032443",
+      "longitude": "35.8645199"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "샛터근린공원농구장",
+      "location": "대구 동구 율하동 1460",
+      "latitude": "128.7032443",
+      "longitude": "35.8645199"
+    }
+  },
+  {
+    "model": "parkmap.Park",
+    "fields": {
+      "title": "샛터근린공원민속놀이마당",
+      "location": "대구 동구 율하동 1460",
+      "latitude": "128.7032443",
+      "longitude": "35.8645199"
+    }
+  }
+]

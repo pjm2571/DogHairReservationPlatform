@@ -28,7 +28,7 @@ def geocode(address):
 # csv -> json 파일로 변환된 것을 장고 템플릿을 이용해서 데이터베이스에 적용
 if __name__ == "__main__":
 
-    with open('store_json.json', 'rt', encoding='UTF8') as f:
+    with open('store_json_gs.json', 'rt', encoding='UTF8') as f:
         store_list = json.load(f)
 
 
@@ -43,5 +43,5 @@ if __name__ == "__main__":
 
         new_list.append(new_data)
 
-    with open('store_data.json', 'w', encoding='UTF-8') as f:
+    with open('store_data_gs.json', 'w', encoding='UTF-8') as f:
         json.dump(new_list, f, ensure_ascii=False, indent=2)

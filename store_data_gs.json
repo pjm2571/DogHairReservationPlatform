@@ -1,0 +1,1217 @@
+[
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "펫브릿지 경산 중산점",
+      "location": "경북 경산시 대학로 17 2층 펫브릿지",
+      "open_hours": "{'매일': '10:00 - 19:00'}",
+      "phone_number": "010-5825-4914",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 38,
+      "blog_review": 92,
+      "website": "https://www.instagram.com/pet_bridge",
+      "latitude": "128.7248137",
+      "longitude": "35.8350986"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "몽 그루밍",
+      "location": "경북 경산시 진량읍 선화리 2146",
+      "open_hours": "{'목': '09:30 - 20:30', '금': '09:30 - 20:30', '토': '09:30 - 20:30', '일': '정기휴무 (매주 일요일)', '월': '09:30 - 20:30', '화': '09:30 - 20:30', '수': '09:30 - 20:30'}",
+      "phone_number": "0507-1355-6662",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 5,
+      "blog_review": 0,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.8083460",
+      "longitude": "35.8740828"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "강아지트",
+      "location": "경북 경산시 경산로16길 13 1층 큰도로변",
+      "open_hours": "{'매일': '00:00 - 24:00'}",
+      "phone_number": "0507-1435-1155",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 39,
+      "blog_review": 10,
+      "website": "https://www.instagram.com/dog_house1110",
+      "latitude": "128.7324181",
+      "longitude": "35.8165809"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "퍼피라운지",
+      "location": "경북 경산시 펜타힐즈로 74 6층 퍼피라운지",
+      "open_hours": "{'매일': '10:00 - 19:00'}",
+      "phone_number": "0507-1323-6606",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 11,
+      "blog_review": 106,
+      "website": "https://blog.naver.com/puppylounge",
+      "latitude": "128.7198910",
+      "longitude": "35.8300949"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "멍키매직",
+      "location": "경북 경산시 성암로11길 1-14 1층 102호 멍키매직",
+      "open_hours": "{'목': '정기휴무 (매주 목요일)', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '일': '10:00 - 19:00', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00'}",
+      "phone_number": "0507-1335-7776",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 14,
+      "blog_review": 102,
+      "website": "https://www.instagram.com/m_keymagic",
+      "latitude": "128.7220288",
+      "longitude": "35.8241754"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "예쁜강아지",
+      "location": "경북 경산시 중앙로17길 43",
+      "open_hours": "{'목': '정기휴무 (매주 목요일)', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '일': '10:00 - 19:00', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00'}",
+      "phone_number": "0507-1416-6112",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 70,
+      "blog_review": 222,
+      "website": "https://blog.naver.com/di15",
+      "latitude": "128.7346642",
+      "longitude": "35.8272737"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "투몽",
+      "location": "경북 경산시 삼성현로15길 36 1층 101호",
+      "open_hours": "{'목': '정기휴무 (매주 목요일)', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '일': '10:00 - 19:00', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00'}",
+      "phone_number": "0507-1379-3138",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 1,
+      "blog_review": 0,
+      "website": "https://blog.naver.com/tomong_",
+      "latitude": "128.7202720",
+      "longitude": "35.8253621"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "커몽 그루밍",
+      "location": "경북 경산시 하양읍 서사도리6로 11 1층",
+      "open_hours": "{'목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00', '일': '10:00 - 20:00', '월': '10:00 - 20:00', '화(6/6)': '현충일10:00 - 20:00', '수': '10:00 - 20:00'}",
+      "phone_number": "0507-1380-1221",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 1,
+      "blog_review": 0,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.8104812",
+      "longitude": "35.9201420"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "강아지와고양이",
+      "location": "경북 경산시 압량읍 고분길 13 프레셔스 1층 102호",
+      "open_hours": "{'목': '11:00 - 21:30\\n13:00 - 14:00 휴게시간', '금': '11:00 - 21:30\\n13:00 - 14:00 휴게시간', '토': '11:00 - 21:30\\n13:00 - 14:00 휴게시간', '일': '정기휴무 (매주 일요일)', '월': '11:00 - 21:30\\n13:00 - 14:00 휴게시간', '화': '11:00 - 21:30\\n13:00 - 14:00 휴게시간', '수': '11:00 - 21:30\\n13:00 - 14:00 휴게시간'}",
+      "phone_number": "053-818-1088",
+      "rating": 4.18,
+      "visitor_review": 27,
+      "blog_review": 7,
+      "website": "http://instagram.com/dogandcat_no.1",
+      "latitude": "128.7581435",
+      "longitude": "35.8413037"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "리틀댕댕",
+      "location": "경북 경산시 성암로15길 24 1층",
+      "open_hours": "{'목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00'}",
+      "phone_number": "0507-1438-1173",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 10,
+      "blog_review": 61,
+      "website": "https://blog.naver.com/littledangdang",
+      "latitude": "128.7236376",
+      "longitude": "35.8256966"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "헤이몽",
+      "location": "경북 경산시 장산로4길 7 신동아프라자 106호",
+      "open_hours": "{'목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00'}",
+      "phone_number": "0507-1307-1289",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 6,
+      "blog_review": 7,
+      "website": "https://blog.naver.com/yeonheui1230",
+      "latitude": "128.7278676",
+      "longitude": "35.8147276"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "리틀 레이첼",
+      "location": "경북 경산시 한의대로 100 1층2층",
+      "open_hours": "{'매일': '09:00 - 20:00'}",
+      "phone_number": "0507-1425-0252",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 7,
+      "blog_review": 16,
+      "website": "https://www.instagram.com/little_rachal12.23",
+      "latitude": "128.7767341",
+      "longitude": "35.8060860"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "체리콕콕 애견미용실",
+      "location": "경북 경산시 압량읍 압독2로8길 4-6 1층",
+      "open_hours": "{'목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '일': '10:00 - 18:00', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00'}",
+      "phone_number": "0507-1472-7933",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 38,
+      "blog_review": 122,
+      "website": "https://www.instagram.com/cherry.cockshop",
+      "latitude": "128.7654571",
+      "longitude": "35.8409653"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "퀸애견",
+      "location": "경북 경산시 하양읍 금송로 2",
+      "open_hours": "{'목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '일': '10:00 - 18:00', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '요일정보': '없음'}",
+      "phone_number": "053-853-8089",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 8,
+      "blog_review": 1,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.8192518",
+      "longitude": "35.9140633"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "바우엔 미장원",
+      "location": "경북 경산시 서상길 36 바우엔 미장원",
+      "open_hours": "{'목': '10:00 - 19:00\\n14:00 - 15:00 휴게시간', '금': '10:00 - 19:00\\n14:00 - 15:00 휴게시간', '토(6/3)': '휴무', '일(6/4)': '휴무', '월(6/5)': '휴무', '화(6/6)': '휴무', '수': '10:00 - 19:00\\n14:00 - 15:00 휴게시간'}",
+      "phone_number": "010-6869-1303",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 1,
+      "blog_review": 0,
+      "website": "https://www.instagram.com/bown1303",
+      "latitude": "128.7363021",
+      "longitude": "35.8156317"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "뭉개구름",
+      "location": "경북 경산시 압량읍 압독3로2길 24 1층 101호",
+      "open_hours": "{'목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '일': '10:00 - 19:00', '월': '10:00 - 19:00', '화(6/6)': '휴무', '수': '10:00 - 19:00'}",
+      "phone_number": "0507-1441-2911",
+      "rating": 5,
+      "visitor_review": 36,
+      "blog_review": 49,
+      "website": "http://instagram.com/moongdog2911",
+      "latitude": "128.7662974",
+      "longitude": "35.8395832"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "렛츠독",
+      "location": "경북 경산시 하양읍 대학로295길 16",
+      "open_hours": "{'목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '일': '10:00 - 19:00', '월': '10:00 - 19:00', '화(6/6)': '휴무', '수': '10:00 - 19:00', '요일정보': '없음'}",
+      "phone_number": "010-5798-3707",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 13,
+      "blog_review": 135,
+      "website": "https://blog.naver.com/roxie89",
+      "latitude": "128.8216427",
+      "longitude": "35.9095732"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "퍼피몽몽",
+      "location": "경북 경산시 삼풍로4길 4-9 신세계빌",
+      "open_hours": "{'목': '정보없음', '금': '정보없음', '토': '10:00 - 20:00', '일': '정보없음', '월': '10:00 - 20:00', '화': '정보없음', '수': '정보없음'}",
+      "phone_number": "0507-1419-6001",
+      "rating": 4.48,
+      "visitor_review": 33,
+      "blog_review": 52,
+      "website": "https://blog.naver.com/pet-academy",
+      "latitude": "128.7553864",
+      "longitude": "35.8217957"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "고마워 강아지",
+      "location": "경북 경산시 경안로67길 14-7",
+      "open_hours": "{'목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화(6/6)': '현충일 휴무', '수': '10:00 - 19:00'}",
+      "phone_number": "010-2323-6454",
+      "rating": 4.68,
+      "visitor_review": 20,
+      "blog_review": 97,
+      "website": "http://www.instagram.com/mercidokku",
+      "latitude": "128.7317018",
+      "longitude": "35.8366835"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "지니펫",
+      "location": "경북 경산시 대학로13길 22 상가동 102호",
+      "open_hours": "{'목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '일': '10:00 - 19:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 19:00', '수': '10:00 - 19:00'}",
+      "phone_number": "0507-1465-0955",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 2,
+      "blog_review": 8,
+      "website": "https://blog.naver.com/jini_jinipet",
+      "latitude": "128.7296268",
+      "longitude": "35.8360375"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "목욕하는 강아지",
+      "location": "경북 경산시 압량읍 압독3로2길 8",
+      "open_hours": "{'매일': '10:00 - 21:30'}",
+      "phone_number": "0507-1302-1188",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 38,
+      "blog_review": 6,
+      "website": "https://blog.naver.com/alsdldi1126",
+      "latitude": "128.7647591",
+      "longitude": "35.8401283"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "멍이살롱",
+      "location": "경북 경산시 진량읍 봉황길 70-1 2층 201호(왼쪽)",
+      "open_hours": "{'매일': '10:30 - 18:00'}",
+      "phone_number": "010-4572-7683",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 5,
+      "blog_review": 0,
+      "website": "https://open.kakao.com/o/sQzHFGie",
+      "latitude": "128.8258009",
+      "longitude": "35.8832977"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "멍멍닷컴",
+      "location": "경북 경산시 성암로12길 1",
+      "open_hours": "{'목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00', '일': '14:00 - 18:00', '월': '10:00 - 20:00', '화(6/6)': '현충일10:00 - 18:00', '수': '10:00 - 20:00'}",
+      "phone_number": "0507-1488-0034",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 13,
+      "blog_review": 219,
+      "website": "http://blog.naver.com/jik3657",
+      "latitude": "128.7236699",
+      "longitude": "35.8232306"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "롯지네펫살롱",
+      "location": "경북 경산시 하양읍 대경로159길 1 롯지네펫살롱",
+      "open_hours": "{'목': '10:30 - 19:00', '금': '10:30 - 19:00', '토': '10:30 - 18:00', '일': '10:30 - 18:00', '월': '10:30 - 19:00', '화': '10:30 - 19:00', '수': '정기휴무 (매주 수요일)'}",
+      "phone_number": "0507-1358-5996",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 4,
+      "blog_review": 0,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.8255971",
+      "longitude": "35.9148072"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "구름이네",
+      "location": "경북 경산시 백양로32길 11 1층",
+      "open_hours": "{'목': '10:00 - 17:00', '금': '10:00 - 17:00', '토': '10:00 - 14:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 17:00', '화(6/6)': '현충일10:00 - 20:00', '수': '10:00 - 17:00'}",
+      "phone_number": "010-5900-9323",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 9,
+      "blog_review": 0,
+      "website": "https://www.instagram.com/cloudshop_groomer",
+      "latitude": "128.7583817",
+      "longitude": "35.8102118"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "아우라 펫 살롱",
+      "location": "경북 경산시 경산로 47",
+      "open_hours": "{'목': '10:30 - 19:30', '금': '10:30 - 19:30', '토': '10:30 - 19:30', '일': '10:30 - 19:30', '월': '정기휴무 (매주 월요일)', '화': '10:30 - 19:30', '수': '10:30 - 19:30'}",
+      "phone_number": "010-6497-3712",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 9,
+      "blog_review": 118,
+      "website": "https://blog.naver.com/aurapet",
+      "latitude": "128.7322359",
+      "longitude": "35.8134128"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "비비드그루밍",
+      "location": "경북 경산시 강변서로51길 15-1 1층 비비드그루밍",
+      "open_hours": "{'매일': '10:00 - 21:00'}",
+      "phone_number": "0507-1325-5005",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 1,
+      "blog_review": 331,
+      "website": "https://blog.naver.com/qlada",
+      "latitude": "128.7300929",
+      "longitude": "35.8299044"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "그루밍하우스",
+      "location": "경북 경산시 장산로4길 21 우리빌딩 B동 3층",
+      "open_hours": "{'목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 18:00', '일': '정기휴무 (매주 일요일)', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 18:00', '수': '10:00 - 18:00'}",
+      "phone_number": "0507-1321-4321",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 9,
+      "blog_review": 181,
+      "website": "http://www.instagram.com/groominghouse_",
+      "latitude": "128.7286654",
+      "longitude": "35.8143640"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "포시랍개",
+      "location": "경북 경산시 경청로219길 11-4 1층 포시랍개",
+      "open_hours": "{'목': '10:00 - 16:00', '금': '11:00 - 18:00', '토': '10:00 - 18:00', '일': '정기휴무 (매주 일요일)', '월': '11:00 - 18:00', '화': '11:00 - 18:00', '수': '11:00 - 18:00'}",
+      "phone_number": "0507-1307-2066",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 7,
+      "blog_review": 9,
+      "website": "https://www.instagram.com/posirap.dog",
+      "latitude": "128.7366434",
+      "longitude": "35.8030668"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "그루밍독연구소",
+      "location": "경북 경산시 박물관로9길 4-11",
+      "open_hours": "{'목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00', '일': '10:00 - 20:00', '월': '정기휴무 (매주 월요일)', '화': '정기휴무 (매주 화요일)', '수': '10:00 - 20:00'}",
+      "phone_number": "010-3958-4060",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 5,
+      "blog_review": 41,
+      "website": "http://www.discdogschool.co.kr",
+      "latitude": "128.7643164",
+      "longitude": "35.8156514"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "강아지발바닥",
+      "location": "경북 경산시 하양읍 금송로 10-1",
+      "open_hours": "{'목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00', '일': '10:00 - 20:00', '월': '정기휴무 (매주 월요일)', '화': '정기휴무 (매주 화요일)', '수': '10:00 - 20:00', '요일정보': '없음'}",
+      "phone_number": "053-854-7070",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 5,
+      "blog_review": 41,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.8183916",
+      "longitude": "35.9145179"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "왈왈애견미용샵",
+      "location": "경북 경산시 대학로32길 21 (중방동) 105호 왈왈애견미용샵",
+      "open_hours": "{'매일': '10:00 - 20:00'}",
+      "phone_number": "010-4556-1522",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 4,
+      "blog_review": 5,
+      "website": "https://blog.naver.com/walwalzone",
+      "latitude": "128.7397782",
+      "longitude": "35.8320478"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "더예쁜개",
+      "location": "경북 경산시 경산로15길 2 1층 102호",
+      "open_hours": "{'매일': '10:00 - 20:00'}",
+      "phone_number": "0507-1338-5344",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 4,
+      "blog_review": 5,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.7306251",
+      "longitude": "35.8160709"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "더빛나개",
+      "location": "경북 경산시 원효로4길 38-1 1층",
+      "open_hours": "{'매일': '10:00 - 18:00'}",
+      "phone_number": "0507-1385-0981",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 2,
+      "blog_review": 1,
+      "website": "https://www.instagram.com/the_shiny_dog",
+      "latitude": "128.7394494",
+      "longitude": "35.8204840"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "샵댕댕댕",
+      "location": "경북 경산시 남매로 221",
+      "open_hours": "{'목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00'}",
+      "phone_number": "053-857-2297",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 5,
+      "blog_review": 0,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.7409323",
+      "longitude": "35.8305677"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "그룸",
+      "location": "경북 경산시 경안로67길 8-16",
+      "open_hours": "{'목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '요일정보': '없음'}",
+      "phone_number": "전화번호 없음",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 23,
+      "blog_review": 1,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.7317277",
+      "longitude": "35.8370360"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "제이앤제이 애견샵",
+      "location": "경북 경산시 성암로21길 37-15 4층",
+      "open_hours": "{'목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '요일정보': '없음'}",
+      "phone_number": "0507-1494-2590",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 23,
+      "blog_review": 1,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.7254937",
+      "longitude": "35.8285506"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "펫피아 경산1호점",
+      "location": "경북 경산시 경산로 140",
+      "open_hours": "{'목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '요일정보': '없음'}",
+      "phone_number": "053-813-1131",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 6,
+      "blog_review": 0,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.7284924",
+      "longitude": "35.8210312"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "더펫샵하양점",
+      "location": "경북 경산시 하양읍 대경로 764 1층",
+      "open_hours": "{'목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '요일정보': '없음', '매일': '매일 10:00 - 22:00 설날 추석날 휴무'}",
+      "phone_number": "070-4348-1190",
+      "rating": 4.29,
+      "visitor_review": 160,
+      "blog_review": 72,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.8234083",
+      "longitude": "35.9130442"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "멍이냥이하우스",
+      "location": "경북 경산시 진량읍 대학로 936-4 진량읍 선화리720-36",
+      "open_hours": "{'목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00', '요일정보': '없음', '매일': '매일 10:00 - 22:00 설날 추석날 휴무'}",
+      "phone_number": "053-852-6926",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 16,
+      "blog_review": 0,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.7995342",
+      "longitude": "35.8743030"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "유유헤어",
+      "location": "경북 경산시 압량읍 청운로 85 서경오피스텔 1층",
+      "open_hours": "{'목': '11:00 - 20:00', '금': '11:00 - 20:00', '토': '11:00 - 20:00', '일': '11:00 - 20:00', '월(6/5)': '정기휴무 (격주 월요일)', '화': '11:00 - 20:00', '수': '11:00 - 20:00'}",
+      "phone_number": "0507-1306-7557",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 4,
+      "blog_review": 16,
+      "website": "https://nevaeh.modoo.at",
+      "latitude": "128.7583579",
+      "longitude": "35.8415119"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "무르무르",
+      "location": "대구 동구 경안로 850 중흥빌딩 1층 106호",
+      "open_hours": "{'매일': '10:00 - 20:00'}",
+      "phone_number": "0507-1385-8177",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 84,
+      "blog_review": 11,
+      "website": "https://blog.naver.com/rude471",
+      "latitude": "128.7144658",
+      "longitude": "35.8782000"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "더예쁘개미용실&플레이독유치원",
+      "location": "대구 수성구 월드컵로6안길 10 플레이독유치원&더예쁘개미용실",
+      "open_hours": "{'목': '08:00 - 19:00', '금': '08:00 - 19:00', '토': '09:00 - 17:30', '일': '09:00 - 17:30', '월': '08:00 - 19:00', '화': '08:00 - 19:00', '수': '08:00 - 19:00'}",
+      "phone_number": "053-792-1060",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 2,
+      "blog_review": "1,760",
+      "website": "http://instagram.com/yebbeugae",
+      "latitude": "128.6852262",
+      "longitude": "35.8316527"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "멍멍아 놀자",
+      "location": "대구 수성구 시지로3길 66-10 1층",
+      "open_hours": "{'목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00'}",
+      "phone_number": "0507-1342-1272",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 3,
+      "blog_review": 0,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.6958228",
+      "longitude": "35.8415628"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "멍이살롱",
+      "location": "대구 동구 동호로5길 5",
+      "open_hours": "{'목': '11:00 - 18:30\\n17:00 - 18:00 휴게시간', '금': '11:00 - 18:30\\n17:00 - 18:00 휴게시간', '토': '11:00 - 18:30\\n17:00 - 18:00 휴게시간', '일': '정기휴무 (매주 일요일)', '월': '11:00 - 18:30\\n17:00 - 18:00 휴게시간', '화(6/6)': '현충일 휴무', '수': '11:00 - 18:30\\n17:00 - 18:00 휴게시간'}",
+      "phone_number": "0507-1331-1026",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 17,
+      "blog_review": 2,
+      "website": "https://www.instagram.com/dog_salon__",
+      "latitude": "128.7253119",
+      "longitude": "35.8667764"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "인물나개",
+      "location": "대구 동구 안심로7길 7 율하역엘크루아파트 상가 105동105호( 용계동, 율하역엘크루아파트)",
+      "open_hours": "{'목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00', '일': '10:00 - 20:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 20:00', '수': '10:00 - 20:00'}",
+      "phone_number": "053-716-2112",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 37,
+      "blog_review": 5,
+      "website": "https://www.instagram.com/in_water_me_dog",
+      "latitude": "128.6908768",
+      "longitude": "35.8724399"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "이츠펫 동호점",
+      "location": "대구 동구 안심로 356",
+      "open_hours": "{'매일': '10:00 - 22:00'}",
+      "phone_number": "053-961-0900",
+      "rating": 4.51,
+      "visitor_review": 406,
+      "blog_review": 86,
+      "website": "https://www.instagram.com/365pet_daegu_gb",
+      "latitude": "128.7233993",
+      "longitude": "35.8674439"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "쿠멍가게 애견미용실",
+      "location": "경북 영천시 상록2길 33-1 쿠멍가게 애견미용실",
+      "open_hours": "{'목': '10:00 - 18:30', '금': '10:00 - 18:30', '토': '10:00 - 18:30', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:30', '화': '10:00 - 18:30', '수': '10:00 - 18:30'}",
+      "phone_number": "0507-1343-2936",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 7,
+      "blog_review": 0,
+      "website": "http://instagram.com/i.kooo077",
+      "latitude": "128.9422245",
+      "longitude": "35.9743785"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "뚜뚜네미용실",
+      "location": "대구 동구 동호로9길 25 1층",
+      "open_hours": "{'목': '13:00 - 22:00', '금': '13:00 - 22:00', '토': '13:00 - 22:00', '일': '정기휴무 (매주 일요일)', '월': '13:00 - 22:00', '화': '13:00 - 22:00', '수': '13:00 - 22:00'}",
+      "phone_number": "0507-1346-7314",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 5,
+      "blog_review": 14,
+      "website": "https://blog.naver.com/akakalal123",
+      "latitude": "128.7311690",
+      "longitude": "35.8684237"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "다듬",
+      "location": "대구 수성구 달구벌대로649길 14 아이프라임신매아파트 보행자전용출입구쪽 상가 1층 다듬",
+      "open_hours": "{'목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 20:00', '화(6/6)': '현충일10:00 - 20:00', '수': '10:00 - 20:00'}",
+      "phone_number": "0507-1392-9020",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 3,
+      "blog_review": 0,
+      "website": "https://www.instagram.com/da_deum_",
+      "latitude": "128.7126679",
+      "longitude": "35.8393625"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "퍼피살롱",
+      "location": "경북 영천시 창신길 37 1층 퍼피살롱",
+      "open_hours": "{'매일': '10:00 - 20:00'}",
+      "phone_number": "0507-1312-8269",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 72,
+      "blog_review": 5,
+      "website": "https://blog.naver.com/rng6i5",
+      "latitude": "128.9520164",
+      "longitude": "35.9892164"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "펫파민트",
+      "location": "대구 수성구 신매로 5 1층",
+      "open_hours": "{'매일': '10:00 - 20:00'}",
+      "phone_number": "0507-1418-5486",
+      "rating": 4.85,
+      "visitor_review": 27,
+      "blog_review": 14,
+      "website": "https://blog.naver.com/babydoll1104",
+      "latitude": "128.7065088",
+      "longitude": "35.8301230"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "내개로와",
+      "location": "대구 수성구 시지로 84",
+      "open_hours": "{'목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 18:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화': '10:00 - 18:00', '수': '10:00 - 18:00'}",
+      "phone_number": "053-792-5505",
+      "rating": 4.75,
+      "visitor_review": 61,
+      "blog_review": 353,
+      "website": "https://www.instagram.com/nae_gae_ro_wa",
+      "latitude": "128.6964144",
+      "longitude": "35.8368594"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "Mr사랑짱애견미용샵",
+      "location": "대구 동구 율하동로8길 16 율하휴먼시아10단지 상가동 203호",
+      "open_hours": "{'매일': '10:00 - 19:00'}",
+      "phone_number": "0507-1335-3190",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 9,
+      "blog_review": 11,
+      "website": "http://instagram.com/Mrlovekzzang01",
+      "latitude": "128.7035131",
+      "longitude": "35.8605802"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "미남이네",
+      "location": "경북 영천시 최무선로 315 영생빌딩 1층",
+      "open_hours": "{'목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 13:00', '일': '정기휴무 (매주 일요일)', '월': '14:00 - 21:00', '화': '14:00 - 21:00', '수': '10:00 - 19:00'}",
+      "phone_number": "0507-1413-0682",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 10,
+      "blog_review": 2,
+      "website": "http://www.instagram.com/minam2nae",
+      "latitude": "128.9335387",
+      "longitude": "35.9683789"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "우리강아지",
+      "location": "대구 수성구 고산로12길 34 상가동 101호",
+      "open_hours": "{'목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00'}",
+      "phone_number": "053-791-2525",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 10,
+      "blog_review": 2,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.7057760",
+      "longitude": "35.8337530"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "엄지애견",
+      "location": "대구 동구 안심로41길 60 엄지애견",
+      "open_hours": "{'목': '정기휴무 (매주 목요일)', '금': '10:00 - 20:00', '토': '10:00 - 20:00', '일': '10:00 - 20:00', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00'}",
+      "phone_number": "053-963-5653",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 15,
+      "blog_review": 0,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.7088799",
+      "longitude": "35.8713449"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "영천애견미용",
+      "location": "경북 영천시 완산중앙3길 29-1 2층 영천애견미용",
+      "open_hours": "{'매일': '10:00 - 19:00'}",
+      "phone_number": "0507-1374-2021",
+      "rating": 4.96,
+      "visitor_review": 39,
+      "blog_review": 3,
+      "website": "http://instagram.com/sosinbag",
+      "latitude": "128.9371760",
+      "longitude": "35.9624925"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "꽃댕",
+      "location": "경북 영천시 야사1길 6 1층",
+      "open_hours": "{'목': '정기휴무 (매주 목요일)', '금': '11:00 - 20:00', '토': '11:00 - 20:00', '일': '11:00 - 20:00', '월': '11:00 - 20:00', '화': '11:00 - 20:00', '수': '11:00 - 20:00'}",
+      "phone_number": "0507-1448-7784",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 3,
+      "blog_review": 63,
+      "website": "https://www.instagram.com/flowers_daeng",
+      "latitude": "128.9459496",
+      "longitude": "35.9743863"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "프롬유니",
+      "location": "대구 동구 메디밸리로10길 2 1층 프롬유니",
+      "open_hours": "{'목': '정기휴무 (매주 목요일)', '금': '10:00 - 20:00', '토': '10:00 - 20:00', '일': '10:00 - 20:00', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00'}",
+      "phone_number": "0507-1489-1566",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 27,
+      "blog_review": 14,
+      "website": "http://instagram.com/from__yuni",
+      "latitude": "128.7495443",
+      "longitude": "35.8765695"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "망고네펫살롱",
+      "location": "대구 수성구 달구벌대로 3124-10 1층 망고네펫살롱",
+      "open_hours": "{'매일': '10:00 - 19:00'}",
+      "phone_number": "010-5018-1311",
+      "rating": 4.5,
+      "visitor_review": 27,
+      "blog_review": 17,
+      "website": "https://www.instagram.com/mango_lena_",
+      "latitude": "128.6977735",
+      "longitude": "35.8420805"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "토토미용실",
+      "location": "대구 수성구 노변공원로 34 상가112동 1층 4호",
+      "open_hours": "{'목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 18:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화(6/6)': '현충일 휴무', '수': '10:00 - 18:00'}",
+      "phone_number": "0507-1384-0724",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 5,
+      "blog_review": 2,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.6975993",
+      "longitude": "35.8391407"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "슈슈스토리",
+      "location": "대구 동구 율하동로 36",
+      "open_hours": "{'목': '10:00 - 18:00', '금': '10:00 - 18:00', '토': '10:00 - 18:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화(6/6)': '현충일 휴무', '수': '10:00 - 18:00', '요일정보': '없음'}",
+      "phone_number": "053-961-1638",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 121,
+      "blog_review": 0,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.7014315",
+      "longitude": "35.8628228"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "도그미용실",
+      "location": "대구 수성구 고산로4길 16 입구왼쪽상가(신매동)",
+      "open_hours": "{'목': '09:30 - 19:00', '금': '09:30 - 19:00', '토': '09:30 - 19:00', '일': '정기휴무 (매주 일요일)', '월': '09:30 - 19:00', '화': '09:30 - 19:00', '수': '09:30 - 19:00'}",
+      "phone_number": "010-2752-8709",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 121,
+      "blog_review": 0,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.7045710",
+      "longitude": "35.8326520"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "다독다독",
+      "location": "경북 영천시 언하공단로 83 1층 105호(망정동)",
+      "open_hours": "{'매일': '10:00 - 18:00'}",
+      "phone_number": "0507-1386-0949",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 121,
+      "blog_review": 0,
+      "website": "https://www.instagram.com/dadog_dadog_s2",
+      "latitude": "128.9545730",
+      "longitude": "35.9859037"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "도그몽",
+      "location": "대구 동구 동호로 153 1층",
+      "open_hours": "{'목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00', '화': '10:00 - 19:00', '수': '10:00 - 19:00'}",
+      "phone_number": "0507-1497-7114",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 7,
+      "blog_review": 2,
+      "website": "http://instagram.com/dog_.mong",
+      "latitude": "128.7321235",
+      "longitude": "35.8684204"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "김나현의 묘견생활",
+      "location": "경북 영천시 강남길 21 완산동 김나현의 묘견생활",
+      "open_hours": "{'매일': '10:00 - 19:00'}",
+      "phone_number": "010-5807-9656",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 1,
+      "blog_review": 0,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.9358190",
+      "longitude": "35.9646215"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "사랑스럽개",
+      "location": "대구 동구 안심로73길 12-10",
+      "open_hours": "{'목': '정보없음', '금': '정보없음', '토': '정보없음', '일': '정보없음', '월': '정보없음', '화': '정보없음', '수': '정보없음'}",
+      "phone_number": "053-984-4064",
+      "rating": 4.79,
+      "visitor_review": 26,
+      "blog_review": 0,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.7262650",
+      "longitude": "35.8693335"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "러블리펫",
+      "location": "대구 동구 금강로 107",
+      "open_hours": "{'매일': '10:00 - 19:00'}",
+      "phone_number": "0507-1338-4883",
+      "rating": 4.81,
+      "visitor_review": 20,
+      "blog_review": 2,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.7336757",
+      "longitude": "35.8650410"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "멍헤어 애견미용실",
+      "location": "경북 영천시 문화새길 62-3 멍헤어 강아지미용실",
+      "open_hours": "{'매일': '10:00 - 22:20'}",
+      "phone_number": "0507-1310-5029",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 20,
+      "blog_review": 2,
+      "website": "https://blog.naver.com/vlvk789",
+      "latitude": "128.9475185",
+      "longitude": "35.9715552"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "땡글땡굴",
+      "location": "경북 영천시 호국로 15 2층",
+      "open_hours": "{'목': '10:00 - 19:00\\n12:00 - 13:00 휴게시간', '금': '10:00 - 19:00\\n12:00 - 13:00 휴게시간', '토': '10:00 - 19:00\\n12:00 - 13:00 휴게시간', '일': '10:00 - 19:00\\n12:00 - 13:00 휴게시간', '월': '10:00 - 19:00\\n12:00 - 13:00 휴게시간', '화(6/6)': '현충일12:00 - 20:00', '수': '10:00 - 19:00\\n12:00 - 13:00 휴게시간'}",
+      "phone_number": "0507-1334-8613",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 9,
+      "blog_review": 0,
+      "website": "https://blog.naver.com/ninja_pom",
+      "latitude": "128.9399071",
+      "longitude": "35.9717326"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "희동이의하루 애견미용실",
+      "location": "경북 영천시 호국로 54-1",
+      "open_hours": "{'매일': '11:00 - 20:00'}",
+      "phone_number": "0507-1330-1744",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 10,
+      "blog_review": 2,
+      "website": "http://instagram.com/haru_heedong",
+      "latitude": "128.9438959",
+      "longitude": "35.9731744"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "누베",
+      "location": "대구 수성구 천을로 35 미래하이츠APT 103동 101호상가",
+      "open_hours": "{'목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00'}",
+      "phone_number": "0507-1358-8825",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 1,
+      "blog_review": 35,
+      "website": "https://www.instagram.com/nube_petsalon",
+      "latitude": "128.6944889",
+      "longitude": "35.8450672"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "오피스스토리환희",
+      "location": "대구 동구 메디밸리로 5-6",
+      "open_hours": "{'목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00', '요일정보': '없음'}",
+      "phone_number": "053-965-5668",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 1,
+      "blog_review": 35,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.7486482",
+      "longitude": "35.8731155"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "단아펫",
+      "location": "대구 수성구 신매로8길 8-4 1층(신매동)",
+      "open_hours": "{'목': '10:00 - 18:00', '금(6/2)': '10:00 - 22:00', '토': '10:00 - 15:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 18:00', '화(6/6)': '현충일10:00 - 20:00', '수': '10:00 - 18:00'}",
+      "phone_number": "0507-1356-9859",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 1,
+      "blog_review": 35,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.7087607",
+      "longitude": "35.8344313"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "피터펫 대구혁신도시점",
+      "location": "대구 동구 메디밸리로 5-6",
+      "open_hours": "{'매일': '09:00 - 21:00'}",
+      "phone_number": "053-965-5668",
+      "rating": 4.72,
+      "visitor_review": 18,
+      "blog_review": 78,
+      "website": "http://peterpetcafe.com",
+      "latitude": "128.7486482",
+      "longitude": "35.8731155"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "욜로펫",
+      "location": "대구 동구 반야월북로 140 201호",
+      "open_hours": "{'매일': '00:00 - 24:00'}",
+      "phone_number": "053-965-6789",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 18,
+      "blog_review": 78,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.7128765",
+      "longitude": "35.8729254"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "폴리파크 영천점",
+      "location": "경북 영천시 망정로 71 폴리파크",
+      "open_hours": "{'목': '09:00 - 20:30', '금': '09:00 - 20:30', '토': '09:00 - 20:30', '일': '정기휴무 (매주 일요일)', '월': '09:00 - 20:30', '화': '09:00 - 20:30', '수': '09:00 - 20:30'}",
+      "phone_number": "054-334-6669",
+      "rating": 4.38,
+      "visitor_review": 44,
+      "blog_review": 3,
+      "website": "https://blog.naver.com/nicedogs",
+      "latitude": "128.9522095",
+      "longitude": "35.9825008"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "핸즈퍼피",
+      "location": "대구 수성구 알파시티2로12길 8-14 핸즈퍼피",
+      "open_hours": "{'목': '10:00 - 20:00', '금': '10:00 - 20:00', '토': '10:00 - 20:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 20:00', '화': '10:00 - 20:00', '수': '10:00 - 20:00'}",
+      "phone_number": "0507-1387-5390",
+      "rating": "별점이 없습니다.",
+      "visitor_review": 3,
+      "blog_review": 0,
+      "website": "https://www.instagram.com/HANDSPUPPY",
+      "latitude": "128.6937987",
+      "longitude": "35.8370546"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "감자동물병원",
+      "location": "대구 수성구 달구벌대로 3179 1층 감자동물병원",
+      "open_hours": "{'목': '10:00 - 19:00\\n12:30 - 13:30 휴게시간', '금': '10:00 - 21:00\\n12:30 - 13:30 휴게시간', '토': '10:00 - 15:00', '일': '정기휴무 (매주 일요일)', '월': '10:00 - 19:00\\n12:30 - 13:30 휴게시간', '화(6/6)': '현충일10:00 - 17:00\\n12:30 - 13:30 휴게시간', '수': '10:00 - 19:00\\n12:30 - 13:30 휴게시간'}",
+      "phone_number": "053-795-5589",
+      "rating": 4.63,
+      "visitor_review": 191,
+      "blog_review": 122,
+      "website": "https://www.instagram.com/gamja_ah5589",
+      "latitude": "128.7047261",
+      "longitude": "35.8412693"
+    }
+  },
+  {
+    "model": "storemap.Store",
+    "fields": {
+      "name": "쿨펫동물병원",
+      "location": "대구 동구 안심로 80 롯데쇼핑프라자",
+      "open_hours": "{'목': '10:00 - 19:00', '금': '10:00 - 19:00', '토': '10:00 - 19:00', '일': '10:00 - 19:00', '월': '정기휴무 (매주 월요일)', '화': '10:00 - 19:00', '수': '10:00 - 19:00'}",
+      "phone_number": "0507-1405-2754",
+      "rating": 4.74,
+      "visitor_review": 104,
+      "blog_review": 4,
+      "website": "블로그 / 인스타그램 준비중입니다.",
+      "latitude": "128.6933332",
+      "longitude": "35.8683955"
+    }
+  }
+]
