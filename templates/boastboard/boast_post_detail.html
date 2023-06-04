@@ -1,14 +1,78 @@
 {% extends 'boastboard/boast_base.html' %}
-
 {% block content %}
-<h1>{{ post.title }}</h1>
-{% if post.image %}
-    <img src="{{ post.image.url }}" alt="{{ post.title }}">
-{% endif %}
-<p>{{ post.content }}</p>
-<p>Created: {{ post.created_at }}</p>
-<p>Last updated: {{ post.updated_at }}</p>
-<a href="{% url 'boast_post_edit' post.pk %}">Edit</a>
-<a href="{% url 'boast_post_delete' post.pk %}">Delete</a>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/boastboard/boast_post_detail_Style.css' %}">
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function create() {
+            window.location.href = "{% url 'boast_post_create' %}";
+        }
+    </script>
+
+    <br>
+    <table>
+        <tr style="font-size:12px">
+            <td>
+                <h1>{{ post.title }}</h1> 💁 {{ post.author }} &nbsp; | &nbsp; 🕓 {{ post.created_at|date:"Y년 m월 d일" }}
+                {% if user.nickname == post.author %}
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <a href="{% url 'boast_post_edit' post.pk %}">수정</a> |
+                    <a href="{% url 'boast_post_delete' post.pk %}">삭제</a>
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <td><p>{{ post.content }}</p></td>
+        </tr>
+    </table>
+
+
+    <button class="button_like" onclick="push_like()">
+        {% if is_Recommended == True %}
+            <div class="liked_emoticon"></div>
+        {% elif is_Recommended == False %}
+            <div class="like_emoticon"></div>
+        {% else %}
+            <div class="like_emoticon"></div>
+        {% endif %}
+        <div class="btn_text">{{ post.liked_num }}</div>
+    </button>
+
+    <script>
+        var csrftoken = '{{ csrf_token }}';
+
+        function push_like() {
+            {% if loginCheck == False %}
+                alert('로그인 후, 추천 가능합니다.');
+            {% elif user.nickname == post.author %}
+                alert('자신이 작성한 게시물은 추천할 수 없습니다.')
+            {% else %}
+                var user_id = {{user.id}}
+                var post_id = {{post.id}}
+                    $.ajax({
+                        url: '/boardlist/boastboard/like/',
+                        data: {
+                            user_id: user_id,
+                            post_id: post_id
+                        },
+                        method: 'POST',
+                        dataType: 'json',
+                        headers: {
+                            'X-CSRFToken': csrftoken
+                        },
+                        success: function (data) {
+                            alert(data.message);
+                            location.reload();
+                        },
+                        error: function (request, status, error) {
+                            let data = JSON.parse(request.responseText);
+                            alert(data.message);
+                        }
+                    });
+            {% endif %}
+        }
+    </script>
+
 {% endblock %}
 

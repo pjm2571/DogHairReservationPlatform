@@ -2,19 +2,45 @@
 <html>
 <head>
     <title>똥강아지 자유게시판</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+      body{
+        font: 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light"
+        , "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+      }
+      h2{
+        color: #976B5B
+      }
+      div{
+        color: #666;
+      }
+
+
+    </style>
+
     <script>
-        function goBack() {
-          window.history.back();
-        }
-      </script>
+      function goToFreeBoard() {
+          window.location.href = "/boardlist/freeboard/";}
+          function goToBoastBoard() {
+          window.location.href = "/boardlist/boastboard/";}
+      function goToMarketBoard() {
+          window.location.href = "/boardlist/marketboard/";}
+      function goToReviewBoard() {
+          window.location.href = "/boardlist/reviewboard/";}
+  </script>
+
 </head>
 <body>
-    <div>
-        <p><button onclick="goBack()">뒤로가기</button></p>
-        <h2>자유게시판</h2>
-        <hr />
-        </div>
-    {% block content %}
-    {% endblock %}
+
+  <h2>자유게시판 &#x1f436;</h2>
+  똥깡아지를 이용하는 사용자들간의 자유 소통 게시판입니다
+
+  <hr />
+
+
+
+  {% block content %}
+  {% endblock %}
+
 </body>
 </html>

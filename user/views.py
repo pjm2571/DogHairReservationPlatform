@@ -76,7 +76,7 @@ class Addmydog(APIView):
             breed=breed
         )
 
-        return Response(status=200, data=dict(message='반려견 등록에 성공했습니다.'))
+        return Response(status=200, data=dict(message='반려견 등록에 성공했습니다. 추가 반려견이 있다면, 마이페이지에서 등록해주세요.'))
 
 
 class Login(APIView):
@@ -106,6 +106,9 @@ class Login(APIView):
 
         # 접속한 사람의 정보를 쉽게 파악하기 위해 email로 설정 -> 하드코딩 불필요
         request.session['email'] = user.email
+
+        # 접속한 사람의 nicknname도 설정
+        request.session['nickname'] = user.nickname
 
         return Response(status=200, data=dict(message='로그인에 성공했습니다.'))
 

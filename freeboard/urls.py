@@ -9,5 +9,6 @@ urlpatterns = [
     path('freeboard_post/new/', views.freeboard_post_create, name='freeboard_post_create'),
     path('freeboard_post/<int:pk>/edit/', views.freeboard_post_edit, name='freeboard_post_edit'),
     path('freeboard_post/<int:pk>/delete/', views.freeboard_post_delete, name='freeboard_post_delete'),
+    path('like/', views.freeboard_post_like.as_view(), name = 'market_post_like')
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

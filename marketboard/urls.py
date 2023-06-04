@@ -9,5 +9,6 @@ urlpatterns = [
     path('market_post/new/', views.market_post_create, name='market_post_create'),
     path('market_post/<int:pk>/edit/', views.market_post_edit, name='market_post_edit'),
     path('market_post/<int:pk>/delete/', views.market_post_delete, name='market_post_delete'),
+    path('like/', views.market_post_like.as_view(), name = 'market_post_like')
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

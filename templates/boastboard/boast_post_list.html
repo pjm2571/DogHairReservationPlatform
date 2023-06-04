@@ -1,87 +1,129 @@
 {% extends 'boastboard/boast_base.html' %}
 
 {% block content %}
-<style>
-body {
-  color: #666666;
-  font: 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
-}
-table {
-  border-collapse: separate;
-  border-spacing: 0;
-  width: 100%;
-}
-th,
-td {
-  padding: 6px 15px;
-}
-th {
-  background: #976B5B;
-  color: #fff;
-  text-align: left;
-}
-tr:first-child th:first-child {
-  border-top-left-radius: 6px;
-}
-tr:first-child th:last-child {
-  border-top-right-radius: 6px;
-}
-td {
-  border-right: 1px solid #c6c9cc;
-  border-bottom: 1px solid #c6c9cc;
-}
-td:first-child {
-  border-left: 1px solid #c6c9cc;
-}
-tr:nth-child(even) td {
-  background: #eaeaed;
-}
-tr:last-child td:first-child {
-  border-bottom-left-radius: 6px;
-}
-tr:last-child td:last-child {
-  border-bottom-right-radius: 6px;
-}
-/* 버튼 css */
-.btn-two.green.rounded {
-  background-color: #976B5B;
-  border: none;
-  color: white;
-  padding: 1px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  border-radius: 10px;
-}
-.btn-two.green.rounded:hover {
-  background-color: #65483d;
-  cursor: pointer;
-}
-</style>
-    <table>
-        <thead>
-            <tr>
-                <th>번호</th>
-                <th>제목</th>
-                <th>작성자</th>
-                <th>작성일</th>
-                <th>추천수</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for post in posts|dictsortreversed:"id" %}
-            <tr>
-                <td>{{ post.id }}</td>
-                <td><a href="{% url 'boast_post_detail' post.pk %}">{{ post.title }}</a></td>
-                <td> User</td>
-                <td>{{ post.created_at|date:"Y년 m월 d일" }}</td>
-                <td>2</td>
-            </tr>
-        {% empty %}
-            <li>No posts yet.</li>
-        {% endfor %}
-        </tbody>
-    </table>
-    <p><a href="{% url 'boast_post_create' %}" class="btn-two green rounded">글쓰기</a></p>
-    {% endblock %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/boastboard/boast_post_list_Style.css' %}">
+
+    <script>
+        function create() {
+            window.location.href = "{% url 'boast_post_create' %}";
+        }
+    </script>
+    <div class="container">
+        <!--페이지 사이드바-->
+        <div class="navigation">
+            <p>
+                <button class="btn btn-primary btn-jelly" onclick="goToFreeBoard()">자유게시판</button>
+            </p>
+            <p>
+                <button class="btn btn-primary btn-jelly" onclick="goToBoastBoard()">자랑게시판</button>
+            </p>
+            <p>
+                <button class="btn btn-primary btn-jelly" onclick="goToMarketBoard()">장터게시판</button>
+            </p>
+            <p>
+                <button class="btn btn-primary btn-jelly" onclick="goToReviewBoard()">후기게시판</button>
+            </p>
+        </div>
+
+        <div class="content">
+            <!--게시글 검색창-->
+            <div class="search">
+                <form action="{% url 'boast_post_list' %}" method="get">
+                    <!--action속성엔 검색 결과를 보여줄 URL을 설정, method 속성을 get으로 설정하여 검색어를 URL 쿼리 문자열에 포함-->
+                    <input type="text" name="search" placeholder="제목을 입력하세요"> <!--name 속성에는 검색어를 식별할 수 있는 이름을 지정-->
+                    <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png" type="submit">
+                </form>
+                <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png">
+            </div>
+
+
+            <!--게시글 목록-->
+            <div class="postlist">
+                <p>
+                <table>
+                    <thead>
+                    <tr>
+                        <th style="width: 60px">번호</th>
+                        <th>제목</th>
+                        <th style="width:200px">작성자</th>
+                        <th style="width:140px">작성일</th>
+                        <th style="width:70px">추천수</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% if searchPosts %}
+                        {% for post in searchPosts %}
+                            <tr>
+                                <td>{{ post.id }}</td>
+                                <td><a href="{% url 'boast_post_detail' post.pk %}">{{ post.title }}</a></td>
+                                <td>{{ post.author }}</td>
+                                <td>{{ post.created_at|date:"Y년 m월 d일" }}</td>
+                                <td>{{ post.liked_num }}</td>
+                            </tr>
+                        {% empty %}
+                            <tr>
+                                <td colspan="5">검색 결과가 없습니다.</td>
+                            </tr>
+                        {% endfor %}
+                    {% else %}
+                        {% for post in posts %} <!--게시물 내림차순 정렬(최신 게시물이 맨 위로 올라오게)-->
+                            <tr>
+                                <td colspan="5">검색 결과가 없습니다.</td>
+                            </tr>
+                        {% empty %}
+                            <tr>
+                                <td colspan="5">게시물이 없습니다.</td>
+                            </tr>
+                        {% endfor %}
+                    {% endif %}
+                    </tbody>
+                </table>
+                </p>
+                <p><a href="{% url 'boast_post_create' %}" class="btn-two green rounded">글쓰기</a></p>
+            </div>
+
+
+            <!-- 페이징처리 시작 -->
+            <div class="paging">
+                <ul class="pagination justify-content-center">
+
+                    <!-- 이전페이지 -->
+                    {% if searchPosts.has_previous %}
+                        <li class="page-item">
+                            <a class="page-link" href="?page={{ searchPosts.previous_page_number }}">이전</a>
+                        </li>
+                    {% else %}
+                        <li class="page-item disabled">
+                            <a class="page-link" tabindex="-1" aria-disabled="true" href="#">이전</a>
+                        </li>
+                    {% endif %}
+
+                    <!-- 페이지리스트 -->
+                    {% for page_number in searchPosts.paginator.page_range %}
+                        {% if page_number == searchPosts.number %}
+                            <li class="page-item active" aria-current="page">
+                                <a class="page-link" href="?page={{ page_number }}">{{ page_number }}</a>
+                            </li>
+                        {% else %}
+                            <li class="page-item">
+                                <a class="page-link" href="?page={{ page_number }}">{{ page_number }}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+
+                    <!-- 다음페이지 -->
+                    {% if searchPosts.has_next %}
+                        <li class="page-item">
+                            <a class="page-link" href="?page={{ searchPosts.next_page_number }}">다음</a>
+                        </li>
+                    {% else %}
+                        <li class="page-item disabled">
+                            <a class="page-link" tabindex="-1" aria-disabled="true" href="#">다음</a>
+                        </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
+{% endblock %}

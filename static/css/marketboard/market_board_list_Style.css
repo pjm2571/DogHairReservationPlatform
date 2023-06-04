@@ -1,0 +1,136 @@
+
+body {
+  padding:20px;
+  color: #666;
+  font: 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light"
+  , "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+
+/* 표 css */
+table {
+  border-collapse: collapse;
+  /* border-collapse: separate; */
+  border-spacing: 0;
+
+}
+th,
+td {
+  padding: 6px 15px;
+}
+th {
+  background: #976B5B;
+  color: #fff;
+  text-align: left;
+}
+tr:first-child th:first-child {
+  border-top-left-radius: 6px;
+}
+tr:first-child th:last-child {
+  border-top-right-radius: 6px;
+}
+
+tr:nth-child(even) td {
+  background: #fdf7f3;
+}
+tr:last-child td:first-child {
+  border-bottom-left-radius: 6px;
+}
+tr:last-child td:last-child {
+  border-bottom-right-radius: 6px;
+}
+
+/* 버튼 css */
+.btn-two.green.rounded {
+  background-color: #976B5B;
+  border: none;
+  color: white;
+  padding: 1px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 10px;
+
+}
+.btn-two.green.rounded:hover {
+  background-color: #65483d;
+  cursor: pointer;
+}
+
+/* 검색창 css */
+.search {
+  position: relative;
+  width: 300px;
+  margin-left: auto;
+  margin-right: 2%;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+img {
+  position : absolute;
+  width: 17px;
+  top: 10px;
+  right: 12px;
+  margin: 0;
+}
+
+/* 네비게이션바 */
+.btn {
+  padding: 0.3rem 1.5rem; /*버튼간격*/
+  background-color: #Fff;
+  border: none;
+  border-radius: 3px;
+  color: #F4C1A9;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #976B5B;
+}
+
+.btn:active {
+  background-color: #976B5B;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) inset;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #976B5B, 0 0 0 4px #976B5B, 0 0 0 5px rgba(255, 193, 7, 0.5);
+}
+
+.btn-jelly:hover {
+  animation: jelly 0.5s;
+}
+
+@keyframes jelly {
+  0%,
+  100% {
+      transform: scale(1);
+  }
+  25% {
+      transform: scale(0.9, 1.1);
+  }
+  50% {
+      transform: scale(1.1, 0.9);
+  }
+  75% {
+      transform: scale(0.95, 1.05);
+  }
+}
+
+.container {
+  display: flex;
+}
+.content {
+  margin-left: auto;
+}

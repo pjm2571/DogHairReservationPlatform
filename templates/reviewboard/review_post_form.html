@@ -1,10 +1,13 @@
-{% extends 'reviewboard/reviewboard/review_base.html' %}
+{% extends 'reviewboard/review_base.html' %}
 
 {% block content %}
 <h1>글쓰기</h1>
-<form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
+<form method="post" enctype="multipart/form-data"> <!-- form 태그에 action 속성을 지정하지 않으면 현재 페이지의 URL이 디폴트 action으로 설정된다. -->
+    {% csrf_token %} <!-- Django의 CSRF공격에 대한 방어 -->
+    {{ form.as_p }} <!-- reviewboard.forms.PostFrom 의 객체다. 폼에 정의한 속성에 해당하는 HTML 코드를 자동으로 생성한다. -->
+
+  
     <button type="submit">게시</button>
 </form>
 {% endblock %}
+

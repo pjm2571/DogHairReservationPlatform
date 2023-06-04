@@ -9,5 +9,6 @@ urlpatterns = [
     path('boast_post/new/', views.boast_post_create, name='boast_post_create'),
     path('boast_post/<int:pk>/edit/', views.boast_post_edit, name='boast_post_edit'),
     path('boast_post/<int:pk>/delete/', views.boast_post_delete, name='boast_post_delete'),
+    path('like/', views.boast_post_like.as_view(), name = 'review_post_like')
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
