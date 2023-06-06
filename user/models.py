@@ -35,3 +35,4 @@ class Dog(models.Model):
     sex = models.CharField(max_length=10)
     breed = models.CharField(max_length=255)
     birth = models.DateField()
+    size = models.CharField(max_length=255, default='')

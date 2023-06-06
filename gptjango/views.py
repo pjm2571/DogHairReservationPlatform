@@ -3,6 +3,9 @@ from django.http import HttpResponse
 from django.http import JsonResponse
 import json
 
+from django.utils.decorators import method_decorator
+from django.views.decorators.csrf import csrf_exempt
+
 from user.models import User
 from .chatgpt import chat_with_gpt
 
@@ -10,6 +13,7 @@ from .chatgpt import chat_with_gpt
 
 
 
+@method_decorator(csrf_exempt, name='dispatch')
 def chat_view(request):
     if request.method == 'POST':
         

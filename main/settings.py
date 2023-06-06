@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 
+import requests
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -25,7 +27,31 @@ SECRET_KEY = 'django-insecure-t1$lw^^2%wjqz#8@#0ripq826gz*#qf5vor5-_)(p4e0%&+%ab
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
+
+
+# 현재 도메인 자동으로 가져오기
+def get_ngrok_domain():
+    try:
+        response = requests.get('http://localhost:4040/api/tunnels')
+        data = response.json()
+        tunnels = data['tunnels']
+        for tunnel in tunnels:
+            if tunnel['proto'] == 'https':
+                return tunnel['public_url'].replace('https://', '')
+        return None
+    except:
+        return None
+
+
+# ngrok 도메인을 allowed_hosts에 추가
+NGROK_DOMAIN = get_ngrok_domain()
+
+print(NGROK_DOMAIN)
+
+if NGROK_DOMAIN:
+    ALLOWED_HOSTS.append(NGROK_DOMAIN)
+
 
 
 # Application definition
@@ -53,6 +79,8 @@ INSTALLED_APPS = [
     'gptjango',     # GPT-3 챗봇
     
     'doglist',      # 견종을 종류별로 저장
+
+    'reservation',  # 예약
 
 ]
 

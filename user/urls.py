@@ -1,7 +1,6 @@
 from django.contrib import admin
 from django.urls import path, include
-from .views import Login, Join, verifyEmail, verifyNickname, Logout, Mypage, Addmydog
-
+from .views import Login, Join, verifyEmail, verifyNickname, Logout, Mypage, Addmydog, Reservation_view
 
 urlpatterns = [
     path('logout/', Logout, name='Logout'),
@@ -11,4 +10,5 @@ urlpatterns = [
     path('mypage/addmydog', Addmydog.as_view(), name='Addmydog'),
     path('join/verifyEmail', verifyEmail.as_view()),
     path('join/verifyNickname', verifyNickname.as_view()),
+    path('reservation/', Reservation_view.as_view(), name='Reservation')
 ]

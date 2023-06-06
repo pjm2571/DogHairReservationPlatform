@@ -3,45 +3,71 @@
 <head>
     <title>똥강아지 장터게시판</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-      body{
-        font: 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light"
-        , "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
-      }
-      h2{
-        color: #976B5B
-      }
-      div{
-        color: #666;
-      }
-
-
-    </style>
+{% load static %}
+    <link rel="stylesheet" href="{% static 'css/marketboard/market_board_base_Style.css' %}">
 
     <script>
-      function goToFreeBoard() {
-          window.location.href = "/boardlist/freeboard/";}
-          function goToBoastBoard() {
-          window.location.href = "/boardlist/boastboard/";}
-      function goToMarketBoard() {
-          window.location.href = "/boardlist/marketboard/";}
-      function goToReviewBoard() {
-          window.location.href = "/boardlist/reviewboard/";}
-  </script>
+        function goToFreeBoard() {
+            window.location.href = "/boardlist/freeboard/";
+        }
+
+        function goToBoastBoard() {
+            window.location.href = "/boardlist/boastboard/";
+        }
+
+        function goToMarketBoard() {
+            window.location.href = "/boardlist/marketboard/";
+        }
+
+        function goToReviewBoard() {
+            window.location.href = "/boardlist/reviewboard/";
+        }
+    </script>
 
 </head>
 <body>
 
-  <h2>장터게시판 &#x1f436;</h2>
-  자신들의 애견용품 팁을 공유하는 게시판입니다
+<div class="head_container">
+    <button class="menu_btn">메뉴바</button>
+    <script>
+        document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
+            window.location.href = '/';
+        });
+    </script>
+    <span class="title_text">장터게시판 &#x1f436;</span>
+    <span class="sub_text">본인이 사용하였던 애견용품을 다른 사람들과 나눌 수 있는 공간입니다.</span>
+    {% if loginCheck %}
+        <button class="mp_btn"> My page</button>
+        <button class="logout_btn"> Logout</button>
+        <script>
+            document.getElementsByClassName('mp_btn')[0].addEventListener('click', function () {
+                window.location.href = '/user/mypage';
+            });
+            document.getElementsByClassName('logout_btn')[0].addEventListener('click', function () {
+                window.location.href = '/user/logout';
+            });
+        </script>
+    {% else %}
+        <button class="login_btn"> Login</button>
+        <button class="join_btn"> Join</button>
+        <script>
+            document.getElementsByClassName('login_btn')[0].addEventListener('click', function () {
+                window.location.href = '/user/login';
+            });
+            document.getElementsByClassName('join_btn')[0].addEventListener('click', function () {
+                window.location.href = '/user/join';
+            });
+        </script>
+    {% endif %}
+
+</div>
+
+<hr/>
 
 
-  <hr />
 
-
-
-  {% block content %}
-  {% endblock %}
+{% block content %}
+{% endblock %}
 
 </body>
 </html>

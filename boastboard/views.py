@@ -1,4 +1,6 @@
 from django.core.paginator import Paginator
+from django.utils.decorators import method_decorator
+from django.views.decorators.csrf import csrf_exempt
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
@@ -9,6 +11,7 @@ from django.utils import timezone
 import datetime
 from django.shortcuts import render, redirect, get_object_or_404
 from django.db.models import Q
+
 
 def boast_post_new(request):
     if request.method == "POST":
@@ -25,6 +28,7 @@ def boast_post_new(request):
 
 
 def boast_post_list(request):
+    context = {}
     query = request.GET.get('search')
     if query:
         searchPosts = BoastPost.objects.order_by('-created_at').filter(  # -created_at은 게시물 역순으로 정렬
@@ -37,10 +41,23 @@ def boast_post_list(request):
     today = datetime.date.today()
     # 페이징요소들
     page = request.GET.get('page', '1')  # 페이지
-    paginator = Paginator(searchPosts, 13)  # 페이지당 10개씩 보여주기
+    paginator = Paginator(searchPosts, 5)  # 페이지당 10개씩 보여주기
     page_obj = paginator.get_page(page)
 
-    context = {'today': today, 'searchPosts': page_obj}
+    context['today'] = today
+    context['searchPosts'] = page_obj
+
+    loginCheck = request.session.get('loginCheck', '')
+
+    if loginCheck == '':
+        context['loginCheck'] = False
+        context['user'] = None
+    else:
+        context['loginCheck'] = True
+        email = request.session['email']
+        user = User.objects.filter(email=email).first()
+        context['user'] = user
+        
     return render(request, 'boastboard/boast_post_list.html', context)
 
 
@@ -69,7 +86,7 @@ def boast_post_detail(request, pk):
 
     return render(request, 'boastboard/boast_post_detail.html', context)
 
-
+@method_decorator(csrf_exempt, name='dispatch')
 def boast_post_create(request):
     if request.method == 'POST':
         form = PostForm(request.POST)  # request.FILES은 이미지를 업로드에 필요한 매개변수다
@@ -84,7 +101,7 @@ def boast_post_create(request):
         form = PostForm()
     return render(request, 'boastboard/boast_post_form.html', {'form': form})
 
-
+@method_decorator(csrf_exempt, name='dispatch')
 def boast_post_edit(request, pk):
     post = get_object_or_404(BoastPost, pk=pk)
     if request.method == 'POST':

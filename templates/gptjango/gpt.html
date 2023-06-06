@@ -2,7 +2,6 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,16 +12,14 @@
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <title>Document</title>
 </head>
-
 <body>
 <div id="menubar">
-    <button class="menu_btn">메뉴바</button>
+    <button class="menu_btn">메뉴바gg</button>
     <script>
         document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
             window.location.href = '/';
         });
     </script>
-
     {% if loginCheck %}
         <button class="mp_btn"> My page</button>
         <button class="logout_btn"> Logout</button>
@@ -46,12 +43,10 @@
             });
         </script>
     {% endif %}
-
 </div>
 <div style="clear:both"></div>
-
 <nav class="ani-navbar">
-    <h4 id>Menu</h4>
+    <h3>Menu</h3>
     <p id="board_bar" class="nav_bar_btn">게시판</p>
     <p id="storemap_bar" class="nav_bar_btn">가까운 미용실</p>
     <p id="chatbot_bar" class="nav_bar_btn">왜 아플까?</p>
@@ -67,8 +62,7 @@
             {% csrf_token %}
             <h4 class="bodytitle">AI에게 물어보세요</h4>
             <input class="gpt_question" type="text" id="messageInput" name="message">
-            <label className="submit_icon" class="submit_icon" for="input-file"><i class="fa-solid fa-dog fa-2xl">
-            </i></label>
+            <label className="submit_icon" class="submit_icon" for="input-file"><i class="fa-solid fa-dog fa-2xl"> </i></label>
             <button type="submit" id="input-file" style="display:none"></button>
         </form>
     </div>
@@ -96,6 +90,7 @@
 
 </div>
 
+
 <script>
     document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
         window.location.href = '/';
@@ -119,7 +114,6 @@
 </script>
 
 
-
 <script>
     document.getElementById('chatForm').addEventListener('submit', function (event) {
         event.preventDefault(); // Prevent the form from submitting normally
@@ -127,11 +121,16 @@
         var message = document.getElementById('messageInput').value;
         var jsonData = JSON.stringify({message: message});
 
-        // Set the value of the hidden input field to the JSON data
 
-        // Submit the form
+        document.getElementById('loadingWindow').style.display = 'block';
+
         this.submit();
     });
+
+    function hideLoadingWindow() {
+        var loadingWindow = document.getElementById("loadingWindow");
+        loadingWindow.style.display = "none";
+    }
 
     // Function to update the response container with the received JSON response
     document.addEventListener('DOMContentLoaded', function () {
@@ -140,7 +139,7 @@
         for (var i = 0; i < answerElements.length; i++) {
             answerElements[i].addEventListener('click', function (event) {
                 event.preventDefault(); // Prevent the form from submitting normally
-
+                document.getElementById('loadingWindow').style.display = 'block';
                 var selectedAnswer = this.innerText; // Get the selected answer text
 
                 // Create a new FormData object and add the selected answer
@@ -163,6 +162,14 @@
                 };
                 xhr.send(formData);
 
+                setTimeout(function () {
+                    // Simulating a delay of 3 seconds
+                    hideLoadingWindow();
+
+                    // Call the showSolution() function to display the solution
+                    showSolution(selectedAnswer);
+                }, 13000);
+
             });
         }
     });
@@ -180,11 +187,24 @@
                 <p>${solution[2]}</p
                 <p>${solution[3]}</p
                 <p>${solution[4]}</p
-                    
+
             `;
         solutionBox.style.display = 'block';
     }
 </script>
-</body>
+<div id="loadingWindow" style="display: none;">
+    <div class="loadingText">
+        Loading…
+    </div>
+</div>
 
+{% if is_loading %}
+    <div id="loadingWindow">
+
+    </div>
+{% endif %}
+
+</div>
+
+</body>
 </html>

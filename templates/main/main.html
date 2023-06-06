@@ -28,12 +28,24 @@
 
         <button class="mp_btn"> My page</button>
         <button class="logout_btn"> Logout</button>
+        {% if reservation  %}
+            <button class="reservation_btn"><img src="static/image/main/reservation_red.png"></button>
+        {% else %}
+            <button class="reservation_btn"><img src="static/image/main/reservation.png"></button>
+        {% endif %}
         <script>
             document.getElementsByClassName('mp_btn')[0].addEventListener('click', function () {
                 window.location.href = '/user/mypage';
             });
             document.getElementsByClassName('logout_btn')[0].addEventListener('click', function () {
                 window.location.href = '/user/logout';
+            });
+            document.getElementsByClassName('reservation_btn')[0].addEventListener('click', function () {
+                {% if reservation %}
+                    window.location.href = '/user/reservation';
+                {% else %}
+                    alert('현재 예약내역이 없습니다.')
+                {% endif %}
             });
         </script>
     {% else %}

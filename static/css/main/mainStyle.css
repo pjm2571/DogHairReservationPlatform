@@ -126,6 +126,19 @@
     font-weight: bold;
 }
 
+.reservation_btn{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+    float: right;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
 
 .container {
     position: fixed;

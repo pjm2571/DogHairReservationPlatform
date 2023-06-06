@@ -3,13 +3,25 @@
 {% block content %}
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/marketboard/market_board_list_Style.css' %}">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
     <script>
         function create() {
             window.location.href = "{% url 'market_post_create' %}";
         }
     </script>
+
+    <nav class="ani-navbar">
+        <h4 id>Menu</h4>
+        <p id="board_bar" class="nav_bar_btn">게시판</p>
+        <p id="storemap_bar" class="nav_bar_btn">가까운 미용실</p>
+        <p id="chatbot_bar" class="nav_bar_btn">왜 아플까?</p>
+        <p id="parkmap_bar" class="nav_bar_btn">산책 경로 추천</p>
+        <p id="style_bar" class="nav_bar_btn">스타일 추천</p>
+        <p style="margin-top:50px"><i class="fa-solid fa-dog fa-2xl"> </i></p>
+    </nav>
     <div class="container">
         <!--페이지 사이드바-->
         <div class="navigation">
@@ -82,8 +94,8 @@
                 </table>
                 </p>
                 <p><a href="{% url 'market_post_create' %}" class="btn-two green rounded">글쓰기</a></p>
-            </div>
 
+            </div>
 
             <!-- 페이징처리 시작 -->
             <div class="paging">
@@ -127,4 +139,26 @@
             </div>
         </div>
     </div>
+
+<script>
+    document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
+        window.location.href = '/';
+    });
+    document.getElementById('board_bar').addEventListener('click', function () {
+        window.location.href = '/boardlist';
+    });
+    document.getElementById('storemap_bar').addEventListener('click', function () {
+        window.location.href = '/storemap';
+    });
+    document.getElementById('parkmap_bar').addEventListener('click', function () {
+        window.location.href = '/parkmap';
+    });
+    document.getElementById('chatbot_bar').addEventListener('click', function () {
+        window.location.href = '/chatgpt';
+    });
+    document.getElementById('style_bar').addEventListener('click', function () {
+        //window.location.href = '/style';
+        alert('아직 준비중!')
+    });
+</script>
 {% endblock %}

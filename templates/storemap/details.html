@@ -1,18 +1,156 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Details Page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ store.name }}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/storemap/details.css' %}">
 </head>
+
 <body>
-    <h1 id="title">{{ store.name }}</h1>
-    <p id="store_location">{{ store.location }}</p>
-    <p id="open-hours"></p>
-    <p id="phone">{{ store.phone_number }}</p>
-    <p id="rating"></p>
-    <p id="visitor-review"></p>
-    <p id="blog-review"></p>
-    <p id="website"></p>
 
+<button class="previous_btn">이전 화면</button>
+<button class="main_btn">메인 화면</button>
 
+<div class="img_container">
+    <img src="https://mud-kage.kakao.com/dn/TsAjo/btqw7NvD1dK/3jMKoKew6JB6yM0br7quHk/img_1080x720.jpg" alt="">
+</div>
+
+<div class="container">
+    <div class="quick_btn_container">
+        <button class="quick_btn">홈</button>
+        <button class="quick_btn" onclick="toMenu()">메뉴</button>
+        <button class="quick_btn" onclick="toReserve()">예약</button>
+        <button class="quick_btn" onclick="toReview()">리뷰</button>
+    </div>
+
+    <div class="information_container">
+        <h1>{{ store.name }}</h1>
+        <p>별점 : {{ store.rating }}</p>
+        <p>영업시간</p>
+        <p>{{ store.open_hours }}</p>
+    </div>
+
+    <div class="button_container">
+        <button class="button_like" onclick="like_func()">
+            <div class="like_emoticon"></div>
+            <div class="btn_text">{{ store.visitor_review }}</div>
+        </button>
+        <button class="button_location" onclick="location_func()">
+            <div class="location_emoticon"></div>
+            <div class="btn_text">위치</div>
+        </button>
+        <button class="button_call" onclick="call_func()">
+            <div class="call_emoticon"></div>
+            <div class="btn_text">전화</div>
+        </button>
+        <button class="button_share" onclick="share_func()">
+            <div class="share_emoticon"></div>
+            <div class="btn_text">공유</div>
+        </button>
+    </div>
+
+    <div class="menu_container">
+        <h1>메뉴</h1>
+        <ul>
+            <li>
+                <div class="img_holder"><img src="/static/image/storemap/pet_cut.png" width="100" height="100"></div>
+                <div class="info_holder">
+                    <div class="info_title">반려견 미용 커트</div>
+                    <div class="info_price">소형 : 50,000 , 중형 : 60,000, 대형 : 70,000</div>
+                    <div class="info_subinfo">반려견 무게 | 견종 별도 | 부가세 별도</div>
+                </div>
+            </li>
+            <li>
+                <div class="img_holder"><img src="/static/image/storemap/pet_wash.png" width="100" height="100"></div>
+                <div class="info_holder">
+                    <div class="info_title">반려견 목욕</div>
+                    <div class="info_price">소형 : 35,000 , 중형 : 40,000, 대형 : 45,000</div>
+                    <div class="info_subinfo">반려견 무게 | 견종 별도 | 부가세 별도</div>
+                </div>
+            </li>
+            <li>
+                <div class="img_holder"><img src="/static/image/storemap/pet_hotel.png" width="100" height="100"></div>
+                <div class="info_holder">
+                    <div class="info_title">반려견 호텔</div>
+                    <div class="info_price">1박 : 35,000</div>
+                    <div class="info_subinfo">반려견 크기에 따라 달라질 수 있음 | 부가세 별도</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="reservation_container">
+        <button class="reserve_btn" onclick="toReserve()">예약하기</button>
+    </div>
+
+</div>
+
+<script>
+    document.getElementsByClassName('previous_btn')[0].addEventListener('click', function () {
+        window.location.href = '/storemap';
+    });
+    document.getElementsByClassName('main_btn')[0].addEventListener('click', function () {
+        window.location.href = '/';
+    });
+
+    function like_func() {
+        alert('좋아요!')
+    }
+
+    function location_func() {
+        alert('{{store.name}}의 위치는  "{{ store.location }}" 입니다.')
+    }
+
+    function call_func() {
+        alert('{{store.name}}의 전화번호는  "{{ store.phone_number }}" 입니다.')
+    }
+
+    function share_func() {
+        var currentURL = window.location.href;
+
+        // 임시 input 요소 생성
+        var tempInput = document.createElement("input");
+        tempInput.setAttribute("value", currentURL);
+        document.body.appendChild(tempInput);
+
+        // input 요소 선택 및 복사
+        tempInput.select();
+        document.execCommand("copy");
+
+        // 임시 input 요소 제거
+        document.body.removeChild(tempInput);
+
+        alert("URL이 복사되었습니다.");
+    }
+
+    function toMenu() {
+        var targetDiv = document.querySelector(".menu_container");
+        targetDiv.scrollIntoView({behavior: 'smooth'});
+    }
+
+    function toReview() {
+        alert('{{store.name}}의 블로그 리뷰는  "{{ store.blog_review }}", 방문자 리뷰는 "{{ store.visitor_review }} 입니다.')
+    }
+
+    function toReserve() {
+        {% if loginCheck == False %}
+            alert('로그인 후, 이용 가능합니다.')
+        {% else %}
+            var store_id = {{ store.id }}
+            var user_id = {{ user.id }}
+
+            var url = '/reservation?store_id=' + store_id + '&user_id=' + user_id;
+
+            alert('{{ store.name }} 미용실의 예약 창으로 이동합니다.')
+            window.location.href = url;
+        {% endif %}
+
+    }
+</script>
 </body>
+
 </html>

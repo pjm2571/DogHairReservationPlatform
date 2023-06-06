@@ -3,6 +3,9 @@ from django.shortcuts import render, redirect
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
+from doglist.models import Doglist_Dog
+from reservation.models import Reservation
+from storemap.models import Store
 from user.models import User, Dog
 import re
 
@@ -26,8 +29,10 @@ class Mypage(APIView):
         context['dogs'] = dogs
 
         return render(request, 'user/mypage.html', context)
+
     def post(self, request):
         return render(request, 'user/mypage.html')
+
 
 class Addmydog(APIView):
     def get(self, request):
@@ -68,12 +73,15 @@ class Addmydog(APIView):
             if doggy.name == name:
                 return Response(status=500, data=dict(message='동일한 반려견이 존재합니다. 반려견 이름을 확인해주세요.'))
 
+        dogsize = Doglist_Dog.objects.filter(kind_kor=breed).first().kind_size
+
         dog = Dog.objects.create(
             user=user,
             name=name,
             sex=sex,
             birth=birth,
-            breed=breed
+            breed=breed,
+            size=dogsize
         )
 
         return Response(status=200, data=dict(message='반려견 등록에 성공했습니다. 추가 반려견이 있다면, 마이페이지에서 등록해주세요.'))
@@ -191,3 +199,18 @@ class verifyNickname(APIView):
             return Response(status=500, data=dict(message='사용자 이름 "' + nickname + '"이(가) 존재합니다.'))
 
         return Response(status=200, data=dict(message="사용할 수 있는 닉네임입니다."))
+
+
+class Reservation_view(APIView):
+    def get(self, request):
+        context = {}
+        # Session 이용하여 유저 정보 가져옴
+        email = request.session['email']
+        user = User.objects.filter(email=email).first()
+
+        context['user'] = user
+        reservations = Reservation.objects.filter(user=user)
+
+        context['reservations'] = reservations
+
+        return render(request, 'user/reservation.html', context)
