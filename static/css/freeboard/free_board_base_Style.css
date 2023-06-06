@@ -1,0 +1,114 @@
+body {
+    font: 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+
+h2 {
+    color: #976B5B
+}
+
+div {
+    color: #666;
+}
+
+.head_container {
+    padding: 10px;
+    z-index: 2;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    left: 0;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    border-bottom: 2px solid #976B5B;
+    margin-top: 15px;
+}
+
+.title_text {
+
+    color: #976B5B;
+    font-size: 30px;
+}
+
+.sub_text {
+    color: #976B5B;
+    font-size: 20px;
+}
+
+
+.mp_btn {
+    margin-top: -10px;
+    position: relative;
+    height: 50px;
+    width: 90px;
+    margin-right: 10px;
+    float: right;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+.logout_btn {
+    margin-top: -10px;
+    position: relative;
+    height: 50px;
+    width: 90px;
+    margin-right: 10px;
+    float: right;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+.login_btn {
+    margin-top: -10px;
+    position: relative;
+    height: 50px;
+    width: 90px;
+    margin-right: 10px;
+    float: right;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+.join_btn {
+    margin-top: -10px;
+    position: relative;
+    height: 50px;
+    width: 90px;
+    margin-right: 10px;
+    float: right;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+.menu_btn {
+    margin-top: -10px;
+    position: relative;
+    height: 50px;
+    width: 90px;
+    margin-right: 40px;
+    float: left;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    border: 1px solid #976B5B;
+}

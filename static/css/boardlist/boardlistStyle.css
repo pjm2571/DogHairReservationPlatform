@@ -1,0 +1,279 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#menubar {
+    z-index: 2;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    left: 0;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    border-bottom: 2px solid #976B5B;
+}
+
+
+.menu_btn {
+    color: #976B5B;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: white;
+    float: left;
+}
+
+.action_btn {
+    position: relative;
+    height: 50px;
+    width: 70px;
+    margin-right: 10px;
+    margin-top: 5px;
+    float: right;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+.mp_btn {
+    position: relative;
+    height: 50px;
+    width: 70px;
+    margin-right: 10px;
+    margin-top: 5px;
+    float: right;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+.logout_btn {
+    position: relative;
+    height: 50px;
+    width: 70px;
+    margin-right: 10px;
+    margin-top: 5px;
+    float: right;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+.login_btn {
+    position: relative;
+    height: 50px;
+    width: 70px;
+    margin-right: 10px;
+    margin-top: 5px;
+    float: right;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+.join_btn {
+    position: relative;
+    height: 50px;
+    width: 70px;
+    margin-right: 10px;
+    margin-top: 5px;
+    float: right;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+
+.ani-navbar {
+    border-radius: 60px 60px 60px 60px;
+    margin-top: 100px;
+    width: 200px;
+    background: #FAEBD7;
+    color: #976B5B;
+    height: 100%;
+    padding: 25px;
+    position: fixed;
+    z-index: 5;
+    text-align: right;
+    transition: all 1s;
+    transform: translateX(-180px);
+}
+
+.ani-navbar p,
+h4 {
+    font-family: 'main-font';
+}
+
+.ani-navbar:hover {
+    transform: translateX(0px);
+    text-align: center;
+
+}
+
+.ani-navbar:hover+.fullBody {
+    opacity: 0.5;
+    transition: all 1s;
+}
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(-250px)
+    }
+
+    50% {
+        transform: translateX(50px) skewX(-30deg)
+    }
+
+    100% {
+        transform: translateX(0px)
+    }
+}
+
+.ani-navbar p {
+    text-align: center;
+    margin-top: 2px;
+}
+
+.ani-navbar:hover p {
+    animation-name: slide;
+    animation-duration: 1s;
+}
+
+
+.btn {
+    padding: 1rem 2rem;
+    background-color: #976B5B;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #65483d;
+}
+
+.btn:active {
+    background-color: #65483d;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) inset;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #976B5B, 0 0 0 5px rgba(255, 193, 7, 0.5);
+}
+
+.btn-jelly:hover {
+    animation: jelly 0.5s;
+}
+
+@keyframes jelly {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(0.9, 1.1);
+    }
+    50% {
+        transform: scale(1.1, 0.9);
+    }
+    75% {
+        transform: scale(0.95, 1.05);
+    }
+
+}
+
+body { /*글자색, 폰트*/
+    color: #666;
+    font: 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+
+.container{
+    text-align: center;
+    margin-top: 100px;
+    position: absolute;
+    overflow: hidden;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 50px;
+    border: 1px solid #976B5B;
+}
+
+.board_container{
+    float: left;
+    overflow: hidden;
+}
+
+.board_span{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+
+
+li{
+    margin: 20px;
+    text-align: center;
+    float: left;
+    list-style-type: none;
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    border-radius: 30px 30px 30px 30px;
+    border: 4px solid #976B5B;
+    user-select: none;
+    cursor: pointer;
+}
+
+li:hover{
+    border-color: #65483d;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.info_text {
+    color: #976B5B;
+    font-weight: bold;
+    font-size: large;
+}
+
+.nav_bar_btn {
+    user-select: none;
+}
+
+.nav_bar_btn:hover {
+    color: black;
+}

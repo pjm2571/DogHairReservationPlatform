@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>예약 메인 페이지</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/reservation/main.css' %}">
+    <script
+            type="text/javascript"
+            src="https://code.jquery.com/jquery-1.12.4.min.js"
+    ></script>
+    <!-- iamport.payment.js -->
+    <script
+            type="text/javascript"
+            src="https://cdn.iamport.kr/js/iamport.payment-1.2.0.js"
+    ></script>
+
+</head>
+<body>
+<h1>{{ store.name }}</h1>
+<h2>예약자 : {{ user.name }}</h2>
+<select id="dogSelect">
+    <option disabled selected value="">예약하고자하는 반려견을 선택해주세요</option>
+    {% for dog in dogs %}
+        <option value="{{ dog.name }}" data-breed="{{ dog.breed }}" data-size="{{ dog.size }}">{{ dog.name }}</option>
+    {% endfor %}
+</select>
+
+<h1 id="breedHeading"></h1>
+<h1 id="sizeHeading"></h1>
+
+<div class="date_container">
+
+</div>
+
+<div class="cut_container">
+</div>
+
+<div class="bath_container">
+</div>
+
+<div class="hotel_container">
+</div>
+
+<div class="total_container">
+
+</div>
+
+<div class="submit_container">
+
+</div>
+
+
+<script>
+    // select 요소 변경 시 이벤트 처리
+    document.getElementById("dogSelect").addEventListener("change", function () {
+        // 선택된 option 요소의 data-breed 값 가져오기
+        var selectedBreed = this.options[this.selectedIndex].getAttribute("data-breed");
+        var selectedSize = this.options[this.selectedIndex].getAttribute("data-size");
+
+        // breedHeading 요소에 breed 값을 설정
+        document.getElementById("breedHeading").innerText = selectedBreed;
+        document.getElementById("sizeHeading").innerText = selectedSize;
+
+        var cutContainer = document.querySelector(".cut_container");
+        var bathContainer = document.querySelector(".bath_container");
+        var hotelContainer = document.querySelector(".hotel_container");
+        var submitContinaer = document.querySelector(".submit_container");
+        var totalContainer = document.querySelector(".total_container");
+        var date_container = document.querySelector(".date_container")
+
+        // 이전에 추가된 checkbox 제거
+        date_container.innerHTML = '';
+        cutContainer.innerHTML = '';
+        bathContainer.innerHTML = '';
+        hotelContainer.innerHTML = '';
+        totalContainer.innerHTML = '';
+
+        var today = new Date();
+        var minDate = today.toISOString().slice(0, 10);
+        var maxDate = new Date(today.getFullYear(), today.getMonth() + 1, today.getDate()).toISOString().slice(0, 10);
+
+        if (selectedSize == '소형') {
+            date_container.innerHTML = `<input class="date_wrap" type="date" name="date" min=${minDate} max=${maxDate} required>`
+            cutContainer.innerHTML = '<input type="checkbox" id="cutCheckbox" name="반려견 커트 (소형)" value=50000>' +
+                '<label for="cutCheckbox">반려견 커트 (소형) : 50,000</label>';
+            bathContainer.innerHTML = '<input type="checkbox" id="bathCheckbox" name="반려견 목욕 (소형)" value=35000>' +
+                '<label for="bathCheckbox">반려견 목욕 (소형) : 35,000</label>';
+            hotelContainer.innerHTML = '<input type="checkbox" id="hotelCheckbox" name="반려견 호텔 (소형)" value=35000>' +
+                '<label for="hotelCheckbox">반려견 호텔 (소형) : 35,000</label>';
+            submitContinaer.innerHTML = '<button onclick="requestPay()">결제하기</button>'
+            totalContainer.innerHTML = '<h1>결제 가격 : 0원</h1>'
+        } else if (selectedSize == '중형') {
+            date_container.innerHTML = `<input class="date_wrap" type="date" name="date" min=${minDate} max=${maxDate} required>`
+            cutContainer.innerHTML = '<input type="checkbox" id="cutCheckbox" name="반려견 커트 (중형)" value=60000>' +
+                '<label for="cutCheckbox">반려견 커트 (중형) : 60,000</label>';
+            bathContainer.innerHTML = '<input type="checkbox" id="bathCheckbox" name="반려견 목욕 (중형)" value=40000>' +
+                '<label for="bathCheckbox">반려견 목욕 (중형) : 40,000</label>';
+            hotelContainer.innerHTML = '<input type="checkbox" id="hotelCheckbox" name="반려견 호텔 (중형)" value=35000>' +
+                '<label for="hotelCheckbox">반려견 호텔 (중형) : 35,000</label>';
+            submitContinaer.innerHTML = '<button onclick="requestPay()">결제하기</button>'
+            totalContainer.innerHTML = '<h1>결제 가격 : 0원</h1>'
+        } else if (selectedSize == '대형') {
+            date_container.innerHTML = `<input class="date_wrap" type="date" name="date" min=${minDate} max=${maxDate} required>`
+            cutContainer.innerHTML = '<input type="checkbox" id="cutCheckbox" name="반려견 커트 (대형)" value=70000>' +
+                '<label for="cutCheckbox">반려견 커트 (대형) : 70,000</label>';
+            bathContainer.innerHTML = '<input type="checkbox" id="bathCheckbox" name="반려견 목욕 (대형)" value=45000>' +
+                '<label for="bathCheckbox">반려견 목욕 (대형) : 45,000</label>';
+            hotelContainer.innerHTML = '<input type="checkbox" id="hotelCheckbox" name="반려견 호텔 (대형)" value=40000>' +
+                '<label for="hotelCheckbox">반려견 호텔 (대형) : 40,000</label>';
+            submitContinaer.innerHTML = '<button onclick="requestPay()">결제하기</button>'
+            totalContainer.innerHTML = '<h1>결제 가격 : 0원</h1>'
+        }
+
+        var cutCheckbox = document.getElementById('cutCheckbox');
+        var bathCheckbox = document.getElementById('bathCheckbox');
+        var hotelCheckbox = document.getElementById('hotelCheckbox');
+
+        // 체크박스 변경 시 이벤트 처리
+        cutCheckbox.addEventListener('change', updateTotalAmount);
+        bathCheckbox.addEventListener('change', updateTotalAmount);
+        hotelCheckbox.addEventListener('change', updateTotalAmount);
+
+        function updateTotalAmount() {
+            // 선택된 체크박스 값들의 합 계산
+            var totalAmount = 0;
+            if (cutCheckbox.checked) {
+                totalAmount += parseInt(cutCheckbox.value);
+            }
+            if (bathCheckbox.checked) {
+                totalAmount += parseInt(bathCheckbox.value);
+            }
+            if (hotelCheckbox.checked) {
+                totalAmount += parseInt(hotelCheckbox.value);
+            }
+
+            // 합산된 값 표시
+            totalContainer.innerHTML = `<h1>결제 가격 : ${totalAmount}원</h1>`
+        }
+
+    });
+</script>
+
+<script>
+    var IMP = window.IMP;
+    IMP.init("imp45743511");
+
+    function requestPay() {
+        // checkbox 요소들을 가져오기
+        var cutCheckbox = document.getElementById('cutCheckbox');
+        var bathCheckbox = document.getElementById('bathCheckbox');
+        var hotelCheckbox = document.getElementById('hotelCheckbox');
+
+
+        var date = $('input[name="date"]').val();
+        if (date == '') {
+            alert('예약 날짜를 입력해주세요!');
+        } else {
+            // checkbox가 선택되었는지 확인
+            if (cutCheckbox.checked || bathCheckbox.checked || hotelCheckbox.checked) {
+
+                var selectedItems = [];
+                var totalPrice = 0;
+
+                if (cutCheckbox.checked) {
+                    selectedItems.push({
+                        name: cutCheckbox.name
+                    });
+                    totalPrice += parseInt(cutCheckbox.value);
+                }
+
+                if (bathCheckbox.checked) {
+                    selectedItems.push({
+                        name: bathCheckbox.name
+                    });
+                    totalPrice += parseInt(bathCheckbox.value);
+                }
+
+                if (hotelCheckbox.checked) {
+                    selectedItems.push({
+                        name: hotelCheckbox.name
+                    });
+                    totalPrice += parseInt(hotelCheckbox.value);
+                }
+
+                // TODO: totalPrice와 selectedItems를 활용하여 결제 요청을 수행
+                var current_merchant_uid = 'merchant_' + new Date().getTime();
+
+
+                IMP.request_pay(
+                    {
+                        pg: "kcp.{상점ID}",
+                        pay_method: "card",
+                        merchant_uid: current_merchant_uid,
+                        name: '{{store.name}} 예약',
+                        amount: totalPrice,
+                        buyer_email: "pjm2571@naver.com",
+                        buyer_name: "{{user.name}}",
+                        buyer_tel: "010-1234-5678",
+                        buyer_addr: "서울특별시 강남구 삼성동"
+                    },
+                    function (rsp) {
+                        if (rsp.success === false) {
+                            alert('결제가 실패하였습니다. 재결제 해주세요.')
+                        } else if (rsp.success === true) {
+                            let user_id = {{ user.id }};
+                            let store_id = {{ store.id }};
+                            let date = $('input[name="date"]').val();
+                            let menus = '반려동물 관리'
+                            let price = totalPrice
+                            let selectElement = document.getElementById("dogSelect");
+                            let dog = selectElement.value;
+
+
+                            console.log(dog);
+
+                            $.ajax({
+                                url: '/reservation/',
+                                data: {
+                                    user_id: user_id,
+                                    store_id: store_id,
+                                    date: date,
+                                    menus: menus,
+                                    price: price,
+                                    dog: dog
+                                },
+                                method: 'POST',
+                                dataType: 'json',
+
+                                success: function (data) {
+                                    alert(data.message);
+                                    location.replace('/');
+
+                                },
+                                error: function (request, status, error) {
+                                    let data = JSON.parse(request.responseText);
+                                    console.log(data.message);
+                                    alert(data.message);
+                                }
+                            });
+                            alert('결제 성공')
+                        }
+                    }
+                );
+                console.log('결제 진행');
+            } else {
+                // checkbox 중 하나라도 선택되지 않은 경우에 대한 처리
+                alert('결제할 메뉴를 선택해주세요.');
+            }
+        }
+
+    }
+</script>
+
+
+</body>
+</html>

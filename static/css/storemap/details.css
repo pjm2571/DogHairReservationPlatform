@@ -1,0 +1,285 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0, auto;
+    padding: 0;
+    text-align: center;
+}
+
+.img_container {
+    width: 600px;
+    height: 400px;
+    position: fixed;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.img_container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    position: absolute;
+    margin: 0 auto;
+    width: 600px;
+    left: 0;
+    right: 0;
+    top: 300px;
+    background-color: white;
+    border: 1px solid #976B5B;
+    border-radius: 60px 60px 60px 60px;
+
+}
+
+.reservation_container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 602px;
+    height: 80px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: white;
+    box-shadow: 0px -15px 15px -15px #976B5B;
+}
+
+.reserve_btn {
+    margin-top: 15px;
+    width: 500px;
+    height: 50px;
+    background-color: #FAEBD7;
+    border-radius: 50px;
+    border: none;
+    color: #976B5B;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.reserve_btn:hover {
+    border: 1px solid #976B5B;
+}
+
+.quick_btn_container {
+    width: 250px;
+    margin-left: 10px;
+    top: 30px;
+    position: relative;
+    background-color: white;
+    border: none;
+
+}
+
+.quick_btn {
+    border: none;
+    width: 50px;
+    height: 50px;
+    color: #976B5B;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 60px 60px 60px 60px;
+    font-size: 16px;
+}
+
+.quick_btn:hover {
+    color: white;
+    background-color: #976B5B;
+}
+
+.information_container {
+    width: 600px;
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: left;
+    color: #976B5B;
+}
+
+.button_container {
+    width: 600px;
+    text-align: center;
+    height: 70px;
+}
+
+.button_like {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.button_location {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.button_call {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.button_share {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.like_emoticon {
+    background-image: url('/static/image/storemap/heart_icon.png');
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+}
+
+.like_emoticon:hover {
+    background-image: url('/static/image/storemap/colored_heart_icon.png');
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+}
+
+.location_emoticon {
+    background-image: url('/static/image/storemap/location_icon.png');
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+}
+
+.share_emoticon {
+    background-image: url('/static/image/storemap/share_icon.png');
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+}
+
+.call_emoticon {
+    background-image: url('/static/image/storemap/call_icon.png');
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+}
+
+.btn_text {
+    width: 60px;
+    margin-top: 5px;
+    color: #976B5B;
+    font-weight: bold;
+}
+
+.menu_container {
+    width: 600px;
+    margin-top: 80px;
+    margin-left: 20px;
+    text-align: left;
+    color: #976B5B;
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+li {
+    overflow: hidden;
+    float: left;
+    width: 550px;
+    border-top: 1px solid #976B5B;
+}
+
+li:last-child {
+    padding-bottom: 100px;
+}
+
+.img_holder {
+    float: left;
+}
+
+.info_holder {
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+
+.info_title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info_price {
+    margin-top: 5px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.info_subinfo {
+    margin-top: 5px;
+    font-size: 15px;
+    color: #d3d3d3;
+    font-weight: bold;
+}
+
+.main_btn {
+    height: 30px;
+    width: 100px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    border-radius: 60px 60px 60px 60px;
+}
+
+.main_btn:hover{
+    background-color: #FAEBD7;
+}
+
+.previous_btn {
+    height: 30px;
+    border-radius: 60px 60px 60px 60px;
+    width: 100px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+.previous_btn:hover{
+    background-color: #FAEBD7;
+}

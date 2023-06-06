@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservation</title>
+</head>
+<body>
+{% for reservation in reservations %}
+<h1>{{ reservation.user.name }}</h1>
+    <h1>{{ reservation.store.name }}</h1>
+    <h2>{{ reservation.price }}</h2>
+    <h2>{{ reservation.date }}</h2>
+    <h2>{{ reservation.dog }}</h2>
+    <br><br><br><br>
+{% endfor %}
+</body>
+</html>
