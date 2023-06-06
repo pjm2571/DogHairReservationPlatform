@@ -14,42 +14,122 @@
             type="text/javascript"
             src="https://cdn.iamport.kr/js/iamport.payment-1.2.0.js"
     ></script>
+    <script src="https://kit.fontawesome.com/d84ada5b7f.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
-<h1>{{ store.name }}</h1>
-<h2>예약자 : {{ user.name }}</h2>
-<select id="dogSelect">
-    <option disabled selected value="">예약하고자하는 반려견을 선택해주세요</option>
-    {% for dog in dogs %}
-        <option value="{{ dog.name }}" data-breed="{{ dog.breed }}" data-size="{{ dog.size }}">{{ dog.name }}</option>
-    {% endfor %}
-</select>
+<div id="header">
+    <button class="menu_btn">메뉴바</button>
+    <script>
+        document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
+            window.location.href = '/';
+        });
+    </script>
+    <button class="mp_btn"> My page</button>
+    <button class="logout_btn"> Logout</button>
+</div>
 
-<h1 id="breedHeading"></h1>
-<h1 id="sizeHeading"></h1>
+<nav class="ani-navbar">
+    <h4 id>Menu</h4>
+    <p id="board_bar" class="nav_bar_btn">게시판</p>
+    <p id="storemap_bar" class="nav_bar_btn">가까운 미용실</p>
+    <p id="chatbot_bar" class="nav_bar_btn">왜 아플까?</p>
+    <p id="parkmap_bar" class="nav_bar_btn">산책 경로 추천</p>
+    <p id="style_bar" class="nav_bar_btn">스타일 추천</p>
+    <p style="margin-top:50px"><i class="fa-solid fa-dog fa-2xl"> </i></p>
+</nav>
 
-<div class="date_container">
+
+<div class="map_aside">
+    <hr class="bigline">
+    <br>
+    <h1 class="maintext">가까운</h1>
+    <h1 class="maintext">미용실</h1>
+    <br>
+    <hr class="smallline">
+    <br>
+    <h2 class="maptext">지도 보기</h2>
+    <h2 class="listtext">목록 보기</h2>
+    <h2 class="maintext">예약 하기</h2>
+    <br>
+    <hr class="smallline">
+</div>
+
+<div class="container">
+    <h1 class="container_title">예약하기</h1>
+    <div class="user_title">예약자 : {{ user.name }}</div>
+    <div class="container_store">
+        <i class="fa-solid fa-location-dot fa-2x"></i>
+        <h3 class="store_title">{{ store.name }}</h3>
+    </div>
+    <div class="select_container">
+        <select id="dogSelect">
+            <option disabled selected value="">예약하고자하는 반려견을 선택해주세요</option>
+            {% for dog in dogs %}
+                <option value="{{ dog.name }}" data-breed="{{ dog.breed }}"
+                        data-size="{{ dog.size }}">{{ dog.name }}</option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <div class="dog_info_container">
+        <span id="breedHeading"></span>
+        <span id="sizeHeading"></span>
+    </div>
+
+    <div class="date_container"></div>
+
+    <div class="menu_container">
+        <div class="cut_container"></div>
+
+        <div class="bath_container"></div>
+
+        <div class="hotel_container"></div>
+
+    </div>
+
+    <div class="total_container"></div>
+
+    <div class="submit_container"></div>
 
 </div>
 
-<div class="cut_container">
-</div>
+<script>
+    document.getElementById('board_bar').addEventListener('click', function () {
+        window.location.href = '/boardlist';
+    });
+    document.getElementById('storemap_bar').addEventListener('click', function () {
+        window.location.href = '/storemap';
+    });
+    document.getElementById('parkmap_bar').addEventListener('click', function () {
+        window.location.href = '/parkmap';
+    });
+    document.getElementById('chatbot_bar').addEventListener('click', function () {
+        window.location.href = '/chatgpt';
+    });
+    document.getElementById('style_bar').addEventListener('click', function () {
+        //window.location.href = '/style';
+        alert('아직 준비중!')
+    });
+    document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
+        window.location.href = '/';
+    });
+    document.getElementsByClassName('mp_btn')[0].addEventListener('click', function () {
+        window.location.href = '/user/mypage';
+    });
+    document.getElementsByClassName('logout_btn')[0].addEventListener('click', function () {
+        alert('로그아웃 되었습니다.')
+        window.location.href = '/user/logout';
+    });
 
-<div class="bath_container">
-</div>
+     document.getElementsByClassName('maptext')[0].addEventListener('click', function () {
+        window.location.href = '/storemap';
+    });
+     document.getElementsByClassName('listtext')[0].addEventListener('click', function () {
+        window.location.href = '/storemap/maplist';
+    });
 
-<div class="hotel_container">
-</div>
-
-<div class="total_container">
-
-</div>
-
-<div class="submit_container">
-
-</div>
-
+</script>
 
 <script>
     // select 요소 변경 시 이벤트 처리
@@ -59,15 +139,17 @@
         var selectedSize = this.options[this.selectedIndex].getAttribute("data-size");
 
         // breedHeading 요소에 breed 값을 설정
-        document.getElementById("breedHeading").innerText = selectedBreed;
-        document.getElementById("sizeHeading").innerText = selectedSize;
+        document.getElementById("breedHeading").innerText = `견종 : ${selectedBreed}`;
+        document.getElementById("sizeHeading").innerText = `크기 : ${selectedSize}`;
 
+        var menuContainer = document.querySelector(".menu_container");
         var cutContainer = document.querySelector(".cut_container");
         var bathContainer = document.querySelector(".bath_container");
         var hotelContainer = document.querySelector(".hotel_container");
         var submitContinaer = document.querySelector(".submit_container");
         var totalContainer = document.querySelector(".total_container");
-        var date_container = document.querySelector(".date_container")
+        var date_container = document.querySelector(".date_container");
+
 
         // 이전에 추가된 checkbox 제거
         date_container.innerHTML = '';
@@ -76,40 +158,47 @@
         hotelContainer.innerHTML = '';
         totalContainer.innerHTML = '';
 
+        totalContainer.style.display = "block";
+        date_container.style.display = "block";
+        menuContainer.style.display = "block";
+
         var today = new Date();
         var minDate = today.toISOString().slice(0, 10);
         var maxDate = new Date(today.getFullYear(), today.getMonth() + 1, today.getDate()).toISOString().slice(0, 10);
 
         if (selectedSize == '소형') {
-            date_container.innerHTML = `<input class="date_wrap" type="date" name="date" min=${minDate} max=${maxDate} required>`
+            date_container.innerHTML = `<input class="date_wrap" type="date" name="date" min=${minDate} max=${maxDate} required>` +
+                '<input class="time_wrap" type="time" id="time" name="time" required>'
             cutContainer.innerHTML = '<input type="checkbox" id="cutCheckbox" name="반려견 커트 (소형)" value=50000>' +
                 '<label for="cutCheckbox">반려견 커트 (소형) : 50,000</label>';
             bathContainer.innerHTML = '<input type="checkbox" id="bathCheckbox" name="반려견 목욕 (소형)" value=35000>' +
                 '<label for="bathCheckbox">반려견 목욕 (소형) : 35,000</label>';
             hotelContainer.innerHTML = '<input type="checkbox" id="hotelCheckbox" name="반려견 호텔 (소형)" value=35000>' +
                 '<label for="hotelCheckbox">반려견 호텔 (소형) : 35,000</label>';
-            submitContinaer.innerHTML = '<button onclick="requestPay()">결제하기</button>'
-            totalContainer.innerHTML = '<h1>결제 가격 : 0원</h1>'
+            submitContinaer.innerHTML = '<button class="pay_btn" onclick="requestPay()">결제하기</button>'
+            totalContainer.innerHTML = '<h3>결제 가격 : 0원</h3>'
         } else if (selectedSize == '중형') {
-            date_container.innerHTML = `<input class="date_wrap" type="date" name="date" min=${minDate} max=${maxDate} required>`
+            date_container.innerHTML = `<input class="date_wrap" type="date" name="date" min=${minDate} max=${maxDate} required>` +
+                '<input class="time_wrap" type="time" id="time" name="time" required>'
             cutContainer.innerHTML = '<input type="checkbox" id="cutCheckbox" name="반려견 커트 (중형)" value=60000>' +
                 '<label for="cutCheckbox">반려견 커트 (중형) : 60,000</label>';
             bathContainer.innerHTML = '<input type="checkbox" id="bathCheckbox" name="반려견 목욕 (중형)" value=40000>' +
                 '<label for="bathCheckbox">반려견 목욕 (중형) : 40,000</label>';
             hotelContainer.innerHTML = '<input type="checkbox" id="hotelCheckbox" name="반려견 호텔 (중형)" value=35000>' +
                 '<label for="hotelCheckbox">반려견 호텔 (중형) : 35,000</label>';
-            submitContinaer.innerHTML = '<button onclick="requestPay()">결제하기</button>'
-            totalContainer.innerHTML = '<h1>결제 가격 : 0원</h1>'
+            submitContinaer.innerHTML = '<button class="pay_btn" onclick="requestPay()">결제하기</button>'
+            totalContainer.innerHTML = '<h3>결제 가격 : 0원</h3>'
         } else if (selectedSize == '대형') {
-            date_container.innerHTML = `<input class="date_wrap" type="date" name="date" min=${minDate} max=${maxDate} required>`
+            date_container.innerHTML = `<input class="date_wrap" type="date" name="date" min=${minDate} max=${maxDate} required>` +
+                '<input class="time_wrap" type="time" id="time" name="time" required>'
             cutContainer.innerHTML = '<input type="checkbox" id="cutCheckbox" name="반려견 커트 (대형)" value=70000>' +
                 '<label for="cutCheckbox">반려견 커트 (대형) : 70,000</label>';
             bathContainer.innerHTML = '<input type="checkbox" id="bathCheckbox" name="반려견 목욕 (대형)" value=45000>' +
                 '<label for="bathCheckbox">반려견 목욕 (대형) : 45,000</label>';
             hotelContainer.innerHTML = '<input type="checkbox" id="hotelCheckbox" name="반려견 호텔 (대형)" value=40000>' +
                 '<label for="hotelCheckbox">반려견 호텔 (대형) : 40,000</label>';
-            submitContinaer.innerHTML = '<button onclick="requestPay()">결제하기</button>'
-            totalContainer.innerHTML = '<h1>결제 가격 : 0원</h1>'
+            submitContinaer.innerHTML = '<button class="pay_btn" onclick="requestPay()">결제하기</button>'
+            totalContainer.innerHTML = '<h3>결제 가격 : 0원</h3>'
         }
 
         var cutCheckbox = document.getElementById('cutCheckbox');
@@ -135,7 +224,7 @@
             }
 
             // 합산된 값 표시
-            totalContainer.innerHTML = `<h1>결제 가격 : ${totalAmount}원</h1>`
+            totalContainer.innerHTML = `<h3>결제 가격 : ${totalAmount}원</h3>`
         }
 
     });
@@ -202,6 +291,7 @@
                     function (rsp) {
                         if (rsp.success === false) {
                             alert('결제가 실패하였습니다. 재결제 해주세요.')
+                            location.reload();
                         } else if (rsp.success === true) {
                             let user_id = {{ user.id }};
                             let store_id = {{ store.id }};

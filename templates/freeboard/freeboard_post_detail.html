@@ -25,19 +25,30 @@
         <tr>
             <td><p>{{ post.content }}</p></td>
         </tr>
+        <tr>
+            <td>
+                <button class="back_btn" onclick="back()"></button>
+                <button class="button_like" onclick="push_like()">
+                    {% if is_Recommended == True %}
+                        <div class="liked_emoticon"></div>
+                    {% elif is_Recommended == False %}
+                        <div class="like_emoticon"></div>
+                    {% else %}
+                        <div class="like_emoticon"></div>
+                    {% endif %}
+                </button>
+            </td>
+        </tr>
     </table>
 
+    <script>
+        function back() {
+            window.location.href = '/boardlist/freeboard'
+        }
 
-    <button class="button_like" onclick="push_like()">
-        {% if is_Recommended == True %}
-            <div class="liked_emoticon"></div>
-        {% elif is_Recommended == False %}
-            <div class="like_emoticon"></div>
-        {% else %}
-            <div class="like_emoticon"></div>
-        {% endif %}
-        <div class="btn_text">{{ post.liked_num }}</div>
-    </button>
+    </script>
+
+
 
     <script>
         var csrftoken = '{{ csrf_token }}';

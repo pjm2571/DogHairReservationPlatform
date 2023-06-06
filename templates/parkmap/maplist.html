@@ -131,8 +131,8 @@
                     liElement.className = "li_style"
 
                     liElement.addEventListener('click', function () {
-                        var st_title = this.querySelector("h1").innerText;
-                        window.location.href = '/parkmap/details?title=' + encodeURIComponent('{{ store.name }}')
+                        var pk_title = this.querySelector("h1").innerText;
+                        window.location.href = '/parkmap/details?title=' + encodeURIComponent('{{ park.title }}')
                     })
 
                     var distance = calculateDistance(

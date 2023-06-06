@@ -101,3 +101,19 @@ tr:last-child td:last-child {
     color: #976B5B;
     font-weight: bold;
 }
+
+
+.back_btn{
+    background-image: url('/static/image/Boards/arrow.png');
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.back_btn:focus{
+    border: none;
+    outline: none;
+}

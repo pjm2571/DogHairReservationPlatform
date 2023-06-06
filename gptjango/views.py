@@ -10,35 +10,43 @@ from user.models import User
 from .chatgpt import chat_with_gpt
 
 
-
-
-
 @method_decorator(csrf_exempt, name='dispatch')
 def chat_view(request):
     if request.method == 'POST':
-        
-           
+
+        context = {}
+        loginCheck = request.session.get('loginCheck', '')
+
+        if loginCheck == '':
+            context['loginCheck'] = False
+            context['user'] = None
+        else:
+            context['loginCheck'] = True
+            email = request.session['email']
+            user = User.objects.filter(email=email).first()
+            context['user'] = user
+
         message = request.POST.get('message')
         print(f"Received message: {message}")
-        
+
         # Process the message as needed
-        response = chat_with_gpt(message,0)  # Call your chat_with_gpt function
-        
+        response = chat_with_gpt(message, 0)  # Call your chat_with_gpt function
+
         response_data = {
             'message': response
         }
         print(response_data)
         print(type(response_data['message']))
         my_list = response_data['message'].split('\n')
-        
+
         print(my_list)
         print(type(my_list))
+        context['result'] = my_list
 
-        
-        
-        return render(request, 'gptjango/gpt.html', {'result': my_list})
+        return render(request, 'gptjango/gpt.html', context)
     else:
         return JsonResponse({'error': 'Invalid request method.'}, status=400)
+
 
 def new_page(request):
     # 새로운 페이지의 동작 정의
@@ -56,11 +64,15 @@ def new_page(request):
 
     return render(request, 'gptjango/gpt.html', context)
 
+
 def index(request):
     return HttpResponse("Hello, world. You're at the polls index.")
+
+
 # Create your views here.
 
 from django.http import JsonResponse
+
 
 def solution(request):
     if request.method == 'POST':
@@ -74,4 +86,3 @@ def solution(request):
         return JsonResponse({'solution': solution_list})  # Send the solution list as JSON response
     else:
         return JsonResponse({'error': 'Invalid request method.'}, status=400)
-

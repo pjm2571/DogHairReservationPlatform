@@ -48,14 +48,14 @@ tr:last-child td:last-child {
     cursor: pointer;
 }
 
-.button_container{
+.button_container {
     width: 600px;
     text-align: center;
     height: 70px;
 
 }
 
-.button_like{
+.button_like {
     background-color: white;
     width: 60px;
     height: 60px;
@@ -67,12 +67,12 @@ tr:last-child td:last-child {
     outline: none;
 }
 
-.button_like:focus{
+.button_like:focus {
     border: none;
     outline: none;
 }
 
-.like_emoticon{
+.like_emoticon {
     background-image: url('/static/image/Boards/heart_icon.png');
     background-size: contain;
     width: 60px;
@@ -80,14 +80,14 @@ tr:last-child td:last-child {
 }
 
 
-.like_emoticon:hover{
+.like_emoticon:hover {
     background-image: url('/static/image/Boards/colored_heart_icon.png');
     background-size: contain;
     width: 60px;
     height: 60px;
 }
 
-.liked_emoticon{
+.liked_emoticon {
     background-image: url('/static/image/Boards/colored_heart_icon.png');
     background-size: contain;
     width: 60px;
@@ -95,9 +95,24 @@ tr:last-child td:last-child {
 }
 
 
-.btn_text{
+.btn_text {
     width: 60px;
     margin-top: 5px;
     color: #976B5B;
     font-weight: bold;
+}
+
+.back_btn {
+    background-image: url('/static/image/Boards/arrow.png');
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.back_btn:focus {
+    border: none;
+    outline: none;
 }
