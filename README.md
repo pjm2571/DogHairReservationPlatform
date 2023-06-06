@@ -12,3 +12,5 @@
 1) 소스들을 받은 후 가상환경 설정하기
 2) pip install -r requirements.txt를 통해, 필요한 패키지를 자동으로 설치함.
 3) python manage.py runserver를 통해 local Server에서 구동 가능
+
+++ gptdjango - chatgpt.py 에서 key가 보안 문제로 적혀있지 않습니다.. 
