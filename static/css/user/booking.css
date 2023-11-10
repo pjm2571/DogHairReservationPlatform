@@ -1,0 +1,91 @@
+#header {
+    position: fixed;
+    height: 60px;
+    left: 0;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    border-bottom: 2px solid #976B5B;
+}
+
+.menu_btn {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: white;
+    float: left;
+}
+
+.action_btn, .logout_btn {
+    position: relative;
+    height: 50px;
+    width: 70px;
+    margin-right: 10px;
+    margin-top: 5px;
+    float: right;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+.container {
+    position: fixed;
+    margin-top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    overflow-y: auto; /* 세로 스크롤 활성화 */
+}
+
+.booking {
+    font-size: 36px;
+    color: #976B5B;
+}
+
+.reservation {
+    background-color: #FAEBD7;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 100px;
+    margin-top: 100px;
+    height: 150px;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    text-align: center;
+    color: white;
+}
+
+table tr:nth-child(2) {
+    background-color: #C68D78;
+}
+
+td {
+    color: black;
+}
+
+table tr:first-child {
+    background-color: #976B5B;
+}
+
+#tableContainer {
+    max-height: 800px; /* 컨테이너의 최대 높이 지정 */
+    overflow: auto; /* 컨테이너가 요소보다 작을 때 스크롤이 나타나도록 함 */
+}
+::-webkit-scrollbar {
+  display: none;
+}

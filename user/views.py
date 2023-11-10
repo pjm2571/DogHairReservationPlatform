@@ -209,8 +209,7 @@ class Reservation_view(APIView):
         user = User.objects.filter(email=email).first()
 
         context['user'] = user
-        reservations = Reservation.objects.filter(user=user)
-
+        reservations = Reservation.objects.filter(user=user).order_by('date')
         context['reservations'] = reservations
 
         return render(request, 'user/reservation.html', context)

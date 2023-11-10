@@ -2,16 +2,108 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Reservation</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예약내역 페이지</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/user/booking.css' %}">
+    <script>
+        function createDynamicTable(i, date, store, dog, userName, price) {
+
+            var newTable = document.createElement('table');
+            newTable.className = 'reservation';
+
+            var firstRow = newTable.insertRow(0);
+            var firstCell = document.createElement('th');
+            firstCell.colSpan = 5;
+
+
+            var currentDate = new Date();
+            currentDate.setHours(0, 0, 0, 0); // 시간을 0시 0분 0초로 설정
+            var inputdate = new Date(date);
+
+
+            if (currentDate > inputdate) {
+                firstCell.textContent = i + "번째 예약" + " - 방문 완료되었습니다.";
+            } else if (currentDate < inputdate) {
+                firstCell.textContent = i + "번째 예약" + " - 방문 예정입니다.";
+            } else {
+                firstCell.textContent = i + "번째 예약" + " - 예약 당일입니다.";
+            }
+
+            firstRow.appendChild(firstCell);
+
+            var headerRow = newTable.insertRow(1);
+
+            var headerCells = ["예약 날짜", "미용실 이름", "강아지 이름", "예약자 이름", "비용"];
+
+            for (var j = 0; j < 5; j++) {
+                var headerCell = document.createElement('th');
+                headerCell.textContent = headerCells[j];
+                headerRow.appendChild(headerCell);
+            }
+
+            var dataRow = newTable.insertRow(2);
+
+            var dataValues = [date, store, dog, userName, price];
+
+
+            for (var k = 0; k < 5; k++) {
+                var dataCell = dataRow.insertCell(k);
+                dataCell.textContent = dataValues[k];
+            }
+
+            var tableContainer = document.getElementById('tableContainer');
+
+
+            var firstChild = tableContainer.firstChild;
+
+
+            tableContainer.insertBefore(newTable, firstChild);
+
+        }
+    </script>
 </head>
 <body>
+<div id="header">
+    <button class="menu_btn">메뉴바</button>
+    <button class="action_btn"> My page</button>
+    <button class="logout_btn"> Logout</button>
+</div>
+
+<div class="container">
+    <h1 class="booking">예약내역</h1>
+    <div id="tableContainer"></div>
+</div>
+
+
 {% for reservation in reservations %}
-<h1>{{ reservation.user.name }}</h1>
-    <h1>{{ reservation.store.name }}</h1>
-    <h2>{{ reservation.price }}</h2>
-    <h2>{{ reservation.date }}</h2>
-    <h2>{{ reservation.dog }}</h2>
-    <br><br><br><br>
+
+
+    <script>
+        createDynamicTable(
+            {{ forloop.counter }},
+            "{{ reservation.date }}",
+            "{{ reservation.store.name }}",
+            "{{ reservation.dog }}",
+            "{{ reservation.user.name }}",
+            "{{ reservation.price }}"
+        );
+    </script>
 {% endfor %}
+
+<script>
+    document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
+        window.location.href = '/';
+    });
+    document.getElementsByClassName('action_btn')[0].addEventListener('click', function () {
+        window.location.href = '/user/mypage';
+    });
+    document.getElementsByClassName('logout_btn')[0].addEventListener('click', function () {
+        window.location.href = '/user/logout';
+    });
+
+
+</script>
 </body>
 </html>
