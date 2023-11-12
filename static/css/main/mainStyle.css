@@ -227,3 +227,13 @@
     height: 100%;
     width: 20%;
 }
+
+.menu_btn{
+    background: url('/static/image/title.png') no-repeat center center;
+    background-size: contain; /* 또는 다른 크기 값 */
+    /* 다른 필요한 스타일 속성 추가 */
+    width: 100px; /* 버튼의 너비 설정 */
+    height: 55px; /* 버튼의 높이 설정 */
+    border: none;
+    margin-left: 20px;
+}

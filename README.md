@@ -10,6 +10,12 @@
 
 * 사용법
 1) 소스들을 받은 후 가상환경 설정하기
+    - File - Settings 
+    - 검색란에 'python interpreter' 검색
+    - ![img.png](img.png)
+    - Add Interpreter를 누른 후, Local로 등록
+    - ![img_1.png](img_1.png)
+    - 터미널 재실행
 2) pip install -r requirements.txt를 통해, 필요한 패키지를 자동으로 설치함.
 3) python manage.py runserver를 통해 local Server에서 구동 가능
 

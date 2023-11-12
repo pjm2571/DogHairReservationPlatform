@@ -13,7 +13,7 @@
 <body>
 <div>
     <div id="menubar">
-        <button class="menu_btn">메뉴바</button>
+        <button class="menu_btn"></button>
         <script>
             document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
                 window.location.href = '/';
@@ -127,18 +127,22 @@
                 var ulElement = ulElements[i];
 
                 {% for park in parks %}
-                    var liElement = document.createElement("li");
-                    liElement.className = "li_style"
-
-                    liElement.addEventListener('click', function () {
-                        var pk_title = this.querySelector("h1").innerText;
-                        window.location.href = '/parkmap/details?title=' + encodeURIComponent('{{ park.title }}')
-                    })
 
                     var distance = calculateDistance(
                         current_lat, current_lon,
                         {{ park.longitude }}, {{ park.latitude }}
                     );
+
+                    var liElement = document.createElement("li");
+                    liElement.className = "li_style"
+
+                    liElement.addEventListener('click', function () {
+                        var pk_title = this.querySelector("h1").innerText;
+                        window.alert("산책 경로를 표시하는 기능 준비중입니다.");
+
+                    })
+
+
 
 
                     if (distance <= 2) {

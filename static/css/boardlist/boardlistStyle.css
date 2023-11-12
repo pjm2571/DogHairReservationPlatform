@@ -19,16 +19,15 @@ body {
     border-bottom: 2px solid #976B5B;
 }
 
-
 .menu_btn {
-    color: #976B5B;
-    position: relative;
-    height: 50px;
-    width: 50px;
+    background: url('/static/image/title.png') no-repeat center center;
+    background-size: contain; /* 또는 다른 크기 값 */
+    /* 다른 필요한 스타일 속성 추가 */
+    width: 100px; /* 버튼의 너비 설정 */
+    height: 55px; /* 버튼의 높이 설정 */
+    border: none;
     margin-top: 5px;
-    margin-left: 10px;
-    background-color: white;
-    float: left;
+    margin-left: 20px;
 }
 
 .action_btn {
@@ -133,7 +132,7 @@ h4 {
 
 }
 
-.ani-navbar:hover+.fullBody {
+.ani-navbar:hover + .fullBody {
     opacity: 0.5;
     transition: all 1s;
 }
@@ -214,7 +213,7 @@ body { /*글자색, 폰트*/
     font: 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
 }
 
-.container{
+.container {
     text-align: center;
     margin-top: 100px;
     position: absolute;
@@ -227,20 +226,19 @@ body { /*글자색, 폰트*/
     border: 1px solid #976B5B;
 }
 
-.board_container{
+.board_container {
     float: left;
     overflow: hidden;
 }
 
-.board_span{
+.board_span {
     width: 200px;
     height: 200px;
     background-color: black;
 }
 
 
-
-li{
+li {
     margin: 20px;
     text-align: center;
     float: left;
@@ -254,11 +252,11 @@ li{
     cursor: pointer;
 }
 
-li:hover{
+li:hover {
     border-color: #65483d;
 }
 
-img{
+img {
     width: 200px;
     height: 200px;
 }

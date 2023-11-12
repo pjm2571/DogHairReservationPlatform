@@ -13,7 +13,7 @@
 <body>
 <div>
     <div id="menubar">
-        <button class="menu_btn">메뉴바</button>
+        <button class="menu_btn"></button>
         <script>
             document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
                 window.location.href = '/';
@@ -172,6 +172,10 @@
 
     {% endfor %}
 
+    function showAlert(title) {
+        window.alert("산책 경로를 표시하는 기능 준비중입니다.");
+    }
+
     // 반경 3km 안의 Place들을 가져와서 보여줌
     get_currnet_coordinate(function (coords) {
         if (coords) {
@@ -211,9 +215,9 @@
             image: markerImage // 마커 이미지
         });
 
+
         var content = '<div class="customoverlay">' +
-            '  <a href="/parkmap/details?title=' + encodeURIComponent(positions[i].title)+
-            '">' +
+            '  <a href="#" onclick="showAlert(\'' + positions[i].title + '\')">' +
             '    <span class="title">' + positions[i].title + '</span>' +
             '  </a>' +
             '</div>';
