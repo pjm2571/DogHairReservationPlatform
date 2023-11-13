@@ -118,6 +118,7 @@ body {
     text-align: right;
     transition: all 1s;
     transform: translateX(-180px);
+    margin-left: -5px;
 }
 
 .ani-navbar p,

@@ -27,47 +27,80 @@
 </head>
 <body>
 
-<div class="head_container">
-    <button class="menu_btn">메뉴바</button>
+    <div class="head_container">
+        <button class="menu_btn"></button>
+        <script>
+            document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
+                window.location.href = '/';
+            });
+        </script>
+
+        <div class="navigation" style="margin-left: 120px; margin-top: 10px;">
+            <p>
+                <button class="btn btn-primary btn-jelly" onclick="goToFreeBoard()">자유게시판</button>
+            </p>
+            <p>
+                <button class="btn btn-primary btn-jelly" onclick="goToBoastBoard()">자랑게시판</button>
+            </p>
+            <p>
+                <button class="btn btn-primary btn-jelly" onclick="goToMarketBoard()">장터게시판</button>
+            </p>
+            <p>
+                <button class="btn btn-primary btn-jelly" onclick="goToReviewBoard()">후기게시판</button>
+            </p>
+        </div>
+        {% if loginCheck %}
+            <button class="mp_btn"> My page</button>
+            <button class="logout_btn"> Logout</button>
+            <script>
+                document.getElementsByClassName('mp_btn')[0].addEventListener('click', function () {
+                    window.location.href = '/user/mypage';
+                });
+                document.getElementsByClassName('logout_btn')[0].addEventListener('click', function () {
+                    window.location.href = '/user/logout';
+                });
+            </script>
+        {% else %}
+            <button class="login_btn"> Login</button>
+            <button class="join_btn"> Join</button>
+            <script>
+                document.getElementsByClassName('login_btn')[0].addEventListener('click', function () {
+                    window.location.href = '/user/login';
+                });
+                document.getElementsByClassName('join_btn')[0].addEventListener('click', function () {
+                    window.location.href = '/user/join';
+                });
+            </script>
+        {% endif %}
+
+    </div>
+
+    <hr/>
+
+
     <script>
         document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
             window.location.href = '/';
         });
+        document.getElementById('board_bar').addEventListener('click', function () {
+            window.location.href = '/boardlist';
+        });
+        document.getElementById('storemap_bar').addEventListener('click', function () {
+            window.location.href = '/storemap';
+        });
+        document.getElementById('parkmap_bar').addEventListener('click', function () {
+            window.location.href = '/parkmap';
+        });
+        document.getElementById('chatbot_bar').addEventListener('click', function () {
+            window.location.href = '/chatgpt';
+        });
+        document.getElementById('style_bar').addEventListener('click', function () {
+            //window.location.href = '/style';
+            alert('아직 준비중!')
+        });
     </script>
-    <span class="title_text">자랑게시판 &#x1f436;</span>
-    <span class="sub_text">자신의 반려동물을 자랑하는 게시판입니다.</span>
-    {% if loginCheck %}
-        <button class="mp_btn"> My page</button>
-        <button class="logout_btn"> Logout</button>
-        <script>
-            document.getElementsByClassName('mp_btn')[0].addEventListener('click', function () {
-                window.location.href = '/user/mypage';
-            });
-            document.getElementsByClassName('logout_btn')[0].addEventListener('click', function () {
-                window.location.href = '/user/logout';
-            });
-        </script>
-    {% else %}
-        <button class="login_btn"> Login</button>
-        <button class="join_btn"> Join</button>
-        <script>
-            document.getElementsByClassName('login_btn')[0].addEventListener('click', function () {
-                window.location.href = '/user/login';
-            });
-            document.getElementsByClassName('join_btn')[0].addEventListener('click', function () {
-                window.location.href = '/user/join';
-            });
-        </script>
-    {% endif %}
-
-</div>
-
-<hr/>
-
-
-
-{% block content %}
-{% endblock %}
+    {% block content %}
+    {% endblock %}
 
 </body>
 </html>

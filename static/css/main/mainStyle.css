@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 #header {
     position: fixed;
     height: 60px;
@@ -11,6 +12,7 @@
     overflow: hidden;
     border-bottom: 2px solid #FAEBD7;
 }
+
 #dog {
     position: relative;
     float: right;
@@ -20,6 +22,7 @@
     margin-right: 20%;
     object-fit: fill;
 }
+
 #scissor {
     position: relative;
     padding-left: 23%;
@@ -27,6 +30,7 @@
     width: 120px;
     height: 120px;
 }
+
 #shop {
     position: relative;
     padding-left: 33%;
@@ -34,6 +38,7 @@
     width: 80px;
     height: 120px;
 }
+
 #board {
     position: relative;
     padding-left: 15%;
@@ -41,6 +46,7 @@
     width: 170px;
     height: 120px;
 }
+
 #walk {
     position: relative;
     padding-left: 25%;
@@ -48,6 +54,7 @@
     width: 120px;
     height: 120px;
 }
+
 #chatbot {
     position: relative;
     float: right;
@@ -55,14 +62,16 @@
     width: 130px;
     height: 130px;
 }
+
 .menu_btn {
-    position: relative;
-    height: 50px;
-    width: 50px;
     margin-top: 5px;
-    margin-left: 10px;
-    background-color: white;
-    float: left;
+    background: url('/static/image/title.png') no-repeat center center;
+    background-size: contain; /* 또는 다른 크기 값 */
+    /* 다른 필요한 스타일 속성 추가 */
+    width: 100px; /* 버튼의 너비 설정 */
+    height: 55px; /* 버튼의 높이 설정 */
+    border: none;
+    margin-left: 20px;
 }
 
 
@@ -126,7 +135,7 @@
     font-weight: bold;
 }
 
-.reservation_btn{
+.reservation_btn {
     position: relative;
     height: 70px;
     width: 70px;
@@ -147,6 +156,7 @@
     height: 400px;
     background-color: #FAEBD7;
 }
+
 .title {
     position: relative;
     float: left;
@@ -157,23 +167,27 @@
     font-size: 60px;
     font-weight: bold;
 }
+
 .container2 {
     position: fixed;
     height: 618px;
     margin-top: 460px;
     width: 100%;
 }
-.menu{
+
+.menu {
     float: left;
     height: 100%;
     width: 80%;
 }
-.box{
+
+.box {
     height: 100%;
     width: 25%;
     float: left;
 }
-.content1{
+
+.content1 {
     position: fixed;
     background-color: #976B5B;
     width: 230px;
@@ -183,7 +197,8 @@
     margin-left: 55px;
     border-radius: 10%;
 }
-.content2{
+
+.content2 {
     background-color: #F4C1A9;
     width: 230px;
     height: 230px;
@@ -192,7 +207,8 @@
     margin-left: 55px;
     border-radius: 10%;
 }
-.content3{
+
+.content3 {
     background-color: #976B5B;
     width: 230px;
     height: 230px;
@@ -201,7 +217,8 @@
     margin-left: 55px;
     border-radius: 10%;
 }
-.content4{
+
+.content4 {
     background-color: #F1EBE7;
     width: 230px;
     height: 230px;
@@ -210,30 +227,24 @@
     margin-left: 55px;
     border-radius: 10%;
 }
+
 .tag1 {
     margin-top: 10px;
     text-align: center;
     font-size: 21px;
     color: white;
 }
+
 .tag2 {
     margin-top: 10px;
     text-align: center;
     font-size: 21px;
     color: #976B5B;
 }
-.chat{
+
+.chat {
     float: left;
     height: 100%;
     width: 20%;
 }
 
-.menu_btn{
-    background: url('/static/image/title.png') no-repeat center center;
-    background-size: contain; /* 또는 다른 크기 값 */
-    /* 다른 필요한 스타일 속성 추가 */
-    width: 100px; /* 버튼의 너비 설정 */
-    height: 55px; /* 버튼의 높이 설정 */
-    border: none;
-    margin-left: 20px;
-}

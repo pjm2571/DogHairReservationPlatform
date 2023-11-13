@@ -9,20 +9,19 @@ h2 {
 div {
     color: #666;
 }
-
 .head_container {
     padding: 10px;
     z-index: 2;
     background-color: white;
     width: 100%;
     position: fixed;
-    height: 60px;
+    height: 75px;
     left: 0;
     top: 0;
     right: 0;
     overflow: hidden;
     border-bottom: 2px solid #976B5B;
-    margin-top: 15px;
+    padding-top: 25px;
 }
 
 .title_text {
@@ -96,19 +95,13 @@ div {
     border: none;
     font-weight: bold;
 }
-
 .menu_btn {
     margin-top: -10px;
-    position: relative;
-    height: 50px;
-    width: 90px;
+    height: 55px;
+    width: 100px;
     margin-right: 40px;
     float: left;
-    background-color: white;
-    color: #976B5B;
-    font-family: Bold Italic;
-    font-size: 15px;
+    background: url('/static/image/title.png') no-repeat center center;
+    background-size: contain; /* 또는 다른 크기 값 */
     border: none;
-    font-weight: bold;
-    border: 1px solid #976B5B;
 }

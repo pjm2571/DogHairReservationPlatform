@@ -40,7 +40,7 @@ def freeboard_post_list(request):
     today = datetime.date.today()
     # 페이징요소들
     page = request.GET.get('page', '1')  # 페이지
-    paginator = Paginator(searchPosts, 5)  # 페이지당 10개씩 보여주기
+    paginator = Paginator(searchPosts, 12)  # 페이지당 10개씩 보여주기
     page_obj = paginator.get_page(page)
 
     context['today'] = today

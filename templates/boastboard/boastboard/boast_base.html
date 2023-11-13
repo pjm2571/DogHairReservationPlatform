@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>똥강아지 장터게시판</title>
+    <title>똥강아지 자랑게시판</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 {% load static %}
-    <link rel="stylesheet" href="{% static 'css/marketboard/market_board_base_Style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/boastboard/boast_post_base_Style.css' %}">
 
     <script>
         function goToFreeBoard() {
@@ -28,13 +28,22 @@
 <body>
 
     <div class="head_container">
-        <button class="menu_btn"></button>
+        <button class="menu_btn">메뉴바</button>
         <script>
             document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
                 window.location.href = '/';
             });
         </script>
-
+        <nav class="ani-navbar">
+            <h4 id>Menu</h4>
+            <p id="board_bar" class="nav_bar_btn">게시판</p>
+            <p id="storemap_bar" class="nav_bar_btn">가까운 미용실</p>
+            <p id="chatbot_bar" class="nav_bar_btn">왜 아플까?</p>
+            <p id="parkmap_bar" class="nav_bar_btn">산책 경로 추천</p>
+            <p id="style_bar" class="nav_bar_btn">스타일 추천</p>
+            <p style="margin-top:50px"><i class="fa-solid fa-dog fa-2xl"> </i></p>
+        </nav>
+        <!--페이지 사이드바-->
         <div class="navigation" style="margin-left: 120px; margin-top: 10px;">
             <p>
                 <button class="btn btn-primary btn-jelly" onclick="goToFreeBoard()">자유게시판</button>

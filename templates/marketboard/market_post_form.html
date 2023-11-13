@@ -1,10 +1,71 @@
 {% extends 'marketboard/market_base.html' %}
-
 {% block content %}
-<h1>New post</h1>
-<form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Save</button>
-</form>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/marketboard/market_board_detail_Style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/marketboard/market_board_list_Style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+
+
+    <style>
+        .navigation {
+            margin: 0; /* 기본 여백 제거 */
+            padding: 0; /* 기본 패딩 제거 */
+            border: none; /* 테두리 제거 */
+            display: flex;
+            flex-direction: row; /* 요소들을 가로로 정렬 */
+            width: 85%;
+            height: 10%;
+        }        
+        table {
+            width: 65%;
+        }
+
+        td {
+            font-size: 14px;
+            text-align: left;
+        }
+
+    </style>
+
+    <br><br><br>
+
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <table>
+            <tr style="font-size:12px">
+                <td>
+                    <h1 style="font-weight: bold;color: #976B5B;">
+                        <div>
+                            <label for="id_title" style="font-size: 30px;">글쓰기</label>
+                            {{ form.title }}
+                        </div>
+                    </h1> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br><p>
+                        <div>
+                            <label for="id_content"></label>
+                            {{ form.content }}
+                        </div>
+                    </p><br><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        <label for="id_image"></label>
+                        {{ form.image }}
+                      </div>
+                </td>
+            </tr>
+        </table>
+
+        <br><button type="submit" class="btn-two green rounded" style="margin-left: 1000px;" >완료</button>
+    </form>    
+
 {% endblock %}

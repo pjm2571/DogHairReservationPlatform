@@ -1,14 +1,14 @@
-{% extends 'marketboard/market_base.html' %}
+{% extends 'boastboard/boast_base.html' %}
 {% block content %}
     {% load static %}
-    <link rel="stylesheet" href="{% static 'css/marketboard/market_board_list_Style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/boastboard/boast_post_list_Style.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
           integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
     <script>
         function create() {
-            window.location.href = "{% url 'market_post_create' %}";
+            window.location.href = "{% url 'boast_post_create' %}";
         }
     </script>
 
@@ -39,6 +39,7 @@
             width: 85%;
             height: 10%;
         }
+
         .search {
             margin-left: auto;
             margin-top: -30px; /* 여기에 원하는 만큼의 마진을 추가하여 위로 이동시킵니다 */
@@ -55,20 +56,14 @@
         <p style="margin-top:50px"><i class="fa-solid fa-dog fa-2xl"> </i></p>
     </nav>
     <div class="container">
-
-
-
         <div class="content">
-            <div class="above_postlist">
-                <div class="top_title" style="text-align: left; margin-left: 25px;"><br>
-                    <span class="title_text" style="font-weight: bold; margin-right: 15px;">장터게시판 &#x1f436;</span>
-                    <span class="sub_text" style="font-size: 16px;">본인이 사용하였던 애견용품을 다른 사람들과 나눌 수 있는 공간입니다.</span>
-                </div>
-            
-            
+            <div class="top_title" style="text-align: left; margin-left: 25px;"><br>
+                <span class="title_text" style="font-weight: bold; margin-right: 15px;">자랑게시판 &#x1f436;</span>
+                <span class="sub_text" style="font-size: 16px; ">자신의 반려동물을 자랑하는 게시판입니다.</span>
+            </div>
             <!--게시글 검색창-->
             <div class="search" style="margin-left: 900px;">
-                <form action="{% url 'market_post_list' %}" method="get">
+                <form action="{% url 'boast_post_list' %}" method="get">
                     <!--action속성엔 검색 결과를 보여줄 URL을 설정, method 속성을 get으로 설정하여 검색어를 URL 쿼리 문자열에 포함-->
                     <input type="text" name="search" placeholder="제목을 입력하세요"> <!--name 속성에는 검색어를 식별할 수 있는 이름을 지정-->
                     <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png" type="submit">
@@ -95,7 +90,7 @@
                         {% for post in searchPosts %}
                             <tr>
                                 <td>{{ post.id }}</td>
-                                <td><a href="{% url 'market_post_detail' post.pk %}">{{ post.title }}</a></td>
+                                <td><a href="{% url 'boast_post_detail' post.pk %}">{{ post.title }}</a></td>
                                 <td>{{ post.author }}</td>
                                 <td>{{ post.created_at|date:"Y년 m월 d일" }}</td>
                                 <td>{{ post.liked_num }}</td>
@@ -119,7 +114,7 @@
                     </tbody>
                 </table>
                 </p>
-                <p><a href="{% url 'market_post_create' %}" class="btn-two green rounded" style="margin-left: 1000px;">글쓰기</a></p>
+                <p><a href="{% url 'boast_post_create' %}" class="btn-two green rounded" style="margin-left: 1000px;">글쓰기</a></p>
 
             </div>
 
@@ -166,25 +161,4 @@
         </div>
     </div>
 
-<script>
-    document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
-        window.location.href = '/';
-    });
-    document.getElementById('board_bar').addEventListener('click', function () {
-        window.location.href = '/boardlist';
-    });
-    document.getElementById('storemap_bar').addEventListener('click', function () {
-        window.location.href = '/storemap';
-    });
-    document.getElementById('parkmap_bar').addEventListener('click', function () {
-        window.location.href = '/parkmap';
-    });
-    document.getElementById('chatbot_bar').addEventListener('click', function () {
-        window.location.href = '/chatgpt';
-    });
-    document.getElementById('style_bar').addEventListener('click', function () {
-        //window.location.href = '/style';
-        alert('아직 준비중!')
-    });
-</script>
 {% endblock %}

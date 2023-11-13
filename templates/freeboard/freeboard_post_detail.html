@@ -2,6 +2,11 @@
 {% block content %}
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/freeboard/free_board_detail_Style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/freeboard/free_board_list_Style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
@@ -10,11 +15,31 @@
         }
     </script>
 
-    <br>
+    <style>
+        .navigation {
+            margin: 0; /* 기본 여백 제거 */
+            padding: 0; /* 기본 패딩 제거 */
+            border: none; /* 테두리 제거 */
+            display: flex;
+            flex-direction: row; /* 요소들을 가로로 정렬 */
+            width: 85%;
+            height: 10%;
+        }        
+        table {
+            width: 65%;
+        }
+
+        td {
+            font-size: 14px;
+            text-align: left;
+        }
+    </style>
+
+    <br><br><br>
     <table>
         <tr style="font-size:12px">
             <td>
-                <h1>{{ post.title }}</h1> 💁 {{ post.author }} &nbsp; | &nbsp; 🕓 {{ post.created_at|date:"Y년 m월 d일" }}
+                <h1 style="font-weight: bold;color: #976B5B;">{{ post.title }}</h1> <br>💁 {{ post.author }} &nbsp; | &nbsp; 🕓 {{ post.created_at|date:"Y년 m월 d일" }}
                 {% if user.nickname == post.author %}
                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                     <a href="{% url 'freeboard_post_edit' post.pk %}">수정</a> |
@@ -23,7 +48,7 @@
             </td>
         </tr>
         <tr>
-            <td><p>{{ post.content }}</p></td>
+            <td><br><p><pre>{{ post.content }}</pre></p><br><br><br></td>
         </tr>
         <tr>
             <td>
@@ -87,3 +112,4 @@
 
 {% endblock %}
 
+</html>
