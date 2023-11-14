@@ -13,5 +13,6 @@ urlpatterns = [
     path('parkmap/', include('parkmap.urls')),      # 공원 맵
     path('doglist/', include('doglist.urls')),      # 견종 리스트
     path('reservation/', include('reservation.urls')),  # 예약
+    path('stylerecommend/', include('stylerecommend.urls')) # 스타일 추천
 
 ]

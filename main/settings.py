@@ -81,6 +81,8 @@ INSTALLED_APPS = [
     'doglist',      # 견종을 종류별로 저장
 
     'reservation',  # 예약
+    
+    'stylerecommend' # 스타일 추천
 
 ]
 

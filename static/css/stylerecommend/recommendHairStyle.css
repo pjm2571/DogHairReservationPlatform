@@ -1,0 +1,137 @@
+#header {
+    position: fixed;
+    height: 60px;
+    left: 0;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    border-bottom: 2px solid #976B5B;
+}
+#chooseFile{
+    display: none;
+}
+#image_container{
+    border: 2px solid #976B5B;
+    width: 350px;
+    height: 350px;
+}
+img{
+    width: 350px;
+    height: 350px;
+}
+.menu_btn {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: white;
+    float: left;
+}
+.action_btn {
+    position: relative;
+    height: 50px;
+    width: 70px;
+    margin-right: 10px;
+    margin-top: 5px;
+    float: right;
+    background-color: white;
+    color: #976B5B;
+    font-family: Bold Italic;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+.ani-navbar {
+    border-radius: 60px 60px 60px 60px;
+    width: 200px;
+    background: #FAEBD7;
+    color: #976B5B;
+    height: 80%;
+    top: 90px;
+    padding: 25px;
+    position: fixed;
+    z-index: 5;
+    text-align: right;
+    transition: all 1s;
+    transform: translateX(-180px);
+}
+.ani-navbar p,h4{
+    font-family: 'main-font';
+}
+.ani-navbar:hover {
+    transform: translateX(0px);
+    text-align: center;
+}
+.ani-navbar:hover +.fullBody{
+    opacity: 0.5;
+    transition: all 1s;
+}
+@keyframes slide {
+    0% { transform: translateX(-250px) }
+    50% { transform: translateX(50px) skewX(-30deg)}
+    100% { transform: translateX(0px) }
+}
+.ani-navbar p{
+    text-align: center;
+    margin-top: 2px;
+}
+.ani-navbar:hover p {
+    animation-name: slide;
+    animation-duration: 1s;
+}
+.container {
+    position: fixed;
+    width: 1000px;
+    height: 500px;
+    margin-top: 45px;
+    margin-left: 100px;
+    top: 90px;
+    left: 150px;
+    text-align: left;
+}
+.title{
+    font-size: 43px;
+    color: #976B5B;
+    width: 200px;
+    margin-left: 40%;
+}
+.subtitle{
+    margin-left: 29%;
+    font-weight: lighter;
+}
+.left_container{
+    float: left;
+    width: 45%;
+    height: 100%;
+}
+.center_container{
+    float: left;
+    width: 10%;
+    height: 100%;
+    margin-top: 18%;
+    margin-left: 5%;
+}
+.right_container{
+    float: left;
+    width: 40%;
+    height: 100%;
+    margin-top: 10%;
+}
+.file_btn{
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color:#976B5B;
+    font-weight: bold;
+    border: 2px solid #976B5B;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+.file_btn:hover{
+    color: #976B5B;
+    background-color: white;
+}

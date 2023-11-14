@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스타일추천페이지</title>
+    <!--CSSS-->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/stylerecommend/recommendHairStyle.css' %}">
+    <!-- jQuery를 포함시킵니다. -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/d84ada5b7f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <button class="menu_btn">메뉴바</button>
+    <button class="action_btn"> My page</button>
+    <button class="action_btn"> Login</button>
+</div>
+<nav class="ani-navbar">
+    <h3>Menu</h3>
+    <p>스타일추천</p>
+    <p>가까운 미용실</p>
+    <p>게시판</p>
+    <p>산책지 추천</p>
+    <p>왜 아플까?</p>
+    <p style="margin-top:50px;"><i class="fa-solid fa-dog fa-2xl"></i></p>
+</nav>
+<div class="container">
+    <h1 class="title">스타일 추천</h1>
+    <h3 class="subtitle">- 당신의 애완견에게 어울리는 스타일을 추천해 드립니다 -</h3>
+    <div class="left_container">
+        <!--사진은 350x350 사이즈에 맞게 디자인했음-->
+        <label for="chooseFile">
+            <div class="file_btn">파일 업로드</div>
+        </label>
+        <input type="file" id="chooseFile" accept="image/*" onchange="setThumbnail();"/>
+        <div id="image_container"></div>
+    </div>
+
+
+    <div class="center_container">
+        <i class="fa-solid fa-play fa-beat fa-2xl" style="color: #fab007;"></i>
+    </div>
+
+    <div class="right_container">
+        <!--여기는 오른쪽 출력되는 사진 부분!!  여기서부터는 완두의 입맛대로!!!^^-->
+    </div>
+
+</div>
+<script>
+    document.getElementsByClassName('menu_btn')[0].addEventListener('click', function () {
+        window.location.href = '/';
+    });
+    document.getElementsByClassName('action_btn')[0].addEventListener('click', function () {
+        window.location.href = '/user/mypage';
+    });
+    document.getElementsByClassName('action_btn')[1].addEventListener('click', function () {
+        window.location.href = '/user/login';
+    });
+
+
+    function setThumbnail() {
+        var reader = new FileReader();
+
+        reader.onload = function () {
+            var img = document.createElement("img");
+            img.setAttribute("src", event.target.result);
+            document.querySelector("div#image_container").appendChild(img);
+
+
+            uploadStyle()
+        };
+
+        reader.readAsDataURL(event.target.files[0]);
+
+    }
+
+    function uploadStyle() {
+        var imgElement = document.querySelector('#image_container img');
+        var imgSrc = "";
+        if (imgElement) {
+            imgSrc = imgElement.getAttribute('src');
+            console.log('Image Source:', imgSrc);
+        } else {
+            console.log('No image found in the container.');
+        }
+
+        $.ajax({
+            url: "calculateStyle/",  // Corrected URL
+            type: 'POST',  // Change to GET
+            data: {
+                imgSrc: imgSrc
+            },
+            success: function (data) {
+                alert(data.message);
+            },
+            error: function (error) {
+                alert('이미지 업로드 실패!');
+            }
+
+        });
+    }
+
+
+</script>
+</body>
+</html>
